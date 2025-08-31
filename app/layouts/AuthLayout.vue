@@ -3,11 +3,9 @@
 </script>
 
 <template>
-  <div>
-    
-  </div>
+  <main>
+    <slot></slot>
+  </main>
 </template>
 
-<style scoped>
-
-</style>
+<style></style>
