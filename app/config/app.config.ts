@@ -3,12 +3,14 @@ export const appConfig = {
     title: '사이트 이름',
     description: '사이트 설명',
     keywords: '사이트 키워드',
-    url: 'http://localhost:3000',
+    url: import.meta.dev
+      ? 'http://localhost:3000'
+      : '',
     type: 'website' as const,
     version: '1.0.0',
   },
   author: {
-    name: '사이트 제작자',
+    name: 'NIHILncunia',
     url: 'https://github.com/nihilncunia',
   },
   images: {

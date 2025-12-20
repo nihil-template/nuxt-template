@@ -11,7 +11,7 @@ const props = defineProps<Props>();
 
 const cssVariants = cva(
   [
-    ``,
+    `flex-1 shrink-0 grid grid-cols-12 gap-5 h-full overflow-hidden`,
   ],
   {
     variants: {},
@@ -23,10 +23,10 @@ const cssVariants = cva(
 
 <template>
   <div :class='cn(cssVariants({}), props.class)'>
-    <aside>
+    <aside class='col-span-3 h-full overflow-y-auto bg-white'>
       aside
     </aside>
-    <main>
+    <main class='col-span-9 h-full overflow-y-auto bg-white'>
       <slot />
     </main>
   </div>

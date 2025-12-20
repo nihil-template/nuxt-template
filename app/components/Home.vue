@@ -23,24 +23,17 @@ const cssVariants = cva(
   },
 );
 
-const userStore = useUserStore();
-const { userInfoList } = storeToRefs(userStore);
-const { getUserList } = userStore;
+const commonStore = useCommonStore();
+const { exampleData } = storeToRefs(commonStore);
+const { getExampleData } = commonStore;
 
 onBeforeMount(() => {
-  getUserList(
-    (res) => {
-      console.log(res);
-    },
-    (res) => {
-      console.log(res);
-    },
-  );
+  getExampleData();
 });
 </script>
 
 <template>
   <div :class='cn(cssVariants({}), props.class)'>
-    {{ userInfoList }}
+    {{ exampleData }}
   </div>
 </template>

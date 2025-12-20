@@ -12,7 +12,7 @@ const props = defineProps<Props>();
 
 const cssVariants = cva(
   [
-    ``,
+    `bg-white p-2 border-b border-black-300 flex flex-row items-center justify-between`,
   ],
   {
     variants: {},
@@ -31,22 +31,24 @@ const menuItems = ref<MenuItem[]>([
   {
     label: '홈',
     link: '/',
-    icon: '',
+    icon: 'mdi:home',
   },
 ]);
 </script>
 
 <template>
   <header :class='cn(cssVariants({}), props.class)'>
-    <NuxtLink to='/'>
-      <img src='~/assets/images/nihil-logo.png' alt='logo' class='size-5'>
-      <span>NIHILncunia</span>
+    <NuxtLink to='/' class='flex-row-1 items-center'>
+      <img src='~/assets/images/nihil-logo.png' alt='logo' class='size-8'>
+      <span class='font-900 text-md'>
+        NIHILncunia
+      </span>
     </NuxtLink>
 
-    <nav>
-      <ul>
+    <nav class='p-2'>
+      <ul class='flex flex-row items-center'>
         <li v-for='menu in menuItems' :key='menu.link'>
-          <NuxtLink :to='menu.link'>
+          <NuxtLink :to='menu.link' class='flex flex-row gap-1 items-center'>
             <Icon v-if='menu.icon' :icon='menu.icon' />
             <span>{{ menu.label }}</span>
           </NuxtLink>
