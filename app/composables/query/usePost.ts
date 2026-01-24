@@ -1,5 +1,6 @@
 import { appConfig } from '~/config/app.config';
 import type { ResponseType } from '~/types/common.types';
+import { checkAndHandleApiError } from '~/utils/api-error-handler';
 
 export function usePost<TData = unknown>(url: string, callback?: (data: ResponseType<TData>) => void, errorCallback?: (error: ResponseType<TData>) => void) {
   const token = useCookie('token');
@@ -31,17 +32,29 @@ export function usePost<TData = unknown>(url: string, callback?: (data: Response
     bodyRef.value = body;
     try {
       await execute();
-      if (callback && response.value) {
-        callback(response.value);
+
+      // 모든 응답이 HTTP 200이므로, ResponseType.error 필드를 확인하여 에러 처리
+      if (response.value) {
+        const hasError = checkAndHandleApiError(response.value, errorCallback);
+
+        if (!hasError && callback) {
+          // 에러가 없을 때만 성공 콜백 호출
+          callback(response.value);
+        }
       }
+
       return response.value;
     }
     catch (err: any) {
-      if (errorCallback && err?.response?._data) {
-        errorCallback(err.response._data);
-      }
-      else if (errorCallback && err) {
-        errorCallback(err);
+      // 네트워크 에러 등 실제 HTTP 에러 처리
+      if (errorCallback) {
+        if (err?.response?._data) {
+          checkAndHandleApiError(err.response._data, errorCallback);
+        }
+        else if (err && typeof err === 'object' && 'error' in err) {
+          // ResponseType 형태의 에러인 경우
+          checkAndHandleApiError(err as ResponseType<TData>, errorCallback);
+        }
       }
       throw err;
     }

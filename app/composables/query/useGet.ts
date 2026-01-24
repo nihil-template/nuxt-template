@@ -1,5 +1,6 @@
 import { appConfig } from '~/config/app.config';
 import type { ResponseType } from '~/types/common.types';
+import { checkAndHandleApiError } from '~/utils/api-error-handler';
 
 export async function useGet<TData = unknown>(
   url: string,
@@ -34,13 +35,20 @@ export async function useGet<TData = unknown>(
       }
     },
     onResponse({ response: res, }) {
-      if (callback && res._data) {
-        callback(res._data);
+      // 모든 응답이 HTTP 200이므로, ResponseType.error 필드를 확인하여 에러 처리
+      if (res._data) {
+        const hasError = checkAndHandleApiError(res._data, errorCallback);
+
+        if (!hasError && callback) {
+          // 에러가 없을 때만 성공 콜백 호출
+          callback(res._data);
+        }
       }
     },
     onResponseError({ response: errorResponse, }) {
+      // 네트워크 에러 등 실제 HTTP 에러 처리
       if (errorCallback && errorResponse._data) {
-        errorCallback(errorResponse._data);
+        checkAndHandleApiError(errorResponse._data, errorCallback);
       }
     },
   });
