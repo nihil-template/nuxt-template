@@ -12,7 +12,7 @@ const props = defineProps<Props>();
 
 const cssVariants = cva(
   [
-    `bg-white p-2 border-b border-black-300 flex flex-row items-center justify-between`,
+    `bg-white px-5 py-3 border-b border-black-200 flex flex-row items-center justify-between`,
   ],
   {
     variants: {},
@@ -40,15 +40,20 @@ const menuItems = ref<MenuItem[]>([
   <header :class='cn(cssVariants({}), props.class)'>
     <NuxtLink to='/' class='flex-row-1 items-center'>
       <img src='~/assets/images/nihil-logo.png' alt='logo' class='size-8'>
-      <span class='font-900 text-md'>
-        NIHILncunia
-      </span>
+      <div>
+        <span class='block text-md font-900 leading-none text-black-950'>
+          Character Prompt Agent
+        </span>
+        <span class='mt-1 block text-xs text-black-500'>
+          TRPG portrait prompt workspace
+        </span>
+      </div>
     </NuxtLink>
 
     <nav class='p-2'>
       <ul class='flex flex-row items-center'>
         <li v-for='menu in menuItems' :key='menu.link'>
-          <NuxtLink :to='menu.link' class='flex flex-row gap-1 items-center'>
+          <NuxtLink :to='menu.link' class='flex flex-row items-center gap-1 rounded-full px-3 py-2 text-sm text-black-700 hover:bg-black-100'>
             <Icon v-if='menu.icon' :icon='menu.icon' />
             <span>{{ menu.label }}</span>
           </NuxtLink>

@@ -1,0 +1,1058 @@
+{
+  "id": "c08978ae-cbfa-4a23-a85c-45b16561858c",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.classes": {
+      "name": "classes",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "always",
+            "name": "classes_id_seq",
+            "schema": "public",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "use_yn": {
+          "name": "use_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'Y'"
+        },
+        "delete_yn": {
+          "name": "delete_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'N'"
+        },
+        "create_id": {
+          "name": "create_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "create_date": {
+          "name": "create_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "update_id": {
+          "name": "update_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "update_date": {
+          "name": "update_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_id": {
+          "name": "delete_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_date": {
+          "name": "delete_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "code": {
+          "name": "code",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "category": {
+          "name": "category",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "characteristics": {
+          "name": "characteristics",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "pose_direction": {
+          "name": "pose_direction",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "combat_weight": {
+          "name": "combat_weight",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "combat_style": {
+          "name": "combat_style",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "power_source": {
+          "name": "power_source",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "signature_identity": {
+          "name": "signature_identity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "rendering_keywords": {
+          "name": "rendering_keywords",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "sort_order": {
+          "name": "sort_order",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "content": {
+          "name": "content",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "metadata": {
+          "name": "metadata",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "classes_code_unique": {
+          "name": "classes_code_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "code"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.docs": {
+      "name": "docs",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "always",
+            "name": "docs_id_seq",
+            "schema": "public",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "use_yn": {
+          "name": "use_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'Y'"
+        },
+        "delete_yn": {
+          "name": "delete_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'N'"
+        },
+        "create_id": {
+          "name": "create_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "create_date": {
+          "name": "create_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "update_id": {
+          "name": "update_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "update_date": {
+          "name": "update_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_id": {
+          "name": "delete_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_date": {
+          "name": "delete_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "system_id": {
+          "name": "system_id",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "content": {
+          "name": "content",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "varchar(50)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "entry_point": {
+          "name": "entry_point",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "always_load": {
+          "name": "always_load",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "load_order": {
+          "name": "load_order",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "dependencies": {
+          "name": "dependencies",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "tags": {
+          "name": "tags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "version": {
+          "name": "version",
+          "type": "varchar(50)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "source_path": {
+          "name": "source_path",
+          "type": "varchar(500)",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "docs_system_id_unique": {
+          "name": "docs_system_id_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "system_id"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.presets": {
+      "name": "presets",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "always",
+            "name": "presets_id_seq",
+            "schema": "public",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "use_yn": {
+          "name": "use_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'Y'"
+        },
+        "delete_yn": {
+          "name": "delete_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'N'"
+        },
+        "create_id": {
+          "name": "create_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "create_date": {
+          "name": "create_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "update_id": {
+          "name": "update_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "update_date": {
+          "name": "update_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_id": {
+          "name": "delete_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_date": {
+          "name": "delete_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "code": {
+          "name": "code",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "core_identity": {
+          "name": "core_identity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "recommended_rank": {
+          "name": "recommended_rank",
+          "type": "varchar(50)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "recommended_themes": {
+          "name": "recommended_themes",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "recommended_race_types": {
+          "name": "recommended_race_types",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "recommended_class_archetypes": {
+          "name": "recommended_class_archetypes",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "recommended_weapons": {
+          "name": "recommended_weapons",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "recommended_outfit_style": {
+          "name": "recommended_outfit_style",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "recommended_fx": {
+          "name": "recommended_fx",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "recommended_lighting": {
+          "name": "recommended_lighting",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "recommended_backgrounds": {
+          "name": "recommended_backgrounds",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "recommended_mood": {
+          "name": "recommended_mood",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "shape_language": {
+          "name": "shape_language",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "rendering_keywords": {
+          "name": "rendering_keywords",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "sort_order": {
+          "name": "sort_order",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "content": {
+          "name": "content",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "metadata": {
+          "name": "metadata",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "presets_code_unique": {
+          "name": "presets_code_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "code"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.prompts": {
+      "name": "prompts",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "always",
+            "name": "prompts_id_seq",
+            "schema": "public",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "use_yn": {
+          "name": "use_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'Y'"
+        },
+        "delete_yn": {
+          "name": "delete_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'N'"
+        },
+        "create_id": {
+          "name": "create_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "create_date": {
+          "name": "create_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "update_id": {
+          "name": "update_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "update_date": {
+          "name": "update_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_id": {
+          "name": "delete_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_date": {
+          "name": "delete_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "content": {
+          "name": "content",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "tags": {
+          "name": "tags",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "doc_ids": {
+          "name": "doc_ids",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.races": {
+      "name": "races",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "always",
+            "name": "races_id_seq",
+            "schema": "public",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "use_yn": {
+          "name": "use_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'Y'"
+        },
+        "delete_yn": {
+          "name": "delete_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'N'"
+        },
+        "create_id": {
+          "name": "create_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "create_date": {
+          "name": "create_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "update_id": {
+          "name": "update_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "update_date": {
+          "name": "update_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_id": {
+          "name": "delete_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_date": {
+          "name": "delete_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "code": {
+          "name": "code",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "category": {
+          "name": "category",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "anatomy_type": {
+          "name": "anatomy_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "body_build": {
+          "name": "body_build",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "surface_traits": {
+          "name": "surface_traits",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "face_structure": {
+          "name": "face_structure",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "silhouette": {
+          "name": "silhouette",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "material_traits": {
+          "name": "material_traits",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "rendering_keywords": {
+          "name": "rendering_keywords",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "sort_order": {
+          "name": "sort_order",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "content": {
+          "name": "content",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "metadata": {
+          "name": "metadata",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "races_code_unique": {
+          "name": "races_code_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "code"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.themes": {
+      "name": "themes",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "always",
+            "name": "themes_id_seq",
+            "schema": "public",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "use_yn": {
+          "name": "use_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'Y'"
+        },
+        "delete_yn": {
+          "name": "delete_yn",
+          "type": "varchar(1)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'N'"
+        },
+        "create_id": {
+          "name": "create_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "create_date": {
+          "name": "create_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "update_id": {
+          "name": "update_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "update_date": {
+          "name": "update_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_id": {
+          "name": "delete_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "delete_date": {
+          "name": "delete_date",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "code": {
+          "name": "code",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tier": {
+          "name": "tier",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "core_identity": {
+          "name": "core_identity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "primary_colors": {
+          "name": "primary_colors",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "accent_colors": {
+          "name": "accent_colors",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "fx_elements": {
+          "name": "fx_elements",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "lighting_style": {
+          "name": "lighting_style",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "material_language": {
+          "name": "material_language",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "shape_language": {
+          "name": "shape_language",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "atmosphere": {
+          "name": "atmosphere",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "environmental_influence": {
+          "name": "environmental_influence",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "rendering_keywords": {
+          "name": "rendering_keywords",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "sort_order": {
+          "name": "sort_order",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "content": {
+          "name": "content",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "metadata": {
+          "name": "metadata",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "themes_code_unique": {
+          "name": "themes_code_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "code"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
