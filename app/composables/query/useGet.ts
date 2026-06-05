@@ -1,69 +1,78 @@
-import { appConfig } from '~/config/app.config';
-import type { ResponseType } from '~/types/common.types';
-import { checkAndHandleApiError } from '~/utils/api-error-handler';
+import { useQuery } from '@tanstack/vue-query';
+import type { DefaultError, QueryKey, UseQueryOptions } from '@tanstack/vue-query';
+import { toValue } from 'vue';
+import type { MaybeRefOrGetter } from 'vue';
 
-export async function useGet<TData = unknown>(
-  url: string,
-  body?: string | Record<string, any> | ReadableStream | Blob | ArrayBuffer | ArrayBufferView,
-  callback?: (data: ResponseType<TData> | undefined) => void,
-  errorCallback?: (error: ResponseType<TData>) => void,
-  options?: {
-    enabled?: boolean | Ref<boolean> | ComputedRef<boolean>;
+import { resolveApiUrl } from './resolveApiUrl';
+
+import type { BaseResponse } from '~/types/common.types';
+
+type FetchOptions = NonNullable<Parameters<typeof $fetch>[1]>;
+type QueryKeySource<TQueryKey extends QueryKey> = TQueryKey | { queryKey: TQueryKey };
+type GetResponse<TData> = BaseResponse<TData>;
+
+type UseGetQueryOptions<
+  TData,
+  TError
+> = Omit<
+  UseQueryOptions<
+    GetResponse<TData>,
+    TError,
+    GetResponse<TData>,
+    GetResponse<TData>,
+    QueryKey
+  >,
+  'enabled' | 'queryFn' | 'queryKey'
+>;
+
+interface UseGetOptions<
+  TData,
+  TError,
+  TQueryKey extends QueryKey
+> {
+  url: MaybeRefOrGetter<string>;
+  key: MaybeRefOrGetter<QueryKeySource<TQueryKey>>;
+  enabled?: MaybeRefOrGetter<boolean>;
+  fetchOptions?: MaybeRefOrGetter<Omit<FetchOptions, 'method'>>;
+  queryOptions?: UseGetQueryOptions<TData, TError>;
+}
+
+function resolveQueryKey<TQueryKey extends QueryKey>(key: QueryKeySource<TQueryKey>) {
+  if ('queryKey' in key) {
+    return key.queryKey;
   }
-) {
-  const token = useCookie('token');
-  const authToken = token.value;
 
-  const enabled = options?.enabled ?? true;
-  const enabledValue = unref(enabled);
+  return key;
+}
 
-  const watchOptions = typeof enabled === 'object'
-    ? [ enabled, ]
-    : false;
-
-  const { data: response, ...other } = await useFetch<ResponseType<TData>>(url, {
-    method: 'GET',
-    baseURL: appConfig.api.route,
-    ...(body && { body, }),
-    immediate: enabledValue,
-    watch: watchOptions,
-    onRequest({ options: requestOptions, }) {
-      if (authToken) {
-        const headers = new Headers(requestOptions.headers);
-        headers.set('Authorization', `Bearer ${authToken}`);
-        requestOptions.headers = headers;
-      }
-    },
-    onResponse({ response: res, }) {
-      // 모든 응답이 HTTP 200이므로, ResponseType.error 필드를 확인하여 에러 처리
-      if (res._data) {
-        const hasError = checkAndHandleApiError(res._data, errorCallback);
-
-        if (!hasError && callback) {
-          // 에러가 없을 때만 성공 콜백 호출
-          callback(res._data);
-        }
-      }
-    },
-    onResponseError({ response: errorResponse, }) {
-      // 네트워크 에러 등 실제 HTTP 에러 처리
-      if (errorCallback && errorResponse._data) {
-        checkAndHandleApiError(errorResponse._data, errorCallback);
-      }
-    },
-  });
-
-  // enabled가 reactive인 경우 watch하여 자동으로 execute
-  if (typeof enabled === 'object' && enabledValue === false) {
-    watch(enabled, (newValue) => {
-      if (newValue && other.status.value === 'idle') {
-        other.execute();
-      }
-    });
-  }
+export function useGet<
+  TData,
+  TError = DefaultError,
+  TQueryKey extends QueryKey = QueryKey
+>({
+  url,
+  key,
+  enabled = true,
+  fetchOptions,
+  queryOptions,
+}: UseGetOptions<TData, TError, TQueryKey>) {
+  const query = useQuery<
+    GetResponse<TData>,
+    TError,
+    GetResponse<TData>,
+    QueryKey
+  >(() => ({
+    ...queryOptions,
+    queryKey: resolveQueryKey(toValue(key)) as QueryKey,
+    queryFn: () => $fetch<GetResponse<TData>>(resolveApiUrl(toValue(url)), {
+      ...toValue(fetchOptions),
+      method: 'GET',
+    }),
+    enabled: toValue(enabled),
+  }));
 
   return {
-    response,
-    ...other,
+    ...query,
+    execute: query.refetch,
   };
 }

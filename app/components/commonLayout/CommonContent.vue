@@ -23,7 +23,7 @@ const cssVariants = cva(
 
 <template>
   <div :class='cn(cssVariants({}), props.class)'>
-    <main class='h-full overflow-hidden bg-white'>
+    <main class='h-full overflow-y-auto bg-white'>
       <slot />
     </main>
   </div>

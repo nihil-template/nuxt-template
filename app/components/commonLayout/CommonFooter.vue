@@ -34,7 +34,7 @@ const year = computed(() => {
   <footer :class='cn(cssVariants({}), props.class)'>
     <small class='flex flex-row items-center gap-1 justify-center'>
       <Icon icon='mdi:copyright' class='size-4' />
-      <span class='-mt-[2px]'>
+      <span class='-mt-0.5'>
         {{ year }}. {{ appConfig.author.name }} All rights reserved.
       </span>
     </small>

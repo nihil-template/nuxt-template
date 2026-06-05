@@ -1,0 +1,469 @@
+좋습니다, 마스터.
+우선 이 프로젝트는 **“룩스테라 월드 아틀라스”** 같은 독립 웹앱으로 잡는 게 좋습니다.
+
+처음부터 편집기, DB, 로그인까지 넣으면 커지기 때문에, 1차 목표는 **정적 데이터 기반 월드맵 뷰어**로 잡겠습니다.
+
+첫 목표는 이겁니다.
+
+```txt
+고해상도 월드맵을 확대/축소/이동할 수 있다.
+랜드마크 핀이 지도 위에 표시된다.
+핀을 클릭하면 오른쪽 정보 패널이 열린다.
+정보 패널에서 노션 링크로 이동할 수 있다.
+세션 기록 핀도 별도 레이어로 표시할 수 있다.
+```
+
+기술 스택은 마스터 기준으로 이렇게 가면 자연스럽습니다.
+
+```txt
+Nuxt 4
+Vue 3
+TypeScript
+Tailwind CSS
+Leaflet
+Pinia
+정적 TS 데이터
+```
+
+초기에는 Prisma, PostgreSQL, 로그인, 관리자 페이지를 넣지 않습니다.
+핀 데이터는 TypeScript 파일로 관리하고, 나중에 필요하면 DB로 옮깁니다.
+
+프로젝트 이름은 예시로 `luxterra-atlas`라고 하겠습니다.
+
+```bash
+pnpm dlx nuxi init luxterra-atlas
+cd luxterra-atlas
+pnpm install
+```
+
+그 다음 필요한 패키지를 설치합니다.
+
+```bash
+pnpm add leaflet pinia @pinia/nuxt
+pnpm add -D @types/leaflet
+```
+
+Tailwind를 이미 프로젝트 템플릿에서 쓰고 있다면 그대로 가면 됩니다.
+없다면 나중에 붙여도 되지만, UI 패널 만들 때는 Tailwind가 편합니다.
+
+초기 폴더 구조는 이렇게 잡는 게 좋습니다.
+
+```txt
+luxterra-atlas/
+  assets/
+    css/
+      main.css
+
+  components/
+    atlas/
+      AtlasMap.vue
+      AtlasPinLayer.vue
+      AtlasInfoPanel.vue
+      AtlasFilterPanel.vue
+      AtlasDevTools.vue
+
+  data/
+    atlas/
+      pins.ts
+      pin-types.ts
+      map-config.ts
+
+  pages/
+    index.vue
+
+  public/
+    maps/
+      luxterra-preview.jpg
+
+    tiles/
+      luxterra/
+        ...
+    
+    images/
+      locations/
+        origin.jpg
+        kuarion.jpg
+```
+
+여기서 중요한 건 `public/maps`와 `public/tiles`입니다.
+처음에는 타일맵을 붙이기 전까지 `luxterra-preview.jpg` 같은 저용량 테스트 이미지를 써도 됩니다.
+
+하지만 최종적으로는 `tiles/luxterra` 아래에 타일 세트를 넣게 됩니다.
+
+먼저 타입부터 잡는 게 좋습니다.
+
+```ts
+// data/atlas/pin-types.ts
+
+export type AtlasPinKind =
+  | 'kingdom'
+  | 'city'
+  | 'village'
+  | 'dungeon'
+  | 'landmark'
+  | 'session'
+  | 'event'
+
+export type AtlasPinVisibility = 'public' | 'party' | 'gm'
+
+export type AtlasPin = {
+  id: string
+  kind: AtlasPinKind
+
+  name: string
+  x: number
+  y: number
+
+  summary?: string
+  description?: string
+  imageUrl?: string
+  notionUrl?: string
+
+  tags?: string[]
+  visibility: AtlasPinVisibility
+
+  sessionNo?: number
+  sessionTitle?: string
+  sessionDate?: string
+
+  relatedPinIds?: string[]
+}
+```
+
+이 구조면 랜드마크와 세션 기록을 같은 핀 모델로 다룰 수 있습니다.
+`kind: 'session'`이면 세션 핀이고, `kind: 'kingdom'`이면 왕국 핀입니다.
+
+다음은 맵 설정입니다.
+
+```ts
+// data/atlas/map-config.ts
+
+export const atlasMapConfig = {
+  id: 'luxterra',
+  name: '룩스테라 전도',
+
+  width: 16320,
+  height: 9258,
+
+  minZoom: -4,
+  maxZoom: 2,
+
+  tileSize: 512,
+
+  tileUrl: '/tiles/luxterra/{z}/{x}/{y}.webp',
+}
+```
+
+여기서 `width`, `height`는 원본 이미지 기준입니다.
+마스터 이미지가 `16320 × 9258`이므로 이 값을 기준 좌표계로 삼으면 됩니다.
+
+핀 데이터는 이렇게 시작합니다.
+
+```ts
+// data/atlas/pins.ts
+
+import type { AtlasPin } from './pin-types'
+
+export const atlasPins: AtlasPin[] = [
+  {
+    id: 'kuarion-kingdom',
+    kind: 'kingdom',
+    name: '쿠아리온 왕국',
+    x: 4200,
+    y: 3100,
+    summary: '선조의 석상을 중심으로 기억과 혈통의 권위를 보존하는 신성 왕국.',
+    imageUrl: '/images/locations/kuarion.jpg',
+    notionUrl: 'https://www.notion.so/...',
+    tags: ['왕국', '신성 왕국', '골리앗'],
+    visibility: 'public',
+  },
+  {
+    id: 'session-54',
+    kind: 'session',
+    name: '54화: 모험과 신도와 유령',
+    x: 3980,
+    y: 3280,
+    summary: '일행이 쿠아리온으로 향하던 길에서 안개 지대와 보육원 사건의 단서를 발견했다.',
+    notionUrl: 'https://www.notion.so/...',
+    tags: ['세션 기록', '안개', '쿠아리온'],
+    visibility: 'public',
+    sessionNo: 54,
+    sessionTitle: '룩스테라 - 모험과 신도와 유령',
+    sessionDate: '2026-05-31',
+    relatedPinIds: ['kuarion-kingdom'],
+  },
+]
+```
+
+이제 컴포넌트 구조를 잡습니다.
+
+`pages/index.vue`는 전체 레이아웃만 담당하게 합니다.
+
+```vue
+<!-- pages/index.vue -->
+
+<template>
+  <main class="h-screen w-screen overflow-hidden bg-neutral-950 text-white">
+    <div class="flex h-full w-full">
+      <section class="relative min-w-0 flex-1">
+        <AtlasMap />
+      </section>
+    </div>
+  </main>
+</template>
+
+<script setup lang="ts">
+import AtlasMap from '~/components/atlas/AtlasMap.vue'
+</script>
+```
+
+그 다음 핵심인 `AtlasMap.vue`를 만듭니다.
+
+처음 단계에서는 타일맵까지 바로 가지 말고, Leaflet의 `imageOverlay`로 테스트하는 편이 좋습니다.
+마커 좌표계와 패널 구조를 먼저 검증한 뒤, 타일로 바꾸면 됩니다.
+
+```vue
+<!-- components/atlas/AtlasMap.vue -->
+
+<template>
+  <div class="relative h-full w-full">
+    <div ref="mapEl" class="h-full w-full" />
+
+    <AtlasInfoPanel
+      v-if="selectedPin"
+      :pin="selectedPin"
+      @close="selectedPin = null"
+    />
+  </div>
+</template>
+
+<script setup lang="ts">
+import L from 'leaflet'
+import 'leaflet/dist/leaflet.css'
+
+import { atlasPins } from '~/data/atlas/pins'
+import { atlasMapConfig } from '~/data/atlas/map-config'
+import type { AtlasPin } from '~/data/atlas/pin-types'
+
+const mapEl = ref<HTMLDivElement | null>(null)
+const selectedPin = ref<AtlasPin | null>(null)
+
+let map: L.Map | null = null
+
+onMounted(() => {
+  if (!mapEl.value) return
+
+  const width = atlasMapConfig.width
+  const height = atlasMapConfig.height
+
+  const bounds: L.LatLngBoundsExpression = [
+    [0, 0],
+    [height, width],
+  ]
+
+  map = L.map(mapEl.value, {
+    crs: L.CRS.Simple,
+    minZoom: atlasMapConfig.minZoom,
+    maxZoom: atlasMapConfig.maxZoom,
+    zoomControl: true,
+    attributionControl: false,
+  })
+
+  L.imageOverlay('/maps/luxterra-preview.jpg', bounds).addTo(map)
+
+  map.fitBounds(bounds)
+
+  for (const pin of atlasPins) {
+    const marker = L.marker([pin.y, pin.x])
+
+    marker.on('click', () => {
+      selectedPin.value = pin
+    })
+
+    marker.addTo(map)
+  }
+
+  map.on('click', (event) => {
+    console.log({
+      x: Math.round(event.latlng.lng),
+      y: Math.round(event.latlng.lat),
+    })
+  })
+})
+
+onBeforeUnmount(() => {
+  map?.remove()
+  map = null
+})
+</script>
+```
+
+주의할 점은 좌표 순서입니다.
+
+마커 데이터는 `x`, `y`로 저장하지만, Leaflet에 넣을 때는 `[y, x]` 순서입니다.
+즉 `L.marker([pin.y, pin.x])`가 됩니다.
+
+다음은 정보 패널입니다.
+
+```vue
+<!-- components/atlas/AtlasInfoPanel.vue -->
+
+<template>
+  <aside
+    class="absolute right-4 top-4 z-[1000] max-h-[calc(100%-2rem)] w-[360px] overflow-y-auto rounded-2xl border border-white/10 bg-neutral-950/95 p-4 shadow-2xl backdrop-blur"
+  >
+    <div class="mb-3 flex items-start justify-between gap-3">
+      <div>
+        <p class="text-xs text-neutral-400">{{ kindLabel }}</p>
+        <h2 class="text-xl font-semibold">{{ pin.name }}</h2>
+      </div>
+
+      <button
+        type="button"
+        class="rounded-lg px-2 py-1 text-sm text-neutral-400 hover:bg-white/10 hover:text-white"
+        @click="$emit('close')"
+      >
+        닫기
+      </button>
+    </div>
+
+    <img
+      v-if="pin.imageUrl"
+      :src="pin.imageUrl"
+      :alt="pin.name"
+      class="mb-4 h-40 w-full rounded-xl object-cover"
+    >
+
+    <p v-if="pin.summary" class="mb-4 text-sm leading-6 text-neutral-200">
+      {{ pin.summary }}
+    </p>
+
+    <div v-if="pin.sessionNo" class="mb-4 rounded-xl bg-white/5 p-3 text-sm">
+      <p class="text-neutral-400">세션 번호</p>
+      <p>{{ pin.sessionNo }}화</p>
+
+      <p v-if="pin.sessionDate" class="mt-2 text-neutral-400">진행일</p>
+      <p v-if="pin.sessionDate">{{ pin.sessionDate }}</p>
+    </div>
+
+    <div v-if="pin.tags?.length" class="mb-4 flex flex-wrap gap-2">
+      <span
+        v-for="tag in pin.tags"
+        :key="tag"
+        class="rounded-full bg-white/10 px-2 py-1 text-xs text-neutral-200"
+      >
+        {{ tag }}
+      </span>
+    </div>
+
+    <a
+      v-if="pin.notionUrl"
+      :href="pin.notionUrl"
+      target="_blank"
+      rel="noreferrer"
+      class="block rounded-xl bg-white px-4 py-3 text-center text-sm font-medium text-neutral-950 hover:bg-neutral-200"
+    >
+      노션에서 열기
+    </a>
+  </aside>
+</template>
+
+<script setup lang="ts">
+import type { AtlasPin } from '~/data/atlas/pin-types'
+
+const props = defineProps<{
+  pin: AtlasPin
+}>()
+
+defineEmits<{
+  close: []
+}>()
+
+const kindLabel = computed(() => {
+  const labels: Record<string, string> = {
+    kingdom: '왕국',
+    city: '도시',
+    village: '마을',
+    dungeon: '던전',
+    landmark: '랜드마크',
+    session: '세션 기록',
+    event: '사건',
+  }
+
+  return labels[props.pin.kind] ?? props.pin.kind
+})
+</script>
+```
+
+이 단계까지 만들면 1차 MVP가 됩니다.
+
+```txt
+지도 표시
+확대/축소
+드래그 이동
+핀 표시
+핀 클릭
+정보 패널 표시
+노션 링크 이동
+좌표 콘솔 출력
+```
+
+아직 타일맵이 아니므로 실제 243MB 원본을 넣으면 안 됩니다.
+이 단계에서는 반드시 테스트용 리사이즈 이미지를 쓰는 게 좋습니다.
+
+예를 들어 원본을 줄여서 이렇게 만듭니다.
+
+```txt
+public/maps/luxterra-preview.jpg
+```
+
+크기는 대략 `2048px` 또는 `4096px` 정도면 충분합니다.
+좌표계는 원본 기준으로 유지하고 싶다면, Leaflet bounds는 여전히 `16320 × 9258`로 두고 이미지만 맞춰 늘려 보여도 됩니다.
+
+다음 단계에서 타일로 바꿀 때 `imageOverlay` 부분만 교체하면 됩니다.
+
+현재 코드의 이 부분이:
+
+```ts
+L.imageOverlay('/maps/luxterra-preview.jpg', bounds).addTo(map)
+```
+
+나중에는 이런 식으로 바뀝니다.
+
+```ts
+L.tileLayer('/tiles/luxterra/{z}/{x}/{y}.webp', {
+  tileSize: 512,
+  noWrap: true,
+  bounds,
+}).addTo(map)
+```
+
+다만 타일 생성 방식에 따라 `z` 레벨, 좌표 방향, 폴더 구조가 달라질 수 있습니다.
+그래서 타일맵 적용은 타일 생성 방식을 정한 뒤에 맞추는 게 안전합니다.
+
+우선 지금 단계에서는 이렇게 진행하면 됩니다.
+
+```txt
+1. Nuxt 프로젝트 생성
+2. Leaflet 설치
+3. 폴더 구조 생성
+4. 핀 타입 정의
+5. 테스트용 지도 이미지 배치
+6. AtlasMap.vue 작성
+7. AtlasInfoPanel.vue 작성
+8. 핀 클릭과 노션 링크 확인
+```
+
+마스터가 지금 바로 시작한다면 첫 커밋 이름은 이렇게 잡으면 좋습니다.
+
+```txt
+feat: initialize atlas map viewer
+```
+
+그리고 첫 MVP 완료 커밋은 이렇게요.
+
+```txt
+feat: add interactive world map pins
+```
+
+다음 순서는 **프로젝트 초기 세팅 → Leaflet 지도 표시 → 핀 데이터 연결 → 정보 패널 연결** 순서로 가면 됩니다.

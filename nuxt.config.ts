@@ -17,6 +17,10 @@ export default defineNuxtConfig({
     openaiApiKey: env?.OPENAI_API_KEY ?? '',
   },
 
+  alias: {
+    '@vue/devtools-api': '@vue/devtools-api',
+  },
+
   modules: [
     '@pinia/nuxt',
     '@nuxt/eslint',
@@ -30,6 +34,28 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ],
+    resolve: {
+      preserveSymlinks: true,
+    },
+    optimizeDeps: {
+      esbuildOptions: {
+        preserveSymlinks: true,
+      },
+      exclude: [
+        '@tanstack/vue-query',
+        '@tanstack/query-core',
+        '@tanstack/vue-query-devtools',
+      ],
+      include: [
+        '@iconify/vue',
+        '@lukemorales/query-key-factory',
+        '@vue/devtools-api',
+        'class-variance-authority',
+        'clsx',
+        'luxon',
+        'tailwind-merge',
+      ],
+    },
   },
 
   experimental: {

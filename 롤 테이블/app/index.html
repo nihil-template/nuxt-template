@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>룩스테라 세션 핵심 결정기</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Origin Roll Table</p>
+          <h1>룩스테라 세션 핵심 결정기</h1>
+          <p class="summary">
+            의뢰 유형, 테마, 지형을 한 번에 굴려 오늘 세션의 중심 사건을 정합니다.
+          </p>
+        </div>
+        <div class="hero-mark" aria-hidden="true">
+          <span>ROLL</span>
+        </div>
+      </section>
+
+      <section class="control-panel" aria-label="굴림 조작">
+        <label class="toggle-control">
+          <input id="angraToggle" type="checkbox" />
+          <span class="toggle-track" aria-hidden="true"></span>
+          <span>
+            <strong>앙그라 안개 미션 포함</strong>
+            <small>32~39번 의뢰 유형을 후보에 넣습니다.</small>
+          </span>
+        </label>
+        <button id="rollButton" class="roll-button" type="button">
+          세션 핵심 결정
+        </button>
+        <button id="copyButton" class="secondary-button" type="button" disabled>
+          결과 복사
+        </button>
+      </section>
+
+      <section class="result-grid" aria-live="polite">
+        <article class="result-card">
+          <div class="card-topline">
+            <span>의뢰 유형</span>
+            <strong id="questRoll">-</strong>
+          </div>
+          <h2 id="questTitle">버튼을 눌러 결정</h2>
+          <p id="questText">자유 탐사 연맹 오리진 공고가 여기에 표시됩니다.</p>
+        </article>
+
+        <article class="result-card">
+          <div class="card-topline">
+            <span>조우 테마</span>
+            <strong id="themeRoll">-</strong>
+          </div>
+          <h2 id="themeTitle">버튼을 눌러 결정</h2>
+          <p id="themeText">조우 분위기, 환경, 적 유형이 여기에 표시됩니다.</p>
+          <p id="monsterText" class="monster-line"></p>
+        </article>
+
+        <article class="result-card">
+          <div class="card-topline">
+            <span>지형</span>
+            <strong id="terrainRoll">-</strong>
+          </div>
+          <h2 id="terrainTitle">버튼을 눌러 결정</h2>
+          <p id="terrainText">전장이 될 지형과 활용 단서가 여기에 표시됩니다.</p>
+        </article>
+      </section>
+
+      <section class="session-core">
+        <div class="section-heading">
+          <span>Session Core</span>
+          <h2>오늘의 핵심</h2>
+        </div>
+        <p id="sessionHook">
+          아직 결정된 세션 핵심이 없습니다.
+        </p>
+      </section>
+
+      <section class="history-panel">
+        <div class="section-heading">
+          <span>Recent Rolls</span>
+          <h2>최근 결과</h2>
+        </div>
+        <ol id="historyList" class="history-list"></ol>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -27,6 +27,6 @@ export const appConfig = {
     analyticsId: '',
   },
   api: {
-    route: 'http://localhost:8000',
+    route: 'http://localhost:3000/api',
   },
 } as const;
