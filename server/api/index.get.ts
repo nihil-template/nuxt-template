@@ -1,5 +1,3 @@
-import { Api } from '~/utils/axios.utils';
-
 export default defineEventHandler(async (event) => {
   // ========== ========== ========== ==========
   // 간단 가이드
@@ -26,48 +24,12 @@ export default defineEventHandler(async (event) => {
   // 서비스 로직
   // ========== ========== ========== ==========
 
-  const beyondRawLink = 'https://www.dndbeyond.com/characters/163981632';
-  const characterId = beyondRawLink.split('/').at(-1);
-
-  const beyondDataUrl = `https://character-service.dndbeyond.com/character/v5/character/${characterId}`;
-
-  const response = await Api.get<any>(beyondDataUrl);
-
-  const character = response.data;
-  const stats = character.stats;
-  const actions = character.actions;
-  const items = character.inventory;
-
-  const keys = Object.keys(actions);
-
-  // console.log('stats', stats);
-  // console.log('actions', actions);
-  console.log('keys', keys);
-  console.log('items', items);
-
-  const itemNames = items.map((item: any) => ({
-    id: item.id,
-    name: item.definition.name,
-    rarity: item.definition.rarity,
-    filterType: item.definition.filterType,
-    tags: item.definition.tags,
-    grantedModifiers: item.definition.grantedModifiers,
-  }));
-
-  console.log('itemNames', itemNames);
-
   // ========== ========== ========== ==========
   // 응답
   // ========== ========== ========== ==========
 
-  return response;
-
-  // 단건이면
-  // return BaseResponseUtil.data();
-
-  // 다건이면
-  // return BaseResponseUtil.page();
-
-  // 실패면
-  // return BaseResponseUtil.error();
+  return {
+    message: 'Welcome to D&D Master Tools',
+    timestamp: new Date().toISOString(),
+  };
 });

@@ -33,3 +33,28 @@
 
 - 새 도구 추가 시 위 규칙을 따른다.
 - 기존 코드와 일관된 패턴을 유지한다.
+
+## 페이지 컴포넌트 규칙
+
+### pages 내 Vue 파일은 렌더링 컴포넌트만 작성
+- `/app/pages/` 내의 Vue 파일은 실제 렌더링 로직을 직접 작성하지 않는다.
+- 대신 `/app/components/views/` 폴더의 렌더링 전용 컴포넌트를 임포트하여 사용한다.
+- pages 파일에서는 `definePageMeta`, `useSetMeta` 등 메타데이터 설정만 수행한다.
+
+예시:
+```vue
+<script setup lang="ts">
+definePageMeta({
+  layout: 'common',
+});
+
+useSetMeta({
+  title: '홈',
+  url: '/',
+});
+</script>
+
+<template>
+  <HomeView />
+</template>
+```

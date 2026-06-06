@@ -28,12 +28,8 @@ export default defineEventHandler(async (event) => {
   // 응답
   // ========== ========== ========== ==========
 
-  // 단건이면
-  // return BaseResponseUtil.data();
-
-  // 다건이면
-  // return BaseResponseUtil.page();
-
-  // 실패면
-  // return BaseResponseUtil.error();
+  return {
+    message: 'Welcome to D&D Master Tools',
+    timestamp: new Date().toISOString(),
+  };
 });
