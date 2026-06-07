@@ -6,10 +6,9 @@ const env = (globalThis as {
   };
 }).process?.env;
 
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true, },
+  devtools: { enabled: true },
 
   runtimeConfig: {
     aiModel: env?.AI_MODEL ?? 'gpt-4o-mini',
@@ -28,12 +27,10 @@ export default defineNuxtConfig({
     '@nuxt/image',
   ],
 
-  css: [ '~/assets/styles/tailwind.css', ],
+  css: ['~/assets/styles/tailwind.css'],
 
   vite: {
-    plugins: [
-      tailwindcss(),
-    ],
+    plugins: [tailwindcss()],
     resolve: {
       preserveSymlinks: true,
     },
@@ -70,9 +67,6 @@ export default defineNuxtConfig({
   ],
 
   imports: {
-    dirs: [
-      '~/composables/**',
-      '~/utils/**',
-    ],
+    dirs: ['~/composables/**', '~/utils/**'],
   },
 });

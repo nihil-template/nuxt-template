@@ -4,11 +4,11 @@ definePageMeta({
 });
 
 useSetMeta({
-  title: '홈',
-  url: '/',
+  title: '세션 롤 테이블',
+  url: '/tools/session-roll-table',
 });
 </script>
 
 <template>
-  <Home />
+  <SessionRollTable />
 </template>
