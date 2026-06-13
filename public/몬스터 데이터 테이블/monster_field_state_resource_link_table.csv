@@ -1,0 +1,135 @@
+﻿link_id,field_state_id,resource_id,weight,required,notes
+fsr_field_normal_hide,field_normal,hide,70,false,일반 필드 개체 상태 보정 자원
+fsr_field_normal_claw,field_normal,claw,65,false,일반 필드 개체 상태 보정 자원
+fsr_field_normal_blood_sample,field_normal,blood_sample,60,false,일반 필드 개체 상태 보정 자원
+fsr_settlement_edge_blood_sample,settlement_edge,blood_sample,70,false,생활권 접근 개체 상태 보정 자원
+fsr_settlement_edge_claw,settlement_edge,claw,65,false,생활권 접근 개체 상태 보정 자원
+fsr_settlement_edge_hide,settlement_edge,hide,60,false,생활권 접근 개체 상태 보정 자원
+fsr_leader_individual_blood_sample,leader_individual,blood_sample,70,false,우두머리 개체 상태 보정 자원
+fsr_leader_individual_fang,leader_individual,fang,65,false,우두머리 개체 상태 보정 자원
+fsr_leader_individual_hide,leader_individual,hide,60,false,우두머리 개체 상태 보정 자원
+fsr_alpha_individual_fang,alpha_individual,fang,70,false,알파 개체 상태 보정 자원
+fsr_alpha_individual_claw,alpha_individual,claw,65,false,알파 개체 상태 보정 자원
+fsr_alpha_individual_heart,alpha_individual,heart,60,false,알파 개체 상태 보정 자원
+fsr_alpha_individual_blood_sample,alpha_individual,blood_sample,55,false,알파 개체 상태 보정 자원
+fsr_pack_commander_hide,pack_commander,hide,70,false,무리 지휘 개체 상태 보정 자원
+fsr_pack_commander_claw,pack_commander,claw,65,false,무리 지휘 개체 상태 보정 자원
+fsr_pack_commander_blood_sample,pack_commander,blood_sample,60,false,무리 지휘 개체 상태 보정 자원
+fsr_nest_guard_blood_sample,nest_guard,blood_sample,65,false,둥지 방어 개체 상태 보정 자원
+fsr_nest_guard_hide,nest_guard,hide,60,false,둥지 방어 개체 상태 보정 자원
+fsr_territory_ruler_hide,territory_ruler,hide,70,false,포식권 지배 개체 상태 보정 자원
+fsr_territory_ruler_claw,territory_ruler,claw,65,false,포식권 지배 개체 상태 보정 자원
+fsr_territory_ruler_blood_sample,territory_ruler,blood_sample,60,false,포식권 지배 개체 상태 보정 자원
+fsr_resonance_stage_1_resonance_fluid,resonance_stage_1,resonance_fluid,70,false,잔향 1단계 영향 개체 상태 보정 자원
+fsr_resonance_stage_1_mutated_blood,resonance_stage_1,mutated_blood,65,false,잔향 1단계 영향 개체 상태 보정 자원
+fsr_resonance_stage_1_blood_sample,resonance_stage_1,blood_sample,60,false,잔향 1단계 영향 개체 상태 보정 자원
+fsr_resonance_stage_2_resonance_fluid,resonance_stage_2,resonance_fluid,70,false,잔향 2단계 변이 개체 상태 보정 자원
+fsr_resonance_stage_2_mutated_organ_piece,resonance_stage_2,mutated_organ_piece,65,false,잔향 2단계 변이 개체 상태 보정 자원
+fsr_resonance_stage_2_blackened_hide_piece,resonance_stage_2,blackened_hide_piece,60,false,잔향 2단계 변이 개체 상태 보정 자원
+fsr_resonance_stage_3_suspect_resonance_fluid,resonance_stage_3_suspect,resonance_fluid,70,false,잔향 3단계 의심 개체 상태 보정 자원
+fsr_resonance_stage_3_suspect_core_shard,resonance_stage_3_suspect,core_shard,65,false,잔향 3단계 의심 개체 상태 보정 자원
+fsr_resonance_stage_3_suspect_crystallized_tissue,resonance_stage_3_suspect,crystallized_tissue,60,false,잔향 3단계 의심 개체 상태 보정 자원
+fsr_guardianization_omen_core_shard,guardianization_omen,core_shard,70,false,가디언화 전조 개체 상태 보정 자원
+fsr_guardianization_omen_resonance_fluid,guardianization_omen,resonance_fluid,65,false,가디언화 전조 개체 상태 보정 자원
+fsr_guardianization_omen_crystallized_tissue,guardianization_omen,crystallized_tissue,60,false,가디언화 전조 개체 상태 보정 자원
+fsr_living_dungeon_source_hide,living_dungeon_source,hide,70,false,살아있는 던전 근원 상태 보정 자원
+fsr_living_dungeon_source_claw,living_dungeon_source,claw,65,false,살아있는 던전 근원 상태 보정 자원
+fsr_living_dungeon_source_blood_sample,living_dungeon_source,blood_sample,60,false,살아있는 던전 근원 상태 보정 자원
+fsr_dungeon_inner_crystallized_tissue,dungeon_inner,crystallized_tissue,70,false,던전 내부 개체 상태 보정 자원
+fsr_dungeon_inner_core_shard,dungeon_inner,core_shard,65,false,던전 내부 개체 상태 보정 자원
+fsr_dungeon_inner_hide,dungeon_inner,hide,60,false,던전 내부 개체 상태 보정 자원
+fsr_dungeon_ecology_hide,dungeon_ecology,hide,70,false,던전 생태 개체 상태 보정 자원
+fsr_dungeon_ecology_claw,dungeon_ecology,claw,65,false,던전 생태 개체 상태 보정 자원
+fsr_dungeon_ecology_blood_sample,dungeon_ecology,blood_sample,60,false,던전 생태 개체 상태 보정 자원
+fsr_dungeon_guardian_bound_core_shard,dungeon_guardian_bound,core_shard,70,false,던전 가디언 결속 개체 상태 보정 자원
+fsr_dungeon_guardian_bound_crystallized_tissue,dungeon_guardian_bound,crystallized_tissue,65,false,던전 가디언 결속 개체 상태 보정 자원
+fsr_dungeon_guardian_bound_resonance_fluid,dungeon_guardian_bound,resonance_fluid,60,false,던전 가디언 결속 개체 상태 보정 자원
+fsr_dungeon_guardian_bound_guardian_core,dungeon_guardian_bound,guardian_core,70,true,던전 가디언 결속 개체 상태 보정 자원
+fsr_dungeon_guardian_guardian_core,dungeon_guardian,guardian_core,70,true,던전 가디언 상태 보정 자원
+fsr_dungeon_guardian_core_shard,dungeon_guardian,core_shard,65,false,던전 가디언 상태 보정 자원
+fsr_dungeon_guardian_crystallized_tissue,dungeon_guardian,crystallized_tissue,60,false,던전 가디언 상태 보정 자원
+fsr_angra_fog_creature_fog_condensate,angra_fog_creature,fog_condensate,70,false,안개권 비던전 생물 상태 보정 자원
+fsr_angra_fog_creature_resonance_fluid,angra_fog_creature,resonance_fluid,65,false,안개권 비던전 생물 상태 보정 자원
+fsr_angra_fog_creature_blackened_blood,angra_fog_creature,blackened_blood,60,false,안개권 비던전 생물 상태 보정 자원
+fsr_angra_predator_fog_condensate,angra_predator,fog_condensate,70,false,안개권 포식 개체 상태 보정 자원
+fsr_angra_predator_fang,angra_predator,fang,65,false,안개권 포식 개체 상태 보정 자원
+fsr_angra_predator_claw,angra_predator,claw,60,false,안개권 포식 개체 상태 보정 자원
+fsr_angra_sample_value_fog_condensate,angra_sample_value,fog_condensate,70,false,안개권 표본 가치 개체 상태 보정 자원
+fsr_angra_sample_value_resonance_fluid,angra_sample_value,resonance_fluid,65,false,안개권 표본 가치 개체 상태 보정 자원
+fsr_angra_sample_value_mutated_organ_piece,angra_sample_value,mutated_organ_piece,60,false,안개권 표본 가치 개체 상태 보정 자원
+fsr_angra_sample_value_blackened_blood,angra_sample_value,blackened_blood,60,false,안개권 표본 가치 개체 상태 보정 자원
+fsr_angra_trailer_fog_condensate,angra_trailer,fog_condensate,70,false,안개권 추적 개체 상태 보정 자원
+fsr_angra_trailer_resonance_fluid,angra_trailer,resonance_fluid,65,false,안개권 추적 개체 상태 보정 자원
+fsr_angra_trailer_blackened_blood,angra_trailer,blackened_blood,60,false,안개권 추적 개체 상태 보정 자원
+fsr_angra_rear_threat_fog_condensate,angra_rear_threat,fog_condensate,70,false,안개권 후위 위협 개체 상태 보정 자원
+fsr_angra_rear_threat_resonance_fluid,angra_rear_threat,resonance_fluid,65,false,안개권 후위 위협 개체 상태 보정 자원
+fsr_angra_rear_threat_blackened_blood,angra_rear_threat,blackened_blood,60,false,안개권 후위 위협 개체 상태 보정 자원
+fsr_nail_reaction_hide,nail_reaction,hide,70,false,앙그라의 못 주변 반응 개체 상태 보정 자원
+fsr_nail_reaction_claw,nail_reaction,claw,65,false,앙그라의 못 주변 반응 개체 상태 보정 자원
+fsr_nail_reaction_blood_sample,nail_reaction,blood_sample,60,false,앙그라의 못 주변 반응 개체 상태 보정 자원
+fsr_totem_servitor_guardian_core,totem_servitor,guardian_core,70,true,토템 가디언 수하 개체 상태 보정 자원
+fsr_totem_servitor_totem_fragment,totem_servitor,totem_fragment,65,false,토템 가디언 수하 개체 상태 보정 자원
+fsr_totem_servitor_blackstone_crystal,totem_servitor,blackstone_crystal,60,false,토템 가디언 수하 개체 상태 보정 자원
+fsr_totem_guardian_guardian_core,totem_guardian,guardian_core,70,true,토템 가디언 상태 보정 자원
+fsr_totem_guardian_totem_fragment,totem_guardian,totem_fragment,65,false,토템 가디언 상태 보정 자원
+fsr_totem_guardian_blackstone_crystal,totem_guardian,blackstone_crystal,60,false,토템 가디언 상태 보정 자원
+fsr_blackstone_ingested_blackstone_crystal,blackstone_ingested,blackstone_crystal,70,false,흑마석 섭취 개체 상태 보정 자원
+fsr_blackstone_ingested_crystallized_tissue,blackstone_ingested,crystallized_tissue,65,false,흑마석 섭취 개체 상태 보정 자원
+fsr_blackstone_ingested_crystal_organ_piece,blackstone_ingested,crystal_organ_piece,60,false,흑마석 섭취 개체 상태 보정 자원
+fsr_blackstone_crystallized_blackstone_crystal,blackstone_crystallized,blackstone_crystal,70,false,흑마석 결정화 개체 상태 보정 자원
+fsr_blackstone_crystallized_crystallized_tissue,blackstone_crystallized,crystallized_tissue,65,false,흑마석 결정화 개체 상태 보정 자원
+fsr_blackstone_crystallized_crystal_bone_piece,blackstone_crystallized,crystal_bone_piece,60,false,흑마석 결정화 개체 상태 보정 자원
+fsr_refining_failure_affected_hide,refining_failure_affected,hide,70,false,정제 실패 영향 개체 상태 보정 자원
+fsr_refining_failure_affected_claw,refining_failure_affected,claw,65,false,정제 실패 영향 개체 상태 보정 자원
+fsr_refining_failure_affected_blood_sample,refining_failure_affected,blood_sample,60,false,정제 실패 영향 개체 상태 보정 자원
+fsr_rune_marked_rune_etched_bone,rune_marked,rune_etched_bone,70,false,잔향의 룬 각인 개체 상태 보정 자원
+fsr_rune_marked_rune_etched_hide,rune_marked,rune_etched_hide,65,false,잔향의 룬 각인 개체 상태 보정 자원
+fsr_rune_marked_rune_organ_piece,rune_marked,rune_organ_piece,60,false,잔향의 룬 각인 개체 상태 보정 자원
+fsr_quasi_dungeon_zone_creature_hide,quasi_dungeon_zone_creature,hide,70,false,준던전화 구역 개체 상태 보정 자원
+fsr_quasi_dungeon_zone_creature_claw,quasi_dungeon_zone_creature,claw,65,false,준던전화 구역 개체 상태 보정 자원
+fsr_quasi_dungeon_zone_creature_blood_sample,quasi_dungeon_zone_creature,blood_sample,60,false,준던전화 구역 개체 상태 보정 자원
+fsr_fear_reactive_hide,fear_reactive,hide,70,false,공포 반응 유발 개체 상태 보정 자원
+fsr_fear_reactive_claw,fear_reactive,claw,65,false,공포 반응 유발 개체 상태 보정 자원
+fsr_fear_reactive_blood_sample,fear_reactive,blood_sample,60,false,공포 반응 유발 개체 상태 보정 자원
+fsr_indoctrinated_victim_hide,indoctrinated_victim,hide,70,false,포섭 피해 개체 상태 보정 자원
+fsr_indoctrinated_victim_claw,indoctrinated_victim,claw,65,false,포섭 피해 개체 상태 보정 자원
+fsr_indoctrinated_victim_blood_sample,indoctrinated_victim,blood_sample,60,false,포섭 피해 개체 상태 보정 자원
+fsr_ritual_medium_hide,ritual_medium,hide,70,false,의식 매개 개체 상태 보정 자원
+fsr_ritual_medium_claw,ritual_medium,claw,65,false,의식 매개 개체 상태 보정 자원
+fsr_ritual_medium_blood_sample,ritual_medium,blood_sample,60,false,의식 매개 개체 상태 보정 자원
+fsr_record_value_hide,record_value,hide,70,false,기록 가치 개체 상태 보정 자원
+fsr_record_value_claw,record_value,claw,65,false,기록 가치 개체 상태 보정 자원
+fsr_record_value_blood_sample,record_value,blood_sample,60,false,기록 가치 개체 상태 보정 자원
+fsr_recovery_forbidden_hide,recovery_forbidden,hide,70,false,회수 금지 개체 상태 보정 자원
+fsr_recovery_forbidden_claw,recovery_forbidden,claw,65,false,회수 금지 개체 상태 보정 자원
+fsr_recovery_forbidden_blood_sample,recovery_forbidden,blood_sample,60,false,회수 금지 개체 상태 보정 자원
+fsr_civilian_disguised_hide,civilian_disguised,hide,70,false,민간인 위장 개체 상태 보정 자원
+fsr_civilian_disguised_claw,civilian_disguised,claw,65,false,민간인 위장 개체 상태 보정 자원
+fsr_civilian_disguised_blood_sample,civilian_disguised,blood_sample,60,false,민간인 위장 개체 상태 보정 자원
+fsr_infiltration_suspect_hide,infiltration_suspect,hide,70,false,침투 의심 개체 상태 보정 자원
+fsr_infiltration_suspect_claw,infiltration_suspect,claw,65,false,침투 의심 개체 상태 보정 자원
+fsr_infiltration_suspect_blood_sample,infiltration_suspect,blood_sample,60,false,침투 의심 개체 상태 보정 자원
+fsr_transport_lure_hide,transport_lure,hide,70,false,운송물 반응 개체 상태 보정 자원
+fsr_transport_lure_claw,transport_lure,claw,65,false,운송물 반응 개체 상태 보정 자원
+fsr_transport_lure_blood_sample,transport_lure,blood_sample,60,false,운송물 반응 개체 상태 보정 자원
+fsr_sanctuary_bound_hide,sanctuary_bound,hide,70,false,성역 결속 개체 상태 보정 자원
+fsr_sanctuary_bound_claw,sanctuary_bound,claw,65,false,성역 결속 개체 상태 보정 자원
+fsr_sanctuary_bound_blood_sample,sanctuary_bound,blood_sample,60,false,성역 결속 개체 상태 보정 자원
+fsr_portal_reactive_hide,portal_reactive,hide,70,false,포탈 반응 개체 상태 보정 자원
+fsr_portal_reactive_claw,portal_reactive,claw,65,false,포탈 반응 개체 상태 보정 자원
+fsr_portal_reactive_blood_sample,portal_reactive,blood_sample,60,false,포탈 반응 개체 상태 보정 자원
+fsr_resource_bearing_hide,resource_bearing,hide,70,false,자원 보유 개체 상태 보정 자원
+fsr_resource_bearing_claw,resource_bearing,claw,65,false,자원 보유 개체 상태 보정 자원
+fsr_resource_bearing_blood_sample,resource_bearing,blood_sample,60,false,자원 보유 개체 상태 보정 자원
+fsr_plague_bearer_hide,plague_bearer,hide,70,false,질병 매개 개체 상태 보정 자원
+fsr_plague_bearer_claw,plague_bearer,claw,65,false,질병 매개 개체 상태 보정 자원
+fsr_plague_bearer_blood_sample,plague_bearer,blood_sample,60,false,질병 매개 개체 상태 보정 자원
+fsr_escaped_experiment_hide,escaped_experiment,hide,70,false,실험 이탈 개체 상태 보정 자원
+fsr_escaped_experiment_claw,escaped_experiment,claw,65,false,실험 이탈 개체 상태 보정 자원
+fsr_escaped_experiment_blood_sample,escaped_experiment,blood_sample,60,false,실험 이탈 개체 상태 보정 자원
+fsr_controlled_asset_hide,controlled_asset,hide,70,false,통제 자산화 개체 상태 보정 자원
+fsr_controlled_asset_claw,controlled_asset,claw,65,false,통제 자산화 개체 상태 보정 자원
+fsr_controlled_asset_blood_sample,controlled_asset,blood_sample,60,false,통제 자산화 개체 상태 보정 자원
+fsr_unknown_classification_hide,unknown_classification,hide,70,false,분류 보류 개체 상태 보정 자원
+fsr_unknown_classification_claw,unknown_classification,claw,65,false,분류 보류 개체 상태 보정 자원
+fsr_unknown_classification_blood_sample,unknown_classification,blood_sample,60,false,분류 보류 개체 상태 보정 자원

@@ -1,0 +1,2091 @@
+﻿link_id,major_type_en,subtype_id,resource_id,weight,required,notes
+srl_aberration_001_psychic_tissue,Aberration,aberration_001,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_001_aberrant_tentacle,Aberration,aberration_001,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_001_ichor_sample,Aberration,aberration_001,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_001_brain,Aberration,aberration_001,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_001_slime_sample,Aberration,aberration_001,slime_sample,83,false,촉수 분류
+srl_aberration_001_blood_sample,Aberration,aberration_001,blood_sample,20,false,범용 보정 후보
+srl_aberration_001_hide,Aberration,aberration_001,hide,20,false,범용 보정 후보
+srl_aberration_001_claw,Aberration,aberration_001,claw,20,false,범용 보정 후보
+srl_aberration_002_psychic_tissue,Aberration,aberration_002,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_002_aberrant_tentacle,Aberration,aberration_002,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_002_ichor_sample,Aberration,aberration_002,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_002_brain,Aberration,aberration_002,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_002_blood_sample,Aberration,aberration_002,blood_sample,20,false,범용 보정 후보
+srl_aberration_002_hide,Aberration,aberration_002,hide,20,false,범용 보정 후보
+srl_aberration_002_claw,Aberration,aberration_002,claw,20,false,범용 보정 후보
+srl_aberration_003_psychic_tissue,Aberration,aberration_003,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_003_aberrant_tentacle,Aberration,aberration_003,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_003_ichor_sample,Aberration,aberration_003,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_003_brain,Aberration,aberration_003,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_003_eye,Aberration,aberration_003,eye,90,true,시선/광선 분류
+srl_aberration_003_blood_sample,Aberration,aberration_003,blood_sample,20,false,범용 보정 후보
+srl_aberration_003_hide,Aberration,aberration_003,hide,20,false,범용 보정 후보
+srl_aberration_003_claw,Aberration,aberration_003,claw,20,false,범용 보정 후보
+srl_aberration_004_psychic_tissue,Aberration,aberration_004,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_004_aberrant_tentacle,Aberration,aberration_004,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_004_ichor_sample,Aberration,aberration_004,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_004_brain,Aberration,aberration_004,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_004_slime_sample,Aberration,aberration_004,slime_sample,90,true,기생/공생 분류
+srl_aberration_004_blood_sample,Aberration,aberration_004,blood_sample,20,false,범용 보정 후보
+srl_aberration_004_hide,Aberration,aberration_004,hide,20,false,범용 보정 후보
+srl_aberration_004_claw,Aberration,aberration_004,claw,20,false,범용 보정 후보
+srl_aberration_005_psychic_tissue,Aberration,aberration_005,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_005_aberrant_tentacle,Aberration,aberration_005,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_005_ichor_sample,Aberration,aberration_005,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_005_brain,Aberration,aberration_005,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_005_slime_sample,Aberration,aberration_005,slime_sample,90,true,기생/공생 분류
+srl_aberration_005_blood_sample,Aberration,aberration_005,blood_sample,20,false,범용 보정 후보
+srl_aberration_005_hide,Aberration,aberration_005,hide,20,false,범용 보정 후보
+srl_aberration_005_claw,Aberration,aberration_005,claw,20,false,범용 보정 후보
+srl_aberration_006_psychic_tissue,Aberration,aberration_006,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_006_aberrant_tentacle,Aberration,aberration_006,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_006_ichor_sample,Aberration,aberration_006,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_006_brain,Aberration,aberration_006,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_006_blood_sample,Aberration,aberration_006,blood_sample,20,false,범용 보정 후보
+srl_aberration_006_hide,Aberration,aberration_006,hide,20,false,범용 보정 후보
+srl_aberration_006_claw,Aberration,aberration_006,claw,20,false,범용 보정 후보
+srl_aberration_007_psychic_tissue,Aberration,aberration_007,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_007_aberrant_tentacle,Aberration,aberration_007,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_007_ichor_sample,Aberration,aberration_007,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_007_brain,Aberration,aberration_007,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_007_blood_sample,Aberration,aberration_007,blood_sample,20,false,범용 보정 후보
+srl_aberration_007_hide,Aberration,aberration_007,hide,20,false,범용 보정 후보
+srl_aberration_007_claw,Aberration,aberration_007,claw,20,false,범용 보정 후보
+srl_aberration_008_psychic_tissue,Aberration,aberration_008,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_008_aberrant_tentacle,Aberration,aberration_008,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_008_ichor_sample,Aberration,aberration_008,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_008_brain,Aberration,aberration_008,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_008_slime_sample,Aberration,aberration_008,slime_sample,90,true,수중 분류
+srl_aberration_008_scale,Aberration,aberration_008,scale,83,false,수중 분류
+srl_aberration_008_claw,Aberration,aberration_008,claw,90,true,굴파기/지하 분류
+srl_aberration_008_hide,Aberration,aberration_008,hide,83,false,굴파기/지하 분류
+srl_aberration_008_blood_sample,Aberration,aberration_008,blood_sample,20,false,범용 보정 후보
+srl_aberration_009_psychic_tissue,Aberration,aberration_009,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_009_aberrant_tentacle,Aberration,aberration_009,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_009_ichor_sample,Aberration,aberration_009,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_009_brain,Aberration,aberration_009,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_009_blood_sample,Aberration,aberration_009,blood_sample,20,false,범용 보정 후보
+srl_aberration_009_hide,Aberration,aberration_009,hide,20,false,범용 보정 후보
+srl_aberration_009_claw,Aberration,aberration_009,claw,20,false,범용 보정 후보
+srl_aberration_010_psychic_tissue,Aberration,aberration_010,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_010_aberrant_tentacle,Aberration,aberration_010,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_010_ichor_sample,Aberration,aberration_010,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_010_brain,Aberration,aberration_010,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_010_blood_sample,Aberration,aberration_010,blood_sample,20,false,범용 보정 후보
+srl_aberration_010_hide,Aberration,aberration_010,hide,20,false,범용 보정 후보
+srl_aberration_010_claw,Aberration,aberration_010,claw,20,false,범용 보정 후보
+srl_aberration_011_psychic_tissue,Aberration,aberration_011,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_011_aberrant_tentacle,Aberration,aberration_011,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_011_ichor_sample,Aberration,aberration_011,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_011_brain,Aberration,aberration_011,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_011_eye,Aberration,aberration_011,eye,90,true,시선/광선 분류
+srl_aberration_011_blood_sample,Aberration,aberration_011,blood_sample,20,false,범용 보정 후보
+srl_aberration_011_hide,Aberration,aberration_011,hide,20,false,범용 보정 후보
+srl_aberration_011_claw,Aberration,aberration_011,claw,20,false,범용 보정 후보
+srl_aberration_012_psychic_tissue,Aberration,aberration_012,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_012_aberrant_tentacle,Aberration,aberration_012,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_012_ichor_sample,Aberration,aberration_012,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_012_brain,Aberration,aberration_012,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_012_eye,Aberration,aberration_012,eye,90,true,시선/광선 분류
+srl_aberration_012_blood_sample,Aberration,aberration_012,blood_sample,20,false,범용 보정 후보
+srl_aberration_012_hide,Aberration,aberration_012,hide,20,false,범용 보정 후보
+srl_aberration_012_claw,Aberration,aberration_012,claw,20,false,범용 보정 후보
+srl_aberration_013_psychic_tissue,Aberration,aberration_013,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_013_aberrant_tentacle,Aberration,aberration_013,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_013_ichor_sample,Aberration,aberration_013,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_013_brain,Aberration,aberration_013,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_013_blood_sample,Aberration,aberration_013,blood_sample,20,false,범용 보정 후보
+srl_aberration_013_hide,Aberration,aberration_013,hide,20,false,범용 보정 후보
+srl_aberration_013_claw,Aberration,aberration_013,claw,20,false,범용 보정 후보
+srl_aberration_014_psychic_tissue,Aberration,aberration_014,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_014_aberrant_tentacle,Aberration,aberration_014,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_014_ichor_sample,Aberration,aberration_014,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_014_brain,Aberration,aberration_014,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_014_fey_dust,Aberration,aberration_014,fey_dust,90,true,요정계 분류
+srl_aberration_014_fey_charm_fragment,Aberration,aberration_014,fey_charm_fragment,83,false,요정계 분류
+srl_aberration_014_dream_pollen,Aberration,aberration_014,dream_pollen,76,false,요정계 분류
+srl_aberration_014_blood_sample,Aberration,aberration_014,blood_sample,20,false,범용 보정 후보
+srl_aberration_014_hide,Aberration,aberration_014,hide,20,false,범용 보정 후보
+srl_aberration_014_claw,Aberration,aberration_014,claw,20,false,범용 보정 후보
+srl_aberration_015_psychic_tissue,Aberration,aberration_015,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_015_aberrant_tentacle,Aberration,aberration_015,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_015_ichor_sample,Aberration,aberration_015,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_015_brain,Aberration,aberration_015,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_015_blood_sample,Aberration,aberration_015,blood_sample,20,false,범용 보정 후보
+srl_aberration_015_hide,Aberration,aberration_015,hide,20,false,범용 보정 후보
+srl_aberration_015_claw,Aberration,aberration_015,claw,20,false,범용 보정 후보
+srl_aberration_016_psychic_tissue,Aberration,aberration_016,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_016_aberrant_tentacle,Aberration,aberration_016,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_016_ichor_sample,Aberration,aberration_016,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_016_brain,Aberration,aberration_016,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_016_eye,Aberration,aberration_016,eye,90,true,시선/광선 분류
+srl_aberration_016_blood_sample,Aberration,aberration_016,blood_sample,20,false,범용 보정 후보
+srl_aberration_016_hide,Aberration,aberration_016,hide,20,false,범용 보정 후보
+srl_aberration_016_claw,Aberration,aberration_016,claw,20,false,범용 보정 후보
+srl_aberration_017_psychic_tissue,Aberration,aberration_017,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_017_aberrant_tentacle,Aberration,aberration_017,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_017_ichor_sample,Aberration,aberration_017,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_017_brain,Aberration,aberration_017,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_017_slime_sample,Aberration,aberration_017,slime_sample,90,true,기생/공생 분류
+srl_aberration_017_blood_sample,Aberration,aberration_017,blood_sample,20,false,범용 보정 후보
+srl_aberration_017_hide,Aberration,aberration_017,hide,20,false,범용 보정 후보
+srl_aberration_017_claw,Aberration,aberration_017,claw,20,false,범용 보정 후보
+srl_aberration_018_psychic_tissue,Aberration,aberration_018,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_018_aberrant_tentacle,Aberration,aberration_018,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_018_ichor_sample,Aberration,aberration_018,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_018_brain,Aberration,aberration_018,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_018_blood_sample,Aberration,aberration_018,blood_sample,20,false,범용 보정 후보
+srl_aberration_018_hide,Aberration,aberration_018,hide,20,false,범용 보정 후보
+srl_aberration_018_claw,Aberration,aberration_018,claw,20,false,범용 보정 후보
+srl_aberration_019_psychic_tissue,Aberration,aberration_019,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_019_aberrant_tentacle,Aberration,aberration_019,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_019_ichor_sample,Aberration,aberration_019,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_019_brain,Aberration,aberration_019,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_019_ooze_core_sample,Aberration,aberration_019,ooze_core_sample,90,true,점액/산성 분류
+srl_aberration_019_acidic_slime,Aberration,aberration_019,acidic_slime,83,false,점액/산성 분류
+srl_aberration_019_slime_sample,Aberration,aberration_019,slime_sample,76,false,점액/산성 분류
+srl_aberration_019_acid_gland,Aberration,aberration_019,acid_gland,69,false,점액/산성 분류
+srl_aberration_019_scale,Aberration,aberration_019,scale,83,false,수중 분류
+srl_aberration_019_blood_sample,Aberration,aberration_019,blood_sample,20,false,범용 보정 후보
+srl_aberration_019_hide,Aberration,aberration_019,hide,20,false,범용 보정 후보
+srl_aberration_019_claw,Aberration,aberration_019,claw,20,false,범용 보정 후보
+srl_aberration_020_psychic_tissue,Aberration,aberration_020,psychic_tissue,65,true,Aberration 대분류 기본 자원
+srl_aberration_020_aberrant_tentacle,Aberration,aberration_020,aberrant_tentacle,60,false,Aberration 대분류 기본 자원
+srl_aberration_020_ichor_sample,Aberration,aberration_020,ichor_sample,55,false,Aberration 대분류 기본 자원
+srl_aberration_020_brain,Aberration,aberration_020,brain,50,false,Aberration 대분류 기본 자원
+srl_aberration_020_blood_sample,Aberration,aberration_020,blood_sample,20,false,범용 보정 후보
+srl_aberration_020_hide,Aberration,aberration_020,hide,20,false,범용 보정 후보
+srl_aberration_020_claw,Aberration,aberration_020,claw,20,false,범용 보정 후보
+srl_beast_001_quality_pelt,Beast,beast_001,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_001_predator_fang,Beast,beast_001,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_001_claw,Beast,beast_001,claw,55,false,Beast 대분류 기본 자원
+srl_beast_001_blood_sample,Beast,beast_001,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_001_venom_sac,Beast,beast_001,venom_sac,90,true,독성/질병 분류
+srl_beast_001_liver,Beast,beast_001,liver,76,false,독성/질병 분류
+srl_beast_001_hide,Beast,beast_001,hide,20,false,범용 보정 후보
+srl_beast_002_quality_pelt,Beast,beast_002,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_002_predator_fang,Beast,beast_002,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_002_claw,Beast,beast_002,claw,55,false,Beast 대분류 기본 자원
+srl_beast_002_blood_sample,Beast,beast_002,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_002_hide,Beast,beast_002,hide,20,false,범용 보정 후보
+srl_beast_003_quality_pelt,Beast,beast_003,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_003_predator_fang,Beast,beast_003,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_003_claw,Beast,beast_003,claw,55,false,Beast 대분류 기본 자원
+srl_beast_003_blood_sample,Beast,beast_003,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_003_hide,Beast,beast_003,hide,20,false,범용 보정 후보
+srl_beast_004_quality_pelt,Beast,beast_004,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_004_predator_fang,Beast,beast_004,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_004_claw,Beast,beast_004,claw,55,false,Beast 대분류 기본 자원
+srl_beast_004_blood_sample,Beast,beast_004,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_004_hide,Beast,beast_004,hide,20,false,범용 보정 후보
+srl_beast_005_quality_pelt,Beast,beast_005,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_005_predator_fang,Beast,beast_005,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_005_claw,Beast,beast_005,claw,55,false,Beast 대분류 기본 자원
+srl_beast_005_blood_sample,Beast,beast_005,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_005_feather,Beast,beast_005,feather,90,true,비행 분류
+srl_beast_005_wing_membrane,Beast,beast_005,wing_membrane,83,false,비행 분류
+srl_beast_005_hide,Beast,beast_005,hide,20,false,범용 보정 후보
+srl_beast_006_quality_pelt,Beast,beast_006,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_006_predator_fang,Beast,beast_006,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_006_claw,Beast,beast_006,claw,55,false,Beast 대분류 기본 자원
+srl_beast_006_blood_sample,Beast,beast_006,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_006_slime_sample,Beast,beast_006,slime_sample,90,true,수중 분류
+srl_beast_006_scale,Beast,beast_006,scale,83,false,수중 분류
+srl_beast_006_hide,Beast,beast_006,hide,20,false,범용 보정 후보
+srl_beast_007_quality_pelt,Beast,beast_007,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_007_predator_fang,Beast,beast_007,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_007_claw,Beast,beast_007,claw,55,false,Beast 대분류 기본 자원
+srl_beast_007_blood_sample,Beast,beast_007,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_007_venom_sac,Beast,beast_007,venom_sac,90,true,독성/질병 분류
+srl_beast_007_liver,Beast,beast_007,liver,76,false,독성/질병 분류
+srl_beast_007_slime_sample,Beast,beast_007,slime_sample,90,true,수중 분류
+srl_beast_007_scale,Beast,beast_007,scale,83,false,수중 분류
+srl_beast_007_hide,Beast,beast_007,hide,20,false,범용 보정 후보
+srl_beast_008_quality_pelt,Beast,beast_008,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_008_predator_fang,Beast,beast_008,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_008_claw,Beast,beast_008,claw,55,false,Beast 대분류 기본 자원
+srl_beast_008_blood_sample,Beast,beast_008,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_008_slime_sample,Beast,beast_008,slime_sample,90,true,수중 분류
+srl_beast_008_scale,Beast,beast_008,scale,83,false,수중 분류
+srl_beast_008_hide,Beast,beast_008,hide,20,false,범용 보정 후보
+srl_beast_009_quality_pelt,Beast,beast_009,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_009_predator_fang,Beast,beast_009,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_009_claw,Beast,beast_009,claw,55,false,Beast 대분류 기본 자원
+srl_beast_009_blood_sample,Beast,beast_009,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_009_chitin,Beast,beast_009,chitin,90,true,절지/곤충 분류
+srl_beast_009_venom_sac,Beast,beast_009,venom_sac,83,false,절지/곤충 분류
+srl_beast_009_spore_sac,Beast,beast_009,spore_sac,69,false,절지/곤충 분류
+srl_beast_009_liver,Beast,beast_009,liver,76,false,독성/질병 분류
+srl_beast_009_hide,Beast,beast_009,hide,20,false,범용 보정 후보
+srl_beast_010_quality_pelt,Beast,beast_010,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_010_predator_fang,Beast,beast_010,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_010_claw,Beast,beast_010,claw,55,false,Beast 대분류 기본 자원
+srl_beast_010_blood_sample,Beast,beast_010,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_010_chitin,Beast,beast_010,chitin,90,true,절지/곤충 분류
+srl_beast_010_venom_sac,Beast,beast_010,venom_sac,83,false,절지/곤충 분류
+srl_beast_010_spore_sac,Beast,beast_010,spore_sac,69,false,절지/곤충 분류
+srl_beast_010_liver,Beast,beast_010,liver,76,false,독성/질병 분류
+srl_beast_010_hide,Beast,beast_010,hide,20,false,범용 보정 후보
+srl_beast_011_quality_pelt,Beast,beast_011,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_011_predator_fang,Beast,beast_011,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_011_claw,Beast,beast_011,claw,55,false,Beast 대분류 기본 자원
+srl_beast_011_blood_sample,Beast,beast_011,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_011_hide,Beast,beast_011,hide,20,false,범용 보정 후보
+srl_beast_012_quality_pelt,Beast,beast_012,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_012_predator_fang,Beast,beast_012,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_012_claw,Beast,beast_012,claw,55,false,Beast 대분류 기본 자원
+srl_beast_012_blood_sample,Beast,beast_012,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_012_venom_sac,Beast,beast_012,venom_sac,90,true,독성/질병 분류
+srl_beast_012_liver,Beast,beast_012,liver,76,false,독성/질병 분류
+srl_beast_012_slime_sample,Beast,beast_012,slime_sample,90,true,수중 분류
+srl_beast_012_scale,Beast,beast_012,scale,83,false,수중 분류
+srl_beast_012_hide,Beast,beast_012,hide,20,false,범용 보정 후보
+srl_beast_013_quality_pelt,Beast,beast_013,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_013_predator_fang,Beast,beast_013,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_013_claw,Beast,beast_013,claw,55,false,Beast 대분류 기본 자원
+srl_beast_013_blood_sample,Beast,beast_013,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_013_venom_sac,Beast,beast_013,venom_sac,90,true,독성/질병 분류
+srl_beast_013_liver,Beast,beast_013,liver,76,false,독성/질병 분류
+srl_beast_013_slime_sample,Beast,beast_013,slime_sample,90,true,기생/공생 분류
+srl_beast_013_brain,Beast,beast_013,brain,76,false,기생/공생 분류
+srl_beast_013_ichor_sample,Beast,beast_013,ichor_sample,69,false,기생/공생 분류
+srl_beast_013_scale,Beast,beast_013,scale,83,false,수중 분류
+srl_beast_013_hide,Beast,beast_013,hide,20,false,범용 보정 후보
+srl_beast_014_quality_pelt,Beast,beast_014,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_014_predator_fang,Beast,beast_014,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_014_claw,Beast,beast_014,claw,55,false,Beast 대분류 기본 자원
+srl_beast_014_blood_sample,Beast,beast_014,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_014_dragon_scale,Beast,beast_014,dragon_scale,90,true,용종 분류
+srl_beast_014_dragon_blood,Beast,beast_014,dragon_blood,83,false,용종 분류
+srl_beast_014_dragon_breath_sac,Beast,beast_014,dragon_breath_sac,76,false,용종 분류
+srl_beast_014_dragon_horn,Beast,beast_014,dragon_horn,69,false,용종 분류
+srl_beast_014_hide,Beast,beast_014,hide,20,false,범용 보정 후보
+srl_beast_015_quality_pelt,Beast,beast_015,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_015_predator_fang,Beast,beast_015,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_015_claw,Beast,beast_015,claw,55,false,Beast 대분류 기본 자원
+srl_beast_015_blood_sample,Beast,beast_015,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_015_hide,Beast,beast_015,hide,83,false,굴파기/지하 분류
+srl_beast_016_quality_pelt,Beast,beast_016,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_016_predator_fang,Beast,beast_016,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_016_claw,Beast,beast_016,claw,55,false,Beast 대분류 기본 자원
+srl_beast_016_blood_sample,Beast,beast_016,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_016_living_seed,Beast,beast_016,living_seed,90,true,식물/균류 분류
+srl_beast_016_animated_root,Beast,beast_016,animated_root,83,false,식물/균류 분류
+srl_beast_016_spore_sac,Beast,beast_016,spore_sac,76,false,식물/균류 분류
+srl_beast_016_fungal_mycelium,Beast,beast_016,fungal_mycelium,69,false,식물/균류 분류
+srl_beast_016_hide,Beast,beast_016,hide,20,false,범용 보정 후보
+srl_beast_017_quality_pelt,Beast,beast_017,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_017_predator_fang,Beast,beast_017,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_017_claw,Beast,beast_017,claw,55,false,Beast 대분류 기본 자원
+srl_beast_017_blood_sample,Beast,beast_017,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_017_hide,Beast,beast_017,hide,20,false,범용 보정 후보
+srl_beast_018_quality_pelt,Beast,beast_018,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_018_predator_fang,Beast,beast_018,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_018_claw,Beast,beast_018,claw,55,false,Beast 대분류 기본 자원
+srl_beast_018_blood_sample,Beast,beast_018,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_018_hide,Beast,beast_018,hide,20,false,범용 보정 후보
+srl_beast_019_quality_pelt,Beast,beast_019,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_019_predator_fang,Beast,beast_019,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_019_claw,Beast,beast_019,claw,55,false,Beast 대분류 기본 자원
+srl_beast_019_blood_sample,Beast,beast_019,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_019_hide,Beast,beast_019,hide,20,false,범용 보정 후보
+srl_beast_020_quality_pelt,Beast,beast_020,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_020_predator_fang,Beast,beast_020,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_020_claw,Beast,beast_020,claw,55,false,Beast 대분류 기본 자원
+srl_beast_020_blood_sample,Beast,beast_020,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_020_slime_sample,Beast,beast_020,slime_sample,90,true,수중 분류
+srl_beast_020_scale,Beast,beast_020,scale,83,false,수중 분류
+srl_beast_020_hide,Beast,beast_020,hide,20,false,범용 보정 후보
+srl_beast_021_quality_pelt,Beast,beast_021,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_021_predator_fang,Beast,beast_021,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_021_claw,Beast,beast_021,claw,55,false,Beast 대분류 기본 자원
+srl_beast_021_blood_sample,Beast,beast_021,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_021_hide,Beast,beast_021,hide,20,false,범용 보정 후보
+srl_beast_022_quality_pelt,Beast,beast_022,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_022_predator_fang,Beast,beast_022,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_022_claw,Beast,beast_022,claw,55,false,Beast 대분류 기본 자원
+srl_beast_022_blood_sample,Beast,beast_022,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_022_hide,Beast,beast_022,hide,20,false,범용 보정 후보
+srl_beast_023_quality_pelt,Beast,beast_023,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_023_predator_fang,Beast,beast_023,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_023_claw,Beast,beast_023,claw,55,false,Beast 대분류 기본 자원
+srl_beast_023_blood_sample,Beast,beast_023,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_023_chitin,Beast,beast_023,chitin,90,true,절지/곤충 분류
+srl_beast_023_venom_sac,Beast,beast_023,venom_sac,83,false,절지/곤충 분류
+srl_beast_023_spore_sac,Beast,beast_023,spore_sac,69,false,절지/곤충 분류
+srl_beast_023_construct_gear,Beast,beast_023,construct_gear,90,true,구조체/장갑 분류
+srl_beast_023_arcane_circuit,Beast,beast_023,arcane_circuit,83,false,구조체/장갑 분류
+srl_beast_023_animated_armor_plate,Beast,beast_023,animated_armor_plate,76,false,구조체/장갑 분류
+srl_beast_023_golem_core_chip,Beast,beast_023,golem_core_chip,69,false,구조체/장갑 분류
+srl_beast_023_hide,Beast,beast_023,hide,20,false,범용 보정 후보
+srl_beast_024_quality_pelt,Beast,beast_024,quality_pelt,65,true,Beast 대분류 기본 자원
+srl_beast_024_predator_fang,Beast,beast_024,predator_fang,60,false,Beast 대분류 기본 자원
+srl_beast_024_claw,Beast,beast_024,claw,55,false,Beast 대분류 기본 자원
+srl_beast_024_blood_sample,Beast,beast_024,blood_sample,50,false,Beast 대분류 기본 자원
+srl_beast_024_hide,Beast,beast_024,hide,20,false,범용 보정 후보
+srl_celestial_001_radiant_essence,Celestial,celestial_001,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_001_celestial_feather,Celestial,celestial_001,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_001_sanctified_bone,Celestial,celestial_001,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_001_blood_sample,Celestial,celestial_001,blood_sample,20,false,범용 보정 후보
+srl_celestial_001_hide,Celestial,celestial_001,hide,20,false,범용 보정 후보
+srl_celestial_001_claw,Celestial,celestial_001,claw,20,false,범용 보정 후보
+srl_celestial_002_radiant_essence,Celestial,celestial_002,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_002_celestial_feather,Celestial,celestial_002,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_002_sanctified_bone,Celestial,celestial_002,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_002_blood_sample,Celestial,celestial_002,blood_sample,20,false,범용 보정 후보
+srl_celestial_002_hide,Celestial,celestial_002,hide,20,false,범용 보정 후보
+srl_celestial_002_claw,Celestial,celestial_002,claw,20,false,범용 보정 후보
+srl_celestial_003_radiant_essence,Celestial,celestial_003,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_003_celestial_feather,Celestial,celestial_003,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_003_sanctified_bone,Celestial,celestial_003,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_003_fey_dust,Celestial,celestial_003,fey_dust,90,true,요정계 분류
+srl_celestial_003_fey_charm_fragment,Celestial,celestial_003,fey_charm_fragment,83,false,요정계 분류
+srl_celestial_003_dream_pollen,Celestial,celestial_003,dream_pollen,76,false,요정계 분류
+srl_celestial_003_fiendish_blood,Celestial,celestial_003,fiendish_blood,90,true,악마체 분류
+srl_celestial_003_soul_ash,Celestial,celestial_003,soul_ash,83,false,악마체 분류
+srl_celestial_003_infernal_chain_link,Celestial,celestial_003,infernal_chain_link,76,false,악마체 분류
+srl_celestial_003_slime_sample,Celestial,celestial_003,slime_sample,90,true,수중 분류
+srl_celestial_003_scale,Celestial,celestial_003,scale,83,false,수중 분류
+srl_celestial_003_blood_sample,Celestial,celestial_003,blood_sample,20,false,범용 보정 후보
+srl_celestial_003_hide,Celestial,celestial_003,hide,20,false,범용 보정 후보
+srl_celestial_003_claw,Celestial,celestial_003,claw,20,false,범용 보정 후보
+srl_celestial_004_radiant_essence,Celestial,celestial_004,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_004_celestial_feather,Celestial,celestial_004,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_004_sanctified_bone,Celestial,celestial_004,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_004_blood_sample,Celestial,celestial_004,blood_sample,20,false,범용 보정 후보
+srl_celestial_004_hide,Celestial,celestial_004,hide,20,false,범용 보정 후보
+srl_celestial_004_claw,Celestial,celestial_004,claw,20,false,범용 보정 후보
+srl_celestial_005_radiant_essence,Celestial,celestial_005,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_005_celestial_feather,Celestial,celestial_005,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_005_sanctified_bone,Celestial,celestial_005,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_005_blood_sample,Celestial,celestial_005,blood_sample,20,false,범용 보정 후보
+srl_celestial_005_hide,Celestial,celestial_005,hide,20,false,범용 보정 후보
+srl_celestial_005_claw,Celestial,celestial_005,claw,20,false,범용 보정 후보
+srl_celestial_006_radiant_essence,Celestial,celestial_006,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_006_celestial_feather,Celestial,celestial_006,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_006_sanctified_bone,Celestial,celestial_006,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_006_blood_sample,Celestial,celestial_006,blood_sample,20,false,범용 보정 후보
+srl_celestial_006_hide,Celestial,celestial_006,hide,20,false,범용 보정 후보
+srl_celestial_006_claw,Celestial,celestial_006,claw,20,false,범용 보정 후보
+srl_celestial_007_radiant_essence,Celestial,celestial_007,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_007_celestial_feather,Celestial,celestial_007,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_007_sanctified_bone,Celestial,celestial_007,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_007_blood_sample,Celestial,celestial_007,blood_sample,20,false,범용 보정 후보
+srl_celestial_007_hide,Celestial,celestial_007,hide,20,false,범용 보정 후보
+srl_celestial_007_claw,Celestial,celestial_007,claw,20,false,범용 보정 후보
+srl_celestial_008_radiant_essence,Celestial,celestial_008,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_008_celestial_feather,Celestial,celestial_008,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_008_sanctified_bone,Celestial,celestial_008,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_008_fey_dust,Celestial,celestial_008,fey_dust,90,true,요정계 분류
+srl_celestial_008_fey_charm_fragment,Celestial,celestial_008,fey_charm_fragment,83,false,요정계 분류
+srl_celestial_008_dream_pollen,Celestial,celestial_008,dream_pollen,76,false,요정계 분류
+srl_celestial_008_fiendish_blood,Celestial,celestial_008,fiendish_blood,90,true,악마체 분류
+srl_celestial_008_soul_ash,Celestial,celestial_008,soul_ash,83,false,악마체 분류
+srl_celestial_008_infernal_chain_link,Celestial,celestial_008,infernal_chain_link,76,false,악마체 분류
+srl_celestial_008_blood_sample,Celestial,celestial_008,blood_sample,20,false,범용 보정 후보
+srl_celestial_008_hide,Celestial,celestial_008,hide,20,false,범용 보정 후보
+srl_celestial_008_claw,Celestial,celestial_008,claw,20,false,범용 보정 후보
+srl_celestial_009_radiant_essence,Celestial,celestial_009,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_009_celestial_feather,Celestial,celestial_009,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_009_sanctified_bone,Celestial,celestial_009,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_009_blood_sample,Celestial,celestial_009,blood_sample,20,false,범용 보정 후보
+srl_celestial_009_hide,Celestial,celestial_009,hide,20,false,범용 보정 후보
+srl_celestial_009_claw,Celestial,celestial_009,claw,20,false,범용 보정 후보
+srl_celestial_010_radiant_essence,Celestial,celestial_010,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_010_celestial_feather,Celestial,celestial_010,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_010_sanctified_bone,Celestial,celestial_010,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_010_psychic_tissue,Celestial,celestial_010,psychic_tissue,90,true,정신/환각 분류
+srl_celestial_010_brain,Celestial,celestial_010,brain,83,false,정신/환각 분류
+srl_celestial_010_fey_dust,Celestial,celestial_010,fey_dust,90,true,요정계 분류
+srl_celestial_010_fey_charm_fragment,Celestial,celestial_010,fey_charm_fragment,83,false,요정계 분류
+srl_celestial_010_dream_pollen,Celestial,celestial_010,dream_pollen,76,false,요정계 분류
+srl_celestial_010_blood_sample,Celestial,celestial_010,blood_sample,20,false,범용 보정 후보
+srl_celestial_010_hide,Celestial,celestial_010,hide,20,false,범용 보정 후보
+srl_celestial_010_claw,Celestial,celestial_010,claw,20,false,범용 보정 후보
+srl_celestial_011_radiant_essence,Celestial,celestial_011,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_011_celestial_feather,Celestial,celestial_011,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_011_sanctified_bone,Celestial,celestial_011,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_011_blood_sample,Celestial,celestial_011,blood_sample,20,false,범용 보정 후보
+srl_celestial_011_hide,Celestial,celestial_011,hide,20,false,범용 보정 후보
+srl_celestial_011_claw,Celestial,celestial_011,claw,20,false,범용 보정 후보
+srl_celestial_012_radiant_essence,Celestial,celestial_012,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_012_celestial_feather,Celestial,celestial_012,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_012_sanctified_bone,Celestial,celestial_012,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_012_blood_sample,Celestial,celestial_012,blood_sample,20,false,범용 보정 후보
+srl_celestial_012_hide,Celestial,celestial_012,hide,20,false,범용 보정 후보
+srl_celestial_012_claw,Celestial,celestial_012,claw,20,false,범용 보정 후보
+srl_celestial_013_radiant_essence,Celestial,celestial_013,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_013_celestial_feather,Celestial,celestial_013,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_013_sanctified_bone,Celestial,celestial_013,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_013_blood_sample,Celestial,celestial_013,blood_sample,20,false,범용 보정 후보
+srl_celestial_013_hide,Celestial,celestial_013,hide,20,false,범용 보정 후보
+srl_celestial_013_claw,Celestial,celestial_013,claw,20,false,범용 보정 후보
+srl_celestial_014_radiant_essence,Celestial,celestial_014,radiant_essence,65,true,Celestial 대분류 기본 자원
+srl_celestial_014_celestial_feather,Celestial,celestial_014,celestial_feather,60,false,Celestial 대분류 기본 자원
+srl_celestial_014_sanctified_bone,Celestial,celestial_014,sanctified_bone,55,false,Celestial 대분류 기본 자원
+srl_celestial_014_blood_sample,Celestial,celestial_014,blood_sample,20,false,범용 보정 후보
+srl_celestial_014_hide,Celestial,celestial_014,hide,20,false,범용 보정 후보
+srl_celestial_014_claw,Celestial,celestial_014,claw,20,false,범용 보정 후보
+srl_construct_001_arcane_circuit,Construct,construct_001,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_001_construct_gear,Construct,construct_001,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_001_animated_armor_plate,Construct,construct_001,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_001_golem_core_chip,Construct,construct_001,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_002_arcane_circuit,Construct,construct_002,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_002_construct_gear,Construct,construct_002,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_002_animated_armor_plate,Construct,construct_002,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_002_golem_core_chip,Construct,construct_002,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_003_arcane_circuit,Construct,construct_003,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_003_construct_gear,Construct,construct_003,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_003_animated_armor_plate,Construct,construct_003,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_003_golem_core_chip,Construct,construct_003,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_004_arcane_circuit,Construct,construct_004,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_004_construct_gear,Construct,construct_004,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_004_animated_armor_plate,Construct,construct_004,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_004_golem_core_chip,Construct,construct_004,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_004_dragon_scale,Construct,construct_004,dragon_scale,90,true,용종 분류
+srl_construct_004_dragon_blood,Construct,construct_004,dragon_blood,83,false,용종 분류
+srl_construct_004_dragon_breath_sac,Construct,construct_004,dragon_breath_sac,76,false,용종 분류
+srl_construct_004_dragon_horn,Construct,construct_004,dragon_horn,69,false,용종 분류
+srl_construct_005_arcane_circuit,Construct,construct_005,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_005_construct_gear,Construct,construct_005,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_005_animated_armor_plate,Construct,construct_005,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_005_golem_core_chip,Construct,construct_005,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_006_arcane_circuit,Construct,construct_006,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_006_construct_gear,Construct,construct_006,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_006_animated_armor_plate,Construct,construct_006,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_006_golem_core_chip,Construct,construct_006,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_007_arcane_circuit,Construct,construct_007,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_007_construct_gear,Construct,construct_007,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_007_animated_armor_plate,Construct,construct_007,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_007_golem_core_chip,Construct,construct_007,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_008_arcane_circuit,Construct,construct_008,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_008_construct_gear,Construct,construct_008,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_008_animated_armor_plate,Construct,construct_008,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_008_golem_core_chip,Construct,construct_008,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_009_arcane_circuit,Construct,construct_009,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_009_construct_gear,Construct,construct_009,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_009_animated_armor_plate,Construct,construct_009,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_009_golem_core_chip,Construct,construct_009,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_010_arcane_circuit,Construct,construct_010,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_010_construct_gear,Construct,construct_010,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_010_animated_armor_plate,Construct,construct_010,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_010_golem_core_chip,Construct,construct_010,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_010_slime_sample,Construct,construct_010,slime_sample,90,true,수중 분류
+srl_construct_010_scale,Construct,construct_010,scale,83,false,수중 분류
+srl_construct_011_arcane_circuit,Construct,construct_011,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_011_construct_gear,Construct,construct_011,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_011_animated_armor_plate,Construct,construct_011,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_011_golem_core_chip,Construct,construct_011,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_012_arcane_circuit,Construct,construct_012,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_012_construct_gear,Construct,construct_012,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_012_animated_armor_plate,Construct,construct_012,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_012_golem_core_chip,Construct,construct_012,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_012_slime_sample,Construct,construct_012,slime_sample,90,true,수중 분류
+srl_construct_012_scale,Construct,construct_012,scale,83,false,수중 분류
+srl_construct_013_arcane_circuit,Construct,construct_013,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_013_construct_gear,Construct,construct_013,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_013_animated_armor_plate,Construct,construct_013,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_013_golem_core_chip,Construct,construct_013,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_014_arcane_circuit,Construct,construct_014,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_014_construct_gear,Construct,construct_014,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_014_animated_armor_plate,Construct,construct_014,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_014_golem_core_chip,Construct,construct_014,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_014_elemental_ember,Construct,construct_014,elemental_ember,90,true,화염 분류
+srl_construct_014_elemental_core,Construct,construct_014,elemental_core,83,false,화염 분류
+srl_construct_014_blackened_hide_piece,Construct,construct_014,blackened_hide_piece,76,false,화염 분류
+srl_construct_015_arcane_circuit,Construct,construct_015,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_015_construct_gear,Construct,construct_015,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_015_animated_armor_plate,Construct,construct_015,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_015_golem_core_chip,Construct,construct_015,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_016_arcane_circuit,Construct,construct_016,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_016_construct_gear,Construct,construct_016,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_016_animated_armor_plate,Construct,construct_016,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_016_golem_core_chip,Construct,construct_016,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_017_arcane_circuit,Construct,construct_017,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_017_construct_gear,Construct,construct_017,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_017_animated_armor_plate,Construct,construct_017,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_017_golem_core_chip,Construct,construct_017,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_construct_017_dragon_scale,Construct,construct_017,dragon_scale,90,true,용종 분류
+srl_construct_017_dragon_blood,Construct,construct_017,dragon_blood,83,false,용종 분류
+srl_construct_017_dragon_breath_sac,Construct,construct_017,dragon_breath_sac,76,false,용종 분류
+srl_construct_017_dragon_horn,Construct,construct_017,dragon_horn,69,false,용종 분류
+srl_construct_018_arcane_circuit,Construct,construct_018,arcane_circuit,65,true,Construct 대분류 기본 자원
+srl_construct_018_construct_gear,Construct,construct_018,construct_gear,60,false,Construct 대분류 기본 자원
+srl_construct_018_animated_armor_plate,Construct,construct_018,animated_armor_plate,55,false,Construct 대분류 기본 자원
+srl_construct_018_golem_core_chip,Construct,construct_018,golem_core_chip,50,false,Construct 대분류 기본 자원
+srl_dragon_001_dragon_scale,Dragon,dragon_001,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_001_dragon_blood,Dragon,dragon_001,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_001_dragon_horn,Dragon,dragon_001,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_001_dragon_breath_sac,Dragon,dragon_001,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_001_blood_sample,Dragon,dragon_001,blood_sample,20,false,범용 보정 후보
+srl_dragon_001_hide,Dragon,dragon_001,hide,20,false,범용 보정 후보
+srl_dragon_001_claw,Dragon,dragon_001,claw,20,false,범용 보정 후보
+srl_dragon_002_dragon_scale,Dragon,dragon_002,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_002_dragon_blood,Dragon,dragon_002,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_002_dragon_horn,Dragon,dragon_002,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_002_dragon_breath_sac,Dragon,dragon_002,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_002_blood_sample,Dragon,dragon_002,blood_sample,20,false,범용 보정 후보
+srl_dragon_002_hide,Dragon,dragon_002,hide,20,false,범용 보정 후보
+srl_dragon_002_claw,Dragon,dragon_002,claw,20,false,범용 보정 후보
+srl_dragon_003_dragon_scale,Dragon,dragon_003,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_003_dragon_blood,Dragon,dragon_003,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_003_dragon_horn,Dragon,dragon_003,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_003_dragon_breath_sac,Dragon,dragon_003,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_003_psychic_tissue,Dragon,dragon_003,psychic_tissue,90,true,정신/환각 분류
+srl_dragon_003_brain,Dragon,dragon_003,brain,83,false,정신/환각 분류
+srl_dragon_003_blood_sample,Dragon,dragon_003,blood_sample,20,false,범용 보정 후보
+srl_dragon_003_hide,Dragon,dragon_003,hide,20,false,범용 보정 후보
+srl_dragon_003_claw,Dragon,dragon_003,claw,20,false,범용 보정 후보
+srl_dragon_004_dragon_scale,Dragon,dragon_004,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_004_dragon_blood,Dragon,dragon_004,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_004_dragon_horn,Dragon,dragon_004,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_004_dragon_breath_sac,Dragon,dragon_004,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_004_blood_sample,Dragon,dragon_004,blood_sample,20,false,범용 보정 후보
+srl_dragon_004_hide,Dragon,dragon_004,hide,20,false,범용 보정 후보
+srl_dragon_004_claw,Dragon,dragon_004,claw,20,false,범용 보정 후보
+srl_dragon_005_dragon_scale,Dragon,dragon_005,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_005_dragon_blood,Dragon,dragon_005,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_005_dragon_horn,Dragon,dragon_005,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_005_dragon_breath_sac,Dragon,dragon_005,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_005_feather,Dragon,dragon_005,feather,90,true,비행 분류
+srl_dragon_005_wing_membrane,Dragon,dragon_005,wing_membrane,83,false,비행 분류
+srl_dragon_005_claw,Dragon,dragon_005,claw,76,false,비행 분류
+srl_dragon_005_blood_sample,Dragon,dragon_005,blood_sample,20,false,범용 보정 후보
+srl_dragon_005_hide,Dragon,dragon_005,hide,20,false,범용 보정 후보
+srl_dragon_006_dragon_scale,Dragon,dragon_006,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_006_dragon_blood,Dragon,dragon_006,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_006_dragon_horn,Dragon,dragon_006,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_006_dragon_breath_sac,Dragon,dragon_006,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_006_blood_sample,Dragon,dragon_006,blood_sample,20,false,범용 보정 후보
+srl_dragon_006_hide,Dragon,dragon_006,hide,20,false,범용 보정 후보
+srl_dragon_006_claw,Dragon,dragon_006,claw,20,false,범용 보정 후보
+srl_dragon_007_dragon_scale,Dragon,dragon_007,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_007_dragon_blood,Dragon,dragon_007,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_007_dragon_horn,Dragon,dragon_007,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_007_dragon_breath_sac,Dragon,dragon_007,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_007_blood_sample,Dragon,dragon_007,blood_sample,20,false,범용 보정 후보
+srl_dragon_007_hide,Dragon,dragon_007,hide,20,false,범용 보정 후보
+srl_dragon_007_claw,Dragon,dragon_007,claw,20,false,범용 보정 후보
+srl_dragon_008_dragon_scale,Dragon,dragon_008,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_008_dragon_blood,Dragon,dragon_008,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_008_dragon_horn,Dragon,dragon_008,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_008_dragon_breath_sac,Dragon,dragon_008,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_008_slime_sample,Dragon,dragon_008,slime_sample,90,true,수중 분류
+srl_dragon_008_scale,Dragon,dragon_008,scale,83,false,수중 분류
+srl_dragon_008_blood_sample,Dragon,dragon_008,blood_sample,20,false,범용 보정 후보
+srl_dragon_008_hide,Dragon,dragon_008,hide,20,false,범용 보정 후보
+srl_dragon_008_claw,Dragon,dragon_008,claw,20,false,범용 보정 후보
+srl_dragon_009_dragon_scale,Dragon,dragon_009,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_009_dragon_blood,Dragon,dragon_009,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_009_dragon_horn,Dragon,dragon_009,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_009_dragon_breath_sac,Dragon,dragon_009,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_009_blood_sample,Dragon,dragon_009,blood_sample,20,false,범용 보정 후보
+srl_dragon_009_hide,Dragon,dragon_009,hide,20,false,범용 보정 후보
+srl_dragon_009_claw,Dragon,dragon_009,claw,20,false,범용 보정 후보
+srl_dragon_010_dragon_scale,Dragon,dragon_010,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_010_dragon_blood,Dragon,dragon_010,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_010_dragon_horn,Dragon,dragon_010,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_010_dragon_breath_sac,Dragon,dragon_010,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_010_blood_sample,Dragon,dragon_010,blood_sample,20,false,범용 보정 후보
+srl_dragon_010_hide,Dragon,dragon_010,hide,20,false,범용 보정 후보
+srl_dragon_010_claw,Dragon,dragon_010,claw,20,false,범용 보정 후보
+srl_dragon_011_dragon_scale,Dragon,dragon_011,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_011_dragon_blood,Dragon,dragon_011,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_011_dragon_horn,Dragon,dragon_011,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_011_dragon_breath_sac,Dragon,dragon_011,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_011_slime_sample,Dragon,dragon_011,slime_sample,90,true,수중 분류
+srl_dragon_011_scale,Dragon,dragon_011,scale,83,false,수중 분류
+srl_dragon_011_blood_sample,Dragon,dragon_011,blood_sample,20,false,범용 보정 후보
+srl_dragon_011_hide,Dragon,dragon_011,hide,20,false,범용 보정 후보
+srl_dragon_011_claw,Dragon,dragon_011,claw,20,false,범용 보정 후보
+srl_dragon_012_dragon_scale,Dragon,dragon_012,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_012_dragon_blood,Dragon,dragon_012,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_012_dragon_horn,Dragon,dragon_012,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_012_dragon_breath_sac,Dragon,dragon_012,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_012_blood_sample,Dragon,dragon_012,blood_sample,20,false,범용 보정 후보
+srl_dragon_012_hide,Dragon,dragon_012,hide,20,false,범용 보정 후보
+srl_dragon_012_claw,Dragon,dragon_012,claw,20,false,범용 보정 후보
+srl_dragon_013_dragon_scale,Dragon,dragon_013,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_013_dragon_blood,Dragon,dragon_013,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_013_dragon_horn,Dragon,dragon_013,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_013_dragon_breath_sac,Dragon,dragon_013,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_013_elemental_ember,Dragon,dragon_013,elemental_ember,90,true,화염 분류
+srl_dragon_013_elemental_core,Dragon,dragon_013,elemental_core,83,false,화염 분류
+srl_dragon_013_blackened_hide_piece,Dragon,dragon_013,blackened_hide_piece,76,false,화염 분류
+srl_dragon_013_elemental_ice_core,Dragon,dragon_013,elemental_ice_core,90,true,냉기 분류
+srl_dragon_013_crystal_blood,Dragon,dragon_013,crystal_blood,76,false,냉기 분류
+srl_dragon_013_elemental_residue,Dragon,dragon_013,elemental_residue,83,false,번개/폭풍 분류
+srl_dragon_013_crystal_organ_piece,Dragon,dragon_013,crystal_organ_piece,76,false,번개/폭풍 분류
+srl_dragon_013_blood_sample,Dragon,dragon_013,blood_sample,20,false,범용 보정 후보
+srl_dragon_013_hide,Dragon,dragon_013,hide,20,false,범용 보정 후보
+srl_dragon_013_claw,Dragon,dragon_013,claw,20,false,범용 보정 후보
+srl_dragon_014_dragon_scale,Dragon,dragon_014,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_014_dragon_blood,Dragon,dragon_014,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_014_dragon_horn,Dragon,dragon_014,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_014_dragon_breath_sac,Dragon,dragon_014,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_014_grave_dust,Dragon,dragon_014,grave_dust,90,true,시체형/부패형 분류
+srl_dragon_014_blackened_organ_piece,Dragon,dragon_014,blackened_organ_piece,83,false,시체형/부패형 분류
+srl_dragon_014_necrotic_bone,Dragon,dragon_014,necrotic_bone,76,false,시체형/부패형 분류
+srl_dragon_014_blood_sample,Dragon,dragon_014,blood_sample,69,false,시체형/부패형 분류
+srl_dragon_014_ichor_sample,Dragon,dragon_014,ichor_sample,62,false,시체형/부패형 분류
+srl_dragon_014_ooze_core_sample,Dragon,dragon_014,ooze_core_sample,90,true,점액/산성 분류
+srl_dragon_014_acidic_slime,Dragon,dragon_014,acidic_slime,83,false,점액/산성 분류
+srl_dragon_014_slime_sample,Dragon,dragon_014,slime_sample,76,false,점액/산성 분류
+srl_dragon_014_acid_gland,Dragon,dragon_014,acid_gland,69,false,점액/산성 분류
+srl_dragon_014_venom_sac,Dragon,dragon_014,venom_sac,90,true,독성/질병 분류
+srl_dragon_014_liver,Dragon,dragon_014,liver,76,false,독성/질병 분류
+srl_dragon_014_hide,Dragon,dragon_014,hide,20,false,범용 보정 후보
+srl_dragon_014_claw,Dragon,dragon_014,claw,20,false,범용 보정 후보
+srl_dragon_015_dragon_scale,Dragon,dragon_015,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_015_dragon_blood,Dragon,dragon_015,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_015_dragon_horn,Dragon,dragon_015,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_015_dragon_breath_sac,Dragon,dragon_015,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_015_psychic_tissue,Dragon,dragon_015,psychic_tissue,90,true,정신/환각 분류
+srl_dragon_015_brain,Dragon,dragon_015,brain,83,false,정신/환각 분류
+srl_dragon_015_blood_sample,Dragon,dragon_015,blood_sample,20,false,범용 보정 후보
+srl_dragon_015_hide,Dragon,dragon_015,hide,20,false,범용 보정 후보
+srl_dragon_015_claw,Dragon,dragon_015,claw,20,false,범용 보정 후보
+srl_dragon_016_dragon_scale,Dragon,dragon_016,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_016_dragon_blood,Dragon,dragon_016,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_016_dragon_horn,Dragon,dragon_016,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_016_dragon_breath_sac,Dragon,dragon_016,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_016_slime_sample,Dragon,dragon_016,slime_sample,90,true,수중 분류
+srl_dragon_016_scale,Dragon,dragon_016,scale,83,false,수중 분류
+srl_dragon_016_blood_sample,Dragon,dragon_016,blood_sample,20,false,범용 보정 후보
+srl_dragon_016_hide,Dragon,dragon_016,hide,20,false,범용 보정 후보
+srl_dragon_016_claw,Dragon,dragon_016,claw,20,false,범용 보정 후보
+srl_dragon_017_dragon_scale,Dragon,dragon_017,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_017_dragon_blood,Dragon,dragon_017,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_017_dragon_horn,Dragon,dragon_017,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_017_dragon_breath_sac,Dragon,dragon_017,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_017_blood_sample,Dragon,dragon_017,blood_sample,20,false,범용 보정 후보
+srl_dragon_017_hide,Dragon,dragon_017,hide,20,false,범용 보정 후보
+srl_dragon_017_claw,Dragon,dragon_017,claw,20,false,범용 보정 후보
+srl_dragon_018_dragon_scale,Dragon,dragon_018,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_018_dragon_blood,Dragon,dragon_018,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_018_dragon_horn,Dragon,dragon_018,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_018_dragon_breath_sac,Dragon,dragon_018,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_018_fiendish_blood,Dragon,dragon_018,fiendish_blood,90,true,악마체 분류
+srl_dragon_018_soul_ash,Dragon,dragon_018,soul_ash,83,false,악마체 분류
+srl_dragon_018_infernal_chain_link,Dragon,dragon_018,infernal_chain_link,76,false,악마체 분류
+srl_dragon_018_blood_sample,Dragon,dragon_018,blood_sample,20,false,범용 보정 후보
+srl_dragon_018_hide,Dragon,dragon_018,hide,20,false,범용 보정 후보
+srl_dragon_018_claw,Dragon,dragon_018,claw,20,false,범용 보정 후보
+srl_dragon_019_dragon_scale,Dragon,dragon_019,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_019_dragon_blood,Dragon,dragon_019,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_019_dragon_horn,Dragon,dragon_019,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_019_dragon_breath_sac,Dragon,dragon_019,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_019_blood_sample,Dragon,dragon_019,blood_sample,20,false,범용 보정 후보
+srl_dragon_019_hide,Dragon,dragon_019,hide,20,false,범용 보정 후보
+srl_dragon_019_claw,Dragon,dragon_019,claw,20,false,범용 보정 후보
+srl_dragon_020_dragon_scale,Dragon,dragon_020,dragon_scale,65,true,Dragon 대분류 기본 자원
+srl_dragon_020_dragon_blood,Dragon,dragon_020,dragon_blood,60,false,Dragon 대분류 기본 자원
+srl_dragon_020_dragon_horn,Dragon,dragon_020,dragon_horn,55,false,Dragon 대분류 기본 자원
+srl_dragon_020_dragon_breath_sac,Dragon,dragon_020,dragon_breath_sac,50,false,Dragon 대분류 기본 자원
+srl_dragon_020_slime_sample,Dragon,dragon_020,slime_sample,90,true,수중 분류
+srl_dragon_020_scale,Dragon,dragon_020,scale,83,false,수중 분류
+srl_dragon_020_blood_sample,Dragon,dragon_020,blood_sample,20,false,범용 보정 후보
+srl_dragon_020_hide,Dragon,dragon_020,hide,20,false,범용 보정 후보
+srl_dragon_020_claw,Dragon,dragon_020,claw,20,false,범용 보정 후보
+srl_elemental_001_elemental_core,Elemental,elemental_001,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_001_elemental_residue,Elemental,elemental_001,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_001_elemental_ember,Elemental,elemental_001,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_001_elemental_ice_core,Elemental,elemental_001,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_001_blackened_hide_piece,Elemental,elemental_001,blackened_hide_piece,76,false,화염 분류
+srl_elemental_002_elemental_core,Elemental,elemental_002,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_002_elemental_residue,Elemental,elemental_002,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_002_elemental_ember,Elemental,elemental_002,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_002_elemental_ice_core,Elemental,elemental_002,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_002_crystal_blood,Elemental,elemental_002,crystal_blood,76,false,냉기 분류
+srl_elemental_003_elemental_core,Elemental,elemental_003,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_003_elemental_residue,Elemental,elemental_003,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_003_elemental_ember,Elemental,elemental_003,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_003_elemental_ice_core,Elemental,elemental_003,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_003_slime_sample,Elemental,elemental_003,slime_sample,90,true,수중 분류
+srl_elemental_003_scale,Elemental,elemental_003,scale,83,false,수중 분류
+srl_elemental_004_elemental_core,Elemental,elemental_004,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_004_elemental_residue,Elemental,elemental_004,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_004_elemental_ember,Elemental,elemental_004,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_004_elemental_ice_core,Elemental,elemental_004,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_005_elemental_core,Elemental,elemental_005,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_005_elemental_residue,Elemental,elemental_005,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_005_elemental_ember,Elemental,elemental_005,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_005_elemental_ice_core,Elemental,elemental_005,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_006_elemental_core,Elemental,elemental_006,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_006_elemental_residue,Elemental,elemental_006,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_006_elemental_ember,Elemental,elemental_006,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_006_elemental_ice_core,Elemental,elemental_006,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_006_crystal_organ_piece,Elemental,elemental_006,crystal_organ_piece,76,false,번개/폭풍 분류
+srl_elemental_007_elemental_core,Elemental,elemental_007,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_007_elemental_residue,Elemental,elemental_007,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_007_elemental_ember,Elemental,elemental_007,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_007_elemental_ice_core,Elemental,elemental_007,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_007_dragon_scale,Elemental,elemental_007,dragon_scale,90,true,용종 분류
+srl_elemental_007_dragon_blood,Elemental,elemental_007,dragon_blood,83,false,용종 분류
+srl_elemental_007_dragon_breath_sac,Elemental,elemental_007,dragon_breath_sac,76,false,용종 분류
+srl_elemental_007_dragon_horn,Elemental,elemental_007,dragon_horn,69,false,용종 분류
+srl_elemental_007_ooze_core_sample,Elemental,elemental_007,ooze_core_sample,90,true,점액/산성 분류
+srl_elemental_007_acidic_slime,Elemental,elemental_007,acidic_slime,83,false,점액/산성 분류
+srl_elemental_007_slime_sample,Elemental,elemental_007,slime_sample,76,false,점액/산성 분류
+srl_elemental_007_acid_gland,Elemental,elemental_007,acid_gland,69,false,점액/산성 분류
+srl_elemental_008_elemental_core,Elemental,elemental_008,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_008_elemental_residue,Elemental,elemental_008,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_008_elemental_ember,Elemental,elemental_008,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_008_elemental_ice_core,Elemental,elemental_008,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_008_grave_dust,Elemental,elemental_008,grave_dust,90,true,시체형/부패형 분류
+srl_elemental_008_blackened_organ_piece,Elemental,elemental_008,blackened_organ_piece,83,false,시체형/부패형 분류
+srl_elemental_008_necrotic_bone,Elemental,elemental_008,necrotic_bone,76,false,시체형/부패형 분류
+srl_elemental_008_blood_sample,Elemental,elemental_008,blood_sample,69,false,시체형/부패형 분류
+srl_elemental_008_ichor_sample,Elemental,elemental_008,ichor_sample,62,false,시체형/부패형 분류
+srl_elemental_008_venom_sac,Elemental,elemental_008,venom_sac,90,true,독성/질병 분류
+srl_elemental_008_liver,Elemental,elemental_008,liver,76,false,독성/질병 분류
+srl_elemental_009_elemental_core,Elemental,elemental_009,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_009_elemental_residue,Elemental,elemental_009,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_009_elemental_ember,Elemental,elemental_009,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_009_elemental_ice_core,Elemental,elemental_009,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_009_blackened_hide_piece,Elemental,elemental_009,blackened_hide_piece,76,false,화염 분류
+srl_elemental_009_chimeric_organ,Elemental,elemental_009,chimeric_organ,90,true,혼합/키메라 분류
+srl_elemental_009_monster_plate,Elemental,elemental_009,monster_plate,83,false,혼합/키메라 분류
+srl_elemental_009_mutated_organ_piece,Elemental,elemental_009,mutated_organ_piece,76,false,혼합/키메라 분류
+srl_elemental_010_elemental_core,Elemental,elemental_010,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_010_elemental_residue,Elemental,elemental_010,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_010_elemental_ember,Elemental,elemental_010,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_010_elemental_ice_core,Elemental,elemental_010,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_010_crystal_blood,Elemental,elemental_010,crystal_blood,76,false,냉기 분류
+srl_elemental_010_slime_sample,Elemental,elemental_010,slime_sample,90,true,수중 분류
+srl_elemental_010_scale,Elemental,elemental_010,scale,83,false,수중 분류
+srl_elemental_010_chimeric_organ,Elemental,elemental_010,chimeric_organ,90,true,혼합/키메라 분류
+srl_elemental_010_monster_plate,Elemental,elemental_010,monster_plate,83,false,혼합/키메라 분류
+srl_elemental_010_mutated_organ_piece,Elemental,elemental_010,mutated_organ_piece,76,false,혼합/키메라 분류
+srl_elemental_011_elemental_core,Elemental,elemental_011,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_011_elemental_residue,Elemental,elemental_011,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_011_elemental_ember,Elemental,elemental_011,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_011_elemental_ice_core,Elemental,elemental_011,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_011_crystal_organ_piece,Elemental,elemental_011,crystal_organ_piece,76,false,번개/폭풍 분류
+srl_elemental_011_chimeric_organ,Elemental,elemental_011,chimeric_organ,90,true,혼합/키메라 분류
+srl_elemental_011_monster_plate,Elemental,elemental_011,monster_plate,83,false,혼합/키메라 분류
+srl_elemental_011_mutated_organ_piece,Elemental,elemental_011,mutated_organ_piece,76,false,혼합/키메라 분류
+srl_elemental_012_elemental_core,Elemental,elemental_012,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_012_elemental_residue,Elemental,elemental_012,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_012_elemental_ember,Elemental,elemental_012,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_012_elemental_ice_core,Elemental,elemental_012,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_012_chimeric_organ,Elemental,elemental_012,chimeric_organ,90,true,혼합/키메라 분류
+srl_elemental_012_monster_plate,Elemental,elemental_012,monster_plate,83,false,혼합/키메라 분류
+srl_elemental_012_mutated_organ_piece,Elemental,elemental_012,mutated_organ_piece,76,false,혼합/키메라 분류
+srl_elemental_013_elemental_core,Elemental,elemental_013,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_013_elemental_residue,Elemental,elemental_013,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_013_elemental_ember,Elemental,elemental_013,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_013_elemental_ice_core,Elemental,elemental_013,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_013_chimeric_organ,Elemental,elemental_013,chimeric_organ,90,true,혼합/키메라 분류
+srl_elemental_013_monster_plate,Elemental,elemental_013,monster_plate,83,false,혼합/키메라 분류
+srl_elemental_013_mutated_organ_piece,Elemental,elemental_013,mutated_organ_piece,76,false,혼합/키메라 분류
+srl_elemental_014_elemental_core,Elemental,elemental_014,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_014_elemental_residue,Elemental,elemental_014,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_014_elemental_ember,Elemental,elemental_014,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_014_elemental_ice_core,Elemental,elemental_014,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_015_elemental_core,Elemental,elemental_015,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_015_elemental_residue,Elemental,elemental_015,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_015_elemental_ember,Elemental,elemental_015,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_015_elemental_ice_core,Elemental,elemental_015,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_016_elemental_core,Elemental,elemental_016,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_016_elemental_residue,Elemental,elemental_016,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_016_elemental_ember,Elemental,elemental_016,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_016_elemental_ice_core,Elemental,elemental_016,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_016_blackened_hide_piece,Elemental,elemental_016,blackened_hide_piece,76,false,화염 분류
+srl_elemental_016_chimeric_organ,Elemental,elemental_016,chimeric_organ,90,true,혼합/키메라 분류
+srl_elemental_016_monster_plate,Elemental,elemental_016,monster_plate,83,false,혼합/키메라 분류
+srl_elemental_016_mutated_organ_piece,Elemental,elemental_016,mutated_organ_piece,76,false,혼합/키메라 분류
+srl_elemental_017_elemental_core,Elemental,elemental_017,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_017_elemental_residue,Elemental,elemental_017,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_017_elemental_ember,Elemental,elemental_017,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_017_elemental_ice_core,Elemental,elemental_017,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_018_elemental_core,Elemental,elemental_018,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_018_elemental_residue,Elemental,elemental_018,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_018_elemental_ember,Elemental,elemental_018,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_018_elemental_ice_core,Elemental,elemental_018,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_018_crystal_organ_piece,Elemental,elemental_018,crystal_organ_piece,76,false,번개/폭풍 분류
+srl_elemental_019_elemental_core,Elemental,elemental_019,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_019_elemental_residue,Elemental,elemental_019,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_019_elemental_ember,Elemental,elemental_019,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_019_elemental_ice_core,Elemental,elemental_019,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_elemental_019_slime_sample,Elemental,elemental_019,slime_sample,90,true,기생/공생 분류
+srl_elemental_019_brain,Elemental,elemental_019,brain,76,false,기생/공생 분류
+srl_elemental_019_ichor_sample,Elemental,elemental_019,ichor_sample,69,false,기생/공생 분류
+srl_elemental_019_scale,Elemental,elemental_019,scale,83,false,수중 분류
+srl_elemental_020_elemental_core,Elemental,elemental_020,elemental_core,65,true,Elemental 대분류 기본 자원
+srl_elemental_020_elemental_residue,Elemental,elemental_020,elemental_residue,60,false,Elemental 대분류 기본 자원
+srl_elemental_020_elemental_ember,Elemental,elemental_020,elemental_ember,55,false,Elemental 대분류 기본 자원
+srl_elemental_020_elemental_ice_core,Elemental,elemental_020,elemental_ice_core,50,false,Elemental 대분류 기본 자원
+srl_fey_001_fey_dust,Fey,fey_001,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_001_fey_charm_fragment,Fey,fey_001,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_001_dream_pollen,Fey,fey_001,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_001_blood_sample,Fey,fey_001,blood_sample,20,false,범용 보정 후보
+srl_fey_001_hide,Fey,fey_001,hide,20,false,범용 보정 후보
+srl_fey_001_claw,Fey,fey_001,claw,20,false,범용 보정 후보
+srl_fey_002_fey_dust,Fey,fey_002,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_002_fey_charm_fragment,Fey,fey_002,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_002_dream_pollen,Fey,fey_002,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_002_blood_sample,Fey,fey_002,blood_sample,20,false,범용 보정 후보
+srl_fey_002_hide,Fey,fey_002,hide,20,false,범용 보정 후보
+srl_fey_002_claw,Fey,fey_002,claw,20,false,범용 보정 후보
+srl_fey_003_fey_dust,Fey,fey_003,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_003_fey_charm_fragment,Fey,fey_003,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_003_dream_pollen,Fey,fey_003,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_003_blood_sample,Fey,fey_003,blood_sample,20,false,범용 보정 후보
+srl_fey_003_hide,Fey,fey_003,hide,20,false,범용 보정 후보
+srl_fey_003_claw,Fey,fey_003,claw,20,false,범용 보정 후보
+srl_fey_004_fey_dust,Fey,fey_004,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_004_fey_charm_fragment,Fey,fey_004,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_004_dream_pollen,Fey,fey_004,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_004_blood_sample,Fey,fey_004,blood_sample,20,false,범용 보정 후보
+srl_fey_004_hide,Fey,fey_004,hide,20,false,범용 보정 후보
+srl_fey_004_claw,Fey,fey_004,claw,20,false,범용 보정 후보
+srl_fey_005_fey_dust,Fey,fey_005,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_005_fey_charm_fragment,Fey,fey_005,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_005_dream_pollen,Fey,fey_005,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_005_elemental_ember,Fey,fey_005,elemental_ember,90,true,화염 분류
+srl_fey_005_elemental_core,Fey,fey_005,elemental_core,83,false,화염 분류
+srl_fey_005_blackened_hide_piece,Fey,fey_005,blackened_hide_piece,76,false,화염 분류
+srl_fey_005_blood_sample,Fey,fey_005,blood_sample,20,false,범용 보정 후보
+srl_fey_005_hide,Fey,fey_005,hide,20,false,범용 보정 후보
+srl_fey_005_claw,Fey,fey_005,claw,20,false,범용 보정 후보
+srl_fey_006_fey_dust,Fey,fey_006,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_006_fey_charm_fragment,Fey,fey_006,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_006_dream_pollen,Fey,fey_006,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_006_psychic_tissue,Fey,fey_006,psychic_tissue,90,true,정신/환각 분류
+srl_fey_006_brain,Fey,fey_006,brain,83,false,정신/환각 분류
+srl_fey_006_blood_sample,Fey,fey_006,blood_sample,20,false,범용 보정 후보
+srl_fey_006_hide,Fey,fey_006,hide,20,false,범용 보정 후보
+srl_fey_006_claw,Fey,fey_006,claw,20,false,범용 보정 후보
+srl_fey_007_fey_dust,Fey,fey_007,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_007_fey_charm_fragment,Fey,fey_007,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_007_dream_pollen,Fey,fey_007,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_007_blood_sample,Fey,fey_007,blood_sample,20,false,범용 보정 후보
+srl_fey_007_hide,Fey,fey_007,hide,20,false,범용 보정 후보
+srl_fey_007_claw,Fey,fey_007,claw,20,false,범용 보정 후보
+srl_fey_008_fey_dust,Fey,fey_008,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_008_fey_charm_fragment,Fey,fey_008,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_008_dream_pollen,Fey,fey_008,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_008_blood_sample,Fey,fey_008,blood_sample,20,false,범용 보정 후보
+srl_fey_008_hide,Fey,fey_008,hide,20,false,범용 보정 후보
+srl_fey_008_claw,Fey,fey_008,claw,20,false,범용 보정 후보
+srl_fey_009_fey_dust,Fey,fey_009,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_009_fey_charm_fragment,Fey,fey_009,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_009_dream_pollen,Fey,fey_009,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_009_blood_sample,Fey,fey_009,blood_sample,20,false,범용 보정 후보
+srl_fey_009_hide,Fey,fey_009,hide,20,false,범용 보정 후보
+srl_fey_009_claw,Fey,fey_009,claw,20,false,범용 보정 후보
+srl_fey_010_fey_dust,Fey,fey_010,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_010_fey_charm_fragment,Fey,fey_010,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_010_dream_pollen,Fey,fey_010,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_010_fiendish_blood,Fey,fey_010,fiendish_blood,90,true,악마체 분류
+srl_fey_010_soul_ash,Fey,fey_010,soul_ash,83,false,악마체 분류
+srl_fey_010_infernal_chain_link,Fey,fey_010,infernal_chain_link,76,false,악마체 분류
+srl_fey_010_blood_sample,Fey,fey_010,blood_sample,20,false,범용 보정 후보
+srl_fey_010_hide,Fey,fey_010,hide,20,false,범용 보정 후보
+srl_fey_010_claw,Fey,fey_010,claw,20,false,범용 보정 후보
+srl_fey_011_fey_dust,Fey,fey_011,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_011_fey_charm_fragment,Fey,fey_011,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_011_dream_pollen,Fey,fey_011,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_011_blood_sample,Fey,fey_011,blood_sample,20,false,범용 보정 후보
+srl_fey_011_hide,Fey,fey_011,hide,20,false,범용 보정 후보
+srl_fey_011_claw,Fey,fey_011,claw,20,false,범용 보정 후보
+srl_fey_012_fey_dust,Fey,fey_012,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_012_fey_charm_fragment,Fey,fey_012,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_012_dream_pollen,Fey,fey_012,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_012_blood_sample,Fey,fey_012,blood_sample,20,false,범용 보정 후보
+srl_fey_012_hide,Fey,fey_012,hide,20,false,범용 보정 후보
+srl_fey_012_claw,Fey,fey_012,claw,20,false,범용 보정 후보
+srl_fey_013_fey_dust,Fey,fey_013,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_013_fey_charm_fragment,Fey,fey_013,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_013_dream_pollen,Fey,fey_013,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_013_psychic_tissue,Fey,fey_013,psychic_tissue,90,true,정신/환각 분류
+srl_fey_013_brain,Fey,fey_013,brain,83,false,정신/환각 분류
+srl_fey_013_blood_sample,Fey,fey_013,blood_sample,20,false,범용 보정 후보
+srl_fey_013_hide,Fey,fey_013,hide,20,false,범용 보정 후보
+srl_fey_013_claw,Fey,fey_013,claw,20,false,범용 보정 후보
+srl_fey_014_fey_dust,Fey,fey_014,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_014_fey_charm_fragment,Fey,fey_014,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_014_dream_pollen,Fey,fey_014,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_014_blood_sample,Fey,fey_014,blood_sample,20,false,범용 보정 후보
+srl_fey_014_hide,Fey,fey_014,hide,20,false,범용 보정 후보
+srl_fey_014_claw,Fey,fey_014,claw,20,false,범용 보정 후보
+srl_fey_015_fey_dust,Fey,fey_015,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_015_fey_charm_fragment,Fey,fey_015,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_015_dream_pollen,Fey,fey_015,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_015_living_seed,Fey,fey_015,living_seed,90,true,식물/균류 분류
+srl_fey_015_animated_root,Fey,fey_015,animated_root,83,false,식물/균류 분류
+srl_fey_015_spore_sac,Fey,fey_015,spore_sac,76,false,식물/균류 분류
+srl_fey_015_fungal_mycelium,Fey,fey_015,fungal_mycelium,69,false,식물/균류 분류
+srl_fey_015_slime_sample,Fey,fey_015,slime_sample,90,true,기생/공생 분류
+srl_fey_015_brain,Fey,fey_015,brain,76,false,기생/공생 분류
+srl_fey_015_ichor_sample,Fey,fey_015,ichor_sample,69,false,기생/공생 분류
+srl_fey_015_scale,Fey,fey_015,scale,83,false,수중 분류
+srl_fey_015_blood_sample,Fey,fey_015,blood_sample,20,false,범용 보정 후보
+srl_fey_015_hide,Fey,fey_015,hide,20,false,범용 보정 후보
+srl_fey_015_claw,Fey,fey_015,claw,20,false,범용 보정 후보
+srl_fey_016_fey_dust,Fey,fey_016,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_016_fey_charm_fragment,Fey,fey_016,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_016_dream_pollen,Fey,fey_016,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_016_slime_sample,Fey,fey_016,slime_sample,90,true,수중 분류
+srl_fey_016_scale,Fey,fey_016,scale,83,false,수중 분류
+srl_fey_016_blood_sample,Fey,fey_016,blood_sample,20,false,범용 보정 후보
+srl_fey_016_hide,Fey,fey_016,hide,20,false,범용 보정 후보
+srl_fey_016_claw,Fey,fey_016,claw,20,false,범용 보정 후보
+srl_fey_017_fey_dust,Fey,fey_017,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_017_fey_charm_fragment,Fey,fey_017,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_017_dream_pollen,Fey,fey_017,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_017_blood_sample,Fey,fey_017,blood_sample,20,false,범용 보정 후보
+srl_fey_017_hide,Fey,fey_017,hide,20,false,범용 보정 후보
+srl_fey_017_claw,Fey,fey_017,claw,20,false,범용 보정 후보
+srl_fey_018_fey_dust,Fey,fey_018,fey_dust,65,true,Fey 대분류 기본 자원
+srl_fey_018_fey_charm_fragment,Fey,fey_018,fey_charm_fragment,60,false,Fey 대분류 기본 자원
+srl_fey_018_dream_pollen,Fey,fey_018,dream_pollen,55,false,Fey 대분류 기본 자원
+srl_fey_018_blood_sample,Fey,fey_018,blood_sample,20,false,범용 보정 후보
+srl_fey_018_hide,Fey,fey_018,hide,20,false,범용 보정 후보
+srl_fey_018_claw,Fey,fey_018,claw,20,false,범용 보정 후보
+srl_fiend_001_fiendish_blood,Fiend,fiend_001,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_001_soul_ash,Fiend,fiend_001,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_001_infernal_chain_link,Fiend,fiend_001,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_001_blood_sample,Fiend,fiend_001,blood_sample,20,false,범용 보정 후보
+srl_fiend_001_hide,Fiend,fiend_001,hide,20,false,범용 보정 후보
+srl_fiend_001_claw,Fiend,fiend_001,claw,20,false,범용 보정 후보
+srl_fiend_002_fiendish_blood,Fiend,fiend_002,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_002_soul_ash,Fiend,fiend_002,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_002_infernal_chain_link,Fiend,fiend_002,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_002_fey_dust,Fiend,fiend_002,fey_dust,90,true,요정계 분류
+srl_fiend_002_fey_charm_fragment,Fiend,fiend_002,fey_charm_fragment,83,false,요정계 분류
+srl_fiend_002_dream_pollen,Fiend,fiend_002,dream_pollen,76,false,요정계 분류
+srl_fiend_002_blood_sample,Fiend,fiend_002,blood_sample,20,false,범용 보정 후보
+srl_fiend_002_hide,Fiend,fiend_002,hide,20,false,범용 보정 후보
+srl_fiend_002_claw,Fiend,fiend_002,claw,20,false,범용 보정 후보
+srl_fiend_003_fiendish_blood,Fiend,fiend_003,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_003_soul_ash,Fiend,fiend_003,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_003_infernal_chain_link,Fiend,fiend_003,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_003_blood_sample,Fiend,fiend_003,blood_sample,20,false,범용 보정 후보
+srl_fiend_003_hide,Fiend,fiend_003,hide,20,false,범용 보정 후보
+srl_fiend_003_claw,Fiend,fiend_003,claw,20,false,범용 보정 후보
+srl_fiend_004_fiendish_blood,Fiend,fiend_004,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_004_soul_ash,Fiend,fiend_004,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_004_infernal_chain_link,Fiend,fiend_004,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_004_fey_dust,Fiend,fiend_004,fey_dust,90,true,요정계 분류
+srl_fiend_004_fey_charm_fragment,Fiend,fiend_004,fey_charm_fragment,83,false,요정계 분류
+srl_fiend_004_dream_pollen,Fiend,fiend_004,dream_pollen,76,false,요정계 분류
+srl_fiend_004_blood_sample,Fiend,fiend_004,blood_sample,20,false,범용 보정 후보
+srl_fiend_004_hide,Fiend,fiend_004,hide,20,false,범용 보정 후보
+srl_fiend_004_claw,Fiend,fiend_004,claw,20,false,범용 보정 후보
+srl_fiend_005_fiendish_blood,Fiend,fiend_005,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_005_soul_ash,Fiend,fiend_005,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_005_infernal_chain_link,Fiend,fiend_005,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_005_psychic_tissue,Fiend,fiend_005,psychic_tissue,90,true,정신/환각 분류
+srl_fiend_005_brain,Fiend,fiend_005,brain,83,false,정신/환각 분류
+srl_fiend_005_blood_sample,Fiend,fiend_005,blood_sample,20,false,범용 보정 후보
+srl_fiend_005_hide,Fiend,fiend_005,hide,20,false,범용 보정 후보
+srl_fiend_005_claw,Fiend,fiend_005,claw,20,false,범용 보정 후보
+srl_fiend_006_fiendish_blood,Fiend,fiend_006,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_006_soul_ash,Fiend,fiend_006,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_006_infernal_chain_link,Fiend,fiend_006,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_006_slime_sample,Fiend,fiend_006,slime_sample,90,true,수중 분류
+srl_fiend_006_scale,Fiend,fiend_006,scale,83,false,수중 분류
+srl_fiend_006_blood_sample,Fiend,fiend_006,blood_sample,20,false,범용 보정 후보
+srl_fiend_006_hide,Fiend,fiend_006,hide,20,false,범용 보정 후보
+srl_fiend_006_claw,Fiend,fiend_006,claw,20,false,범용 보정 후보
+srl_fiend_007_fiendish_blood,Fiend,fiend_007,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_007_soul_ash,Fiend,fiend_007,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_007_infernal_chain_link,Fiend,fiend_007,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_007_psychic_tissue,Fiend,fiend_007,psychic_tissue,90,true,정신/환각 분류
+srl_fiend_007_brain,Fiend,fiend_007,brain,83,false,정신/환각 분류
+srl_fiend_007_blood_sample,Fiend,fiend_007,blood_sample,20,false,범용 보정 후보
+srl_fiend_007_hide,Fiend,fiend_007,hide,20,false,범용 보정 후보
+srl_fiend_007_claw,Fiend,fiend_007,claw,20,false,범용 보정 후보
+srl_fiend_008_fiendish_blood,Fiend,fiend_008,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_008_soul_ash,Fiend,fiend_008,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_008_infernal_chain_link,Fiend,fiend_008,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_008_blood_sample,Fiend,fiend_008,blood_sample,20,false,범용 보정 후보
+srl_fiend_008_hide,Fiend,fiend_008,hide,20,false,범용 보정 후보
+srl_fiend_008_claw,Fiend,fiend_008,claw,20,false,범용 보정 후보
+srl_fiend_009_fiendish_blood,Fiend,fiend_009,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_009_soul_ash,Fiend,fiend_009,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_009_infernal_chain_link,Fiend,fiend_009,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_009_blood_sample,Fiend,fiend_009,blood_sample,20,false,범용 보정 후보
+srl_fiend_009_hide,Fiend,fiend_009,hide,20,false,범용 보정 후보
+srl_fiend_009_claw,Fiend,fiend_009,claw,20,false,범용 보정 후보
+srl_fiend_010_fiendish_blood,Fiend,fiend_010,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_010_soul_ash,Fiend,fiend_010,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_010_infernal_chain_link,Fiend,fiend_010,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_010_blood_sample,Fiend,fiend_010,blood_sample,20,false,범용 보정 후보
+srl_fiend_010_hide,Fiend,fiend_010,hide,20,false,범용 보정 후보
+srl_fiend_010_claw,Fiend,fiend_010,claw,20,false,범용 보정 후보
+srl_fiend_011_fiendish_blood,Fiend,fiend_011,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_011_soul_ash,Fiend,fiend_011,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_011_infernal_chain_link,Fiend,fiend_011,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_011_blood_sample,Fiend,fiend_011,blood_sample,20,false,범용 보정 후보
+srl_fiend_011_hide,Fiend,fiend_011,hide,20,false,범용 보정 후보
+srl_fiend_011_claw,Fiend,fiend_011,claw,20,false,범용 보정 후보
+srl_fiend_012_fiendish_blood,Fiend,fiend_012,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_012_soul_ash,Fiend,fiend_012,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_012_infernal_chain_link,Fiend,fiend_012,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_012_blood_sample,Fiend,fiend_012,blood_sample,20,false,범용 보정 후보
+srl_fiend_012_hide,Fiend,fiend_012,hide,20,false,범용 보정 후보
+srl_fiend_012_claw,Fiend,fiend_012,claw,20,false,범용 보정 후보
+srl_fiend_013_fiendish_blood,Fiend,fiend_013,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_013_soul_ash,Fiend,fiend_013,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_013_infernal_chain_link,Fiend,fiend_013,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_013_blood_sample,Fiend,fiend_013,blood_sample,20,false,범용 보정 후보
+srl_fiend_013_hide,Fiend,fiend_013,hide,20,false,범용 보정 후보
+srl_fiend_013_claw,Fiend,fiend_013,claw,20,false,범용 보정 후보
+srl_fiend_014_fiendish_blood,Fiend,fiend_014,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_014_soul_ash,Fiend,fiend_014,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_014_infernal_chain_link,Fiend,fiend_014,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_014_elemental_ember,Fiend,fiend_014,elemental_ember,90,true,화염 분류
+srl_fiend_014_elemental_core,Fiend,fiend_014,elemental_core,83,false,화염 분류
+srl_fiend_014_blackened_hide_piece,Fiend,fiend_014,blackened_hide_piece,76,false,화염 분류
+srl_fiend_014_blood_sample,Fiend,fiend_014,blood_sample,20,false,범용 보정 후보
+srl_fiend_014_hide,Fiend,fiend_014,hide,20,false,범용 보정 후보
+srl_fiend_014_claw,Fiend,fiend_014,claw,20,false,범용 보정 후보
+srl_fiend_015_fiendish_blood,Fiend,fiend_015,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_015_soul_ash,Fiend,fiend_015,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_015_infernal_chain_link,Fiend,fiend_015,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_015_grave_dust,Fiend,fiend_015,grave_dust,90,true,시체형/부패형 분류
+srl_fiend_015_blackened_organ_piece,Fiend,fiend_015,blackened_organ_piece,83,false,시체형/부패형 분류
+srl_fiend_015_necrotic_bone,Fiend,fiend_015,necrotic_bone,76,false,시체형/부패형 분류
+srl_fiend_015_blood_sample,Fiend,fiend_015,blood_sample,69,false,시체형/부패형 분류
+srl_fiend_015_ichor_sample,Fiend,fiend_015,ichor_sample,62,false,시체형/부패형 분류
+srl_fiend_015_venom_sac,Fiend,fiend_015,venom_sac,90,true,독성/질병 분류
+srl_fiend_015_liver,Fiend,fiend_015,liver,76,false,독성/질병 분류
+srl_fiend_015_hide,Fiend,fiend_015,hide,20,false,범용 보정 후보
+srl_fiend_015_claw,Fiend,fiend_015,claw,20,false,범용 보정 후보
+srl_fiend_016_fiendish_blood,Fiend,fiend_016,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_016_soul_ash,Fiend,fiend_016,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_016_infernal_chain_link,Fiend,fiend_016,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_016_wraith_ectoplasm,Fiend,fiend_016,wraith_ectoplasm,90,true,영체/결박형 분류
+srl_fiend_016_grave_dust,Fiend,fiend_016,grave_dust,83,false,영체/결박형 분류
+srl_fiend_016_fog_condensate,Fiend,fiend_016,fog_condensate,76,false,영체/결박형 분류
+srl_fiend_016_necrotic_bone,Fiend,fiend_016,necrotic_bone,69,false,영체/결박형 분류
+srl_fiend_016_blood_sample,Fiend,fiend_016,blood_sample,20,false,범용 보정 후보
+srl_fiend_016_hide,Fiend,fiend_016,hide,20,false,범용 보정 후보
+srl_fiend_016_claw,Fiend,fiend_016,claw,20,false,범용 보정 후보
+srl_fiend_017_fiendish_blood,Fiend,fiend_017,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_017_soul_ash,Fiend,fiend_017,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_017_infernal_chain_link,Fiend,fiend_017,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_017_fey_dust,Fiend,fiend_017,fey_dust,90,true,요정계 분류
+srl_fiend_017_fey_charm_fragment,Fiend,fiend_017,fey_charm_fragment,83,false,요정계 분류
+srl_fiend_017_dream_pollen,Fiend,fiend_017,dream_pollen,76,false,요정계 분류
+srl_fiend_017_blood_sample,Fiend,fiend_017,blood_sample,20,false,범용 보정 후보
+srl_fiend_017_hide,Fiend,fiend_017,hide,20,false,범용 보정 후보
+srl_fiend_017_claw,Fiend,fiend_017,claw,20,false,범용 보정 후보
+srl_fiend_018_fiendish_blood,Fiend,fiend_018,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_018_soul_ash,Fiend,fiend_018,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_018_infernal_chain_link,Fiend,fiend_018,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_018_blood_sample,Fiend,fiend_018,blood_sample,20,false,범용 보정 후보
+srl_fiend_018_hide,Fiend,fiend_018,hide,20,false,범용 보정 후보
+srl_fiend_018_claw,Fiend,fiend_018,claw,20,false,범용 보정 후보
+srl_fiend_019_fiendish_blood,Fiend,fiend_019,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_019_soul_ash,Fiend,fiend_019,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_019_infernal_chain_link,Fiend,fiend_019,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_019_slime_sample,Fiend,fiend_019,slime_sample,90,true,수중 분류
+srl_fiend_019_scale,Fiend,fiend_019,scale,83,false,수중 분류
+srl_fiend_019_blood_sample,Fiend,fiend_019,blood_sample,20,false,범용 보정 후보
+srl_fiend_019_hide,Fiend,fiend_019,hide,20,false,범용 보정 후보
+srl_fiend_019_claw,Fiend,fiend_019,claw,20,false,범용 보정 후보
+srl_fiend_020_fiendish_blood,Fiend,fiend_020,fiendish_blood,65,true,Fiend 대분류 기본 자원
+srl_fiend_020_soul_ash,Fiend,fiend_020,soul_ash,60,false,Fiend 대분류 기본 자원
+srl_fiend_020_infernal_chain_link,Fiend,fiend_020,infernal_chain_link,55,false,Fiend 대분류 기본 자원
+srl_fiend_020_blood_sample,Fiend,fiend_020,blood_sample,20,false,범용 보정 후보
+srl_fiend_020_hide,Fiend,fiend_020,hide,20,false,범용 보정 후보
+srl_fiend_020_claw,Fiend,fiend_020,claw,20,false,범용 보정 후보
+srl_giant_001_giant_bone,Giant,giant_001,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_001_giant_tooth,Giant,giant_001,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_001_hide,Giant,giant_001,hide,55,false,Giant 대분류 기본 자원
+srl_giant_001_blood_sample,Giant,giant_001,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_001_slime_sample,Giant,giant_001,slime_sample,90,true,수중 분류
+srl_giant_001_scale,Giant,giant_001,scale,83,false,수중 분류
+srl_giant_001_claw,Giant,giant_001,claw,20,false,범용 보정 후보
+srl_giant_002_giant_bone,Giant,giant_002,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_002_giant_tooth,Giant,giant_002,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_002_hide,Giant,giant_002,hide,55,false,Giant 대분류 기본 자원
+srl_giant_002_blood_sample,Giant,giant_002,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_002_claw,Giant,giant_002,claw,20,false,범용 보정 후보
+srl_giant_003_giant_bone,Giant,giant_003,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_003_giant_tooth,Giant,giant_003,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_003_hide,Giant,giant_003,hide,55,false,Giant 대분류 기본 자원
+srl_giant_003_blood_sample,Giant,giant_003,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_003_elemental_ice_core,Giant,giant_003,elemental_ice_core,90,true,냉기 분류
+srl_giant_003_elemental_core,Giant,giant_003,elemental_core,83,false,냉기 분류
+srl_giant_003_crystal_blood,Giant,giant_003,crystal_blood,76,false,냉기 분류
+srl_giant_003_claw,Giant,giant_003,claw,20,false,범용 보정 후보
+srl_giant_004_giant_bone,Giant,giant_004,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_004_giant_tooth,Giant,giant_004,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_004_hide,Giant,giant_004,hide,55,false,Giant 대분류 기본 자원
+srl_giant_004_blood_sample,Giant,giant_004,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_004_elemental_ember,Giant,giant_004,elemental_ember,90,true,화염 분류
+srl_giant_004_elemental_core,Giant,giant_004,elemental_core,83,false,화염 분류
+srl_giant_004_blackened_hide_piece,Giant,giant_004,blackened_hide_piece,76,false,화염 분류
+srl_giant_004_claw,Giant,giant_004,claw,20,false,범용 보정 후보
+srl_giant_005_giant_bone,Giant,giant_005,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_005_giant_tooth,Giant,giant_005,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_005_hide,Giant,giant_005,hide,55,false,Giant 대분류 기본 자원
+srl_giant_005_blood_sample,Giant,giant_005,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_005_elemental_core,Giant,giant_005,elemental_core,90,true,번개/폭풍 분류
+srl_giant_005_elemental_residue,Giant,giant_005,elemental_residue,83,false,번개/폭풍 분류
+srl_giant_005_crystal_organ_piece,Giant,giant_005,crystal_organ_piece,76,false,번개/폭풍 분류
+srl_giant_005_claw,Giant,giant_005,claw,20,false,범용 보정 후보
+srl_giant_006_giant_bone,Giant,giant_006,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_006_giant_tooth,Giant,giant_006,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_006_hide,Giant,giant_006,hide,55,false,Giant 대분류 기본 자원
+srl_giant_006_blood_sample,Giant,giant_006,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_006_claw,Giant,giant_006,claw,20,false,범용 보정 후보
+srl_giant_007_giant_bone,Giant,giant_007,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_007_giant_tooth,Giant,giant_007,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_007_hide,Giant,giant_007,hide,55,false,Giant 대분류 기본 자원
+srl_giant_007_blood_sample,Giant,giant_007,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_007_claw,Giant,giant_007,claw,20,false,범용 보정 후보
+srl_giant_008_giant_bone,Giant,giant_008,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_008_giant_tooth,Giant,giant_008,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_008_hide,Giant,giant_008,hide,55,false,Giant 대분류 기본 자원
+srl_giant_008_blood_sample,Giant,giant_008,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_008_slime_sample,Giant,giant_008,slime_sample,90,true,수중 분류
+srl_giant_008_scale,Giant,giant_008,scale,83,false,수중 분류
+srl_giant_008_claw,Giant,giant_008,claw,20,false,범용 보정 후보
+srl_giant_009_giant_bone,Giant,giant_009,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_009_giant_tooth,Giant,giant_009,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_009_hide,Giant,giant_009,hide,55,false,Giant 대분류 기본 자원
+srl_giant_009_blood_sample,Giant,giant_009,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_009_claw,Giant,giant_009,claw,20,false,범용 보정 후보
+srl_giant_010_giant_bone,Giant,giant_010,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_010_giant_tooth,Giant,giant_010,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_010_hide,Giant,giant_010,hide,55,false,Giant 대분류 기본 자원
+srl_giant_010_blood_sample,Giant,giant_010,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_010_slime_sample,Giant,giant_010,slime_sample,90,true,수중 분류
+srl_giant_010_scale,Giant,giant_010,scale,83,false,수중 분류
+srl_giant_010_claw,Giant,giant_010,claw,20,false,범용 보정 후보
+srl_giant_011_giant_bone,Giant,giant_011,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_011_giant_tooth,Giant,giant_011,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_011_hide,Giant,giant_011,hide,55,false,Giant 대분류 기본 자원
+srl_giant_011_blood_sample,Giant,giant_011,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_011_claw,Giant,giant_011,claw,20,false,범용 보정 후보
+srl_giant_012_giant_bone,Giant,giant_012,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_012_giant_tooth,Giant,giant_012,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_012_hide,Giant,giant_012,hide,55,false,Giant 대분류 기본 자원
+srl_giant_012_blood_sample,Giant,giant_012,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_012_living_seed,Giant,giant_012,living_seed,90,true,식물/균류 분류
+srl_giant_012_animated_root,Giant,giant_012,animated_root,83,false,식물/균류 분류
+srl_giant_012_spore_sac,Giant,giant_012,spore_sac,76,false,식물/균류 분류
+srl_giant_012_fungal_mycelium,Giant,giant_012,fungal_mycelium,69,false,식물/균류 분류
+srl_giant_012_claw,Giant,giant_012,claw,20,false,범용 보정 후보
+srl_giant_013_giant_bone,Giant,giant_013,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_013_giant_tooth,Giant,giant_013,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_013_hide,Giant,giant_013,hide,55,false,Giant 대분류 기본 자원
+srl_giant_013_blood_sample,Giant,giant_013,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_013_claw,Giant,giant_013,claw,20,false,범용 보정 후보
+srl_giant_014_giant_bone,Giant,giant_014,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_014_giant_tooth,Giant,giant_014,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_014_hide,Giant,giant_014,hide,55,false,Giant 대분류 기본 자원
+srl_giant_014_blood_sample,Giant,giant_014,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_014_claw,Giant,giant_014,claw,20,false,범용 보정 후보
+srl_giant_015_giant_bone,Giant,giant_015,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_015_giant_tooth,Giant,giant_015,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_015_hide,Giant,giant_015,hide,55,false,Giant 대분류 기본 자원
+srl_giant_015_blood_sample,Giant,giant_015,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_015_claw,Giant,giant_015,claw,20,false,범용 보정 후보
+srl_giant_016_giant_bone,Giant,giant_016,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_016_giant_tooth,Giant,giant_016,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_016_hide,Giant,giant_016,hide,55,false,Giant 대분류 기본 자원
+srl_giant_016_blood_sample,Giant,giant_016,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_016_fiendish_blood,Giant,giant_016,fiendish_blood,90,true,악마체 분류
+srl_giant_016_soul_ash,Giant,giant_016,soul_ash,83,false,악마체 분류
+srl_giant_016_infernal_chain_link,Giant,giant_016,infernal_chain_link,76,false,악마체 분류
+srl_giant_016_claw,Giant,giant_016,claw,20,false,범용 보정 후보
+srl_giant_017_giant_bone,Giant,giant_017,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_017_giant_tooth,Giant,giant_017,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_017_hide,Giant,giant_017,hide,55,false,Giant 대분류 기본 자원
+srl_giant_017_blood_sample,Giant,giant_017,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_017_claw,Giant,giant_017,claw,20,false,범용 보정 후보
+srl_giant_018_giant_bone,Giant,giant_018,giant_bone,65,true,Giant 대분류 기본 자원
+srl_giant_018_giant_tooth,Giant,giant_018,giant_tooth,60,false,Giant 대분류 기본 자원
+srl_giant_018_hide,Giant,giant_018,hide,55,false,Giant 대분류 기본 자원
+srl_giant_018_blood_sample,Giant,giant_018,blood_sample,50,false,Giant 대분류 기본 자원
+srl_giant_018_claw,Giant,giant_018,claw,20,false,범용 보정 후보
+srl_humanoid_001_tribal_token,Humanoid,humanoid_001,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_001_ritual_tool,Humanoid,humanoid_001,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_001_rusted_weapon,Humanoid,humanoid_001,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_001_old_armor_piece,Humanoid,humanoid_001,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_001_blood_sample,Humanoid,humanoid_001,blood_sample,20,false,범용 보정 후보
+srl_humanoid_001_hide,Humanoid,humanoid_001,hide,20,false,범용 보정 후보
+srl_humanoid_001_claw,Humanoid,humanoid_001,claw,20,false,범용 보정 후보
+srl_humanoid_002_tribal_token,Humanoid,humanoid_002,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_002_ritual_tool,Humanoid,humanoid_002,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_002_rusted_weapon,Humanoid,humanoid_002,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_002_old_armor_piece,Humanoid,humanoid_002,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_002_blood_sample,Humanoid,humanoid_002,blood_sample,20,false,범용 보정 후보
+srl_humanoid_002_hide,Humanoid,humanoid_002,hide,20,false,범용 보정 후보
+srl_humanoid_002_claw,Humanoid,humanoid_002,claw,20,false,범용 보정 후보
+srl_humanoid_003_tribal_token,Humanoid,humanoid_003,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_003_ritual_tool,Humanoid,humanoid_003,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_003_rusted_weapon,Humanoid,humanoid_003,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_003_old_armor_piece,Humanoid,humanoid_003,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_003_blood_sample,Humanoid,humanoid_003,blood_sample,20,false,범용 보정 후보
+srl_humanoid_003_hide,Humanoid,humanoid_003,hide,20,false,범용 보정 후보
+srl_humanoid_003_claw,Humanoid,humanoid_003,claw,20,false,범용 보정 후보
+srl_humanoid_004_tribal_token,Humanoid,humanoid_004,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_004_ritual_tool,Humanoid,humanoid_004,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_004_rusted_weapon,Humanoid,humanoid_004,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_004_old_armor_piece,Humanoid,humanoid_004,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_004_venom_sac,Humanoid,humanoid_004,venom_sac,90,true,독성/질병 분류
+srl_humanoid_004_liver,Humanoid,humanoid_004,liver,76,false,독성/질병 분류
+srl_humanoid_004_blood_sample,Humanoid,humanoid_004,blood_sample,69,false,독성/질병 분류
+srl_humanoid_004_hide,Humanoid,humanoid_004,hide,20,false,범용 보정 후보
+srl_humanoid_004_claw,Humanoid,humanoid_004,claw,20,false,범용 보정 후보
+srl_humanoid_005_tribal_token,Humanoid,humanoid_005,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_005_ritual_tool,Humanoid,humanoid_005,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_005_rusted_weapon,Humanoid,humanoid_005,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_005_old_armor_piece,Humanoid,humanoid_005,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_005_fiendish_blood,Humanoid,humanoid_005,fiendish_blood,90,true,악마체 분류
+srl_humanoid_005_soul_ash,Humanoid,humanoid_005,soul_ash,83,false,악마체 분류
+srl_humanoid_005_infernal_chain_link,Humanoid,humanoid_005,infernal_chain_link,76,false,악마체 분류
+srl_humanoid_005_blood_sample,Humanoid,humanoid_005,blood_sample,20,false,범용 보정 후보
+srl_humanoid_005_hide,Humanoid,humanoid_005,hide,20,false,범용 보정 후보
+srl_humanoid_005_claw,Humanoid,humanoid_005,claw,20,false,범용 보정 후보
+srl_humanoid_006_tribal_token,Humanoid,humanoid_006,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_006_ritual_tool,Humanoid,humanoid_006,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_006_rusted_weapon,Humanoid,humanoid_006,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_006_old_armor_piece,Humanoid,humanoid_006,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_006_blood_sample,Humanoid,humanoid_006,blood_sample,20,false,범용 보정 후보
+srl_humanoid_006_hide,Humanoid,humanoid_006,hide,20,false,범용 보정 후보
+srl_humanoid_006_claw,Humanoid,humanoid_006,claw,20,false,범용 보정 후보
+srl_humanoid_007_tribal_token,Humanoid,humanoid_007,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_007_ritual_tool,Humanoid,humanoid_007,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_007_rusted_weapon,Humanoid,humanoid_007,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_007_old_armor_piece,Humanoid,humanoid_007,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_007_blood_sample,Humanoid,humanoid_007,blood_sample,20,false,범용 보정 후보
+srl_humanoid_007_hide,Humanoid,humanoid_007,hide,20,false,범용 보정 후보
+srl_humanoid_007_claw,Humanoid,humanoid_007,claw,20,false,범용 보정 후보
+srl_humanoid_008_tribal_token,Humanoid,humanoid_008,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_008_ritual_tool,Humanoid,humanoid_008,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_008_rusted_weapon,Humanoid,humanoid_008,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_008_old_armor_piece,Humanoid,humanoid_008,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_008_psychic_tissue,Humanoid,humanoid_008,psychic_tissue,90,true,정신/환각 분류
+srl_humanoid_008_brain,Humanoid,humanoid_008,brain,83,false,정신/환각 분류
+srl_humanoid_008_blood_sample,Humanoid,humanoid_008,blood_sample,20,false,범용 보정 후보
+srl_humanoid_008_hide,Humanoid,humanoid_008,hide,20,false,범용 보정 후보
+srl_humanoid_008_claw,Humanoid,humanoid_008,claw,20,false,범용 보정 후보
+srl_humanoid_009_tribal_token,Humanoid,humanoid_009,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_009_ritual_tool,Humanoid,humanoid_009,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_009_rusted_weapon,Humanoid,humanoid_009,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_009_old_armor_piece,Humanoid,humanoid_009,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_009_blood_sample,Humanoid,humanoid_009,blood_sample,20,false,범용 보정 후보
+srl_humanoid_009_hide,Humanoid,humanoid_009,hide,20,false,범용 보정 후보
+srl_humanoid_009_claw,Humanoid,humanoid_009,claw,20,false,범용 보정 후보
+srl_humanoid_010_tribal_token,Humanoid,humanoid_010,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_010_ritual_tool,Humanoid,humanoid_010,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_010_rusted_weapon,Humanoid,humanoid_010,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_010_old_armor_piece,Humanoid,humanoid_010,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_010_elemental_ember,Humanoid,humanoid_010,elemental_ember,90,true,화염 분류
+srl_humanoid_010_elemental_core,Humanoid,humanoid_010,elemental_core,83,false,화염 분류
+srl_humanoid_010_blackened_hide_piece,Humanoid,humanoid_010,blackened_hide_piece,76,false,화염 분류
+srl_humanoid_010_slime_sample,Humanoid,humanoid_010,slime_sample,90,true,수중 분류
+srl_humanoid_010_scale,Humanoid,humanoid_010,scale,83,false,수중 분류
+srl_humanoid_010_blood_sample,Humanoid,humanoid_010,blood_sample,20,false,범용 보정 후보
+srl_humanoid_010_hide,Humanoid,humanoid_010,hide,20,false,범용 보정 후보
+srl_humanoid_010_claw,Humanoid,humanoid_010,claw,20,false,범용 보정 후보
+srl_humanoid_011_tribal_token,Humanoid,humanoid_011,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_011_ritual_tool,Humanoid,humanoid_011,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_011_rusted_weapon,Humanoid,humanoid_011,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_011_old_armor_piece,Humanoid,humanoid_011,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_011_blood_sample,Humanoid,humanoid_011,blood_sample,20,false,범용 보정 후보
+srl_humanoid_011_hide,Humanoid,humanoid_011,hide,20,false,범용 보정 후보
+srl_humanoid_011_claw,Humanoid,humanoid_011,claw,20,false,범용 보정 후보
+srl_humanoid_012_tribal_token,Humanoid,humanoid_012,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_012_ritual_tool,Humanoid,humanoid_012,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_012_rusted_weapon,Humanoid,humanoid_012,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_012_old_armor_piece,Humanoid,humanoid_012,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_012_blood_sample,Humanoid,humanoid_012,blood_sample,20,false,범용 보정 후보
+srl_humanoid_012_hide,Humanoid,humanoid_012,hide,20,false,범용 보정 후보
+srl_humanoid_012_claw,Humanoid,humanoid_012,claw,20,false,범용 보정 후보
+srl_humanoid_013_tribal_token,Humanoid,humanoid_013,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_013_ritual_tool,Humanoid,humanoid_013,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_013_rusted_weapon,Humanoid,humanoid_013,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_013_old_armor_piece,Humanoid,humanoid_013,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_013_dragon_scale,Humanoid,humanoid_013,dragon_scale,90,true,용종 분류
+srl_humanoid_013_dragon_blood,Humanoid,humanoid_013,dragon_blood,83,false,용종 분류
+srl_humanoid_013_dragon_breath_sac,Humanoid,humanoid_013,dragon_breath_sac,76,false,용종 분류
+srl_humanoid_013_dragon_horn,Humanoid,humanoid_013,dragon_horn,69,false,용종 분류
+srl_humanoid_013_blood_sample,Humanoid,humanoid_013,blood_sample,20,false,범용 보정 후보
+srl_humanoid_013_hide,Humanoid,humanoid_013,hide,20,false,범용 보정 후보
+srl_humanoid_013_claw,Humanoid,humanoid_013,claw,20,false,범용 보정 후보
+srl_humanoid_014_tribal_token,Humanoid,humanoid_014,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_014_ritual_tool,Humanoid,humanoid_014,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_014_rusted_weapon,Humanoid,humanoid_014,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_014_old_armor_piece,Humanoid,humanoid_014,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_014_blood_sample,Humanoid,humanoid_014,blood_sample,20,false,범용 보정 후보
+srl_humanoid_014_hide,Humanoid,humanoid_014,hide,20,false,범용 보정 후보
+srl_humanoid_014_claw,Humanoid,humanoid_014,claw,20,false,범용 보정 후보
+srl_humanoid_015_tribal_token,Humanoid,humanoid_015,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_015_ritual_tool,Humanoid,humanoid_015,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_015_rusted_weapon,Humanoid,humanoid_015,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_015_old_armor_piece,Humanoid,humanoid_015,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_015_claw,Humanoid,humanoid_015,claw,90,true,굴파기/지하 분류
+srl_humanoid_015_hide,Humanoid,humanoid_015,hide,83,false,굴파기/지하 분류
+srl_humanoid_015_blood_sample,Humanoid,humanoid_015,blood_sample,20,false,범용 보정 후보
+srl_humanoid_016_tribal_token,Humanoid,humanoid_016,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_016_ritual_tool,Humanoid,humanoid_016,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_016_rusted_weapon,Humanoid,humanoid_016,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_016_old_armor_piece,Humanoid,humanoid_016,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_016_slime_sample,Humanoid,humanoid_016,slime_sample,90,true,수중 분류
+srl_humanoid_016_scale,Humanoid,humanoid_016,scale,83,false,수중 분류
+srl_humanoid_016_blood_sample,Humanoid,humanoid_016,blood_sample,20,false,범용 보정 후보
+srl_humanoid_016_hide,Humanoid,humanoid_016,hide,20,false,범용 보정 후보
+srl_humanoid_016_claw,Humanoid,humanoid_016,claw,20,false,범용 보정 후보
+srl_humanoid_017_tribal_token,Humanoid,humanoid_017,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_017_ritual_tool,Humanoid,humanoid_017,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_017_rusted_weapon,Humanoid,humanoid_017,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_017_old_armor_piece,Humanoid,humanoid_017,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_017_blood_sample,Humanoid,humanoid_017,blood_sample,20,false,범용 보정 후보
+srl_humanoid_017_hide,Humanoid,humanoid_017,hide,20,false,범용 보정 후보
+srl_humanoid_017_claw,Humanoid,humanoid_017,claw,20,false,범용 보정 후보
+srl_humanoid_018_tribal_token,Humanoid,humanoid_018,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_018_ritual_tool,Humanoid,humanoid_018,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_018_rusted_weapon,Humanoid,humanoid_018,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_018_old_armor_piece,Humanoid,humanoid_018,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_018_blood_sample,Humanoid,humanoid_018,blood_sample,20,false,범용 보정 후보
+srl_humanoid_018_hide,Humanoid,humanoid_018,hide,20,false,범용 보정 후보
+srl_humanoid_018_claw,Humanoid,humanoid_018,claw,20,false,범용 보정 후보
+srl_humanoid_019_tribal_token,Humanoid,humanoid_019,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_019_ritual_tool,Humanoid,humanoid_019,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_019_rusted_weapon,Humanoid,humanoid_019,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_019_old_armor_piece,Humanoid,humanoid_019,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_019_blood_sample,Humanoid,humanoid_019,blood_sample,20,false,범용 보정 후보
+srl_humanoid_019_hide,Humanoid,humanoid_019,hide,20,false,범용 보정 후보
+srl_humanoid_019_claw,Humanoid,humanoid_019,claw,20,false,범용 보정 후보
+srl_humanoid_020_tribal_token,Humanoid,humanoid_020,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_020_ritual_tool,Humanoid,humanoid_020,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_020_rusted_weapon,Humanoid,humanoid_020,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_020_old_armor_piece,Humanoid,humanoid_020,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_020_blood_sample,Humanoid,humanoid_020,blood_sample,20,false,범용 보정 후보
+srl_humanoid_020_hide,Humanoid,humanoid_020,hide,20,false,범용 보정 후보
+srl_humanoid_020_claw,Humanoid,humanoid_020,claw,20,false,범용 보정 후보
+srl_humanoid_021_tribal_token,Humanoid,humanoid_021,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_021_ritual_tool,Humanoid,humanoid_021,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_021_rusted_weapon,Humanoid,humanoid_021,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_021_old_armor_piece,Humanoid,humanoid_021,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_021_slime_sample,Humanoid,humanoid_021,slime_sample,90,true,수중 분류
+srl_humanoid_021_scale,Humanoid,humanoid_021,scale,83,false,수중 분류
+srl_humanoid_021_blood_sample,Humanoid,humanoid_021,blood_sample,20,false,범용 보정 후보
+srl_humanoid_021_hide,Humanoid,humanoid_021,hide,20,false,범용 보정 후보
+srl_humanoid_021_claw,Humanoid,humanoid_021,claw,20,false,범용 보정 후보
+srl_humanoid_022_tribal_token,Humanoid,humanoid_022,tribal_token,65,true,Humanoid 대분류 기본 자원
+srl_humanoid_022_ritual_tool,Humanoid,humanoid_022,ritual_tool,60,false,Humanoid 대분류 기본 자원
+srl_humanoid_022_rusted_weapon,Humanoid,humanoid_022,rusted_weapon,55,false,Humanoid 대분류 기본 자원
+srl_humanoid_022_old_armor_piece,Humanoid,humanoid_022,old_armor_piece,50,false,Humanoid 대분류 기본 자원
+srl_humanoid_022_blood_sample,Humanoid,humanoid_022,blood_sample,20,false,범용 보정 후보
+srl_humanoid_022_hide,Humanoid,humanoid_022,hide,20,false,범용 보정 후보
+srl_humanoid_022_claw,Humanoid,humanoid_022,claw,20,false,범용 보정 후보
+srl_monstrosity_001_chimeric_organ,Monstrosity,monstrosity_001,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_001_monster_plate,Monstrosity,monstrosity_001,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_001_claw,Monstrosity,monstrosity_001,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_001_fang,Monstrosity,monstrosity_001,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_001_slime_sample,Monstrosity,monstrosity_001,slime_sample,90,true,수중 분류
+srl_monstrosity_001_scale,Monstrosity,monstrosity_001,scale,83,false,수중 분류
+srl_monstrosity_001_mutated_organ_piece,Monstrosity,monstrosity_001,mutated_organ_piece,76,false,혼합/키메라 분류
+srl_monstrosity_001_blood_sample,Monstrosity,monstrosity_001,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_001_hide,Monstrosity,monstrosity_001,hide,20,false,범용 보정 후보
+srl_monstrosity_002_chimeric_organ,Monstrosity,monstrosity_002,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_002_monster_plate,Monstrosity,monstrosity_002,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_002_claw,Monstrosity,monstrosity_002,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_002_fang,Monstrosity,monstrosity_002,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_002_venom_sac,Monstrosity,monstrosity_002,venom_sac,90,true,독성/질병 분류
+srl_monstrosity_002_liver,Monstrosity,monstrosity_002,liver,76,false,독성/질병 분류
+srl_monstrosity_002_blood_sample,Monstrosity,monstrosity_002,blood_sample,69,false,독성/질병 분류
+srl_monstrosity_002_mutated_organ_piece,Monstrosity,monstrosity_002,mutated_organ_piece,76,false,혼합/키메라 분류
+srl_monstrosity_002_hide,Monstrosity,monstrosity_002,hide,20,false,범용 보정 후보
+srl_monstrosity_003_chimeric_organ,Monstrosity,monstrosity_003,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_003_monster_plate,Monstrosity,monstrosity_003,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_003_claw,Monstrosity,monstrosity_003,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_003_fang,Monstrosity,monstrosity_003,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_003_eye,Monstrosity,monstrosity_003,eye,90,true,시선/광선 분류
+srl_monstrosity_003_psychic_tissue,Monstrosity,monstrosity_003,psychic_tissue,76,false,시선/광선 분류
+srl_monstrosity_003_blood_sample,Monstrosity,monstrosity_003,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_003_hide,Monstrosity,monstrosity_003,hide,20,false,범용 보정 후보
+srl_monstrosity_004_chimeric_organ,Monstrosity,monstrosity_004,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_004_monster_plate,Monstrosity,monstrosity_004,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_004_claw,Monstrosity,monstrosity_004,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_004_fang,Monstrosity,monstrosity_004,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_004_blood_sample,Monstrosity,monstrosity_004,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_004_hide,Monstrosity,monstrosity_004,hide,20,false,범용 보정 후보
+srl_monstrosity_005_chimeric_organ,Monstrosity,monstrosity_005,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_005_monster_plate,Monstrosity,monstrosity_005,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_005_claw,Monstrosity,monstrosity_005,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_005_fang,Monstrosity,monstrosity_005,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_005_blood_sample,Monstrosity,monstrosity_005,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_005_hide,Monstrosity,monstrosity_005,hide,20,false,범용 보정 후보
+srl_monstrosity_006_chimeric_organ,Monstrosity,monstrosity_006,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_006_monster_plate,Monstrosity,monstrosity_006,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_006_claw,Monstrosity,monstrosity_006,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_006_fang,Monstrosity,monstrosity_006,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_006_bone,Monstrosity,monstrosity_006,bone,90,true,골격형 분류
+srl_monstrosity_006_skull,Monstrosity,monstrosity_006,skull,83,false,골격형 분류
+srl_monstrosity_006_bone_dust,Monstrosity,monstrosity_006,bone_dust,76,false,골격형 분류
+srl_monstrosity_006_necrotic_bone,Monstrosity,monstrosity_006,necrotic_bone,69,false,골격형 분류
+srl_monstrosity_006_spine_bone,Monstrosity,monstrosity_006,spine_bone,62,false,골격형 분류
+srl_monstrosity_006_chitin,Monstrosity,monstrosity_006,chitin,90,true,절지/곤충 분류
+srl_monstrosity_006_venom_sac,Monstrosity,monstrosity_006,venom_sac,83,false,절지/곤충 분류
+srl_monstrosity_006_spore_sac,Monstrosity,monstrosity_006,spore_sac,69,false,절지/곤충 분류
+srl_monstrosity_006_construct_gear,Monstrosity,monstrosity_006,construct_gear,90,true,구조체/장갑 분류
+srl_monstrosity_006_arcane_circuit,Monstrosity,monstrosity_006,arcane_circuit,83,false,구조체/장갑 분류
+srl_monstrosity_006_animated_armor_plate,Monstrosity,monstrosity_006,animated_armor_plate,76,false,구조체/장갑 분류
+srl_monstrosity_006_golem_core_chip,Monstrosity,monstrosity_006,golem_core_chip,69,false,구조체/장갑 분류
+srl_monstrosity_006_blood_sample,Monstrosity,monstrosity_006,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_006_hide,Monstrosity,monstrosity_006,hide,20,false,범용 보정 후보
+srl_monstrosity_007_chimeric_organ,Monstrosity,monstrosity_007,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_007_monster_plate,Monstrosity,monstrosity_007,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_007_claw,Monstrosity,monstrosity_007,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_007_fang,Monstrosity,monstrosity_007,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_007_venom_sac,Monstrosity,monstrosity_007,venom_sac,90,true,독성/질병 분류
+srl_monstrosity_007_liver,Monstrosity,monstrosity_007,liver,76,false,독성/질병 분류
+srl_monstrosity_007_blood_sample,Monstrosity,monstrosity_007,blood_sample,69,false,독성/질병 분류
+srl_monstrosity_007_hide,Monstrosity,monstrosity_007,hide,20,false,범용 보정 후보
+srl_monstrosity_008_chimeric_organ,Monstrosity,monstrosity_008,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_008_monster_plate,Monstrosity,monstrosity_008,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_008_claw,Monstrosity,monstrosity_008,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_008_fang,Monstrosity,monstrosity_008,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_008_slime_sample,Monstrosity,monstrosity_008,slime_sample,90,true,수중 분류
+srl_monstrosity_008_scale,Monstrosity,monstrosity_008,scale,83,false,수중 분류
+srl_monstrosity_008_blood_sample,Monstrosity,monstrosity_008,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_008_hide,Monstrosity,monstrosity_008,hide,20,false,범용 보정 후보
+srl_monstrosity_009_chimeric_organ,Monstrosity,monstrosity_009,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_009_monster_plate,Monstrosity,monstrosity_009,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_009_claw,Monstrosity,monstrosity_009,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_009_fang,Monstrosity,monstrosity_009,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_009_feather,Monstrosity,monstrosity_009,feather,90,true,비행 분류
+srl_monstrosity_009_wing_membrane,Monstrosity,monstrosity_009,wing_membrane,83,false,비행 분류
+srl_monstrosity_009_blood_sample,Monstrosity,monstrosity_009,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_009_hide,Monstrosity,monstrosity_009,hide,20,false,범용 보정 후보
+srl_monstrosity_010_chimeric_organ,Monstrosity,monstrosity_010,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_010_monster_plate,Monstrosity,monstrosity_010,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_010_claw,Monstrosity,monstrosity_010,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_010_fang,Monstrosity,monstrosity_010,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_010_slime_sample,Monstrosity,monstrosity_010,slime_sample,90,true,수중 분류
+srl_monstrosity_010_scale,Monstrosity,monstrosity_010,scale,83,false,수중 분류
+srl_monstrosity_010_blood_sample,Monstrosity,monstrosity_010,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_010_hide,Monstrosity,monstrosity_010,hide,20,false,범용 보정 후보
+srl_monstrosity_011_chimeric_organ,Monstrosity,monstrosity_011,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_011_monster_plate,Monstrosity,monstrosity_011,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_011_claw,Monstrosity,monstrosity_011,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_011_fang,Monstrosity,monstrosity_011,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_011_hide,Monstrosity,monstrosity_011,hide,83,false,굴파기/지하 분류
+srl_monstrosity_011_blood_sample,Monstrosity,monstrosity_011,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_012_chimeric_organ,Monstrosity,monstrosity_012,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_012_monster_plate,Monstrosity,monstrosity_012,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_012_claw,Monstrosity,monstrosity_012,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_012_fang,Monstrosity,monstrosity_012,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_012_feather,Monstrosity,monstrosity_012,feather,90,true,비행 분류
+srl_monstrosity_012_wing_membrane,Monstrosity,monstrosity_012,wing_membrane,83,false,비행 분류
+srl_monstrosity_012_blood_sample,Monstrosity,monstrosity_012,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_012_hide,Monstrosity,monstrosity_012,hide,20,false,범용 보정 후보
+srl_monstrosity_013_chimeric_organ,Monstrosity,monstrosity_013,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_013_monster_plate,Monstrosity,monstrosity_013,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_013_claw,Monstrosity,monstrosity_013,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_013_fang,Monstrosity,monstrosity_013,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_013_chitin,Monstrosity,monstrosity_013,chitin,90,true,절지/곤충 분류
+srl_monstrosity_013_venom_sac,Monstrosity,monstrosity_013,venom_sac,83,false,절지/곤충 분류
+srl_monstrosity_013_spore_sac,Monstrosity,monstrosity_013,spore_sac,69,false,절지/곤충 분류
+srl_monstrosity_013_blood_sample,Monstrosity,monstrosity_013,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_013_hide,Monstrosity,monstrosity_013,hide,20,false,범용 보정 후보
+srl_monstrosity_014_chimeric_organ,Monstrosity,monstrosity_014,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_014_monster_plate,Monstrosity,monstrosity_014,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_014_claw,Monstrosity,monstrosity_014,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_014_fang,Monstrosity,monstrosity_014,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_014_slime_sample,Monstrosity,monstrosity_014,slime_sample,90,true,수중 분류
+srl_monstrosity_014_scale,Monstrosity,monstrosity_014,scale,83,false,수중 분류
+srl_monstrosity_014_blood_sample,Monstrosity,monstrosity_014,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_014_hide,Monstrosity,monstrosity_014,hide,20,false,범용 보정 후보
+srl_monstrosity_015_chimeric_organ,Monstrosity,monstrosity_015,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_015_monster_plate,Monstrosity,monstrosity_015,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_015_claw,Monstrosity,monstrosity_015,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_015_fang,Monstrosity,monstrosity_015,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_015_blood_sample,Monstrosity,monstrosity_015,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_015_hide,Monstrosity,monstrosity_015,hide,20,false,범용 보정 후보
+srl_monstrosity_016_chimeric_organ,Monstrosity,monstrosity_016,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_016_monster_plate,Monstrosity,monstrosity_016,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_016_claw,Monstrosity,monstrosity_016,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_016_fang,Monstrosity,monstrosity_016,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_016_blood_sample,Monstrosity,monstrosity_016,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_016_hide,Monstrosity,monstrosity_016,hide,20,false,범용 보정 후보
+srl_monstrosity_017_chimeric_organ,Monstrosity,monstrosity_017,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_017_monster_plate,Monstrosity,monstrosity_017,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_017_claw,Monstrosity,monstrosity_017,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_017_fang,Monstrosity,monstrosity_017,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_017_mutated_organ_piece,Monstrosity,monstrosity_017,mutated_organ_piece,76,false,혼합/키메라 분류
+srl_monstrosity_017_blood_sample,Monstrosity,monstrosity_017,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_017_hide,Monstrosity,monstrosity_017,hide,20,false,범용 보정 후보
+srl_monstrosity_018_chimeric_organ,Monstrosity,monstrosity_018,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_018_monster_plate,Monstrosity,monstrosity_018,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_018_claw,Monstrosity,monstrosity_018,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_018_fang,Monstrosity,monstrosity_018,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_018_blood_sample,Monstrosity,monstrosity_018,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_018_hide,Monstrosity,monstrosity_018,hide,20,false,범용 보정 후보
+srl_monstrosity_019_chimeric_organ,Monstrosity,monstrosity_019,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_019_monster_plate,Monstrosity,monstrosity_019,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_019_claw,Monstrosity,monstrosity_019,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_019_fang,Monstrosity,monstrosity_019,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_019_blood_sample,Monstrosity,monstrosity_019,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_019_hide,Monstrosity,monstrosity_019,hide,20,false,범용 보정 후보
+srl_monstrosity_020_chimeric_organ,Monstrosity,monstrosity_020,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_020_monster_plate,Monstrosity,monstrosity_020,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_020_claw,Monstrosity,monstrosity_020,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_020_fang,Monstrosity,monstrosity_020,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_020_psychic_tissue,Monstrosity,monstrosity_020,psychic_tissue,90,true,정신/환각 분류
+srl_monstrosity_020_brain,Monstrosity,monstrosity_020,brain,83,false,정신/환각 분류
+srl_monstrosity_020_blood_sample,Monstrosity,monstrosity_020,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_020_hide,Monstrosity,monstrosity_020,hide,20,false,범용 보정 후보
+srl_monstrosity_021_chimeric_organ,Monstrosity,monstrosity_021,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_021_monster_plate,Monstrosity,monstrosity_021,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_021_claw,Monstrosity,monstrosity_021,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_021_fang,Monstrosity,monstrosity_021,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_021_slime_sample,Monstrosity,monstrosity_021,slime_sample,90,true,기생/공생 분류
+srl_monstrosity_021_brain,Monstrosity,monstrosity_021,brain,76,false,기생/공생 분류
+srl_monstrosity_021_ichor_sample,Monstrosity,monstrosity_021,ichor_sample,69,false,기생/공생 분류
+srl_monstrosity_021_scale,Monstrosity,monstrosity_021,scale,83,false,수중 분류
+srl_monstrosity_021_blood_sample,Monstrosity,monstrosity_021,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_021_hide,Monstrosity,monstrosity_021,hide,20,false,범용 보정 후보
+srl_monstrosity_022_chimeric_organ,Monstrosity,monstrosity_022,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_022_monster_plate,Monstrosity,monstrosity_022,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_022_claw,Monstrosity,monstrosity_022,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_022_fang,Monstrosity,monstrosity_022,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_022_blood_sample,Monstrosity,monstrosity_022,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_022_hide,Monstrosity,monstrosity_022,hide,20,false,범용 보정 후보
+srl_monstrosity_023_chimeric_organ,Monstrosity,monstrosity_023,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_023_monster_plate,Monstrosity,monstrosity_023,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_023_claw,Monstrosity,monstrosity_023,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_023_fang,Monstrosity,monstrosity_023,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_023_blood_sample,Monstrosity,monstrosity_023,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_023_hide,Monstrosity,monstrosity_023,hide,20,false,범용 보정 후보
+srl_monstrosity_024_chimeric_organ,Monstrosity,monstrosity_024,chimeric_organ,65,true,Monstrosity 대분류 기본 자원
+srl_monstrosity_024_monster_plate,Monstrosity,monstrosity_024,monster_plate,60,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_024_claw,Monstrosity,monstrosity_024,claw,55,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_024_fang,Monstrosity,monstrosity_024,fang,50,false,Monstrosity 대분류 기본 자원
+srl_monstrosity_024_blood_sample,Monstrosity,monstrosity_024,blood_sample,20,false,범용 보정 후보
+srl_monstrosity_024_hide,Monstrosity,monstrosity_024,hide,20,false,범용 보정 후보
+srl_ooze_001_ooze_core_sample,Ooze,ooze_001,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_001_acidic_slime,Ooze,ooze_001,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_001_slime_sample,Ooze,ooze_001,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_001_acid_gland,Ooze,ooze_001,acid_gland,69,false,점액/산성 분류
+srl_ooze_001_scale,Ooze,ooze_001,scale,83,false,수중 분류
+srl_ooze_001_blood_sample,Ooze,ooze_001,blood_sample,20,false,범용 보정 후보
+srl_ooze_001_hide,Ooze,ooze_001,hide,20,false,범용 보정 후보
+srl_ooze_001_claw,Ooze,ooze_001,claw,20,false,범용 보정 후보
+srl_ooze_002_ooze_core_sample,Ooze,ooze_002,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_002_acidic_slime,Ooze,ooze_002,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_002_slime_sample,Ooze,ooze_002,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_002_acid_gland,Ooze,ooze_002,acid_gland,69,false,점액/산성 분류
+srl_ooze_002_blood_sample,Ooze,ooze_002,blood_sample,20,false,범용 보정 후보
+srl_ooze_002_hide,Ooze,ooze_002,hide,20,false,범용 보정 후보
+srl_ooze_002_claw,Ooze,ooze_002,claw,20,false,범용 보정 후보
+srl_ooze_003_ooze_core_sample,Ooze,ooze_003,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_003_acidic_slime,Ooze,ooze_003,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_003_slime_sample,Ooze,ooze_003,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_003_acid_gland,Ooze,ooze_003,acid_gland,69,false,점액/산성 분류
+srl_ooze_003_blood_sample,Ooze,ooze_003,blood_sample,20,false,범용 보정 후보
+srl_ooze_003_hide,Ooze,ooze_003,hide,20,false,범용 보정 후보
+srl_ooze_003_claw,Ooze,ooze_003,claw,20,false,범용 보정 후보
+srl_ooze_004_ooze_core_sample,Ooze,ooze_004,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_004_acidic_slime,Ooze,ooze_004,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_004_slime_sample,Ooze,ooze_004,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_004_acid_gland,Ooze,ooze_004,acid_gland,69,false,점액/산성 분류
+srl_ooze_004_scale,Ooze,ooze_004,scale,83,false,수중 분류
+srl_ooze_004_blood_sample,Ooze,ooze_004,blood_sample,20,false,범용 보정 후보
+srl_ooze_004_hide,Ooze,ooze_004,hide,20,false,범용 보정 후보
+srl_ooze_004_claw,Ooze,ooze_004,claw,20,false,범용 보정 후보
+srl_ooze_005_ooze_core_sample,Ooze,ooze_005,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_005_acidic_slime,Ooze,ooze_005,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_005_slime_sample,Ooze,ooze_005,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_005_acid_gland,Ooze,ooze_005,acid_gland,69,false,점액/산성 분류
+srl_ooze_005_blood_sample,Ooze,ooze_005,blood_sample,20,false,범용 보정 후보
+srl_ooze_005_hide,Ooze,ooze_005,hide,20,false,범용 보정 후보
+srl_ooze_005_claw,Ooze,ooze_005,claw,20,false,범용 보정 후보
+srl_ooze_006_ooze_core_sample,Ooze,ooze_006,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_006_acidic_slime,Ooze,ooze_006,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_006_slime_sample,Ooze,ooze_006,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_006_acid_gland,Ooze,ooze_006,acid_gland,69,false,점액/산성 분류
+srl_ooze_006_venom_sac,Ooze,ooze_006,venom_sac,90,true,독성/질병 분류
+srl_ooze_006_liver,Ooze,ooze_006,liver,76,false,독성/질병 분류
+srl_ooze_006_blood_sample,Ooze,ooze_006,blood_sample,69,false,독성/질병 분류
+srl_ooze_006_hide,Ooze,ooze_006,hide,20,false,범용 보정 후보
+srl_ooze_006_claw,Ooze,ooze_006,claw,20,false,범용 보정 후보
+srl_ooze_007_ooze_core_sample,Ooze,ooze_007,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_007_acidic_slime,Ooze,ooze_007,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_007_slime_sample,Ooze,ooze_007,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_007_acid_gland,Ooze,ooze_007,acid_gland,69,false,점액/산성 분류
+srl_ooze_007_blood_sample,Ooze,ooze_007,blood_sample,20,false,범용 보정 후보
+srl_ooze_007_hide,Ooze,ooze_007,hide,20,false,범용 보정 후보
+srl_ooze_007_claw,Ooze,ooze_007,claw,20,false,범용 보정 후보
+srl_ooze_008_ooze_core_sample,Ooze,ooze_008,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_008_acidic_slime,Ooze,ooze_008,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_008_slime_sample,Ooze,ooze_008,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_008_acid_gland,Ooze,ooze_008,acid_gland,69,false,점액/산성 분류
+srl_ooze_008_blood_sample,Ooze,ooze_008,blood_sample,20,false,범용 보정 후보
+srl_ooze_008_hide,Ooze,ooze_008,hide,20,false,범용 보정 후보
+srl_ooze_008_claw,Ooze,ooze_008,claw,20,false,범용 보정 후보
+srl_ooze_009_ooze_core_sample,Ooze,ooze_009,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_009_acidic_slime,Ooze,ooze_009,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_009_slime_sample,Ooze,ooze_009,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_009_acid_gland,Ooze,ooze_009,acid_gland,69,false,점액/산성 분류
+srl_ooze_009_blood_sample,Ooze,ooze_009,blood_sample,20,false,범용 보정 후보
+srl_ooze_009_hide,Ooze,ooze_009,hide,20,false,범용 보정 후보
+srl_ooze_009_claw,Ooze,ooze_009,claw,20,false,범용 보정 후보
+srl_ooze_010_ooze_core_sample,Ooze,ooze_010,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_010_acidic_slime,Ooze,ooze_010,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_010_slime_sample,Ooze,ooze_010,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_010_acid_gland,Ooze,ooze_010,acid_gland,69,false,점액/산성 분류
+srl_ooze_010_blood_sample,Ooze,ooze_010,blood_sample,20,false,범용 보정 후보
+srl_ooze_010_hide,Ooze,ooze_010,hide,20,false,범용 보정 후보
+srl_ooze_010_claw,Ooze,ooze_010,claw,20,false,범용 보정 후보
+srl_ooze_011_ooze_core_sample,Ooze,ooze_011,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_011_acidic_slime,Ooze,ooze_011,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_011_slime_sample,Ooze,ooze_011,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_011_grave_dust,Ooze,ooze_011,grave_dust,90,true,시체형/부패형 분류
+srl_ooze_011_blackened_organ_piece,Ooze,ooze_011,blackened_organ_piece,83,false,시체형/부패형 분류
+srl_ooze_011_necrotic_bone,Ooze,ooze_011,necrotic_bone,76,false,시체형/부패형 분류
+srl_ooze_011_blood_sample,Ooze,ooze_011,blood_sample,69,false,시체형/부패형 분류
+srl_ooze_011_ichor_sample,Ooze,ooze_011,ichor_sample,62,false,시체형/부패형 분류
+srl_ooze_011_acid_gland,Ooze,ooze_011,acid_gland,69,false,점액/산성 분류
+srl_ooze_011_scale,Ooze,ooze_011,scale,83,false,수중 분류
+srl_ooze_011_hide,Ooze,ooze_011,hide,20,false,범용 보정 후보
+srl_ooze_011_claw,Ooze,ooze_011,claw,20,false,범용 보정 후보
+srl_ooze_012_ooze_core_sample,Ooze,ooze_012,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_012_acidic_slime,Ooze,ooze_012,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_012_slime_sample,Ooze,ooze_012,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_012_acid_gland,Ooze,ooze_012,acid_gland,69,false,점액/산성 분류
+srl_ooze_012_blood_sample,Ooze,ooze_012,blood_sample,20,false,범용 보정 후보
+srl_ooze_012_hide,Ooze,ooze_012,hide,20,false,범용 보정 후보
+srl_ooze_012_claw,Ooze,ooze_012,claw,20,false,범용 보정 후보
+srl_ooze_013_ooze_core_sample,Ooze,ooze_013,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_013_acidic_slime,Ooze,ooze_013,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_013_slime_sample,Ooze,ooze_013,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_013_acid_gland,Ooze,ooze_013,acid_gland,69,false,점액/산성 분류
+srl_ooze_013_blood_sample,Ooze,ooze_013,blood_sample,20,false,범용 보정 후보
+srl_ooze_013_hide,Ooze,ooze_013,hide,20,false,범용 보정 후보
+srl_ooze_013_claw,Ooze,ooze_013,claw,20,false,범용 보정 후보
+srl_ooze_014_ooze_core_sample,Ooze,ooze_014,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_014_acidic_slime,Ooze,ooze_014,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_014_slime_sample,Ooze,ooze_014,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_014_grave_dust,Ooze,ooze_014,grave_dust,90,true,시체형/부패형 분류
+srl_ooze_014_blackened_organ_piece,Ooze,ooze_014,blackened_organ_piece,83,false,시체형/부패형 분류
+srl_ooze_014_necrotic_bone,Ooze,ooze_014,necrotic_bone,76,false,시체형/부패형 분류
+srl_ooze_014_blood_sample,Ooze,ooze_014,blood_sample,69,false,시체형/부패형 분류
+srl_ooze_014_ichor_sample,Ooze,ooze_014,ichor_sample,62,false,시체형/부패형 분류
+srl_ooze_014_acid_gland,Ooze,ooze_014,acid_gland,69,false,점액/산성 분류
+srl_ooze_014_psychic_tissue,Ooze,ooze_014,psychic_tissue,90,true,정신/환각 분류
+srl_ooze_014_brain,Ooze,ooze_014,brain,83,false,정신/환각 분류
+srl_ooze_014_hide,Ooze,ooze_014,hide,20,false,범용 보정 후보
+srl_ooze_014_claw,Ooze,ooze_014,claw,20,false,범용 보정 후보
+srl_ooze_015_ooze_core_sample,Ooze,ooze_015,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_015_acidic_slime,Ooze,ooze_015,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_015_slime_sample,Ooze,ooze_015,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_015_acid_gland,Ooze,ooze_015,acid_gland,69,false,점액/산성 분류
+srl_ooze_015_blood_sample,Ooze,ooze_015,blood_sample,20,false,범용 보정 후보
+srl_ooze_015_hide,Ooze,ooze_015,hide,20,false,범용 보정 후보
+srl_ooze_015_claw,Ooze,ooze_015,claw,20,false,범용 보정 후보
+srl_ooze_016_ooze_core_sample,Ooze,ooze_016,ooze_core_sample,65,true,Ooze 대분류 기본 자원
+srl_ooze_016_acidic_slime,Ooze,ooze_016,acidic_slime,60,false,Ooze 대분류 기본 자원
+srl_ooze_016_slime_sample,Ooze,ooze_016,slime_sample,55,false,Ooze 대분류 기본 자원
+srl_ooze_016_acid_gland,Ooze,ooze_016,acid_gland,69,false,점액/산성 분류
+srl_ooze_016_scale,Ooze,ooze_016,scale,83,false,수중 분류
+srl_ooze_016_blood_sample,Ooze,ooze_016,blood_sample,20,false,범용 보정 후보
+srl_ooze_016_hide,Ooze,ooze_016,hide,20,false,범용 보정 후보
+srl_ooze_016_claw,Ooze,ooze_016,claw,20,false,범용 보정 후보
+srl_plant_001_living_seed,Plant,plant_001,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_001_animated_root,Plant,plant_001,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_001_spore_sac,Plant,plant_001,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_001_fungal_mycelium,Plant,plant_001,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_001_slime_sample,Plant,plant_001,slime_sample,90,true,수중 분류
+srl_plant_001_scale,Plant,plant_001,scale,83,false,수중 분류
+srl_plant_001_blood_sample,Plant,plant_001,blood_sample,20,false,범용 보정 후보
+srl_plant_001_hide,Plant,plant_001,hide,20,false,범용 보정 후보
+srl_plant_001_claw,Plant,plant_001,claw,20,false,범용 보정 후보
+srl_plant_002_living_seed,Plant,plant_002,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_002_animated_root,Plant,plant_002,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_002_spore_sac,Plant,plant_002,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_002_fungal_mycelium,Plant,plant_002,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_002_slime_sample,Plant,plant_002,slime_sample,90,true,수중 분류
+srl_plant_002_scale,Plant,plant_002,scale,83,false,수중 분류
+srl_plant_002_blood_sample,Plant,plant_002,blood_sample,20,false,범용 보정 후보
+srl_plant_002_hide,Plant,plant_002,hide,20,false,범용 보정 후보
+srl_plant_002_claw,Plant,plant_002,claw,20,false,범용 보정 후보
+srl_plant_003_living_seed,Plant,plant_003,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_003_animated_root,Plant,plant_003,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_003_spore_sac,Plant,plant_003,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_003_fungal_mycelium,Plant,plant_003,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_003_venom_sac,Plant,plant_003,venom_sac,90,true,독성/질병 분류
+srl_plant_003_liver,Plant,plant_003,liver,76,false,독성/질병 분류
+srl_plant_003_blood_sample,Plant,plant_003,blood_sample,69,false,독성/질병 분류
+srl_plant_003_slime_sample,Plant,plant_003,slime_sample,90,true,수중 분류
+srl_plant_003_scale,Plant,plant_003,scale,83,false,수중 분류
+srl_plant_003_hide,Plant,plant_003,hide,20,false,범용 보정 후보
+srl_plant_003_claw,Plant,plant_003,claw,20,false,범용 보정 후보
+srl_plant_004_living_seed,Plant,plant_004,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_004_animated_root,Plant,plant_004,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_004_spore_sac,Plant,plant_004,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_004_fungal_mycelium,Plant,plant_004,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_004_slime_sample,Plant,plant_004,slime_sample,90,true,수중 분류
+srl_plant_004_scale,Plant,plant_004,scale,83,false,수중 분류
+srl_plant_004_blood_sample,Plant,plant_004,blood_sample,20,false,범용 보정 후보
+srl_plant_004_hide,Plant,plant_004,hide,20,false,범용 보정 후보
+srl_plant_004_claw,Plant,plant_004,claw,20,false,범용 보정 후보
+srl_plant_005_living_seed,Plant,plant_005,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_005_animated_root,Plant,plant_005,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_005_spore_sac,Plant,plant_005,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_005_fungal_mycelium,Plant,plant_005,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_005_fey_dust,Plant,plant_005,fey_dust,90,true,요정계 분류
+srl_plant_005_fey_charm_fragment,Plant,plant_005,fey_charm_fragment,83,false,요정계 분류
+srl_plant_005_dream_pollen,Plant,plant_005,dream_pollen,76,false,요정계 분류
+srl_plant_005_slime_sample,Plant,plant_005,slime_sample,90,true,수중 분류
+srl_plant_005_scale,Plant,plant_005,scale,83,false,수중 분류
+srl_plant_005_blood_sample,Plant,plant_005,blood_sample,20,false,범용 보정 후보
+srl_plant_005_hide,Plant,plant_005,hide,20,false,범용 보정 후보
+srl_plant_005_claw,Plant,plant_005,claw,20,false,범용 보정 후보
+srl_plant_006_living_seed,Plant,plant_006,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_006_animated_root,Plant,plant_006,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_006_spore_sac,Plant,plant_006,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_006_fungal_mycelium,Plant,plant_006,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_006_slime_sample,Plant,plant_006,slime_sample,90,true,수중 분류
+srl_plant_006_scale,Plant,plant_006,scale,83,false,수중 분류
+srl_plant_006_blood_sample,Plant,plant_006,blood_sample,20,false,범용 보정 후보
+srl_plant_006_hide,Plant,plant_006,hide,20,false,범용 보정 후보
+srl_plant_006_claw,Plant,plant_006,claw,20,false,범용 보정 후보
+srl_plant_007_living_seed,Plant,plant_007,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_007_animated_root,Plant,plant_007,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_007_spore_sac,Plant,plant_007,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_007_fungal_mycelium,Plant,plant_007,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_007_venom_sac,Plant,plant_007,venom_sac,90,true,독성/질병 분류
+srl_plant_007_liver,Plant,plant_007,liver,76,false,독성/질병 분류
+srl_plant_007_blood_sample,Plant,plant_007,blood_sample,69,false,독성/질병 분류
+srl_plant_007_slime_sample,Plant,plant_007,slime_sample,90,true,수중 분류
+srl_plant_007_scale,Plant,plant_007,scale,83,false,수중 분류
+srl_plant_007_hide,Plant,plant_007,hide,20,false,범용 보정 후보
+srl_plant_007_claw,Plant,plant_007,claw,20,false,범용 보정 후보
+srl_plant_008_living_seed,Plant,plant_008,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_008_animated_root,Plant,plant_008,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_008_spore_sac,Plant,plant_008,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_008_fungal_mycelium,Plant,plant_008,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_008_psychic_tissue,Plant,plant_008,psychic_tissue,90,true,정신/환각 분류
+srl_plant_008_brain,Plant,plant_008,brain,83,false,정신/환각 분류
+srl_plant_008_slime_sample,Plant,plant_008,slime_sample,90,true,수중 분류
+srl_plant_008_scale,Plant,plant_008,scale,83,false,수중 분류
+srl_plant_008_blood_sample,Plant,plant_008,blood_sample,20,false,범용 보정 후보
+srl_plant_008_hide,Plant,plant_008,hide,20,false,범용 보정 후보
+srl_plant_008_claw,Plant,plant_008,claw,20,false,범용 보정 후보
+srl_plant_009_living_seed,Plant,plant_009,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_009_animated_root,Plant,plant_009,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_009_spore_sac,Plant,plant_009,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_009_fungal_mycelium,Plant,plant_009,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_009_slime_sample,Plant,plant_009,slime_sample,90,true,기생/공생 분류
+srl_plant_009_brain,Plant,plant_009,brain,76,false,기생/공생 분류
+srl_plant_009_ichor_sample,Plant,plant_009,ichor_sample,69,false,기생/공생 분류
+srl_plant_009_scale,Plant,plant_009,scale,83,false,수중 분류
+srl_plant_009_blood_sample,Plant,plant_009,blood_sample,20,false,범용 보정 후보
+srl_plant_009_hide,Plant,plant_009,hide,20,false,범용 보정 후보
+srl_plant_009_claw,Plant,plant_009,claw,20,false,범용 보정 후보
+srl_plant_010_living_seed,Plant,plant_010,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_010_animated_root,Plant,plant_010,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_010_spore_sac,Plant,plant_010,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_010_fungal_mycelium,Plant,plant_010,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_010_slime_sample,Plant,plant_010,slime_sample,90,true,수중 분류
+srl_plant_010_scale,Plant,plant_010,scale,83,false,수중 분류
+srl_plant_010_blood_sample,Plant,plant_010,blood_sample,20,false,범용 보정 후보
+srl_plant_010_hide,Plant,plant_010,hide,20,false,범용 보정 후보
+srl_plant_010_claw,Plant,plant_010,claw,20,false,범용 보정 후보
+srl_plant_011_living_seed,Plant,plant_011,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_011_animated_root,Plant,plant_011,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_011_spore_sac,Plant,plant_011,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_011_fungal_mycelium,Plant,plant_011,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_011_slime_sample,Plant,plant_011,slime_sample,90,true,수중 분류
+srl_plant_011_scale,Plant,plant_011,scale,83,false,수중 분류
+srl_plant_011_blood_sample,Plant,plant_011,blood_sample,20,false,범용 보정 후보
+srl_plant_011_hide,Plant,plant_011,hide,20,false,범용 보정 후보
+srl_plant_011_claw,Plant,plant_011,claw,20,false,범용 보정 후보
+srl_plant_012_living_seed,Plant,plant_012,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_012_animated_root,Plant,plant_012,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_012_spore_sac,Plant,plant_012,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_012_fungal_mycelium,Plant,plant_012,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_012_slime_sample,Plant,plant_012,slime_sample,90,true,수중 분류
+srl_plant_012_scale,Plant,plant_012,scale,83,false,수중 분류
+srl_plant_012_blood_sample,Plant,plant_012,blood_sample,20,false,범용 보정 후보
+srl_plant_012_hide,Plant,plant_012,hide,20,false,범용 보정 후보
+srl_plant_012_claw,Plant,plant_012,claw,20,false,범용 보정 후보
+srl_plant_013_living_seed,Plant,plant_013,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_013_animated_root,Plant,plant_013,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_013_spore_sac,Plant,plant_013,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_013_fungal_mycelium,Plant,plant_013,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_013_wraith_ectoplasm,Plant,plant_013,wraith_ectoplasm,90,true,영체/결박형 분류
+srl_plant_013_grave_dust,Plant,plant_013,grave_dust,83,false,영체/결박형 분류
+srl_plant_013_fog_condensate,Plant,plant_013,fog_condensate,76,false,영체/결박형 분류
+srl_plant_013_necrotic_bone,Plant,plant_013,necrotic_bone,69,false,영체/결박형 분류
+srl_plant_013_fey_dust,Plant,plant_013,fey_dust,90,true,요정계 분류
+srl_plant_013_fey_charm_fragment,Plant,plant_013,fey_charm_fragment,83,false,요정계 분류
+srl_plant_013_dream_pollen,Plant,plant_013,dream_pollen,76,false,요정계 분류
+srl_plant_013_slime_sample,Plant,plant_013,slime_sample,90,true,수중 분류
+srl_plant_013_scale,Plant,plant_013,scale,83,false,수중 분류
+srl_plant_013_blood_sample,Plant,plant_013,blood_sample,20,false,범용 보정 후보
+srl_plant_013_hide,Plant,plant_013,hide,20,false,범용 보정 후보
+srl_plant_013_claw,Plant,plant_013,claw,20,false,범용 보정 후보
+srl_plant_014_living_seed,Plant,plant_014,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_014_animated_root,Plant,plant_014,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_014_spore_sac,Plant,plant_014,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_014_fungal_mycelium,Plant,plant_014,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_014_grave_dust,Plant,plant_014,grave_dust,90,true,시체형/부패형 분류
+srl_plant_014_blackened_organ_piece,Plant,plant_014,blackened_organ_piece,83,false,시체형/부패형 분류
+srl_plant_014_necrotic_bone,Plant,plant_014,necrotic_bone,76,false,시체형/부패형 분류
+srl_plant_014_blood_sample,Plant,plant_014,blood_sample,69,false,시체형/부패형 분류
+srl_plant_014_ichor_sample,Plant,plant_014,ichor_sample,62,false,시체형/부패형 분류
+srl_plant_014_slime_sample,Plant,plant_014,slime_sample,90,true,수중 분류
+srl_plant_014_scale,Plant,plant_014,scale,83,false,수중 분류
+srl_plant_014_hide,Plant,plant_014,hide,20,false,범용 보정 후보
+srl_plant_014_claw,Plant,plant_014,claw,20,false,범용 보정 후보
+srl_plant_015_living_seed,Plant,plant_015,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_015_animated_root,Plant,plant_015,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_015_spore_sac,Plant,plant_015,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_015_fungal_mycelium,Plant,plant_015,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_015_slime_sample,Plant,plant_015,slime_sample,90,true,수중 분류
+srl_plant_015_scale,Plant,plant_015,scale,83,false,수중 분류
+srl_plant_015_blood_sample,Plant,plant_015,blood_sample,20,false,범용 보정 후보
+srl_plant_015_hide,Plant,plant_015,hide,20,false,범용 보정 후보
+srl_plant_015_claw,Plant,plant_015,claw,20,false,범용 보정 후보
+srl_plant_016_living_seed,Plant,plant_016,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_016_animated_root,Plant,plant_016,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_016_spore_sac,Plant,plant_016,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_016_fungal_mycelium,Plant,plant_016,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_016_slime_sample,Plant,plant_016,slime_sample,90,true,수중 분류
+srl_plant_016_scale,Plant,plant_016,scale,83,false,수중 분류
+srl_plant_016_blood_sample,Plant,plant_016,blood_sample,20,false,범용 보정 후보
+srl_plant_016_hide,Plant,plant_016,hide,20,false,범용 보정 후보
+srl_plant_016_claw,Plant,plant_016,claw,20,false,범용 보정 후보
+srl_plant_017_living_seed,Plant,plant_017,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_017_animated_root,Plant,plant_017,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_017_spore_sac,Plant,plant_017,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_017_fungal_mycelium,Plant,plant_017,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_017_slime_sample,Plant,plant_017,slime_sample,90,true,수중 분류
+srl_plant_017_scale,Plant,plant_017,scale,83,false,수중 분류
+srl_plant_017_blood_sample,Plant,plant_017,blood_sample,20,false,범용 보정 후보
+srl_plant_017_hide,Plant,plant_017,hide,20,false,범용 보정 후보
+srl_plant_017_claw,Plant,plant_017,claw,20,false,범용 보정 후보
+srl_plant_018_living_seed,Plant,plant_018,living_seed,65,true,Plant 대분류 기본 자원
+srl_plant_018_animated_root,Plant,plant_018,animated_root,60,false,Plant 대분류 기본 자원
+srl_plant_018_spore_sac,Plant,plant_018,spore_sac,55,false,Plant 대분류 기본 자원
+srl_plant_018_fungal_mycelium,Plant,plant_018,fungal_mycelium,50,false,Plant 대분류 기본 자원
+srl_plant_018_slime_sample,Plant,plant_018,slime_sample,90,true,수중 분류
+srl_plant_018_scale,Plant,plant_018,scale,83,false,수중 분류
+srl_plant_018_claw,Plant,plant_018,claw,90,true,굴파기/지하 분류
+srl_plant_018_hide,Plant,plant_018,hide,83,false,굴파기/지하 분류
+srl_plant_018_blood_sample,Plant,plant_018,blood_sample,20,false,범용 보정 후보
+srl_undead_001_necrotic_bone,Undead,undead_001,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_001_grave_dust,Undead,undead_001,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_001_wraith_ectoplasm,Undead,undead_001,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_001_bone,Undead,undead_001,bone,50,false,Undead 대분류 기본 자원
+srl_undead_001_skull,Undead,undead_001,skull,83,false,골격형 분류
+srl_undead_001_bone_dust,Undead,undead_001,bone_dust,76,false,골격형 분류
+srl_undead_001_spine_bone,Undead,undead_001,spine_bone,62,false,골격형 분류
+srl_undead_001_blood_sample,Undead,undead_001,blood_sample,20,false,범용 보정 후보
+srl_undead_001_hide,Undead,undead_001,hide,20,false,범용 보정 후보
+srl_undead_001_claw,Undead,undead_001,claw,20,false,범용 보정 후보
+srl_undead_002_necrotic_bone,Undead,undead_002,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_002_grave_dust,Undead,undead_002,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_002_wraith_ectoplasm,Undead,undead_002,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_002_bone,Undead,undead_002,bone,50,false,Undead 대분류 기본 자원
+srl_undead_002_blackened_organ_piece,Undead,undead_002,blackened_organ_piece,83,false,시체형/부패형 분류
+srl_undead_002_blood_sample,Undead,undead_002,blood_sample,69,false,시체형/부패형 분류
+srl_undead_002_ichor_sample,Undead,undead_002,ichor_sample,62,false,시체형/부패형 분류
+srl_undead_002_slime_sample,Undead,undead_002,slime_sample,90,true,수중 분류
+srl_undead_002_scale,Undead,undead_002,scale,83,false,수중 분류
+srl_undead_002_hide,Undead,undead_002,hide,20,false,범용 보정 후보
+srl_undead_002_claw,Undead,undead_002,claw,20,false,범용 보정 후보
+srl_undead_003_necrotic_bone,Undead,undead_003,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_003_grave_dust,Undead,undead_003,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_003_wraith_ectoplasm,Undead,undead_003,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_003_bone,Undead,undead_003,bone,50,false,Undead 대분류 기본 자원
+srl_undead_003_blackened_organ_piece,Undead,undead_003,blackened_organ_piece,83,false,시체형/부패형 분류
+srl_undead_003_blood_sample,Undead,undead_003,blood_sample,69,false,시체형/부패형 분류
+srl_undead_003_ichor_sample,Undead,undead_003,ichor_sample,62,false,시체형/부패형 분류
+srl_undead_003_venom_sac,Undead,undead_003,venom_sac,90,true,독성/질병 분류
+srl_undead_003_liver,Undead,undead_003,liver,76,false,독성/질병 분류
+srl_undead_003_hide,Undead,undead_003,hide,20,false,범용 보정 후보
+srl_undead_003_claw,Undead,undead_003,claw,20,false,범용 보정 후보
+srl_undead_004_necrotic_bone,Undead,undead_004,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_004_grave_dust,Undead,undead_004,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_004_wraith_ectoplasm,Undead,undead_004,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_004_bone,Undead,undead_004,bone,50,false,Undead 대분류 기본 자원
+srl_undead_004_fog_condensate,Undead,undead_004,fog_condensate,76,false,영체/결박형 분류
+srl_undead_004_blood_sample,Undead,undead_004,blood_sample,20,false,범용 보정 후보
+srl_undead_004_hide,Undead,undead_004,hide,20,false,범용 보정 후보
+srl_undead_004_claw,Undead,undead_004,claw,20,false,범용 보정 후보
+srl_undead_005_necrotic_bone,Undead,undead_005,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_005_grave_dust,Undead,undead_005,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_005_wraith_ectoplasm,Undead,undead_005,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_005_bone,Undead,undead_005,bone,50,false,Undead 대분류 기본 자원
+srl_undead_005_fog_condensate,Undead,undead_005,fog_condensate,76,false,영체/결박형 분류
+srl_undead_005_blood_sample,Undead,undead_005,blood_sample,90,true,흡혈·생명력 흡수 분류
+srl_undead_005_fang,Undead,undead_005,fang,83,false,흡혈·생명력 흡수 분류
+srl_undead_005_ooze_core_sample,Undead,undead_005,ooze_core_sample,90,true,점액/산성 분류
+srl_undead_005_acidic_slime,Undead,undead_005,acidic_slime,83,false,점액/산성 분류
+srl_undead_005_slime_sample,Undead,undead_005,slime_sample,76,false,점액/산성 분류
+srl_undead_005_acid_gland,Undead,undead_005,acid_gland,69,false,점액/산성 분류
+srl_undead_005_hide,Undead,undead_005,hide,20,false,범용 보정 후보
+srl_undead_005_claw,Undead,undead_005,claw,20,false,범용 보정 후보
+srl_undead_006_necrotic_bone,Undead,undead_006,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_006_grave_dust,Undead,undead_006,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_006_wraith_ectoplasm,Undead,undead_006,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_006_bone,Undead,undead_006,bone,50,false,Undead 대분류 기본 자원
+srl_undead_006_fog_condensate,Undead,undead_006,fog_condensate,76,false,영체/결박형 분류
+srl_undead_006_psychic_tissue,Undead,undead_006,psychic_tissue,90,true,정신/환각 분류
+srl_undead_006_brain,Undead,undead_006,brain,83,false,정신/환각 분류
+srl_undead_006_blood_sample,Undead,undead_006,blood_sample,20,false,범용 보정 후보
+srl_undead_006_hide,Undead,undead_006,hide,20,false,범용 보정 후보
+srl_undead_006_claw,Undead,undead_006,claw,20,false,범용 보정 후보
+srl_undead_007_necrotic_bone,Undead,undead_007,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_007_grave_dust,Undead,undead_007,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_007_wraith_ectoplasm,Undead,undead_007,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_007_bone,Undead,undead_007,bone,50,false,Undead 대분류 기본 자원
+srl_undead_007_construct_gear,Undead,undead_007,construct_gear,90,true,구조체/장갑 분류
+srl_undead_007_arcane_circuit,Undead,undead_007,arcane_circuit,83,false,구조체/장갑 분류
+srl_undead_007_animated_armor_plate,Undead,undead_007,animated_armor_plate,76,false,구조체/장갑 분류
+srl_undead_007_golem_core_chip,Undead,undead_007,golem_core_chip,69,false,구조체/장갑 분류
+srl_undead_007_fiendish_blood,Undead,undead_007,fiendish_blood,90,true,악마체 분류
+srl_undead_007_soul_ash,Undead,undead_007,soul_ash,83,false,악마체 분류
+srl_undead_007_infernal_chain_link,Undead,undead_007,infernal_chain_link,76,false,악마체 분류
+srl_undead_007_blood_sample,Undead,undead_007,blood_sample,20,false,범용 보정 후보
+srl_undead_007_hide,Undead,undead_007,hide,20,false,범용 보정 후보
+srl_undead_007_claw,Undead,undead_007,claw,20,false,범용 보정 후보
+srl_undead_008_necrotic_bone,Undead,undead_008,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_008_grave_dust,Undead,undead_008,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_008_wraith_ectoplasm,Undead,undead_008,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_008_bone,Undead,undead_008,bone,50,false,Undead 대분류 기본 자원
+srl_undead_008_blood_sample,Undead,undead_008,blood_sample,20,false,범용 보정 후보
+srl_undead_008_hide,Undead,undead_008,hide,20,false,범용 보정 후보
+srl_undead_008_claw,Undead,undead_008,claw,20,false,범용 보정 후보
+srl_undead_009_necrotic_bone,Undead,undead_009,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_009_grave_dust,Undead,undead_009,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_009_wraith_ectoplasm,Undead,undead_009,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_009_bone,Undead,undead_009,bone,50,false,Undead 대분류 기본 자원
+srl_undead_009_blood_sample,Undead,undead_009,blood_sample,90,true,흡혈·생명력 흡수 분류
+srl_undead_009_fang,Undead,undead_009,fang,83,false,흡혈·생명력 흡수 분류
+srl_undead_009_ooze_core_sample,Undead,undead_009,ooze_core_sample,90,true,점액/산성 분류
+srl_undead_009_acidic_slime,Undead,undead_009,acidic_slime,83,false,점액/산성 분류
+srl_undead_009_slime_sample,Undead,undead_009,slime_sample,76,false,점액/산성 분류
+srl_undead_009_acid_gland,Undead,undead_009,acid_gland,69,false,점액/산성 분류
+srl_undead_009_hide,Undead,undead_009,hide,20,false,범용 보정 후보
+srl_undead_009_claw,Undead,undead_009,claw,20,false,범용 보정 후보
+srl_undead_010_necrotic_bone,Undead,undead_010,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_010_grave_dust,Undead,undead_010,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_010_wraith_ectoplasm,Undead,undead_010,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_010_bone,Undead,undead_010,bone,50,false,Undead 대분류 기본 자원
+srl_undead_010_elemental_ember,Undead,undead_010,elemental_ember,90,true,화염 분류
+srl_undead_010_elemental_core,Undead,undead_010,elemental_core,83,false,화염 분류
+srl_undead_010_blackened_hide_piece,Undead,undead_010,blackened_hide_piece,76,false,화염 분류
+srl_undead_010_fiendish_blood,Undead,undead_010,fiendish_blood,90,true,악마체 분류
+srl_undead_010_soul_ash,Undead,undead_010,soul_ash,83,false,악마체 분류
+srl_undead_010_infernal_chain_link,Undead,undead_010,infernal_chain_link,76,false,악마체 분류
+srl_undead_010_blood_sample,Undead,undead_010,blood_sample,20,false,범용 보정 후보
+srl_undead_010_hide,Undead,undead_010,hide,20,false,범용 보정 후보
+srl_undead_010_claw,Undead,undead_010,claw,20,false,범용 보정 후보
+srl_undead_011_necrotic_bone,Undead,undead_011,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_011_grave_dust,Undead,undead_011,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_011_wraith_ectoplasm,Undead,undead_011,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_011_bone,Undead,undead_011,bone,50,false,Undead 대분류 기본 자원
+srl_undead_011_blood_sample,Undead,undead_011,blood_sample,20,false,범용 보정 후보
+srl_undead_011_hide,Undead,undead_011,hide,20,false,범용 보정 후보
+srl_undead_011_claw,Undead,undead_011,claw,20,false,범용 보정 후보
+srl_undead_012_necrotic_bone,Undead,undead_012,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_012_grave_dust,Undead,undead_012,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_012_wraith_ectoplasm,Undead,undead_012,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_012_bone,Undead,undead_012,bone,50,false,Undead 대분류 기본 자원
+srl_undead_012_blood_sample,Undead,undead_012,blood_sample,20,false,범용 보정 후보
+srl_undead_012_hide,Undead,undead_012,hide,20,false,범용 보정 후보
+srl_undead_012_claw,Undead,undead_012,claw,20,false,범용 보정 후보
+srl_undead_013_necrotic_bone,Undead,undead_013,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_013_grave_dust,Undead,undead_013,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_013_wraith_ectoplasm,Undead,undead_013,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_013_bone,Undead,undead_013,bone,50,false,Undead 대분류 기본 자원
+srl_undead_013_fog_condensate,Undead,undead_013,fog_condensate,76,false,영체/결박형 분류
+srl_undead_013_blood_sample,Undead,undead_013,blood_sample,20,false,범용 보정 후보
+srl_undead_013_hide,Undead,undead_013,hide,20,false,범용 보정 후보
+srl_undead_013_claw,Undead,undead_013,claw,20,false,범용 보정 후보
+srl_undead_014_necrotic_bone,Undead,undead_014,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_014_grave_dust,Undead,undead_014,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_014_wraith_ectoplasm,Undead,undead_014,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_014_bone,Undead,undead_014,bone,50,false,Undead 대분류 기본 자원
+srl_undead_014_blood_sample,Undead,undead_014,blood_sample,20,false,범용 보정 후보
+srl_undead_014_hide,Undead,undead_014,hide,20,false,범용 보정 후보
+srl_undead_014_claw,Undead,undead_014,claw,20,false,범용 보정 후보
+srl_undead_015_necrotic_bone,Undead,undead_015,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_015_grave_dust,Undead,undead_015,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_015_wraith_ectoplasm,Undead,undead_015,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_015_bone,Undead,undead_015,bone,50,false,Undead 대분류 기본 자원
+srl_undead_015_blood_sample,Undead,undead_015,blood_sample,20,false,범용 보정 후보
+srl_undead_015_hide,Undead,undead_015,hide,20,false,범용 보정 후보
+srl_undead_015_claw,Undead,undead_015,claw,20,false,범용 보정 후보
+srl_undead_016_necrotic_bone,Undead,undead_016,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_016_grave_dust,Undead,undead_016,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_016_wraith_ectoplasm,Undead,undead_016,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_016_bone,Undead,undead_016,bone,50,false,Undead 대분류 기본 자원
+srl_undead_016_fog_condensate,Undead,undead_016,fog_condensate,76,false,영체/결박형 분류
+srl_undead_016_blood_sample,Undead,undead_016,blood_sample,20,false,범용 보정 후보
+srl_undead_016_hide,Undead,undead_016,hide,20,false,범용 보정 후보
+srl_undead_016_claw,Undead,undead_016,claw,20,false,범용 보정 후보
+srl_undead_017_necrotic_bone,Undead,undead_017,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_017_grave_dust,Undead,undead_017,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_017_wraith_ectoplasm,Undead,undead_017,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_017_bone,Undead,undead_017,bone,50,false,Undead 대분류 기본 자원
+srl_undead_017_blood_sample,Undead,undead_017,blood_sample,20,false,범용 보정 후보
+srl_undead_017_hide,Undead,undead_017,hide,20,false,범용 보정 후보
+srl_undead_017_claw,Undead,undead_017,claw,20,false,범용 보정 후보
+srl_undead_018_necrotic_bone,Undead,undead_018,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_018_grave_dust,Undead,undead_018,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_018_wraith_ectoplasm,Undead,undead_018,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_018_bone,Undead,undead_018,bone,50,false,Undead 대분류 기본 자원
+srl_undead_018_blood_sample,Undead,undead_018,blood_sample,90,true,흡혈·생명력 흡수 분류
+srl_undead_018_fang,Undead,undead_018,fang,83,false,흡혈·생명력 흡수 분류
+srl_undead_018_ooze_core_sample,Undead,undead_018,ooze_core_sample,90,true,점액/산성 분류
+srl_undead_018_acidic_slime,Undead,undead_018,acidic_slime,83,false,점액/산성 분류
+srl_undead_018_slime_sample,Undead,undead_018,slime_sample,76,false,점액/산성 분류
+srl_undead_018_acid_gland,Undead,undead_018,acid_gland,69,false,점액/산성 분류
+srl_undead_018_eye,Undead,undead_018,eye,90,true,시선/광선 분류
+srl_undead_018_psychic_tissue,Undead,undead_018,psychic_tissue,76,false,시선/광선 분류
+srl_undead_018_hide,Undead,undead_018,hide,20,false,범용 보정 후보
+srl_undead_018_claw,Undead,undead_018,claw,20,false,범용 보정 후보
+srl_undead_019_necrotic_bone,Undead,undead_019,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_019_grave_dust,Undead,undead_019,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_019_wraith_ectoplasm,Undead,undead_019,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_019_bone,Undead,undead_019,bone,50,false,Undead 대분류 기본 자원
+srl_undead_019_blackened_organ_piece,Undead,undead_019,blackened_organ_piece,83,false,시체형/부패형 분류
+srl_undead_019_blood_sample,Undead,undead_019,blood_sample,69,false,시체형/부패형 분류
+srl_undead_019_ichor_sample,Undead,undead_019,ichor_sample,62,false,시체형/부패형 분류
+srl_undead_019_venom_sac,Undead,undead_019,venom_sac,90,true,독성/질병 분류
+srl_undead_019_liver,Undead,undead_019,liver,76,false,독성/질병 분류
+srl_undead_019_hide,Undead,undead_019,hide,20,false,범용 보정 후보
+srl_undead_019_claw,Undead,undead_019,claw,20,false,범용 보정 후보
+srl_undead_020_necrotic_bone,Undead,undead_020,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_020_grave_dust,Undead,undead_020,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_020_wraith_ectoplasm,Undead,undead_020,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_020_bone,Undead,undead_020,bone,50,false,Undead 대분류 기본 자원
+srl_undead_020_blood_sample,Undead,undead_020,blood_sample,20,false,범용 보정 후보
+srl_undead_020_hide,Undead,undead_020,hide,20,false,범용 보정 후보
+srl_undead_020_claw,Undead,undead_020,claw,20,false,범용 보정 후보
+srl_undead_021_necrotic_bone,Undead,undead_021,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_021_grave_dust,Undead,undead_021,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_021_wraith_ectoplasm,Undead,undead_021,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_021_bone,Undead,undead_021,bone,50,false,Undead 대분류 기본 자원
+srl_undead_021_blood_sample,Undead,undead_021,blood_sample,20,false,범용 보정 후보
+srl_undead_021_hide,Undead,undead_021,hide,20,false,범용 보정 후보
+srl_undead_021_claw,Undead,undead_021,claw,20,false,범용 보정 후보
+srl_undead_022_necrotic_bone,Undead,undead_022,necrotic_bone,65,true,Undead 대분류 기본 자원
+srl_undead_022_grave_dust,Undead,undead_022,grave_dust,60,false,Undead 대분류 기본 자원
+srl_undead_022_wraith_ectoplasm,Undead,undead_022,wraith_ectoplasm,55,false,Undead 대분류 기본 자원
+srl_undead_022_bone,Undead,undead_022,bone,50,false,Undead 대분류 기본 자원
+srl_undead_022_dragon_scale,Undead,undead_022,dragon_scale,90,true,용종 분류
+srl_undead_022_dragon_blood,Undead,undead_022,dragon_blood,83,false,용종 분류
+srl_undead_022_dragon_breath_sac,Undead,undead_022,dragon_breath_sac,76,false,용종 분류
+srl_undead_022_dragon_horn,Undead,undead_022,dragon_horn,69,false,용종 분류
+srl_undead_022_blood_sample,Undead,undead_022,blood_sample,20,false,범용 보정 후보
+srl_undead_022_hide,Undead,undead_022,hide,20,false,범용 보정 후보
+srl_undead_022_claw,Undead,undead_022,claw,20,false,범용 보정 후보

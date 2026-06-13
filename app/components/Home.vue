@@ -14,6 +14,12 @@ const apps: AppCard[] = [
     icon: 'lucide:dice-5',
   },
   {
+    name: '몬스터 롤 테이블',
+    description: '몬스터 관찰 데이터 생성 및 도감 기록 도구',
+    path: '/tools/monster-roll-table',
+    icon: 'lucide:book-open',
+  },
+  {
     name: '인터렉티브 맵',
     description: '세션 지도 및 랜드마크 관리 도구',
     path: '/tools/interactive-map',

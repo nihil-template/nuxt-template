@@ -1,5 +1,0 @@
-route_id,route_name,description,is_hidden
-pioneer,개척자,문명권 바깥과 앙그라권을 개척하는 공고를 우선한다.,false
-solver,해결사,문명권 내부와 인접 관리 구역에서 발생한 문제를 수습하는 공고를 우선한다.,false
-hunter,사냥꾼,위험 개체와 변이 생태를 추적하고 제압하는 공고를 우선한다.,false
-classified,기밀,재앙 대응 또는 미확인 배후가 얽힌 제한 공개 공고다,true

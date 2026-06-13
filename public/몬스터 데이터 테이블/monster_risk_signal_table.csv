@@ -1,0 +1,16 @@
+﻿risk_id,risk_ko,definition,classification_note
+light_avoidance,빛 회피,정화성 빛이나 밝은 광원을 피한다,잔향 2단계·언데드 가능
+light_resistance,빛 저항,정화성 빛에 둔감하거나 저항한다,잔향 3단계·안개권 표본
+pain_dulling,통각 둔화,피해를 받아도 반응이 둔하다,잔향 초기 증폭
+rapid_regeneration,비정상 재생,상처가 빠르게 닫히거나 부위가 다시 자란다,고위험 변이체
+mist_emission,안개 분출,몸 주변에 안개나 잔향성 기운이 형성된다,잔향 2단계 이상
+space_anchor,공간 고착,특정 장소를 떠나지 않으며 공간 반응을 일으킨다,가디언화 전조
+boundary_instability,경계 불안정,출입·거리·방향이 어긋난다,던전화 전조
+rune_manifestation,룬 발현,피부·바닥·장비에 룬이 나타난다,잔향의 룬
+fear_spread,공포 확산,주변에 공포·불신·환청을 퍼뜨린다,공포 의회/검은 광기
+blackstone_resonance,흑마석 공명,흑마석에 끌리거나 공명한다,정제·자원
+corpse_activity,사후 활동,사망 후에도 움직이거나 오염이 남는다,언데드/잔향
+memory_gap,기억 공백,목격자에게 기억 누락과 증언 불일치가 생긴다,정신/요정/변이체
+voice_mimicry,음성 모방,사람의 목소리나 신호를 흉내낸다,유인형 위협
+pack_coordination,비정상 협동,일반 지능보다 높은 집단 전술을 보인다,우두머리/군체
+guardian_binding,가디언 결속,핵·못·중심부와 연결된 반응을 보인다,가디언 판정

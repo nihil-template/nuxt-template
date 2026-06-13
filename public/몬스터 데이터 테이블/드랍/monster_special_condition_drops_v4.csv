@@ -1,0 +1,3 @@
+﻿"rule_id","condition_group","condition_value","drop_ko","drop_policy","notes"
+"special_angra_blackstone","앙그라","앙그라의 잔향 또는 앙그라의 안개 속 몬스터","흑마석 결정","always_add","타입과 서브타입에 관계없이 추가한다"
+"special_guardian_core","가디언","던전 가디언 또는 토템 가디언","부정한 핵","always_add","가디언 개체는 확정적으로 드랍한다"

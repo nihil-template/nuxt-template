@@ -1,0 +1,29 @@
+﻿link_id,risk_signal_id,resource_id,weight,required,notes
+rsr_light_avoidance_resonance_fluid,light_avoidance,resonance_fluid,75,true,빛 회피 위험 징후 보정 자원
+rsr_light_avoidance_blackened_hide_piece,light_avoidance,blackened_hide_piece,70,false,빛 회피 위험 징후 보정 자원
+rsr_light_resistance_resonance_fluid,light_resistance,resonance_fluid,75,true,빛 저항 위험 징후 보정 자원
+rsr_light_resistance_crystallized_tissue,light_resistance,crystallized_tissue,70,false,빛 저항 위험 징후 보정 자원
+rsr_light_resistance_fog_condensate,light_resistance,fog_condensate,75,true,안개 위험 징후 보정 자원
+rsr_light_resistance_resonance_fluid,light_resistance,resonance_fluid,70,false,안개 위험 징후 보정 자원
+rsr_pain_dulling_blood_sample,pain_dulling,blood_sample,75,true,통각 둔화 위험 징후 보정 자원
+rsr_pain_dulling_resonance_fluid,pain_dulling,resonance_fluid,70,false,통각 둔화 위험 징후 보정 자원
+rsr_rapid_regeneration_mutated_organ_piece,rapid_regeneration,mutated_organ_piece,75,true,재생 위험 징후 보정 자원
+rsr_rapid_regeneration_heart,rapid_regeneration,heart,70,false,재생 위험 징후 보정 자원
+rsr_mist_emission_fog_condensate,mist_emission,fog_condensate,75,true,안개 위험 징후 보정 자원
+rsr_mist_emission_resonance_fluid,mist_emission,resonance_fluid,70,false,안개 위험 징후 보정 자원
+rsr_space_anchor_core_shard,space_anchor,core_shard,75,true,공간 고착 위험 징후 보정 자원
+rsr_space_anchor_crystallized_tissue,space_anchor,crystallized_tissue,70,false,공간 고착 위험 징후 보정 자원
+rsr_boundary_instability_resonance_fluid,boundary_instability,resonance_fluid,30,false,범용 위험 징후 자원
+rsr_rune_manifestation_rune_etched_bone,rune_manifestation,rune_etched_bone,75,true,룬 위험 징후 보정 자원
+rsr_rune_manifestation_rune_etched_hide,rune_manifestation,rune_etched_hide,70,false,룬 위험 징후 보정 자원
+rsr_rune_manifestation_rune_organ_piece,rune_manifestation,rune_organ_piece,65,false,룬 위험 징후 보정 자원
+rsr_fear_spread_psychic_tissue,fear_spread,psychic_tissue,75,true,공포 위험 징후 보정 자원
+rsr_fear_spread_brain,fear_spread,brain,70,false,공포 위험 징후 보정 자원
+rsr_blackstone_resonance_blackstone_crystal,blackstone_resonance,blackstone_crystal,75,true,흑마석 위험 징후 보정 자원
+rsr_blackstone_resonance_crystallized_tissue,blackstone_resonance,crystallized_tissue,70,false,흑마석 위험 징후 보정 자원
+rsr_corpse_activity_resonance_fluid,corpse_activity,resonance_fluid,30,false,범용 위험 징후 자원
+rsr_memory_gap_resonance_fluid,memory_gap,resonance_fluid,30,false,범용 위험 징후 자원
+rsr_voice_mimicry_resonance_fluid,voice_mimicry,resonance_fluid,30,false,범용 위험 징후 자원
+rsr_pack_coordination_resonance_fluid,pack_coordination,resonance_fluid,30,false,범용 위험 징후 자원
+rsr_guardian_binding_core_shard,guardian_binding,core_shard,75,true,핵 위험 징후 보정 자원
+rsr_guardian_binding_guardian_core,guardian_binding,guardian_core,70,false,핵 위험 징후 보정 자원

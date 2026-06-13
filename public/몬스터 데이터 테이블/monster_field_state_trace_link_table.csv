@@ -1,0 +1,143 @@
+﻿link_id,field_state_id,trace_id,weight,required,notes
+fsl_field_normal_footprints_deep,field_normal,footprints_deep,70,false,일반 필드 개체 상태 보정 흔적
+fsl_field_normal_territory_scratches,field_normal,territory_scratches,65,false,일반 필드 개체 상태 보정 흔적
+fsl_field_normal_animal_tracks,field_normal,animal_tracks,60,false,일반 필드 개체 상태 보정 흔적
+fsl_settlement_edge_footprints_deep,settlement_edge,footprints_deep,70,false,생활권 접근 개체 상태 보정 흔적
+fsl_settlement_edge_broken_branches,settlement_edge,broken_branches,65,false,생활권 접근 개체 상태 보정 흔적
+fsl_settlement_edge_dried_blood,settlement_edge,dried_blood,60,false,생활권 접근 개체 상태 보정 흔적
+fsl_settlement_edge_territory_scratches,settlement_edge,territory_scratches,55,false,생활권 접근 개체 상태 보정 흔적
+fsl_leader_individual_territory_scratches,leader_individual,territory_scratches,70,false,우두머리 개체 상태 보정 흔적
+fsl_leader_individual_patrol_route,leader_individual,patrol_route,65,false,우두머리 개체 상태 보정 흔적
+fsl_leader_individual_bone_pile,leader_individual,bone_pile,60,false,우두머리 개체 상태 보정 흔적
+fsl_alpha_individual_territory_scratches,alpha_individual,territory_scratches,70,false,알파 개체 상태 보정 흔적
+fsl_alpha_individual_patrol_route,alpha_individual,patrol_route,65,false,알파 개체 상태 보정 흔적
+fsl_alpha_individual_torn_carcass,alpha_individual,torn_carcass,60,false,알파 개체 상태 보정 흔적
+fsl_alpha_individual_impact_crater,alpha_individual,impact_crater,55,false,알파 개체 상태 보정 흔적
+fsl_pack_commander_footprints_deep,pack_commander,footprints_deep,70,false,무리 지휘 개체 상태 보정 흔적
+fsl_pack_commander_territory_scratches,pack_commander,territory_scratches,65,false,무리 지휘 개체 상태 보정 흔적
+fsl_pack_commander_animal_tracks,pack_commander,animal_tracks,60,false,무리 지휘 개체 상태 보정 흔적
+fsl_nest_guard_low_den,nest_guard,low_den,70,false,둥지 방어 개체 상태 보정 흔적
+fsl_nest_guard_high_nest,nest_guard,high_nest,65,false,둥지 방어 개체 상태 보정 흔적
+fsl_nest_guard_territory_scratches,nest_guard,territory_scratches,60,false,둥지 방어 개체 상태 보정 흔적
+fsl_territory_ruler_footprints_deep,territory_ruler,footprints_deep,70,false,포식권 지배 개체 상태 보정 흔적
+fsl_territory_ruler_territory_scratches,territory_ruler,territory_scratches,65,false,포식권 지배 개체 상태 보정 흔적
+fsl_territory_ruler_animal_tracks,territory_ruler,animal_tracks,60,false,포식권 지배 개체 상태 보정 흔적
+fsl_resonance_stage_1_necrotic_wither,resonance_stage_1,necrotic_wither,70,false,잔향 1단계 영향 개체 상태 보정 흔적
+fsl_resonance_stage_1_fog_residue,resonance_stage_1,fog_residue,65,false,잔향 1단계 영향 개체 상태 보정 흔적
+fsl_resonance_stage_1_dried_blood,resonance_stage_1,dried_blood,60,false,잔향 1단계 영향 개체 상태 보정 흔적
+fsl_resonance_stage_2_fog_residue,resonance_stage_2,fog_residue,70,false,잔향 2단계 변이 개체 상태 보정 흔적
+fsl_resonance_stage_2_black_ichor,resonance_stage_2,black_ichor,65,false,잔향 2단계 변이 개체 상태 보정 흔적
+fsl_resonance_stage_2_poison_stain,resonance_stage_2,poison_stain,60,false,잔향 2단계 변이 개체 상태 보정 흔적
+fsl_resonance_stage_2_rune_marks,resonance_stage_2,rune_marks,55,false,잔향 2단계 변이 개체 상태 보정 흔적
+fsl_resonance_stage_3_suspect_core_resonance_mark,resonance_stage_3_suspect,core_resonance_mark,70,false,잔향 3단계 의심 개체 상태 보정 흔적
+fsl_resonance_stage_3_suspect_fog_residue,resonance_stage_3_suspect,fog_residue,65,false,잔향 3단계 의심 개체 상태 보정 흔적
+fsl_resonance_stage_3_suspect_rune_marks,resonance_stage_3_suspect,rune_marks,60,false,잔향 3단계 의심 개체 상태 보정 흔적
+fsl_resonance_stage_3_suspect_necrotic_wither,resonance_stage_3_suspect,necrotic_wither,55,false,잔향 3단계 의심 개체 상태 보정 흔적
+fsl_guardianization_omen_core_resonance_mark,guardianization_omen,core_resonance_mark,70,false,가디언화 전조 개체 상태 보정 흔적
+fsl_guardianization_omen_patrol_route,guardianization_omen,patrol_route,65,false,가디언화 전조 개체 상태 보정 흔적
+fsl_guardianization_omen_fog_residue,guardianization_omen,fog_residue,60,false,가디언화 전조 개체 상태 보정 흔적
+fsl_guardianization_omen_rune_marks,guardianization_omen,rune_marks,55,false,가디언화 전조 개체 상태 보정 흔적
+fsl_living_dungeon_source_footprints_deep,living_dungeon_source,footprints_deep,70,false,살아있는 던전 근원 상태 보정 흔적
+fsl_living_dungeon_source_territory_scratches,living_dungeon_source,territory_scratches,65,false,살아있는 던전 근원 상태 보정 흔적
+fsl_living_dungeon_source_animal_tracks,living_dungeon_source,animal_tracks,60,false,살아있는 던전 근원 상태 보정 흔적
+fsl_dungeon_inner_core_resonance_mark,dungeon_inner,core_resonance_mark,70,false,던전 내부 개체 상태 보정 흔적
+fsl_dungeon_inner_patrol_route,dungeon_inner,patrol_route,65,false,던전 내부 개체 상태 보정 흔적
+fsl_dungeon_inner_bone_pile,dungeon_inner,bone_pile,55,false,던전 내부 개체 상태 보정 흔적
+fsl_dungeon_ecology_footprints_deep,dungeon_ecology,footprints_deep,70,false,던전 생태 개체 상태 보정 흔적
+fsl_dungeon_ecology_territory_scratches,dungeon_ecology,territory_scratches,65,false,던전 생태 개체 상태 보정 흔적
+fsl_dungeon_ecology_animal_tracks,dungeon_ecology,animal_tracks,60,false,던전 생태 개체 상태 보정 흔적
+fsl_dungeon_guardian_bound_core_resonance_mark,dungeon_guardian_bound,core_resonance_mark,70,false,던전 가디언 결속 개체 상태 보정 흔적
+fsl_dungeon_guardian_bound_patrol_route,dungeon_guardian_bound,patrol_route,65,false,던전 가디언 결속 개체 상태 보정 흔적
+fsl_dungeon_guardian_bound_rune_marks,dungeon_guardian_bound,rune_marks,60,false,던전 가디언 결속 개체 상태 보정 흔적
+fsl_dungeon_guardian_bound_impact_crater,dungeon_guardian_bound,impact_crater,60,false,던전 가디언 결속 개체 상태 보정 흔적
+fsl_dungeon_guardian_core_resonance_mark,dungeon_guardian,core_resonance_mark,70,true,던전 가디언 상태 보정 흔적
+fsl_dungeon_guardian_rune_marks,dungeon_guardian,rune_marks,65,false,던전 가디언 상태 보정 흔적
+fsl_dungeon_guardian_impact_crater,dungeon_guardian,impact_crater,60,false,던전 가디언 상태 보정 흔적
+fsl_dungeon_guardian_patrol_route,dungeon_guardian,patrol_route,55,false,던전 가디언 상태 보정 흔적
+fsl_angra_fog_creature_fog_residue,angra_fog_creature,fog_residue,70,false,안개권 비던전 생물 상태 보정 흔적
+fsl_angra_fog_creature_black_ichor,angra_fog_creature,black_ichor,65,false,안개권 비던전 생물 상태 보정 흔적
+fsl_angra_fog_creature_poison_stain,angra_fog_creature,poison_stain,60,false,안개권 비던전 생물 상태 보정 흔적
+fsl_angra_predator_fog_residue,angra_predator,fog_residue,70,false,안개권 포식 개체 상태 보정 흔적
+fsl_angra_predator_torn_carcass,angra_predator,torn_carcass,65,false,안개권 포식 개체 상태 보정 흔적
+fsl_angra_predator_drag_marks,angra_predator,drag_marks,60,false,안개권 포식 개체 상태 보정 흔적
+fsl_angra_sample_value_fog_residue,angra_sample_value,fog_residue,70,false,안개권 표본 가치 개체 상태 보정 흔적
+fsl_angra_sample_value_spore_cloud_residue,angra_sample_value,spore_cloud_residue,65,false,안개권 표본 가치 개체 상태 보정 흔적
+fsl_angra_sample_value_black_ichor,angra_sample_value,black_ichor,60,false,안개권 표본 가치 개체 상태 보정 흔적
+fsl_angra_sample_value_poison_stain,angra_sample_value,poison_stain,60,false,안개권 표본 가치 개체 상태 보정 흔적
+fsl_angra_trailer_fog_residue,angra_trailer,fog_residue,70,false,안개권 추적 개체 상태 보정 흔적
+fsl_angra_trailer_black_ichor,angra_trailer,black_ichor,65,false,안개권 추적 개체 상태 보정 흔적
+fsl_angra_trailer_poison_stain,angra_trailer,poison_stain,60,false,안개권 추적 개체 상태 보정 흔적
+fsl_angra_rear_threat_fog_residue,angra_rear_threat,fog_residue,70,false,안개권 후위 위협 개체 상태 보정 흔적
+fsl_angra_rear_threat_black_ichor,angra_rear_threat,black_ichor,65,false,안개권 후위 위협 개체 상태 보정 흔적
+fsl_angra_rear_threat_poison_stain,angra_rear_threat,poison_stain,60,false,안개권 후위 위협 개체 상태 보정 흔적
+fsl_nail_reaction_footprints_deep,nail_reaction,footprints_deep,70,false,앙그라의 못 주변 반응 개체 상태 보정 흔적
+fsl_nail_reaction_territory_scratches,nail_reaction,territory_scratches,65,false,앙그라의 못 주변 반응 개체 상태 보정 흔적
+fsl_nail_reaction_animal_tracks,nail_reaction,animal_tracks,60,false,앙그라의 못 주변 반응 개체 상태 보정 흔적
+fsl_totem_servitor_fog_residue,totem_servitor,fog_residue,70,true,토템 가디언 수하 개체 상태 보정 흔적
+fsl_totem_servitor_core_resonance_mark,totem_servitor,core_resonance_mark,65,false,토템 가디언 수하 개체 상태 보정 흔적
+fsl_totem_servitor_blackstone_shards,totem_servitor,blackstone_shards,60,false,토템 가디언 수하 개체 상태 보정 흔적
+fsl_totem_servitor_impact_crater,totem_servitor,impact_crater,55,false,토템 가디언 수하 개체 상태 보정 흔적
+fsl_totem_guardian_fog_residue,totem_guardian,fog_residue,70,true,토템 가디언 상태 보정 흔적
+fsl_totem_guardian_core_resonance_mark,totem_guardian,core_resonance_mark,65,false,토템 가디언 상태 보정 흔적
+fsl_totem_guardian_blackstone_shards,totem_guardian,blackstone_shards,60,false,토템 가디언 상태 보정 흔적
+fsl_totem_guardian_impact_crater,totem_guardian,impact_crater,55,false,토템 가디언 상태 보정 흔적
+fsl_blackstone_ingested_blackstone_shards,blackstone_ingested,blackstone_shards,70,false,흑마석 섭취 개체 상태 보정 흔적
+fsl_blackstone_ingested_core_resonance_mark,blackstone_ingested,core_resonance_mark,65,false,흑마석 섭취 개체 상태 보정 흔적
+fsl_blackstone_ingested_crystal_broken_bone,blackstone_ingested,crystal_broken_bone,60,false,흑마석 섭취 개체 상태 보정 흔적
+fsl_blackstone_crystallized_blackstone_shards,blackstone_crystallized,blackstone_shards,70,false,흑마석 결정화 개체 상태 보정 흔적
+fsl_blackstone_crystallized_crystal_soil_discoloration,blackstone_crystallized,crystal_soil_discoloration,65,false,흑마석 결정화 개체 상태 보정 흔적
+fsl_blackstone_crystallized_core_resonance_mark,blackstone_crystallized,core_resonance_mark,60,false,흑마석 결정화 개체 상태 보정 흔적
+fsl_refining_failure_affected_footprints_deep,refining_failure_affected,footprints_deep,70,false,정제 실패 영향 개체 상태 보정 흔적
+fsl_refining_failure_affected_territory_scratches,refining_failure_affected,territory_scratches,65,false,정제 실패 영향 개체 상태 보정 흔적
+fsl_refining_failure_affected_animal_tracks,refining_failure_affected,animal_tracks,60,false,정제 실패 영향 개체 상태 보정 흔적
+fsl_rune_marked_rune_marks,rune_marked,rune_marks,70,false,잔향의 룬 각인 개체 상태 보정 흔적
+fsl_rune_marked_rune_broken_bone,rune_marked,rune_broken_bone,65,false,잔향의 룬 각인 개체 상태 보정 흔적
+fsl_rune_marked_rune_scraped_stone,rune_marked,rune_scraped_stone,60,false,잔향의 룬 각인 개체 상태 보정 흔적
+fsl_quasi_dungeon_zone_creature_footprints_deep,quasi_dungeon_zone_creature,footprints_deep,70,false,준던전화 구역 개체 상태 보정 흔적
+fsl_quasi_dungeon_zone_creature_territory_scratches,quasi_dungeon_zone_creature,territory_scratches,65,false,준던전화 구역 개체 상태 보정 흔적
+fsl_quasi_dungeon_zone_creature_animal_tracks,quasi_dungeon_zone_creature,animal_tracks,60,false,준던전화 구역 개체 상태 보정 흔적
+fsl_fear_reactive_footprints_deep,fear_reactive,footprints_deep,70,false,공포 반응 유발 개체 상태 보정 흔적
+fsl_fear_reactive_territory_scratches,fear_reactive,territory_scratches,65,false,공포 반응 유발 개체 상태 보정 흔적
+fsl_fear_reactive_animal_tracks,fear_reactive,animal_tracks,60,false,공포 반응 유발 개체 상태 보정 흔적
+fsl_indoctrinated_victim_footprints_deep,indoctrinated_victim,footprints_deep,70,false,포섭 피해 개체 상태 보정 흔적
+fsl_indoctrinated_victim_territory_scratches,indoctrinated_victim,territory_scratches,65,false,포섭 피해 개체 상태 보정 흔적
+fsl_indoctrinated_victim_animal_tracks,indoctrinated_victim,animal_tracks,60,false,포섭 피해 개체 상태 보정 흔적
+fsl_ritual_medium_footprints_deep,ritual_medium,footprints_deep,70,false,의식 매개 개체 상태 보정 흔적
+fsl_ritual_medium_territory_scratches,ritual_medium,territory_scratches,65,false,의식 매개 개체 상태 보정 흔적
+fsl_ritual_medium_animal_tracks,ritual_medium,animal_tracks,60,false,의식 매개 개체 상태 보정 흔적
+fsl_record_value_footprints_deep,record_value,footprints_deep,70,false,기록 가치 개체 상태 보정 흔적
+fsl_record_value_territory_scratches,record_value,territory_scratches,65,false,기록 가치 개체 상태 보정 흔적
+fsl_record_value_animal_tracks,record_value,animal_tracks,60,false,기록 가치 개체 상태 보정 흔적
+fsl_recovery_forbidden_footprints_deep,recovery_forbidden,footprints_deep,70,false,회수 금지 개체 상태 보정 흔적
+fsl_recovery_forbidden_territory_scratches,recovery_forbidden,territory_scratches,65,false,회수 금지 개체 상태 보정 흔적
+fsl_recovery_forbidden_animal_tracks,recovery_forbidden,animal_tracks,60,false,회수 금지 개체 상태 보정 흔적
+fsl_civilian_disguised_footprints_deep,civilian_disguised,footprints_deep,70,false,민간인 위장 개체 상태 보정 흔적
+fsl_civilian_disguised_territory_scratches,civilian_disguised,territory_scratches,65,false,민간인 위장 개체 상태 보정 흔적
+fsl_civilian_disguised_animal_tracks,civilian_disguised,animal_tracks,60,false,민간인 위장 개체 상태 보정 흔적
+fsl_infiltration_suspect_footprints_deep,infiltration_suspect,footprints_deep,70,false,침투 의심 개체 상태 보정 흔적
+fsl_infiltration_suspect_territory_scratches,infiltration_suspect,territory_scratches,65,false,침투 의심 개체 상태 보정 흔적
+fsl_infiltration_suspect_animal_tracks,infiltration_suspect,animal_tracks,60,false,침투 의심 개체 상태 보정 흔적
+fsl_transport_lure_footprints_deep,transport_lure,footprints_deep,70,false,운송물 반응 개체 상태 보정 흔적
+fsl_transport_lure_territory_scratches,transport_lure,territory_scratches,65,false,운송물 반응 개체 상태 보정 흔적
+fsl_transport_lure_animal_tracks,transport_lure,animal_tracks,60,false,운송물 반응 개체 상태 보정 흔적
+fsl_sanctuary_bound_footprints_deep,sanctuary_bound,footprints_deep,70,false,성역 결속 개체 상태 보정 흔적
+fsl_sanctuary_bound_territory_scratches,sanctuary_bound,territory_scratches,65,false,성역 결속 개체 상태 보정 흔적
+fsl_sanctuary_bound_animal_tracks,sanctuary_bound,animal_tracks,60,false,성역 결속 개체 상태 보정 흔적
+fsl_portal_reactive_footprints_deep,portal_reactive,footprints_deep,70,false,포탈 반응 개체 상태 보정 흔적
+fsl_portal_reactive_territory_scratches,portal_reactive,territory_scratches,65,false,포탈 반응 개체 상태 보정 흔적
+fsl_portal_reactive_animal_tracks,portal_reactive,animal_tracks,60,false,포탈 반응 개체 상태 보정 흔적
+fsl_resource_bearing_footprints_deep,resource_bearing,footprints_deep,70,false,자원 보유 개체 상태 보정 흔적
+fsl_resource_bearing_territory_scratches,resource_bearing,territory_scratches,65,false,자원 보유 개체 상태 보정 흔적
+fsl_resource_bearing_animal_tracks,resource_bearing,animal_tracks,60,false,자원 보유 개체 상태 보정 흔적
+fsl_plague_bearer_footprints_deep,plague_bearer,footprints_deep,70,false,질병 매개 개체 상태 보정 흔적
+fsl_plague_bearer_territory_scratches,plague_bearer,territory_scratches,65,false,질병 매개 개체 상태 보정 흔적
+fsl_plague_bearer_animal_tracks,plague_bearer,animal_tracks,60,false,질병 매개 개체 상태 보정 흔적
+fsl_escaped_experiment_footprints_deep,escaped_experiment,footprints_deep,70,false,실험 이탈 개체 상태 보정 흔적
+fsl_escaped_experiment_territory_scratches,escaped_experiment,territory_scratches,65,false,실험 이탈 개체 상태 보정 흔적
+fsl_escaped_experiment_animal_tracks,escaped_experiment,animal_tracks,60,false,실험 이탈 개체 상태 보정 흔적
+fsl_controlled_asset_footprints_deep,controlled_asset,footprints_deep,70,false,통제 자산화 개체 상태 보정 흔적
+fsl_controlled_asset_territory_scratches,controlled_asset,territory_scratches,65,false,통제 자산화 개체 상태 보정 흔적
+fsl_controlled_asset_animal_tracks,controlled_asset,animal_tracks,60,false,통제 자산화 개체 상태 보정 흔적
+fsl_unknown_classification_footprints_deep,unknown_classification,footprints_deep,70,false,분류 보류 개체 상태 보정 흔적
+fsl_unknown_classification_territory_scratches,unknown_classification,territory_scratches,65,false,분류 보류 개체 상태 보정 흔적
+fsl_unknown_classification_animal_tracks,unknown_classification,animal_tracks,60,false,분류 보류 개체 상태 보정 흔적

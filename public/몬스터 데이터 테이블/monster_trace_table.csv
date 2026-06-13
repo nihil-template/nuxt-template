@@ -1,0 +1,222 @@
+﻿trace_id,trace_ko,trace_category,definition,field_use,tags
+footprints_deep,깊게 파인 발자국,물리 흔적,무거운 개체가 반복적으로 지나가며 지면에 남긴 깊은 발자국,크기·무게·이동 방향 추정,physical;walk
+footprints_light,희미한 발자국,물리 흔적,가벼운 개체나 은밀한 개체가 남긴 희미한 발자국,추적 난이도 상승,physical;stealth
+claw_marks_wall,벽면 발톱 자국,물리 흔적,벽이나 석재 표면을 할퀴고 지나간 흔적,등반·공격 높이 추정,physical;claw;climb
+claw_marks_tree,나무 발톱 자국,물리 흔적,나무껍질에 깊게 남은 발톱 자국,영역 표시·포식권 추정,physical;claw;forest
+bite_marks,물어뜯긴 흔적,물리 흔적,사체나 장비에 남은 이빨 자국,턱 힘과 먹이 선호 파악,physical;bite
+impact_crater,충돌 흔적,물리 흔적,돌진이나 추락으로 지면과 벽에 생긴 충격 흔적,돌진형·거대 개체 식별,physical;charge
+drag_marks,끌린 자국,물리 흔적,사체나 물체가 끌려간 길게 이어진 흔적,둥지·은신처 추적,physical;drag
+burrow_mound,파헤쳐진 흙더미,물리 흔적,지하 이동이나 굴파기로 밀려난 흙과 돌무더기,굴파기 경로 추정,physical;burrow
+broken_branches,부러진 가지,환경 흔적,큰 몸체나 돌진으로 주변 식생이 부러진 흔적,크기·이동 경로 추정,environment;forest
+crushed_grass,짓밟힌 풀밭,환경 흔적,무거운 개체가 지나가며 풀과 흙을 눌러 만든 흔적,무게·개체 수 추정,environment;walk
+high_nest,높은 둥지 흔적,행동 흔적,절벽·나무·건물 상층부에 만들어진 둥지 흔적,비행·등반 개체 추정,behavior;nest;fly
+low_den,낮은 굴 서식지,행동 흔적,지면이나 바위 아래에 형성된 낮은 은신처,소형·굴파기 개체 추정,behavior;den
+territory_scratches,영역 표시 긁힘,행동 흔적,반복적으로 같은 위치에 남은 긁힘과 체취 흔적,영역 방어형 판정,behavior;territorial
+ambush_spot,매복 지점 흔적,행동 흔적,시야 사각이나 통로 꺾임에 남은 반복 대기 흔적,매복형 판정,behavior;ambush
+patrol_route,반복 순찰로,행동 흔적,같은 경로를 여러 번 오가며 굳어진 이동 흔적,수호형·지휘형 판정,behavior;patrol
+bone_pile,뼈무더기,사체 흔적,먹다 남은 뼈와 사체 잔해가 쌓인 흔적,포식권·둥지 추정,corpse;bone
+skull_pile,두개골 무더기,사체 흔적,두개골이 의도적으로 모이거나 쌓인 흔적,의식·지능·공포 유발 판정,corpse;skull
+torn_carcass,찢긴 사체,사체 흔적,강한 힘으로 찢기거나 뜯긴 사체,공격 방식과 포식 습성 추정,corpse;predator
+dried_blood,말라붙은 혈흔,생체 흔적,오래된 혈액이 지면이나 벽에 말라붙은 흔적,교전 시점·피해 규모 추정,bio;blood
+black_ichor,검은 체액 흔적,생체 흔적,검거나 탁한 체액이 남아 변색된 흔적,오염·악마·변이 가능성,bio;ichor;corruption
+slime_trail,점액질 이동 흔적,생체 흔적,끈적한 점액이 길게 이어진 흔적,점액체·양서류·기생체 추정,bio;slime
+acid_scars,부식 흔적,환경 흔적,산성 체액이나 분비물로 금속·석재가 녹은 흔적,산성 피해 판정,environment;acid
+poison_stain,독성 변색,환경 흔적,독액이나 포자로 식생·토양이 변색된 흔적,독성 위험 판정,environment;poison
+spore_cloud_residue,포자 잔류물,생체 흔적,공기 중 포자나 벽면에 달라붙은 미세 분말 흔적,포자형 생물 판정,bio;spore
+fungal_threads,균사 자국,생체 흔적,바닥·벽·사체에 얇게 뻗은 균사 흔적,균류·식물체 감염 추정,bio;fungus
+scorch_marks,그을림,환경 흔적,불꽃·열기·폭발로 표면이 검게 탄 흔적,화염성 위협 판정,environment;fire
+frost_rime,서리 결정,환경 흔적,비정상 냉기로 표면에 생긴 서리와 얼음 결정,냉기성 위협 판정,environment;cold
+static_burns,전격 탄흔,환경 흔적,번개나 전격이 지나간 듯한 그을림과 금속 변색,번개성 위협 판정,environment;lightning
+thunder_cracks,음파 균열,환경 흔적,충격파로 벽과 유리가 갈라진 흔적,천둥·음파 위협 판정,environment;thunder
+necrotic_wither,시든 생명 흔적,마법·오염 흔적,식물·동물 조직이 생명력을 잃고 시든 흔적,사령 피해·언데드 판정,magic;necrotic
+radiant_bleach,빛에 탈색된 흔적,마법·오염 흔적,강한 광휘나 정화 반응으로 표면이 하얗게 탈색된 흔적,광휘성 반응 판정,magic;radiant
+psychic_scratches,무의식 낙서 흔적,마법·오염 흔적,피해자가 무의식적으로 반복해 남긴 기호와 낙서,정신 영향 판정,magic;psychic
+rune_marks,룬 흔적,마법·오염 흔적,벽·뼈·피부·장비에 남은 문양성 흔적,잔향의 룬 공고 연결,magic;rune
+fog_residue,안개 잔류,마법·오염 흔적,안개가 걷힌 뒤에도 습기와 검은 입자가 남은 흔적,앙그라권·잔향 판정,magic;fog
+blackstone_shards,흑마석 파편 흔적,마법·오염 흔적,현장에 흩어진 검은 결정 조각,흑마석 반응 판정,magic;blackstone
+core_resonance_mark,핵 공명 흔적,마법·오염 흔적,공간·사체·장비가 일정한 박동처럼 반응한 흔적,던전/가디언 판정,magic;core
+shadow_residue,그림자 잔류,마법·오염 흔적,빛이 닿아도 사라지지 않는 검은 그림자 얼룩,그림자·언데드·악마 판정,magic;shadow
+holy_ash,성화 재,마법·오염 흔적,정화성 불꽃이나 신성 반응 뒤 남은 흰 재,천상체·정화 흔적 판정,magic;holy
+mechanical_scrapes,기계 마찰흔,물리 흔적,금속 관절이나 톱니가 표면에 남긴 규칙적 마찰흔,구조체 판정,physical;construct
+gear_oil_stain,기름 얼룩,생체 흔적,마법 기계나 구조체가 남긴 검은 윤활유 흔적,구조체·기계 판정,bio;construct
+dragged_chains,끌린 사슬 흔적,물리 흔적,쇠사슬이나 족쇄가 바닥을 긁으며 지나간 흔적,속박·언데드·구조체 판정,physical;chain
+fresh_blood_spatter,신선한 혈흔,생체 흔적,신선한 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;fresh
+fresh_scraped_stone,신선한 석벽 긁힘,물리 흔적,신선한 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;fresh
+fresh_broken_bone,신선한 골편,사체 흔적,신선한 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;fresh
+fresh_skin_flake,신선한 피부 조각,생체 흔적,신선한 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;fresh
+fresh_scale_shed,신선한 떨어진 비늘,생체 흔적,신선한 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;fresh
+fresh_feather_scatter,신선한 흩어진 깃털,생체 흔적,신선한 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;fresh
+fresh_hair_clump,신선한 털 뭉치,생체 흔적,신선한 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;fresh
+fresh_mucus_patch,신선한 점액 얼룩,생체 흔적,신선한 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;fresh
+fresh_soil_discoloration,신선한 토양 변색,환경 흔적,신선한 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;fresh
+fresh_withered_plant,신선한 말라죽은 식생,환경 흔적,신선한 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;fresh
+fresh_glass_shard,신선한 유리화 파편,환경 흔적,신선한 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;fresh
+fresh_ash_pile,신선한 재 더미,환경 흔적,신선한 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;fresh
+fresh_ice_crack,신선한 얼음 균열,환경 흔적,신선한 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;fresh
+fresh_metal_bend,신선한 휘어진 금속,물리 흔적,신선한 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;fresh
+fresh_mind_graffiti,신선한 반복 문구,마법·오염 흔적,신선한 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;fresh
+old_blood_spatter,오래된 혈흔,생체 흔적,오래된 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;old
+old_scraped_stone,오래된 석벽 긁힘,물리 흔적,오래된 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;old
+old_broken_bone,오래된 골편,사체 흔적,오래된 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;old
+old_skin_flake,오래된 피부 조각,생체 흔적,오래된 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;old
+old_scale_shed,오래된 떨어진 비늘,생체 흔적,오래된 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;old
+old_feather_scatter,오래된 흩어진 깃털,생체 흔적,오래된 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;old
+old_hair_clump,오래된 털 뭉치,생체 흔적,오래된 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;old
+old_mucus_patch,오래된 점액 얼룩,생체 흔적,오래된 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;old
+old_soil_discoloration,오래된 토양 변색,환경 흔적,오래된 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;old
+old_withered_plant,오래된 말라죽은 식생,환경 흔적,오래된 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;old
+old_glass_shard,오래된 유리화 파편,환경 흔적,오래된 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;old
+old_ash_pile,오래된 재 더미,환경 흔적,오래된 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;old
+old_ice_crack,오래된 얼음 균열,환경 흔적,오래된 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;old
+old_metal_bend,오래된 휘어진 금속,물리 흔적,오래된 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;old
+old_mind_graffiti,오래된 반복 문구,마법·오염 흔적,오래된 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;old
+charred_blood_spatter,검게 탄 혈흔,생체 흔적,검게 탄 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;charred
+charred_scraped_stone,검게 탄 석벽 긁힘,물리 흔적,검게 탄 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;charred
+charred_broken_bone,검게 탄 골편,사체 흔적,검게 탄 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;charred
+charred_skin_flake,검게 탄 피부 조각,생체 흔적,검게 탄 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;charred
+charred_scale_shed,검게 탄 떨어진 비늘,생체 흔적,검게 탄 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;charred
+charred_feather_scatter,검게 탄 흩어진 깃털,생체 흔적,검게 탄 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;charred
+charred_hair_clump,검게 탄 털 뭉치,생체 흔적,검게 탄 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;charred
+charred_mucus_patch,검게 탄 점액 얼룩,생체 흔적,검게 탄 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;charred
+charred_soil_discoloration,검게 탄 토양 변색,환경 흔적,검게 탄 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;charred
+charred_withered_plant,검게 탄 말라죽은 식생,환경 흔적,검게 탄 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;charred
+charred_glass_shard,검게 탄 유리화 파편,환경 흔적,검게 탄 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;charred
+charred_ash_pile,검게 탄 재 더미,환경 흔적,검게 탄 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;charred
+charred_ice_crack,검게 탄 얼음 균열,환경 흔적,검게 탄 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;charred
+charred_metal_bend,검게 탄 휘어진 금속,물리 흔적,검게 탄 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;charred
+charred_mind_graffiti,검게 탄 반복 문구,마법·오염 흔적,검게 탄 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;charred
+wet_blood_spatter,젖은 혈흔,생체 흔적,젖은 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;wet
+wet_scraped_stone,젖은 석벽 긁힘,물리 흔적,젖은 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;wet
+wet_broken_bone,젖은 골편,사체 흔적,젖은 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;wet
+wet_skin_flake,젖은 피부 조각,생체 흔적,젖은 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;wet
+wet_scale_shed,젖은 떨어진 비늘,생체 흔적,젖은 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;wet
+wet_feather_scatter,젖은 흩어진 깃털,생체 흔적,젖은 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;wet
+wet_hair_clump,젖은 털 뭉치,생체 흔적,젖은 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;wet
+wet_mucus_patch,젖은 점액 얼룩,생체 흔적,젖은 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;wet
+wet_soil_discoloration,젖은 토양 변색,환경 흔적,젖은 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;wet
+wet_withered_plant,젖은 말라죽은 식생,환경 흔적,젖은 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;wet
+wet_glass_shard,젖은 유리화 파편,환경 흔적,젖은 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;wet
+wet_ash_pile,젖은 재 더미,환경 흔적,젖은 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;wet
+wet_ice_crack,젖은 얼음 균열,환경 흔적,젖은 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;wet
+wet_metal_bend,젖은 휘어진 금속,물리 흔적,젖은 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;wet
+wet_mind_graffiti,젖은 반복 문구,마법·오염 흔적,젖은 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;wet
+dry_blood_spatter,마른 혈흔,생체 흔적,마른 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;dry
+dry_scraped_stone,마른 석벽 긁힘,물리 흔적,마른 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;dry
+dry_broken_bone,마른 골편,사체 흔적,마른 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;dry
+dry_skin_flake,마른 피부 조각,생체 흔적,마른 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;dry
+dry_scale_shed,마른 떨어진 비늘,생체 흔적,마른 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;dry
+dry_feather_scatter,마른 흩어진 깃털,생체 흔적,마른 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;dry
+dry_hair_clump,마른 털 뭉치,생체 흔적,마른 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;dry
+dry_mucus_patch,마른 점액 얼룩,생체 흔적,마른 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;dry
+dry_soil_discoloration,마른 토양 변색,환경 흔적,마른 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;dry
+dry_withered_plant,마른 말라죽은 식생,환경 흔적,마른 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;dry
+dry_glass_shard,마른 유리화 파편,환경 흔적,마른 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;dry
+dry_ash_pile,마른 재 더미,환경 흔적,마른 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;dry
+dry_ice_crack,마른 얼음 균열,환경 흔적,마른 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;dry
+dry_metal_bend,마른 휘어진 금속,물리 흔적,마른 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;dry
+dry_mind_graffiti,마른 반복 문구,마법·오염 흔적,마른 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;dry
+blackened_blood_spatter,검게 변색된 혈흔,생체 흔적,검게 변색된 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;blackened
+blackened_scraped_stone,검게 변색된 석벽 긁힘,물리 흔적,검게 변색된 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;blackened
+blackened_broken_bone,검게 변색된 골편,사체 흔적,검게 변색된 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;blackened
+blackened_skin_flake,검게 변색된 피부 조각,생체 흔적,검게 변색된 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;blackened
+blackened_scale_shed,검게 변색된 떨어진 비늘,생체 흔적,검게 변색된 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;blackened
+blackened_feather_scatter,검게 변색된 흩어진 깃털,생체 흔적,검게 변색된 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;blackened
+blackened_hair_clump,검게 변색된 털 뭉치,생체 흔적,검게 변색된 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;blackened
+blackened_mucus_patch,검게 변색된 점액 얼룩,생체 흔적,검게 변색된 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;blackened
+blackened_soil_discoloration,검게 변색된 토양 변색,환경 흔적,검게 변색된 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;blackened
+blackened_withered_plant,검게 변색된 말라죽은 식생,환경 흔적,검게 변색된 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;blackened
+blackened_glass_shard,검게 변색된 유리화 파편,환경 흔적,검게 변색된 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;blackened
+blackened_ash_pile,검게 변색된 재 더미,환경 흔적,검게 변색된 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;blackened
+blackened_ice_crack,검게 변색된 얼음 균열,환경 흔적,검게 변색된 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;blackened
+blackened_metal_bend,검게 변색된 휘어진 금속,물리 흔적,검게 변색된 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;blackened
+blackened_mind_graffiti,검게 변색된 반복 문구,마법·오염 흔적,검게 변색된 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;blackened
+crystal_blood_spatter,결정화된 혈흔,생체 흔적,결정화된 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;crystal
+crystal_scraped_stone,결정화된 석벽 긁힘,물리 흔적,결정화된 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;crystal
+crystal_broken_bone,결정화된 골편,사체 흔적,결정화된 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;crystal
+crystal_skin_flake,결정화된 피부 조각,생체 흔적,결정화된 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;crystal
+crystal_scale_shed,결정화된 떨어진 비늘,생체 흔적,결정화된 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;crystal
+crystal_feather_scatter,결정화된 흩어진 깃털,생체 흔적,결정화된 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;crystal
+crystal_hair_clump,결정화된 털 뭉치,생체 흔적,결정화된 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;crystal
+crystal_mucus_patch,결정화된 점액 얼룩,생체 흔적,결정화된 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;crystal
+crystal_soil_discoloration,결정화된 토양 변색,환경 흔적,결정화된 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;crystal
+crystal_withered_plant,결정화된 말라죽은 식생,환경 흔적,결정화된 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;crystal
+crystal_glass_shard,결정화된 유리화 파편,환경 흔적,결정화된 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;crystal
+crystal_ash_pile,결정화된 재 더미,환경 흔적,결정화된 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;crystal
+crystal_ice_crack,결정화된 얼음 균열,환경 흔적,결정화된 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;crystal
+crystal_metal_bend,결정화된 휘어진 금속,물리 흔적,결정화된 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;crystal
+crystal_mind_graffiti,결정화된 반복 문구,마법·오염 흔적,결정화된 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;crystal
+rune_blood_spatter,룬이 남은 혈흔,생체 흔적,룬이 남은 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;rune
+rune_scraped_stone,룬이 남은 석벽 긁힘,물리 흔적,룬이 남은 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;rune
+rune_broken_bone,룬이 남은 골편,사체 흔적,룬이 남은 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;rune
+rune_skin_flake,룬이 남은 피부 조각,생체 흔적,룬이 남은 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;rune
+rune_scale_shed,룬이 남은 떨어진 비늘,생체 흔적,룬이 남은 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;rune
+rune_feather_scatter,룬이 남은 흩어진 깃털,생체 흔적,룬이 남은 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;rune
+rune_hair_clump,룬이 남은 털 뭉치,생체 흔적,룬이 남은 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;rune
+rune_mucus_patch,룬이 남은 점액 얼룩,생체 흔적,룬이 남은 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;rune
+rune_soil_discoloration,룬이 남은 토양 변색,환경 흔적,룬이 남은 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;rune
+rune_withered_plant,룬이 남은 말라죽은 식생,환경 흔적,룬이 남은 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;rune
+rune_glass_shard,룬이 남은 유리화 파편,환경 흔적,룬이 남은 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;rune
+rune_ash_pile,룬이 남은 재 더미,환경 흔적,룬이 남은 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;rune
+rune_ice_crack,룬이 남은 얼음 균열,환경 흔적,룬이 남은 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;rune
+rune_metal_bend,룬이 남은 휘어진 금속,물리 흔적,룬이 남은 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;rune
+rune_mind_graffiti,룬이 남은 반복 문구,마법·오염 흔적,룬이 남은 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;rune
+fogged_blood_spatter,안개가 밴 혈흔,생체 흔적,안개가 밴 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;fogged
+fogged_scraped_stone,안개가 밴 석벽 긁힘,물리 흔적,안개가 밴 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;fogged
+fogged_broken_bone,안개가 밴 골편,사체 흔적,안개가 밴 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;fogged
+fogged_skin_flake,안개가 밴 피부 조각,생체 흔적,안개가 밴 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;fogged
+fogged_scale_shed,안개가 밴 떨어진 비늘,생체 흔적,안개가 밴 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;fogged
+fogged_feather_scatter,안개가 밴 흩어진 깃털,생체 흔적,안개가 밴 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;fogged
+fogged_hair_clump,안개가 밴 털 뭉치,생체 흔적,안개가 밴 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;fogged
+fogged_mucus_patch,안개가 밴 점액 얼룩,생체 흔적,안개가 밴 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;fogged
+fogged_soil_discoloration,안개가 밴 토양 변색,환경 흔적,안개가 밴 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;fogged
+fogged_withered_plant,안개가 밴 말라죽은 식생,환경 흔적,안개가 밴 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;fogged
+fogged_glass_shard,안개가 밴 유리화 파편,환경 흔적,안개가 밴 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;fogged
+fogged_ash_pile,안개가 밴 재 더미,환경 흔적,안개가 밴 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;fogged
+fogged_ice_crack,안개가 밴 얼음 균열,환경 흔적,안개가 밴 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;fogged
+fogged_metal_bend,안개가 밴 휘어진 금속,물리 흔적,안개가 밴 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;fogged
+fogged_mind_graffiti,안개가 밴 반복 문구,마법·오염 흔적,안개가 밴 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;fogged
+necrotic_blood_spatter,사령 반응을 보이는 혈흔,생체 흔적,사령 반응을 보이는 상태의 교전이나 포식 과정에서 흩뿌려진 혈액 흔적,피해 규모와 방향 추정,bio;blood;necrotic
+necrotic_scraped_stone,사령 반응을 보이는 석벽 긁힘,물리 흔적,사령 반응을 보이는 상태의 석벽 표면을 반복적으로 긁은 흔적,등반·영역 표시 추정,physical;scratch;necrotic
+necrotic_broken_bone,사령 반응을 보이는 골편,사체 흔적,사령 반응을 보이는 상태의 부러진 뼈 조각이 흩어진 흔적,포식 또는 언데드 추정,corpse;bone;necrotic
+necrotic_skin_flake,사령 반응을 보이는 피부 조각,생체 흔적,사령 반응을 보이는 상태의 벗겨진 피부나 외피 조각,변이·탈피 추정,bio;skin;necrotic
+necrotic_scale_shed,사령 반응을 보이는 떨어진 비늘,생체 흔적,사령 반응을 보이는 상태의 탈락한 비늘이나 갑각 조각,파충류·드래곤·괴수 추정,bio;scale;necrotic
+necrotic_feather_scatter,사령 반응을 보이는 흩어진 깃털,생체 흔적,사령 반응을 보이는 상태의 날개 달린 개체가 남긴 깃털,비행 개체 추정,bio;feather;necrotic
+necrotic_hair_clump,사령 반응을 보이는 털 뭉치,생체 흔적,사령 반응을 보이는 상태의 마찰 지점에 남은 털 뭉치,짐승형 개체 추정,bio;fur;necrotic
+necrotic_mucus_patch,사령 반응을 보이는 점액 얼룩,생체 흔적,사령 반응을 보이는 상태의 표면에 눌어붙은 점액성 흔적,점액체·기생·양서류 추정,bio;slime;necrotic
+necrotic_soil_discoloration,사령 반응을 보이는 토양 변색,환경 흔적,사령 반응을 보이는 상태의 토양 색이 비정상적으로 변한 흔적,독성·오염·원소 반응 추정,environment;soil;necrotic
+necrotic_withered_plant,사령 반응을 보이는 말라죽은 식생,환경 흔적,사령 반응을 보이는 상태의 식물이 갑자기 시들거나 말라죽은 흔적,사령·독성·잔향 추정,environment;plant;necrotic
+necrotic_glass_shard,사령 반응을 보이는 유리화 파편,환경 흔적,사령 반응을 보이는 상태의 강한 열기나 마법 반응으로 유리화된 파편,화염·역장·번개 추정,environment;magic;necrotic
+necrotic_ash_pile,사령 반응을 보이는 재 더미,환경 흔적,사령 반응을 보이는 상태의 불타거나 정화된 뒤 남은 재,화염·광휘 추정,environment;ash;necrotic
+necrotic_ice_crack,사령 반응을 보이는 얼음 균열,환경 흔적,사령 반응을 보이는 상태의 냉기 반응으로 갈라진 얼음 자국,냉기성 위협 추정,environment;cold;necrotic
+necrotic_metal_bend,사령 반응을 보이는 휘어진 금속,물리 흔적,사령 반응을 보이는 상태의 강한 힘이나 열로 금속이 휘어진 흔적,거대·화염·구조체 추정,physical;metal;necrotic
+necrotic_mind_graffiti,사령 반응을 보이는 반복 문구,마법·오염 흔적,사령 반응을 보이는 상태의 목격자가 무의식적으로 남긴 같은 문구,정신·공포 영향 추정,magic;psychic;necrotic
+psychic_nosebleed,목격자의 코피 흔적,마법·오염 흔적,정신 압박 뒤 남은 생리 반응,정신 영향 판정,aberration;psychic
+warped_footprints,뒤틀린 발자국,물리 흔적,해부학적으로 맞지 않는 방향의 발자국,비정상 신체 구조 추정,aberration;physical
+floating_dust_ring,부유 먼지 고리,환경 흔적,공중에 떠 있던 개체 주변에 남은 먼지 고리,부유·염동력 추정,aberration;float
+animal_tracks,짐승 발자국,물리 흔적,자연 짐승형 발자국,야수 식별,beast;track
+gnawed_bones,갉아먹은 뼈,사체 흔적,동물성 이빨로 갉아먹은 뼈,식성 파악,beast;bone
+fur_on_bark,나무껍질의 털,생체 흔적,몸을 비비며 남긴 털,영역 표시,beast;fur
+silver_light_residue,은빛 광흔,마법·오염 흔적,은빛 빛이 스치고 남은 흔적,천상체 판정,celestial;radiant
+purified_ground,정화된 토양,환경 흔적,오염이 밀려난 듯한 깨끗한 지면,정화 반응 판정,celestial;purify
+regular_step_marks,규칙적 보행 흔적,물리 흔적,간격이 기계적으로 일정한 발자국,구조체 판정,construct;walk
+arcane_circuit_imprint,마법 회로 자국,마법·오염 흔적,바닥에 찍힌 회로형 문양,구조체·마법장치 판정,construct;magic
+large_claw_gouge,거대한 발톱 골,물리 흔적,바위와 금속에 남은 거대한 발톱 골,드래곤·대형 괴수 판정,dragon;claw
+breath_scorch_line,브레스 소실선,환경 흔적,직선 또는 원뿔형으로 남은 브레스 흔적,브레스 방향 추정,dragon;breath
+elemental_distortion,원소 왜곡 흔적,환경 흔적,온도·습도·지면 상태가 한 지점에서 급격히 바뀐 흔적,원소체 판정,elemental
+floating_motes,떠다니는 원소 입자,마법·오염 흔적,공중에 남은 원소성 입자,원소 잔류 추정,elemental;magic
+impossible_flower_ring,불가능한 꽃고리,마법·오염 흔적,계절과 맞지 않는 꽃이 원형으로 핀 흔적,요정계 반응 판정,fey;flower
+lost_path_marks,길잃음 표식,행동 흔적,같은 길이 반복된 것처럼 남은 표식,요정성 미로 판정,fey;maze
+sulfur_smell,유황 냄새,마법·오염 흔적,공기 중에 남은 유황성 악취,악마체 판정,fiend;sulfur
+burnt_contract_scraps,탄 계약서 조각,장비·부산물,계약문처럼 보이는 탄 종잇조각,마귀·계약성 판정,fiend;contract
+huge_footprint,거대한 발자국,물리 흔적,사람보다 훨씬 큰 발자국,거인·거대 개체 판정,giant;foot
+thrown_boulder_impact,투척 바위 충돌흔,물리 흔적,큰 바위가 날아와 충돌한 흔적,투척형 거인 판정,giant;throw
+campfire_remains,야영 흔적,행동 흔적,불씨와 식사 흔적이 남은 야영지,지능형 인간형 판정,humanoid;camp
+tool_marks,도구 사용 흔적,물리 흔적,칼·삽·망치 등 도구로 남긴 흔적,도구 사용 판정,humanoid;tool
+mixed_track_pattern,뒤섞인 발자국,물리 흔적,서로 다른 동물 특징이 섞인 발자국,키메라형 판정,monstrosity;hybrid
+mangled_carcass,망가진 사체,사체 흔적,비정상적인 방식으로 찢기고 눌린 사체,괴수 포식 판정,monstrosity;predator
+dissolved_gear,녹아내린 장비,환경 흔적,금속·가죽 장비가 반쯤 녹은 흔적,점액체·산성 판정,ooze;acid
+slime_puddle,움직인 점액 웅덩이,생체 흔적,방금 움직인 듯한 점액 웅덩이,점액체 이동 판정,ooze;slime
+root_cracks,뿌리 균열,환경 흔적,뿌리가 바닥과 벽을 갈라놓은 흔적,식물체 판정,plant;root
+pollen_residue,꽃가루 잔류,생체 흔적,공기와 장비 표면에 묻은 꽃가루,식물·환각 위험 판정,plant;pollen
+grave_soil,무덤 흙,환경 흔적,습기와 부패 냄새가 섞인 흙,언데드·왕묘 판정,undead;grave
+cold_spot,비정상 냉점,마법·오염 흔적,주변보다 현저히 차가운 구역,영체·사령 반응 판정,undead;cold

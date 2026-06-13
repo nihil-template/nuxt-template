@@ -1,0 +1,10 @@
+﻿notice_group,origin_context_hint,field_state_hint,linked_notice_examples
+몬스터 사냥,field; settlement_edge,일반 필드 개체·생활권 접근 개체·우두머리 개체,위험 개체 토벌/알파 개체 추적/서식지 정리
+잔향 변이 사냥,resonance_zone; field,잔향 1~2단계·룬 각인·흑마석 섭취·고위험 변이,잔향 변이체 토벌/룬 각인 개체 조사
+던전 사냥,dungeon_inner,던전 내부 개체·던전 생태 개체·던전 부산물,던전 내부 위협 정리/던전 생태 추적
+던전 가디언 제압전,dungeon_guardian,던전 가디언·가디언 결속 개체·핵 반응,던전 가디언 약점 관측/제압전
+앙그라권 레이드·사냥,angra_fog; totem_nail,안개권 비던전 생물·토템 수하·토템 가디언,안개권 위협 제압/토템 가디언 레이드
+정제·자원,blackstone_site; refinery,흑마석 반응·정제 실패·핵 반응 부산물,흑마석 광맥 조사/정제 안정성 검증
+기록·검증,unknown_classification,분류 보류·기록 가치·보고서 불일치,보고서 재검증/기록 회수
+시설·방어·봉인,sanctuary_bound; portal_space,관측 시설 위협·봉인 결속·포탈 반응,관측 시설 방어/봉인 보조
+기밀 분류,cult_site,포섭 피해·의식 매개·공포 반응·룬 생성자,흑암 교단 흔적/금기 의식 저지

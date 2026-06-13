@@ -1,0 +1,275 @@
+﻿subtype_id,major_type_en,major_type_ko,subtype_ko,subtype_en,classification_axis,definition,example_keywords,notes
+aberration_001,Aberration,변이체,촉수형 변이체,Tentacled Aberration,형태,촉수·흡반·비정상 부속지를 통해 포획과 감지를 수행하는 변이체,Aboleth; Mind Flayer,촉수는 공격 수단이자 감각 기관일 수 있음
+aberration_002,Aberration,변이체,정신지배형 변이체,Mind-Dominating Aberration,위협 양상,"정신 감응과 지배, 명령, 세뇌에 특화된 변이체",Mind Flayer; Intellect Devourer,피해자 행동 기록이 중요
+aberration_003,Aberration,변이체,시선·광선형 변이체,Gaze/Ray Aberration,공격 전달,눈·광선·시선으로 원거리 영향을 주는 변이체,Beholder; Spectator,시선 회피 규칙 필요
+aberration_004,Aberration,변이체,기생형 변이체,Parasitic Aberration,생태,숙주 내부나 신경계에 침투해 조종 또는 변형시키는 변이체,Intellect Devourer,포섭 피해자와 구분
+aberration_005,Aberration,변이체,공생형 변이체,Symbiotic Aberration,생태,숙주와 결합하여 힘을 주거나 감각을 공유하는 변이체,Slaad infection motif,오염인지 공생인지 판정 필요
+aberration_006,Aberration,변이체,뇌·두개골형 변이체,Cerebral Aberration,형태,뇌·두개골·신경 조직이 과도하게 발달한 변이체,Intellect Devourer,정신 피해와 결합 잦음
+aberration_007,Aberration,변이체,외계 포식자형 변이체,Alien Predator Aberration,생태,자연 생태와 어긋난 방식으로 사냥하는 외계적 포식자,Grell; Chuul,서식 환경이 비정상적일 수 있음
+aberration_008,Aberration,변이체,심해·무저형 변이체,Abyssal Deep Aberration,서식,깊은 물·지하호수·무저 환경과 연결된 변이체,Aboleth; Chuul,수중 공고와 결합
+aberration_009,Aberration,변이체,차원 균열형 변이체,Rift-Born Aberration,기원,차원 균열·현실 왜곡 주변에서 발생하거나 유입된 변이체,Star Spawn motif,공간 왜곡 기록 필수
+aberration_010,Aberration,변이체,육체 재구성형 변이체,Flesh-Rewriting Aberration,기능,대상의 육체를 재배열하거나 신체 구조를 무너뜨리는 변이체,Gibbering Mouther,시료 보존 필요
+aberration_011,Aberration,변이체,다기관형 변이체,Multi-Organ Aberration,형태,눈·입·팔·기관이 비정상적으로 중복된 변이체,Gibbering Mouther,관찰 기록 가치 높음
+aberration_012,Aberration,변이체,부유 감시자형 변이체,Floating Watcher Aberration,형태,부유하며 관측·광선·감시 역할을 수행하는 변이체,Spectator; Beholderkin,경계 관측 위협
+aberration_013,Aberration,변이체,군체 의식형 변이체,Hive-Mind Aberration,사회성,다수 개체가 하나의 의식망처럼 행동하는 변이체,Mind Flayer Colony motif,지도자 제거 여부 중요
+aberration_014,Aberration,변이체,꿈·환각형 변이체,Dream/Illusion Aberration,정신 현상,꿈과 환각을 통해 접근하거나 피해자를 유인하는 변이체,Star Spawn motif,소문·괴담 검증과 연계
+aberration_015,Aberration,변이체,언어 모방형 변이체,Mimicry Aberration,행동,언어·소리·기억을 모방해 대상을 유인하는 변이체,Gibbering motif,증언 신뢰도 낮음
+aberration_016,Aberration,변이체,광기 유발형 변이체,Madness-Inducing Aberration,정신 현상,접촉·시선·소음으로 광기나 혼란을 유발하는 변이체,Gibbering Mouther,검은 광기와 구분
+aberration_017,Aberration,변이체,신체 강탈형 변이체,Body-Usurping Aberration,위협 양상,숙주 몸을 빼앗거나 내부에서 조종하는 변이체,Intellect Devourer,침투자 식별 공고와 연계 가능
+aberration_018,Aberration,변이체,공허성 변이체,Void Aberration,기원,별빛·공허·현실 외부와 연결된 차가운 이질감을 지닌 변이체,Star Spawn,세계관 확장용
+aberration_019,Aberration,변이체,점액성 변이체,Mucous Aberration,형태,점액·침·분비물로 주변을 변형시키는 변이체,Abolethic slime motif,오즈와 중복 시 대분류 우선
+aberration_020,Aberration,변이체,집단 구전형 변이체,Chorus Aberration,행동,여러 입이나 소리로 집단적 발화를 반복하는 변이체,Gibbering Mouther,공포 확산에 적합
+beast_001,Beast,야수,대형 포식수,Large Predator Beast,생태,단독 또는 소수로 사냥하는 대형 포식 야수,Tiger; Brown Bear,생활권 피해의 대표형
+beast_002,Beast,야수,소형 포식수,Small Predator Beast,생태,작지만 은신과 민첩성으로 사냥하는 포식 야수,Badger; Weasel,소형 피해·실종에 적합
+beast_003,Beast,야수,무리 사냥꾼,Pack-Hunting Beast,사회성,무리로 포위와 추격을 수행하는 야수,Wolf; Hyena,알파 개체와 결합
+beast_004,Beast,야수,초식 거대수,Giant Herbivore Beast,생태,거대 체구와 돌진으로 피해를 주는 초식 야수,Elephant; Mammoth,방어적 폭주 가능
+beast_005,Beast,야수,맹금류,Raptor Beast,형태,"발톱과 비행, 급강하 사냥을 쓰는 조류형 야수",Eagle; Hawk,상공 경계 필요
+beast_006,Beast,야수,수중 포식수,Aquatic Predator Beast,서식,물속에서 매복하거나 끌고 들어가는 포식 야수,Crocodile; Shark,수로·늪지 공고
+beast_007,Beast,야수,양서류형 야수,Amphibian Beast,서식,물과 육지를 오가며 점프·독·삼킴을 쓰는 야수,Giant Frog; Toad,습지 공고
+beast_008,Beast,야수,파충류형 야수,Reptilian Beast,형태,비늘·냉혈·물기·꼬리 공격을 보이는 야수,Lizard; Crocodile,괴수와 구분 필요
+beast_009,Beast,야수,곤충형 야수,Insectile Beast,형태,절지·날개·독침·군집성을 지닌 곤충 야수,Giant Wasp; Centipede,Plant/Ooze 감염과 결합 가능
+beast_010,Beast,야수,거미·절지형 야수,Arachnid/Arthropod Beast,형태,거미줄·독·등반·매복에 특화된 절지 야수,Giant Spider; Scorpion,던전 내부와 잘 결합
+beast_011,Beast,야수,군집형 야수,Swarm Beast,사회성,작은 다수 개체가 하나의 위협으로 작동하는 야수,Swarm of Rats; Insects,범위 대응 필요
+beast_012,Beast,야수,독성 야수,Venomous Beast,위협 양상,물림·침·분비물로 독성 피해를 주는 야수,Snake; Scorpion,해독 시료 가치
+beast_013,Beast,야수,질병 매개 야수,Disease-Bearing Beast,위협 양상,물림·기생충·체액으로 질병을 퍼뜨리는 야수,Rat; Bat,민생 공고와 연계
+beast_014,Beast,야수,기승·운반 야수,Mount/Load Beast,용도,기승·운반·가축화 가능성이 있는 야수,Horse; Camel,보급 동물 관련
+beast_015,Beast,야수,굴파기 야수,Burrowing Beast,이동,굴을 파고 지면 아래로 이동하는 야수,Badger; Mole motif,농경지 피해
+beast_016,Beast,야수,등반 야수,Climbing Beast,이동,벽·나무·절벽·천장을 타는 야수,Ape; Spider,상부 경계 필요
+beast_017,Beast,야수,야행성 야수,Nocturnal Beast,활동 주기,밤과 어둠 속에서 활동성이 증가하는 야수,Bat; Owl; Wolf,야영지 공고
+beast_018,Beast,야수,영역 방어 야수,Territorial Beast,행동,영역 침입자에게 우선 반응하는 야수,Bear; Boar,우회 가능성 높음
+beast_019,Beast,야수,둥지 방어 야수,Nest-Guarding Beast,행동,알·새끼·보금자리 방어에 과민한 야수,Giant Eagle; Crocodile,둥지 정리 공고
+beast_020,Beast,야수,청소부 야수,Scavenger Beast,생태,사체와 폐기물을 따라 이동하는 야수,Vulture; Hyena,시체 오염 단서
+beast_021,Beast,야수,유인·매복 야수,Ambush Beast,행동,은신 후 갑작스럽게 덮치는 야수,Tiger; Crocodile,추적보다 유인 대응
+beast_022,Beast,야수,돌진형 야수,Charging Beast,공격 전달,직선 돌진과 충돌로 위협을 가하는 야수,Boar; Rhinoceros,전열 붕괴
+beast_023,Beast,야수,장갑성 야수,Armored Beast,형태,갑각·두꺼운 가죽·비늘로 방어성이 높은 야수,Armadillo motif; Turtle,부산물 가치
+beast_024,Beast,야수,변이된 자연 야수,Mutated Natural Beast,상태,자연 야수가 잔향·마법·환경 변화로 변질된 상태,Giant animals,잔향 변이 사냥으로 전환 가능
+celestial_001,Celestial,천상체,천사형 천상체,Angelic Celestial,형태,날개와 신성 권능을 지닌 천상 사자,Angel; Deva,신성 질서의 대표형
+celestial_002,Celestial,천상체,신성 사자형 천상체,Divine Messenger Celestial,역할,계시·명령·경고를 전달하는 천상체,Couatl; Angel,의사소통 우선
+celestial_003,Celestial,천상체,수호자형 천상체,Guardian Celestial,역할,성역·성물·계약을 지키는 천상체,Pegasus; Guardian motif,적대 사유 기록 필요
+celestial_004,Celestial,천상체,심판자형 천상체,Judging Celestial,역할,죄·맹세·타락을 판정하고 처벌하는 천상체,Planetar motif,분쟁 중립 주의
+celestial_005,Celestial,천상체,치유자형 천상체,Healing Celestial,기능,회복·정화·보호를 중심으로 작동하는 천상체,Unicorn,구조 공고와 결합
+celestial_006,Celestial,천상체,광휘 야수형 천상체,Radiant Beast Celestial,형태,야수 형상을 지닌 신성 존재,Pegasus; Unicorn,야수와 대분류 구분
+celestial_007,Celestial,천상체,별빛·천문형 천상체,Astral Celestial,상징,별빛·운명·천문 징조와 연결된 천상체,Solar motif,예언·관측 공고
+celestial_008,Celestial,천상체,맹세 집행형 천상체,Oath-Enforcing Celestial,역할,맹세와 계약 위반을 추적하는 천상체,Inevitable-like motif,Construct와 구분
+celestial_009,Celestial,천상체,성역 방어형 천상체,Sanctuary Celestial,역할,성역 경계 안에서 방어적으로 작동하는 천상체,Guardian spirit,침입 조건 중요
+celestial_010,Celestial,천상체,계시 전달자형 천상체,Revelatory Celestial,정신 현상,꿈·환상·징표로 계시를 전달하는 천상체,Couatl dreams,괴담 검증과 연계
+celestial_011,Celestial,천상체,타락 감시자형 천상체,Corruption-Watching Celestial,역할,오염과 타락을 감시하거나 정화하는 천상체,Divine watcher,잔향 공고와 연계
+celestial_012,Celestial,천상체,정화자형 천상체,Purifying Celestial,기능,부정·언데드·잔향성 오염을 제거하려는 천상체,Angel; Unicorn,광휘 피해와 결합
+celestial_013,Celestial,천상체,처벌자형 천상체,Punitive Celestial,위협 양상,교정과 처벌을 위해 전투를 수행하는 천상체,Avenger motif,대화 실패 시 고위험
+celestial_014,Celestial,천상체,축복 매개형 천상체,Blessing-Bearing Celestial,기능,축복·가호·보호 효과를 전달하는 존재,Celestial familiar motif,회수보다 접촉
+construct_001,Construct,구조체,골렘형 구조체,Golem Construct,제작 방식,재료와 명령에 의해 움직이는 강인한 구조체,Clay Golem; Iron Golem,제작자 단서 중요
+construct_002,Construct,구조체,자동인형형 구조체,Automaton Construct,제작 방식,기계적 또는 마법적 자동 작동 구조를 지닌 구조체,Modron; Animated object,명령 반복 가능
+construct_003,Construct,구조체,갑주형 구조체,Animated Armor Construct,형태,갑옷·무구가 스스로 움직이는 구조체,Animated Armor,폐허·성채 적합
+construct_004,Construct,구조체,병기형 구조체,War Machine Construct,용도,전투와 살상에 맞춰 제작된 구조체,Helmed Horror; Shield Guardian,무장 해제보다 동력 차단
+construct_005,Construct,구조체,감시자형 구조체,Watcher Construct,역할,침입자 감시·경보·추적에 특화된 구조체,Flying Sword; Homunculus,관측 시설 방어
+construct_006,Construct,구조체,수호 석상형 구조체,Guardian Statue Construct,형태,석상·조각상이 경계 조건에 반응하는 구조체,Gargoyle if construct-like; Statue,실제 가고일은 유형 확인 필요
+construct_007,Construct,구조체,함정 결합형 구조체,Trap-Bound Construct,기능,던전 함정과 결합되어 작동하는 구조체,Animated objects,해체 필요
+construct_008,Construct,구조체,마법 회로형 구조체,Arcane Circuit Construct,동력,룬·회로·마력 흐름으로 움직이는 구조체,Modron; Shield Guardian,룬 공고와 연계
+construct_009,Construct,구조체,정령 주입형 구조체,Elemental-Infused Construct,동력,원소 정령이나 원소 에너지가 주입된 구조체,Golem variants,원소 피해 동반
+construct_010,Construct,구조체,언데드 모방 구조체,Undead-Mimic Construct,위장,언데드처럼 보이나 실제로는 제작물인 구조체,Bone construct motif,오분류 방지
+construct_011,Construct,구조체,생체 부품 결합 구조체,Biomantic Construct,제작 방식,생체 조직과 기계·마법 부품이 결합된 구조체,Flesh Golem,잔향/정제 실패와 결합
+construct_012,Construct,구조체,수정·광물형 구조체,Crystal/Mineral Construct,재료,수정·광물·흑마석 반응 재료로 구성된 구조체,Crystal statue motif,흑마석 반응
+construct_013,Construct,구조체,시계장치형 구조체,Clockwork Construct,제작 방식,톱니·스프링·정밀 기계 구조로 작동하는 구조체,Clockwork creatures,정밀 해체 가능
+construct_014,Construct,구조체,명령 불안정 구조체,Unstable-Command Construct,상태,명령 체계가 손상되어 예측 불가능하게 작동하는 구조체,Malfunctioning construct,비살상 정지 가능
+construct_015,Construct,구조체,자율 학습형 구조체,Self-Learning Construct,지능,경험을 통해 대응 방식을 바꾸는 구조체,Advanced guardian motif,반복 교전 위험
+construct_016,Construct,구조체,봉인 장치형 구조체,Sealing Device Construct,역할,봉인·구속·정화 장치와 연결된 구조체,Seal guardian,파괴 금지 가능
+construct_017,Construct,구조체,운반·노동형 구조체,Labor Construct,용도,운반·채굴·건설 등 비전투 목적 구조체,Animated tools,정제 시설 사고
+construct_018,Construct,구조체,의식 집행형 구조체,Ritual Construct,역할,의식 절차를 반복 집행하는 구조체,Ritual automaton,금기 정제 차단
+dragon_001,Dragon,드래곤,색채룡형,Chromatic Dragon,혈통,색채와 원소성 탐욕을 지닌 드래곤 계열,Red Dragon; Blue Dragon,악성·영역성 강함
+dragon_002,Dragon,드래곤,금속룡형,Metallic Dragon,혈통,금속성과 질서·고귀함의 상징을 지닌 드래곤 계열,Gold Dragon; Silver Dragon,항상 적대 아님
+dragon_003,Dragon,드래곤,보석룡형,Gem Dragon,혈통,보석·정신성·특수 에너지와 결합한 드래곤 계열,Amethyst Dragon,보조 룰북 기반
+dragon_004,Dragon,드래곤,원시 드래곤형,Primal Dragon,기원,고대 자연력과 직접 결합한 원초적 드래곤,Ancient dragon motif,지역 재난급
+dragon_005,Dragon,드래곤,비룡형,Wyvern-like Dragon,형태,진룡보다 단순하고 야수성이 강한 비행 용종,Wyvern,독침·비행
+dragon_006,Dragon,드래곤,용혈 야수형,Draconic Beast,혈통 영향,야수에 용혈·비늘·브레스 흔적이 섞인 유형,Dragon Turtle; Drake motif,Beast/Dragon 판정 필요
+dragon_007,Dragon,드래곤,용혈 인간형,Draconic Humanoid,혈통 영향,인간형 종족이나 개인에게 용혈 특성이 강하게 나타난 유형,Dragonborn; Half-dragon,Humanoid와 병기
+dragon_008,Dragon,드래곤,용혈 변이체형,Draconic Mutant,상태,용혈 주입·저주·오염으로 변이한 생물,Half-dragon template,현장 상태 태그와 결합
+dragon_009,Dragon,드래곤,어린 용형,Young Dragon,연령,성체 이전의 성장 단계 드래곤,Young Red Dragon,위험도 상승 중
+dragon_010,Dragon,드래곤,고룡형,Ancient Dragon,연령,오랜 세월과 영역 지배력을 지닌 고대 드래곤,Ancient Dragon,재난·정치급
+dragon_011,Dragon,드래곤,수호룡형,Guardian Dragon,역할,성역·보물·유적·맹세를 수호하는 드래곤,Gold dragon guardian,교전 전 협상 가능
+dragon_012,Dragon,드래곤,포식룡형,Predatory Dragon,생태,사냥과 포식 중심으로 움직이는 드래곤,White Dragon,생태 공고화 가능
+dragon_013,Dragon,드래곤,원소 브레스형,Elemental Breath Dragon,공격 전달,화염·냉기·번개 등 원소 브레스가 핵심인 드래곤,Red; White; Blue Dragon,피해 타입과 연결
+dragon_014,Dragon,드래곤,독성 브레스형,Toxic Breath Dragon,공격 전달,독·산성·부패성 분출을 주력으로 하는 드래곤,Green; Black Dragon,환경 오염 가능
+dragon_015,Dragon,드래곤,공포 오라형,Frightful Aura Dragon,위협 양상,존재감과 공포 오라로 전장을 지배하는 드래곤,Adult/Ancient Dragon,공포 기록 중요
+dragon_016,Dragon,드래곤,보물 집착형,Hoarding Dragon,행동,보물·지식·영역을 축적하고 지키는 드래곤,Classic dragon hoard,중립 회수와 충돌
+dragon_017,Dragon,드래곤,지배자형,Dominating Dragon,사회성,지역 생태나 세력을 지배하는 드래곤,Dragon tyrant motif,정치 분쟁화 주의
+dragon_018,Dragon,드래곤,타락한 용형,Corrupted Dragon,상태,잔향·악마·언데드·저주 등으로 타락한 드래곤,Dracolich; Shadow Dragon,별도 대분류와 병기 가능
+dragon_019,Dragon,드래곤,언데드 용형,Undead Dragon,상태,사령성 힘으로 되살아난 용종,Dracolich; Zombie Dragon,Undead 대분류 가능
+dragon_020,Dragon,드래곤,수중 용형,Aquatic Dragon,서식,해안·호수·심해와 결합한 용종,Dragon Turtle,수중 원정
+elemental_001,Elemental,원소체,화염 원소체,Fire Elemental,원소,불과 열기로 구성된 원소 존재,Fire Elemental,연소 피해
+elemental_002,Elemental,원소체,냉기 원소체,Cold Elemental,원소,냉기와 빙결성 힘으로 구성된 원소 존재,Ice Mephit,빙결 흔적
+elemental_003,Elemental,원소체,물 원소체,Water Elemental,원소,"물과 압력, 흐름으로 구성된 원소 존재",Water Elemental,수로 위협
+elemental_004,Elemental,원소체,대지 원소체,Earth Elemental,원소,"흙과 암석, 압력으로 구성된 원소 존재",Earth Elemental,굴파기 가능
+elemental_005,Elemental,원소체,공기 원소체,Air Elemental,원소,"바람과 압력, 부유로 구성된 원소 존재",Air Elemental,비행/소용돌이
+elemental_006,Elemental,원소체,번개 원소체,Lightning Elemental,원소,전격과 신경 교란성 힘을 지닌 원소 존재,Storm elemental motif,장비 오작동
+elemental_007,Elemental,원소체,산성 원소체,Acid Elemental,원소,부식성 용해 힘으로 구성된 원소 존재,Acid weird motif,장비 손상
+elemental_008,Elemental,원소체,독성 원소체,Poison Elemental,원소,독기·유독 가스·부패성 기체와 결합한 원소 존재,Poison cloud motif,호흡 위험
+elemental_009,Elemental,원소체,마그마형 원소체,Magma Elemental,혼합 원소,화염과 대지가 결합한 고열 원소체,Magma mephit,화산 지형
+elemental_010,Elemental,원소체,얼음 결정형 원소체,Ice Crystal Elemental,혼합 원소,냉기와 광물 결정이 결합한 원소체,Ice elemental motif,절단/냉기
+elemental_011,Elemental,원소체,폭풍형 원소체,Storm Elemental,혼합 원소,바람·번개·천둥이 결합한 원소체,Storm spirit,전장 교란
+elemental_012,Elemental,원소체,모래·먼지형 원소체,Sand/Dust Elemental,혼합 원소,모래·먼지·건조한 흐름으로 구성된 원소체,Dust mephit,시야 차단
+elemental_013,Elemental,원소체,연기·증기형 원소체,Smoke/Steam Elemental,혼합 원소,연기와 증기로 시야와 호흡을 방해하는 원소체,Steam mephit,실내 위험
+elemental_014,Elemental,원소체,광휘 원소체,Radiant Elemental,원소,빛과 정화성 에너지로 구성된 원소체,Light spirit motif,룩스테라 확장
+elemental_015,Elemental,원소체,암흑 원소체,Shadow Elemental,원소,어둠과 빛 결핍을 기반으로 한 원소체,Shadow elemental motif,앙그라와 구분
+elemental_016,Elemental,원소체,혼합 원소체,Composite Elemental,구성,둘 이상의 원소가 불안정하게 결합한 원소체,Hybrid elemental,피해 타입 복수
+elemental_017,Elemental,원소체,원소 정령형,Elemental Spirit,역할,지역 원소와 의지를 공유하는 정령적 원소체,Elemental spirit,대화 가능성
+elemental_018,Elemental,원소체,원소 재난형,Disaster Elemental,규모,지진·폭풍·화재 같은 재난이 형상화된 원소체,Elder elemental motif,재난 공고
+elemental_019,Elemental,원소체,원소 기생형,Elemental Parasite,생태,다른 물체나 생물에 깃들어 원소성을 부여하는 존재,Azer-like infusion motif,정제 사고
+elemental_020,Elemental,원소체,원소 수호형,Elemental Guardian,역할,성소·포탈·유적의 원소 방어자로 작동하는 존재,Elemental guardian,시설 방어
+fey_001,Fey,요정,숲 요정형,Wildwood Fey,서식,숲과 야생 자연에 결속된 요정,Dryad; Pixie,자연 훼손 반응
+fey_002,Fey,요정,궁정 요정형,Courtly Fey,사회성,요정 궁정·계급·예법 속에서 움직이는 요정,Archfey servant motif,계약 주의
+fey_003,Fey,요정,장난꾼형 요정,Trickster Fey,행동,장난·기만·위치 교란으로 대상을 시험하는 요정,Sprite; Pixie,비살상 가능
+fey_004,Fey,요정,유혹자형 요정,Beguiling Fey,위협 양상,매혹·노래·아름다움으로 유인하는 요정,Nymph-like motif,의지 판정
+fey_005,Fey,요정,저주 전달자형 요정,Curse-Bearing Fey,기능,저주·불운·약속 위반의 대가를 전달하는 요정,Hag if Fey,해제 조건 중요
+fey_006,Fey,요정,꿈·환상형 요정,Dream/Illusion Fey,정신 현상,꿈과 환상으로 길을 바꾸거나 기억을 흔드는 요정,Pixie; Satyr motif,괴담 검증
+fey_007,Fey,요정,계절형 요정,Seasonal Fey,상징,봄·여름·가을·겨울과 결속된 요정,Eladrin motif,환경 변화
+fey_008,Fey,요정,야생 사냥꾼형 요정,Wild Hunt Fey,역할,사냥 의식과 추적을 수행하는 요정,Wild Hunt motif,사냥꾼 공고와 대칭
+fey_009,Fey,요정,변신형 요정,Shapeshifting Fey,능력,형태를 바꾸거나 타인의 모습을 흉내내는 요정,Doppelganger if Fey-like,침투자 식별
+fey_010,Fey,요정,계약형 요정,Pact Fey,사회성,약속과 대가를 중심으로 힘을 주고 받는 요정,Hag bargain motif,계약 문구 기록
+fey_011,Fey,요정,길잡이형 요정,Guide Fey,역할,길을 안내하거나 잘못된 길로 이끄는 요정,Will-o-wisp if Fey-like,안개권과 구분
+fey_012,Fey,요정,미로·길잃음형 요정,Maze/Lost Fey,공간 현상,길잃음과 반복 경로를 유발하는 요정,Fey crossing motif,공간 왜곡 공고
+fey_013,Fey,요정,감정 증폭형 요정,Emotion-Amplifying Fey,정신 현상,기쁨·분노·슬픔·공포를 증폭시키는 요정,Satyr; Hag motif,공포 의회와 구분
+fey_014,Fey,요정,노래·춤형 요정,Song/Dance Fey,행동,노래와 춤으로 의식을 흐리거나 유인하는 요정,Satyr,청각 기록
+fey_015,Fey,요정,식물 공생형 요정,Plant-Symbiotic Fey,생태,식물·나무·덩굴과 공생하는 요정,Dryad,Plant와 병기 가능
+fey_016,Fey,요정,동물 군주형 요정,Beast-Lord Fey,역할,야수 무리와 교감하거나 지배하는 요정,Fey beast master motif,생태 교란
+fey_017,Fey,요정,어린아이 유인형 요정,Child-Luring Fey,행동,아이·약자·호기심 많은 자를 유인하는 요정,Folkloric fey,구조 공고
+fey_018,Fey,요정,시간 장난형 요정,Time-Trick Fey,공간/시간,짧은 시간 왜곡과 기억 공백을 남기는 요정,Fey time motif,보고서 재검증
+fiend_001,Fiend,악마체,악마형,Demonic Fiend,혈통,혼돈과 파괴성이 강한 하위 차원 존재,Demon,폭주·파괴
+fiend_002,Fiend,악마체,마귀형,Devilish Fiend,혈통,계약과 위계 질서가 강한 하위 차원 존재,Devil,계약 증거
+fiend_003,Fiend,악마체,유혹자형 악마체,Tempting Fiend,위협 양상,욕망·대가·쾌락으로 대상을 유인하는 악마체,Succubus/Incubus,포섭 피해
+fiend_004,Fiend,악마체,계약자형 악마체,Contract Fiend,사회성,계약 문서·맹세·빚을 통해 힘을 행사하는 악마체,Devil,법률적 단서
+fiend_005,Fiend,악마체,고문자형 악마체,Tormentor Fiend,행동,고통과 공포를 생산하고 즐기는 악마체,Chain Devil,공포 기록
+fiend_006,Fiend,악마체,파괴자형 악마체,Destroyer Fiend,행동,구조물·생명·질서를 직접 파괴하는 악마체,Balgura; Hezrou,전투 위협
+fiend_007,Fiend,악마체,공포 유발형 악마체,Fear-Instilling Fiend,정신 현상,공포와 절망을 일으켜 무력화하는 악마체,Shadow demon motif,공포 의회와 결합 가능
+fiend_008,Fiend,악마체,지배자형 악마체,Dominating Fiend,사회성,하위 악마체나 필멸자를 지휘하는 악마체,Pit Fiend; Balor,우두머리
+fiend_009,Fiend,악마체,하위 졸개형 악마체,Lesser Fiend Minion,위계,소환되거나 부려지는 하위 악마체,Imp; Quasit,소환자 추적
+fiend_010,Fiend,악마체,군단병형 악마체,Legion Fiend,사회성,군단·부대·전열 형태로 움직이는 악마체,Devil soldiers,전장 공고
+fiend_011,Fiend,악마체,타락한 짐승형 악마체,Corrupted Beast Fiend,형태,야수 형상을 지닌 타락한 하위 차원 존재,Hell Hound,Beast와 구분
+fiend_012,Fiend,악마체,타락한 인간형 악마체,Corrupted Humanoid Fiend,기원,필멸자가 악마적 힘으로 변질된 악마체,Cambion,Humanoid 출신 기록
+fiend_013,Fiend,악마체,영혼 포식자형 악마체,Soul-Eating Fiend,위협 양상,영혼·생명력·기억을 먹는 악마체,Night Hag motif,사령과 구분
+fiend_014,Fiend,악마체,지옥 화염형 악마체,Hellfire Fiend,피해 성질,화염과 지옥성 열기를 주력으로 쓰는 악마체,Barbed Devil; Hell Hound,화염 피해
+fiend_015,Fiend,악마체,독·질병형 악마체,Toxic/Pestilent Fiend,피해 성질,독·역병·부패를 퍼뜨리는 악마체,Hezrou,정화 필요
+fiend_016,Fiend,악마체,그림자 악마체,Shadow Fiend,형태,그림자·암흑·실체 없는 움직임을 보이는 악마체,Shadow Demon,Undead/Fiend 구분
+fiend_017,Fiend,악마체,소환체형 악마체,Summoned Fiend,상태,의식·마법·계약으로 임시 소환된 악마체,Summoned demon/devil,소환자 조사
+fiend_018,Fiend,악마체,심연 돌연변이형 악마체,Abyssal Mutant Fiend,상태,심연성 혼돈으로 형태가 뒤틀린 악마체,Demon mutant,변이체와 병기 가능
+fiend_019,Fiend,악마체,유물 결속형 악마체,Relic-Bound Fiend,결속,저주받은 물건·성물·무기에 묶인 악마체,Possessing fiend,위험 운송
+fiend_020,Fiend,악마체,문지기형 악마체,Gatekeeper Fiend,역할,포탈·관문·금지 구역을 지키는 악마체,Fiend guardian,공간 왜곡
+giant_001,Giant,거인,원시 거인형,Primitive Giant,문화,원초적 생활과 단순 물리력 중심의 거인,Ogre if giant-like; Hill Giant,거인/괴수 구분
+giant_002,Giant,거인,언덕 거인형,Hill Giant Kin,혈통,거대한 식욕과 둔중한 힘을 보이는 거인 계열,Hill Giant,생활권 파괴
+giant_003,Giant,거인,서리 거인형,Frost Giant Kin,혈통,냉기와 전사 문화에 결속된 거인 계열,Frost Giant,설원 공고
+giant_004,Giant,거인,화염 거인형,Fire Giant Kin,혈통,화염과 대장간·군사 문화에 결속된 거인,Fire Giant,제련지 공고
+giant_005,Giant,거인,폭풍 거인형,Storm Giant Kin,혈통,폭풍·예언·고위 질서와 연결된 거인,Storm Giant,항상 적대 아님
+giant_006,Giant,거인,구름 거인형,Cloud Giant Kin,혈통,구름·부유 성채·귀족적 위계와 연결된 거인,Cloud Giant,외교 가능
+giant_007,Giant,거인,석재 거인형,Stone Giant Kin,혈통,바위·동굴·조각 문화와 연결된 거인,Stone Giant,지하 공고
+giant_008,Giant,거인,바다 거인형,Sea Giant Kin,서식,해안·심해·섬과 연결된 거인 계열,Sea giant motif,수상 원정
+giant_009,Giant,거인,룬 거인형,Rune Giant Kin,상징,"룬과 고대 명령, 거인 문자가 힘의 근원인 거인",Rune giant motif,룬 공고와 연계
+giant_010,Giant,거인,거인 혼혈형,Giant-Blooded Hybrid,혈통 영향,거인 혈통이 섞인 인간형 또는 괴물,Half-ogre; Troll?,분류 주의
+giant_011,Giant,거인,거인 하수인형,Giant Servitor,사회성,더 강한 거인이나 세력에 종속된 거대 개체,Ogre servant,우두머리 추적
+giant_012,Giant,거인,투척 전사형 거인,Boulder-Throwing Giant,공격 전달,바위·나무·파편을 원거리 투척하는 거인,Hill Giant; Stone Giant,원거리 물리 위협
+giant_013,Giant,거인,장인형 거인,Giant Artisan,역할,대장간·조각·건축·제작 기술을 지닌 거인,Fire Giant; Stone Giant,자원 공고
+giant_014,Giant,거인,전쟁 우두머리형 거인,Giant Warlord,사회성,"무리나 부족, 군세를 지휘하는 거인",Giant chief,군단 위협
+giant_015,Giant,거인,고대 거신형,Ancient Colossus Giant,규모,신화적 크기와 고대성으로 지형화된 거인,Titan-like motif,레이드급
+giant_016,Giant,거인,타락한 거인형,Corrupted Giant,상태,잔향·악마·원소 폭주 등으로 변질된 거인,Corrupted giant,상태 태그 필요
+giant_017,Giant,거인,식인 거인형,Man-Eating Giant,행동,인간형을 사냥하거나 잡아먹는 거인,Ogre; Hill Giant,민생 피해
+giant_018,Giant,거인,수호 거인형,Guardian Giant,역할,관문·유적·고대 맹세를 지키는 거인,Stone giant guardian,무조건 적대 아님
+humanoid_001,Humanoid,인간형,부족 전사형 인간형,Tribal Warrior Humanoid,사회성,부족·씨족 단위로 무장하고 생활하는 인간형,Orc; Lizardfolk,문화 기록 필요
+humanoid_002,Humanoid,인간형,군사 조직형 인간형,Militarized Humanoid,사회성,계급·전열·명령 체계를 갖춘 인간형,Hobgoblin,분쟁/공고 경계
+humanoid_003,Humanoid,인간형,약탈자형 인간형,Raider Humanoid,행동,약탈과 습격을 주된 행동으로 삼는 인간형,Bandit; Orc,용병/범죄와 구분
+humanoid_004,Humanoid,인간형,암살자형 인간형,Assassin Humanoid,전투 방식,은신·독·기습으로 목표를 제거하는 인간형,Assassin,연맹 공고 여부 주의
+humanoid_005,Humanoid,인간형,주술사형 인간형,Shamanic Humanoid,역할,영혼·자연·부족 의식을 다루는 인간형,Orc Shaman motif,오염 여부 기록
+humanoid_006,Humanoid,인간형,사제형 인간형,Priestly Humanoid,역할,신앙과 의식을 수행하는 인간형,Cult priest,공포 의회 가능
+humanoid_007,Humanoid,인간형,마법사형 인간형,Mage Humanoid,역할,주문과 연구를 전투 수단으로 쓰는 인간형,Mage; Apprentice Wizard,금기 지식 연계
+humanoid_008,Humanoid,인간형,광신도형 인간형,Fanatic Humanoid,정신 상태,신앙·계시·공포에 의해 극단화된 인간형,Cultist; Fanatic,교단 공고
+humanoid_009,Humanoid,인간형,귀족·지휘관형 인간형,Noble/Commander Humanoid,사회성,권력과 지휘권을 지닌 인간형,Noble; Warlord,중립 원칙 주의
+humanoid_010,Humanoid,인간형,도적·밀수꾼형 인간형,Rogue/Smuggler Humanoid,행동,은밀 이동·불법 거래·위험물 유통에 관여하는 인간형,Bandit; Spy,위험물 있으면 공고
+humanoid_011,Humanoid,인간형,고블린계 인간형,Goblinoid Humanoid,혈통/문화,고블린·홉고블린·버그베어 계열 인간형,Goblin; Hobgoblin; Bugbear,군사/동굴 공고
+humanoid_012,Humanoid,인간형,오크계 인간형,Orcish Humanoid,혈통/문화,오크 또는 유사 전투 문화권 인간형,Orc,부족/전쟁화 주의
+humanoid_013,Humanoid,인간형,코볼드계 인간형,Kobold Humanoid,혈통/문화,함정·굴·용 숭배와 결합하기 쉬운 소형 인간형,Kobold,Dragon 연계
+humanoid_014,Humanoid,인간형,리자드계 인간형,Reptilian Humanoid,혈통/문화,파충류적 생리와 습지 문화를 지닌 인간형,Lizardfolk,문화적 오해 주의
+humanoid_015,Humanoid,인간형,지하 거주 인간형,Subterranean Humanoid,서식,동굴·지하·언더다크에 적응한 인간형,Drow; Duergar,던전과 구분
+humanoid_016,Humanoid,인간형,수중 거주 인간형,Aquatic Humanoid,서식,수중·해안·습지 사회를 이루는 인간형,Merfolk; Sahuagin,수로 공고
+humanoid_017,Humanoid,인간형,야생화 인간형,Feral Humanoid,상태,사회적 언어·규범이 붕괴하거나 야생화된 인간형,Feral cultists,침식 여부 확인
+humanoid_018,Humanoid,인간형,변이된 인간형,Mutated Humanoid,상태,마법·잔향·실험으로 신체가 변형된 인간형,Mutant humanoid,비살상 여부 판단
+humanoid_019,Humanoid,인간형,포섭 피해자형 인간형,Indoctrinated Humanoid,상태,세뇌·협박·잔향 노출로 조종당하는 인간형,Cult victim,구조 우선 가능
+humanoid_020,Humanoid,인간형,잔향 침식 인간형,Resonance-Infected Humanoid,상태,잔향 단계 증상을 보이는 인간형,Infected villager,잔향 관찰 공고
+humanoid_021,Humanoid,인간형,의식 매개 인간형,Ritual Medium Humanoid,역할,의식의 제물·매개·그릇으로 쓰이는 인간형,Cult victim,구조/봉인
+humanoid_022,Humanoid,인간형,변장 침투자형 인간형,Disguised Infiltrator Humanoid,행동,정체를 숨기고 조직 내부에 침투한 인간형,Doppelganger if Humanoid-like; Spy,침투자 식별
+monstrosity_001,Monstrosity,괴수,키메라형 괴수,Chimeric Monstrosity,형태,여러 생물의 형질이 뒤섞인 괴수,Chimera,형태 기록 중요
+monstrosity_002,Monstrosity,괴수,다두형 괴수,Multi-Headed Monstrosity,형태,여러 머리와 독립 감각으로 위협하는 괴수,Hydra,재생/동시공격
+monstrosity_003,Monstrosity,괴수,시선 괴수,Gaze Monstrosity,공격 전달,시선·눈빛으로 상태 이상이나 피해를 주는 괴수,Basilisk; Medusa,Aberration과 구분
+monstrosity_004,Monstrosity,괴수,포식 괴수,Predatory Monstrosity,생태,자연 야수를 넘어선 포식 능력을 지닌 괴수,Owlbear,생활권 피해
+monstrosity_005,Monstrosity,괴수,매복 괴수,Ambush Monstrosity,행동,위장·은신·함정성 지형에서 급습하는 괴수,Mimic if monstrosity?; Roper,던전 적합
+monstrosity_006,Monstrosity,괴수,장갑 괴수,Armored Monstrosity,형태,갑각·비늘·외골격 방어가 강한 괴수,Bulette,전열 돌파
+monstrosity_007,Monstrosity,괴수,독성 괴수,Venomous Monstrosity,피해 성질,독침·독니·독액으로 위협하는 괴수,Manticore; Wyvern if not Dragon,해독 시료
+monstrosity_008,Monstrosity,괴수,돌진 괴수,Charging Monstrosity,공격 전달,돌진과 충돌로 구조물을 파괴하는 괴수,Bulette; Gorgon,지형 피해
+monstrosity_009,Monstrosity,괴수,비행 괴수,Flying Monstrosity,이동,날개와 공중기동으로 사냥하는 괴수,Manticore; Griffon,상공 대응
+monstrosity_010,Monstrosity,괴수,수중 괴수,Aquatic Monstrosity,서식,물속에서 거대한 위협을 가하는 괴수,Kraken-like; Sea monster,해상 원정
+monstrosity_011,Monstrosity,괴수,굴파기 괴수,Burrowing Monstrosity,이동,지면 아래에서 이동·매복하는 괴수,Bulette; Purple Worm,진동 감지
+monstrosity_012,Monstrosity,괴수,괴조형 괴수,Avian Monstrosity,형태,새와 괴수 형질이 결합한 비행형 괴수,Griffon; Roc,거대 둥지
+monstrosity_013,Monstrosity,괴수,괴충형 괴수,Insectoid Monstrosity,형태,곤충 형질이 과장된 괴수,Ankheg,산성/굴파기
+monstrosity_014,Monstrosity,괴수,괴어형 괴수,Piscine Monstrosity,형태,어류나 수생 생물이 괴수화된 유형,Merrow?; Giant fish motif,수중 피해
+monstrosity_015,Monstrosity,괴수,사자·고양잇과 괴수,Feline Monstrosity,형태,고양잇과 포식자 형질이 괴수화된 유형,Displacer Beast,매복/환영
+monstrosity_016,Monstrosity,괴수,뱀·파충류 괴수,Serpentine/Reptilian Monstrosity,형태,뱀·도마뱀·파충류 형질이 괴수화된 유형,Basilisk; Hydra,독/시선
+monstrosity_017,Monstrosity,괴수,반인반수형 괴수,Hybrid Humanoid Monstrosity,형태,인간형과 짐승형이 결합한 괴수,Centaur if Monstrosity; Lamia,Humanoid와 구분
+monstrosity_018,Monstrosity,괴수,마법 실험체형 괴수,Arcane Experiment Monstrosity,기원,마법 실험·정제 실패·개조로 탄생한 괴수,Owlbear origin motif,연구소 공고
+monstrosity_019,Monstrosity,괴수,고대 잔존종형 괴수,Ancient Relict Monstrosity,기원,고대 생태나 멸종종의 잔존 괴수,Roc; Purple Worm,유적/원시지
+monstrosity_020,Monstrosity,괴수,공포 전설형 괴수,Folkloric Terror Monstrosity,상징,민담·전설·공포담의 형상으로 분류되는 괴수,Basilisk; Manticore,괴담 검증
+monstrosity_021,Monstrosity,괴수,구조물 기생 괴수,Structure-Parasitic Monstrosity,생태,건물·던전·폐허 구조 안에 숨어 먹이를 노리는 괴수,Mimic; Roper,던전 내부
+monstrosity_022,Monstrosity,괴수,던전 적응 괴수,Dungeon-Adapted Monstrosity,상태,던전 환경에 적응하거나 던전 생태 일부가 된 괴수,Roper; Mimic,던전 사냥
+monstrosity_023,Monstrosity,괴수,공간 왜곡 괴수,Space-Warping Monstrosity,능력,거리·위치·형상을 어긋나게 하는 괴수,Displacer Beast,감각 기록 중요
+monstrosity_024,Monstrosity,괴수,거대 포식충형 괴수,Giant Burrowing Worm Monstrosity,형태,거대한 벌레·충체형 포식 괴수,Purple Worm,레이드 가능
+ooze_001,Ooze,점액체,산성 점액체,Acidic Ooze,피해 성질,강한 산으로 유기물과 장비를 녹이는 점액체,Black Pudding; Ochre Jelly,장비 손상
+ooze_002,Ooze,점액체,포식 점액체,Predatory Ooze,생태,천천히 접근해 먹이를 흡수하는 점액체,Gelatinous Cube,감지 어려움
+ooze_003,Ooze,점액체,분열 점액체,Splitting Ooze,능력,피해나 조건에 따라 둘 이상으로 나뉘는 점액체,Ochre Jelly,참격/전격 주의
+ooze_004,Ooze,점액체,위장 점액체,Camouflaged Ooze,행동,바닥·벽·물웅덩이처럼 위장하는 점액체,Gray Ooze,관찰 기록 중요
+ooze_005,Ooze,점액체,투명 점액체,Transparent Ooze,형태,투명하거나 반투명해 발견이 어려운 점액체,Gelatinous Cube,탐지 방식 필요
+ooze_006,Ooze,점액체,독성 점액체,Toxic Ooze,피해 성질,독성 체액과 기체를 분비하는 점액체,Poison ooze motif,시료 가치
+ooze_007,Ooze,점액체,흡수형 점액체,Absorbing Ooze,기능,대상을 감싸 흡수하고 장비를 삼키는 점액체,Gelatinous Cube,회수품 손실
+ooze_008,Ooze,점액체,부식성 점액체,Corrosive Ooze,피해 성질,금속·가죽·목재를 빠르게 부식시키는 점액체,Black Pudding,무장 손상
+ooze_009,Ooze,점액체,지능형 점액체,Intelligent Ooze,지능,학습·매복·추적 같은 지능 행동을 보이는 점액체,Oblex,Aberration과 병기 가능
+ooze_010,Ooze,점액체,군집 점액체,Swarm Ooze,사회성,작은 점액체 다수가 군락처럼 행동하는 유형,Ooze colony motif,광역 대응
+ooze_011,Ooze,점액체,시체 소화형 점액체,Carrion-Digesting Ooze,생태,사체와 폐기물을 분해하며 이동하는 점액체,Dungeon ooze,청소부 역할
+ooze_012,Ooze,점액체,던전 청소부형 점액체,Dungeon Scavenger Ooze,역할,던전 내부 잔해와 사체를 처리하는 점액체,Gelatinous Cube,던전 생태
+ooze_013,Ooze,점액체,흑마석 반응 점액체,Blackstone-Reactive Ooze,상태,흑마석 접촉으로 결정화·변색·공명하는 점액체,Custom,정제·자원 공고
+ooze_014,Ooze,점액체,잔향 오염 점액체,Resonance-Tainted Ooze,상태,잔향에 노출되어 정신성·부패성 반응을 보이는 점액체,Custom,룩스테라 전용
+ooze_015,Ooze,점액체,기억 흡수 점액체,Memory-Absorbing Ooze,능력,접촉한 대상의 기억·형태·음성을 흉내내는 점액체,Oblex,침투자 식별
+ooze_016,Ooze,점액체,체액 모방 점액체,Fluid-Mimic Ooze,행동,피·물·기름·약품처럼 위장하는 점액체,Custom,실험실 공고
+plant_001,Plant,식물체,포식 식물체,Carnivorous Plant,생태,동물성 먹이를 유인·포획·소화하는 식물체,Shambling Mound; Assassin Vine,습지/정글
+plant_002,Plant,식물체,덩굴형 식물체,Vine Plant,형태,덩굴로 구속·교살·이동 방해를 수행하는 식물체,Vine Blight,구속 위협
+plant_003,Plant,식물체,포자형 식물체,Spore Plant,번식,포자를 통해 수면·독·감염을 유발하는 식물체,Myconid; Gas Spore,호흡 주의
+plant_004,Plant,식물체,균류형 식물체,Fungal Plant,형태,버섯·균사·균핵으로 이루어진 식물성 존재,Myconid,군락 가능
+plant_005,Plant,식물체,나무 수호자형 식물체,Tree Guardian Plant,역할,"나무와 숲, 성역을 수호하는 식물체",Treant,협상 가능
+plant_006,Plant,식물체,움직이는 식물체,Mobile Plant,이동,뿌리나 줄기로 걸어다니는 식물체,Awakened Tree,식물/구조물 오인
+plant_007,Plant,식물체,독성 식물체,Toxic Plant,피해 성질,독액·가시·포자로 중독을 일으키는 식물체,Poisonous plant motif,해독 시료
+plant_008,Plant,식물체,수면·환각 유발 식물체,Dream/Hallucinogenic Plant,정신 현상,향·꽃가루·포자로 수면과 환각을 유발하는 식물체,Sleep pollen motif,괴담 검증
+plant_009,Plant,식물체,기생 식물체,Parasitic Plant,생태,숙주에 뿌리내려 생명력과 행동을 빼앗는 식물체,Yellow Musk Creeper motif,포섭 피해
+plant_010,Plant,식물체,군락 식물체,Colony Plant,사회성,넓은 군락 전체가 하나의 위협처럼 작동하는 식물체,Fungal colony,지역 봉쇄
+plant_011,Plant,식물체,가시 방어형 식물체,Thorn-Defense Plant,형태,가시·뿔·단단한 줄기로 방어하는 식물체,Needle blight,접근 피해
+plant_012,Plant,식물체,씨앗 확산형 식물체,Seed-Spreading Plant,번식,씨앗이나 꼬투리로 빠르게 확산하는 식물체,Exploding seed motif,확산 차단
+plant_013,Plant,식물체,성역 수호형 식물체,Sanctuary Plant,역할,성역·숲·고대 장소를 지키는 식물체,Treant; awakened plants,Fey/Celestial 병기 가능
+plant_014,Plant,식물체,부패지 생장형 식물체,Rotland Plant,서식,시체와 부패한 땅에서 자라는 식물체,Blight,언데드와 결합
+plant_015,Plant,식물체,잔향 오염 식물체,Resonance-Tainted Plant,상태,잔향 노출로 검은 변이와 안개 반응을 보이는 식물체,Custom,룩스테라 전용
+plant_016,Plant,식물체,안개권 적응 식물체,Fog-Adapted Plant,상태,앙그라 안개 내부에서 생존·변형된 식물체,Custom,안개권 표본
+plant_017,Plant,식물체,빛 저항 식물체,Light-Resistant Plant,상태,정화성 빛에 둔감하거나 반응이 역전된 식물체,Custom,3단계 의심
+plant_018,Plant,식물체,뿌리망 식물체,Root-Network Plant,생태,지하 뿌리망으로 넓은 지역을 감지·공격하는 식물체,Root network motif,진동 감지
+undead_001,Undead,언데드,골격형 언데드,Skeletal Undead,형태,살과 장기가 사라지고 뼈 구조가 움직이는 언데드,Skeleton; Minotaur Skeleton,스켈레톤 포괄
+undead_002,Undead,언데드,시체형 언데드,Corpse Undead,형태,부패한 육체가 남아 물리적 압박을 보이는 언데드,Zombie; Ogre Zombie,좀비 포괄
+undead_003,Undead,언데드,구울형 언데드,Ghoul Undead,생태,시체와 살점을 먹고 마비·질병성을 동반하는 언데드,Ghoul; Ghast,청소부/포식
+undead_004,Undead,언데드,망령형 언데드,Spectral Undead,형태,육체보다 혼·원념·영체성이 중심인 언데드,Specter; Ghost,비물질성
+undead_005,Undead,언데드,그림자형 언데드,Shadow Undead,형태,그림자와 생명력 흡수로 움직이는 언데드,Shadow,Fiend와 구분
+undead_006,Undead,언데드,원혼형 언데드,Vengeful Spirit Undead,정신 상태,원한·미련·복수심에 묶인 언데드,Revenant; Ghost,해결 조건 가능
+undead_007,Undead,언데드,갑주형 언데드,Armored Undead,형태,갑옷과 시신 또는 영혼이 결합한 언데드,Wight; Death Knight,기사형과 중복
+undead_008,Undead,언데드,기사형 언데드,Knightly Undead,역할,생전의 기사도·전투 규율이 남은 언데드,Death Knight; Wight,무장 위협
+undead_009,Undead,언데드,흡혈형 언데드,Vampiric Undead,생태,피와 생명력을 흡수해 유지되는 언데드,Vampire; Vampire Spawn,사회적 침투
+undead_010,Undead,언데드,리치형 언데드,Lich Undead,기원,마법과 영혼 보존 의식으로 불멸화된 언데드,Lich,최상급 위협
+undead_011,Undead,언데드,미라형 언데드,Mummified Undead,형태,방부 처리·장례 저주·왕묘와 결합한 언데드,Mummy; Mummy Lord,고대 유적
+undead_012,Undead,언데드,죽음 기사형 언데드,Death Knight Undead,역할,강력한 전사와 저주가 결합한 언데드,Death Knight,우두머리
+undead_013,Undead,언데드,집단 원혼형 언데드,Collective Spirit Undead,사회성,다수의 혼이 한 현상으로 얽힌 언데드,Ghost swarm motif,대량 사망지
+undead_014,Undead,언데드,사령술 피조형 언데드,Necromantic Created Undead,기원,사령술로 제작·조립·명령된 언데드,Skeleton; Zombie,시전자 추적
+undead_015,Undead,언데드,저주 결속형 언데드,Curse-Bound Undead,결속,저주나 맹세에 묶여 해방되지 못하는 언데드,Revenant; Mummy,해제 조건
+undead_016,Undead,언데드,장소 결박형 언데드,Location-Bound Undead,결속,특정 장소·무덤·성소를 벗어나지 못하는 언데드,Ghost,회수보다 정화
+undead_017,Undead,언데드,원한 추적형 언데드,Vengeance-Seeking Undead,행동,특정 대상이나 혈통을 추적하는 언데드,Revenant,도주 불가
+undead_018,Undead,언데드,생명력 흡수형 언데드,Life-Draining Undead,피해 성질,접촉이나 시선으로 생명력을 빨아들이는 언데드,Wraith; Wight,사령 피해
+undead_019,Undead,언데드,부패 확산형 언데드,Rot-Spreading Undead,피해 성질,부패·질병·시체 오염을 퍼뜨리는 언데드,Zombie plague motif,격리 공고
+undead_020,Undead,언데드,고대 왕묘형 언데드,Ancient Tomb Undead,서식,왕묘·고대 무덤·장례 의식과 결합한 언데드,Mummy; Wight,유적 공고
+undead_021,Undead,언데드,혼령 병사형 언데드,Spectral Soldier Undead,역할,전쟁터와 군사 기억에 묶인 병사형 언데드,Ghostly soldier,전장 공고
+undead_022,Undead,언데드,마법사령형 언데드,Spellcasting Undead,전투 방식,주문 사용 능력을 유지한 언데드,Lich; Wight mage motif,주문 공격

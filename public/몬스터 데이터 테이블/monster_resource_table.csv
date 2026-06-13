@@ -1,0 +1,212 @@
+﻿resource_id,resource_ko,resource_category,definition,use_note,hazard_level,tags
+bone,뼈,골격 자원,일반적인 골격 부위,제작 재료·연구 표본,normal,bone
+skull,두개골,골격 자원,머리 부위의 골격 표본,사령술·의식·종 식별,normal,skull
+bone_dust,골분,골격 자원,잘게 부서지거나 갈린 뼛가루,연금·사령 반응 분석,normal,bone
+rib_bone,갈비뼈,골격 자원,가슴부 골격 표본,크기·종 분류 자료,normal,bone
+spine_bone,척추골,골격 자원,척추 형태가 보존된 골격 표본,운동 구조 분석,normal,bone
+fang,송곳니,외피·무기 자원,물기 공격에 사용된 긴 이빨,무기 재료·독성 검출,normal,tooth
+teeth,이빨,외피·무기 자원,일반 치아 표본,식성·포식 습성 분석,normal,tooth
+horn,뿔,외피·무기 자원,돌진·방어·영역 표시용 단단한 뿔,무기·장식·연구 표본,normal,horn
+claw,발톱,외피·무기 자원,절단·등반·포획에 쓰인 발톱,무기 재료·흔적 대조,normal,claw
+hide,외피,외피·무기 자원,가죽·껍질·갑각·비늘 등 외부 보호층,방어구·연구 표본,normal,hide
+scale,비늘,외피·무기 자원,비늘형 외피 조각,방어구·종 분류,normal,scale
+chitin,갑각,외피·무기 자원,곤충·갑각성 생물의 단단한 외골격,방어구·구조 연구,normal,chitin
+fur,털,외피·무기 자원,피부를 덮은 털 표본,서식 환경·체온 유지 연구,normal,fur
+feather,깃털,외피·무기 자원,비행 또는 장식용 깃털,비행 생태·마법성 판정,normal,feather
+blood_sample,혈액 시료,생체 시료,혈액 또는 혈액성 체액,질병·오염·혈통 분석,caution,blood
+ichor_sample,검은 체액 시료,생체 시료,검게 변색되거나 탁한 점성 체액,오염·악마성·변이 분석,hazard,ichor;corruption
+venom_sac,독샘,생체 시료,독액을 저장하거나 분비하는 기관,독성 연구·해독제 제작,hazard,poison
+acid_gland,산성샘,생체 시료,산성 분비물을 만드는 기관,부식성 연구·봉인 필요,hazard,acid
+slime_sample,점액 시료,생체 시료,점액성 분비물 표본,점액체·기생·양서류 분석,caution,slime
+spore_sac,포자낭,생체 시료,포자를 담고 있는 주머니형 조직,식물체·균류 연구,hazard,spore
+fungal_mycelium,균사 조직,생체 시료,균류형 생명체의 실 같은 조직,감염·군락 분석,caution,fungus
+eye,눈,장기 시료,감각기관으로서의 눈 표본,시선·암시야·마력 감지 분석,normal,eye
+heart,심장,장기 시료,순환 또는 핵심 생명 반응 기관,생명력·오염 반응 분석,caution,organ
+brain,뇌 조직,장기 시료,정신·명령·지능과 관련된 조직,정신 영향·변이 분석,hazard,brain
+liver,간 조직,장기 시료,독성 처리나 축적이 의심되는 조직,독성·질병 분석,caution,organ
+wing_membrane,날개막,외피·무기 자원,비행 생물의 날개막 표본,비행 구조 분석,normal,wing
+tendons,힘줄,생체 시료,강한 운동성을 만드는 섬유 조직,무기·장력 연구,normal,organ
+necrotic_bone,사령 반응 골편,마법성 시료,사령 반응이 남은 뼈 조각,언데드·사령술 연구,hazard,necrotic;bone
+rune_etched_bone,룬 각인 골편,마법성 시료,룬 문양이 새겨진 뼈 조각,잔향의 룬 기록·격리 대상,hazard,rune;bone
+rune_etched_hide,룬 각인 외피,마법성 시료,룬 문양이 남은 피부·외피 조각,룬 발현 조건 분석,hazard,rune;hide
+blackstone_crystal,흑마석 결정,오염성 시료,흑마석성 결정 또는 파편,정제·자원 공고 연결,hazard,blackstone
+crystallized_tissue,결정화 조직,오염성 시료,살·뼈·장기가 결정처럼 굳은 조직,흑마석·잔향 반응 분석,hazard,crystal
+fog_condensate,안개 응축액,오염성 시료,앙그라 안개가 응축된 액상 또는 젤 형태 표본,안개권 연구·봉인 필요,hazard,fog
+resonance_fluid,잔향 체액,오염성 시료,잔향 반응을 보이는 체액,침식 단계 판정,hazard,resonance
+core_shard,부정한 핵 파편,오염성 시료,부정한 핵에서 떨어진 파편 또는 미세 조각,고위험 정제 대상,critical,core
+guardian_core,부정한 핵,오염성 시료,가디언 제압 후 확보되는 중심 핵,정제·연구 최우선 대상,critical,core;guardian
+totem_fragment,토템 잔해,오염성 시료,앙그라의 못 또는 그 주변에서 떨어진 잔해,못 구조 분석·정제 대상,critical,totem;blackstone
+rusted_weapon,녹슨 무기,장비·부산물,개체와 함께 발견되는 오래된 무기,기원·생전 정보 추정,normal,equipment
+old_armor_piece,낡은 갑옷 조각,장비·부산물,손상된 갑옷이나 금속 보호구 일부,생전 소속·던전 연대 추정,normal,equipment
+construct_gear,구조체 톱니,장비·부산물,구조체 내부의 톱니나 구동부,구조체 설계 분석,normal,construct
+golem_core_chip,골렘 핵편,마법성 시료,골렘이나 구조체 중심 회로의 파편,명령 구조 분석,hazard,construct;core
+celestial_feather,광휘 깃털,마법성 시료,광휘 반응을 보이는 깃털,천상체·정화 연구,caution,celestial;radiant
+fiendish_blood,악마성 혈액,마법성 시료,하위 차원 반응을 보이는 피,악마체·계약성 연구,hazard,fiend;blood
+fey_dust,요정 가루,마법성 시료,요정성 환상·변이 반응이 남은 미세 분말,요정계 반응 분석,caution,fey
+elemental_ember,원소 불씨,마법성 시료,화염 원소 반응이 남은 작은 불씨,원소 안정성 분석,hazard,elemental;fire
+elemental_ice_core,원소 얼음핵,마법성 시료,냉기 원소 반응이 응축된 얼음 핵,냉기 원소 연구,hazard,elemental;cold
+dragon_scale,용비늘,외피·무기 자원,드래곤 또는 용혈 생물의 비늘,방어구·혈통 연구,normal,dragon;scale
+dragon_breath_sac,브레스낭,장기 시료,브레스 분출과 관련된 기관,고위험 해체 필요,hazard,dragon;breath
+fresh_blood,신선한 혈액,생체 시료,신선한 상태의 혈액 표본,오염·혈통 분석,caution,blood;fresh
+fresh_hide_piece,신선한 외피 조각,외피·무기 자원,신선한 상태의 외부 보호층 일부,제작·연구 표본,normal,hide;fresh
+fresh_bone_piece,신선한 골편,골격 자원,신선한 상태의 작은 뼈 조각,종 식별·사령 반응 분석,normal,bone;fresh
+fresh_tooth_piece,신선한 이빨 조각,외피·무기 자원,신선한 상태의 부러진 이빨 또는 치아 일부,식성·공격 흔적 대조,normal,tooth;fresh
+fresh_claw_piece,신선한 발톱 조각,외피·무기 자원,신선한 상태의 부러진 발톱 일부,공격 흔적 대조,normal,claw;fresh
+fresh_scale_piece,신선한 비늘 조각,외피·무기 자원,신선한 상태의 떨어진 비늘 일부,방어구·분류 표본,normal,scale;fresh
+fresh_chitin_piece,신선한 갑각 조각,외피·무기 자원,신선한 상태의 외골격 파편,방어구·구조 연구,normal,chitin;fresh
+fresh_organ_piece,신선한 장기 조직,장기 시료,신선한 상태의 내부 장기의 일부,생태·오염 분석,caution,organ;fresh
+fresh_nerve_tissue,신선한 신경 조직,장기 시료,신선한 상태의 감각 또는 반응 기관 조직,정신·감각 반응 분석,hazard,nerve;fresh
+fresh_eye_lens,신선한 수정체,장기 시료,신선한 상태의 눈 내부의 투명 조직,시선·암시야 분석,normal,eye;fresh
+fresh_saliva,신선한 타액 시료,생체 시료,신선한 상태의 물기 공격과 함께 남은 침,독성·질병 분석,caution,saliva;fresh
+fresh_venom,신선한 독액,생체 시료,신선한 상태의 독성 액체 표본,해독제·독성 연구,hazard,poison;fresh
+fresh_spore,신선한 포자 시료,생체 시료,신선한 상태의 미세 포자 표본,감염·확산 연구,hazard,spore;fresh
+fresh_mucus,신선한 점액 시료,생체 시료,신선한 상태의 끈적한 분비물,기생·산성·오염 분석,caution,slime;fresh
+fresh_shell,신선한 껍질 조각,외피·무기 자원,신선한 상태의 껍질이나 껍데기 일부,방어 구조 연구,normal,shell;fresh
+dried_blood,말라붙은 혈액,생체 시료,말라붙은 상태의 혈액 표본,오염·혈통 분석,caution,blood;dried
+dried_hide_piece,말라붙은 외피 조각,외피·무기 자원,말라붙은 상태의 외부 보호층 일부,제작·연구 표본,normal,hide;dried
+dried_bone_piece,말라붙은 골편,골격 자원,말라붙은 상태의 작은 뼈 조각,종 식별·사령 반응 분석,normal,bone;dried
+dried_tooth_piece,말라붙은 이빨 조각,외피·무기 자원,말라붙은 상태의 부러진 이빨 또는 치아 일부,식성·공격 흔적 대조,normal,tooth;dried
+dried_claw_piece,말라붙은 발톱 조각,외피·무기 자원,말라붙은 상태의 부러진 발톱 일부,공격 흔적 대조,normal,claw;dried
+dried_scale_piece,말라붙은 비늘 조각,외피·무기 자원,말라붙은 상태의 떨어진 비늘 일부,방어구·분류 표본,normal,scale;dried
+dried_chitin_piece,말라붙은 갑각 조각,외피·무기 자원,말라붙은 상태의 외골격 파편,방어구·구조 연구,normal,chitin;dried
+dried_organ_piece,말라붙은 장기 조직,장기 시료,말라붙은 상태의 내부 장기의 일부,생태·오염 분석,caution,organ;dried
+dried_nerve_tissue,말라붙은 신경 조직,장기 시료,말라붙은 상태의 감각 또는 반응 기관 조직,정신·감각 반응 분석,hazard,nerve;dried
+dried_eye_lens,말라붙은 수정체,장기 시료,말라붙은 상태의 눈 내부의 투명 조직,시선·암시야 분석,normal,eye;dried
+dried_saliva,말라붙은 타액 시료,생체 시료,말라붙은 상태의 물기 공격과 함께 남은 침,독성·질병 분석,caution,saliva;dried
+dried_venom,말라붙은 독액,생체 시료,말라붙은 상태의 독성 액체 표본,해독제·독성 연구,hazard,poison;dried
+dried_spore,말라붙은 포자 시료,생체 시료,말라붙은 상태의 미세 포자 표본,감염·확산 연구,hazard,spore;dried
+dried_mucus,말라붙은 점액 시료,생체 시료,말라붙은 상태의 끈적한 분비물,기생·산성·오염 분석,caution,slime;dried
+dried_shell,말라붙은 껍질 조각,외피·무기 자원,말라붙은 상태의 껍질이나 껍데기 일부,방어 구조 연구,normal,shell;dried
+blackened_blood,검게 변색된 혈액,생체 시료,검게 변색된 상태의 혈액 표본,오염·혈통 분석,hazard,blood;blackened
+blackened_hide_piece,검게 변색된 외피 조각,외피·무기 자원,검게 변색된 상태의 외부 보호층 일부,제작·연구 표본,hazard,hide;blackened
+blackened_bone_piece,검게 변색된 골편,골격 자원,검게 변색된 상태의 작은 뼈 조각,종 식별·사령 반응 분석,hazard,bone;blackened
+blackened_tooth_piece,검게 변색된 이빨 조각,외피·무기 자원,검게 변색된 상태의 부러진 이빨 또는 치아 일부,식성·공격 흔적 대조,hazard,tooth;blackened
+blackened_claw_piece,검게 변색된 발톱 조각,외피·무기 자원,검게 변색된 상태의 부러진 발톱 일부,공격 흔적 대조,hazard,claw;blackened
+blackened_scale_piece,검게 변색된 비늘 조각,외피·무기 자원,검게 변색된 상태의 떨어진 비늘 일부,방어구·분류 표본,hazard,scale;blackened
+blackened_chitin_piece,검게 변색된 갑각 조각,외피·무기 자원,검게 변색된 상태의 외골격 파편,방어구·구조 연구,hazard,chitin;blackened
+blackened_organ_piece,검게 변색된 장기 조직,장기 시료,검게 변색된 상태의 내부 장기의 일부,생태·오염 분석,hazard,organ;blackened
+blackened_nerve_tissue,검게 변색된 신경 조직,장기 시료,검게 변색된 상태의 감각 또는 반응 기관 조직,정신·감각 반응 분석,hazard,nerve;blackened
+blackened_eye_lens,검게 변색된 수정체,장기 시료,검게 변색된 상태의 눈 내부의 투명 조직,시선·암시야 분석,hazard,eye;blackened
+blackened_saliva,검게 변색된 타액 시료,생체 시료,검게 변색된 상태의 물기 공격과 함께 남은 침,독성·질병 분석,hazard,saliva;blackened
+blackened_venom,검게 변색된 독액,생체 시료,검게 변색된 상태의 독성 액체 표본,해독제·독성 연구,hazard,poison;blackened
+blackened_spore,검게 변색된 포자 시료,생체 시료,검게 변색된 상태의 미세 포자 표본,감염·확산 연구,hazard,spore;blackened
+blackened_mucus,검게 변색된 점액 시료,생체 시료,검게 변색된 상태의 끈적한 분비물,기생·산성·오염 분석,hazard,slime;blackened
+blackened_shell,검게 변색된 껍질 조각,외피·무기 자원,검게 변색된 상태의 껍질이나 껍데기 일부,방어 구조 연구,hazard,shell;blackened
+crystal_blood,결정화된 혈액,생체 시료,결정화된 상태의 혈액 표본,오염·혈통 분석,hazard,blood;crystal
+crystal_hide_piece,결정화된 외피 조각,외피·무기 자원,결정화된 상태의 외부 보호층 일부,제작·연구 표본,hazard,hide;crystal
+crystal_bone_piece,결정화된 골편,골격 자원,결정화된 상태의 작은 뼈 조각,종 식별·사령 반응 분석,hazard,bone;crystal
+crystal_tooth_piece,결정화된 이빨 조각,외피·무기 자원,결정화된 상태의 부러진 이빨 또는 치아 일부,식성·공격 흔적 대조,hazard,tooth;crystal
+crystal_claw_piece,결정화된 발톱 조각,외피·무기 자원,결정화된 상태의 부러진 발톱 일부,공격 흔적 대조,hazard,claw;crystal
+crystal_scale_piece,결정화된 비늘 조각,외피·무기 자원,결정화된 상태의 떨어진 비늘 일부,방어구·분류 표본,hazard,scale;crystal
+crystal_chitin_piece,결정화된 갑각 조각,외피·무기 자원,결정화된 상태의 외골격 파편,방어구·구조 연구,hazard,chitin;crystal
+crystal_organ_piece,결정화된 장기 조직,장기 시료,결정화된 상태의 내부 장기의 일부,생태·오염 분석,hazard,organ;crystal
+crystal_nerve_tissue,결정화된 신경 조직,장기 시료,결정화된 상태의 감각 또는 반응 기관 조직,정신·감각 반응 분석,hazard,nerve;crystal
+crystal_eye_lens,결정화된 수정체,장기 시료,결정화된 상태의 눈 내부의 투명 조직,시선·암시야 분석,hazard,eye;crystal
+crystal_saliva,결정화된 타액 시료,생체 시료,결정화된 상태의 물기 공격과 함께 남은 침,독성·질병 분석,hazard,saliva;crystal
+crystal_venom,결정화된 독액,생체 시료,결정화된 상태의 독성 액체 표본,해독제·독성 연구,hazard,poison;crystal
+crystal_spore,결정화된 포자 시료,생체 시료,결정화된 상태의 미세 포자 표본,감염·확산 연구,hazard,spore;crystal
+crystal_mucus,결정화된 점액 시료,생체 시료,결정화된 상태의 끈적한 분비물,기생·산성·오염 분석,hazard,slime;crystal
+crystal_shell,결정화된 껍질 조각,외피·무기 자원,결정화된 상태의 껍질이나 껍데기 일부,방어 구조 연구,hazard,shell;crystal
+rune_blood,룬 각인 혈액,생체 시료,룬 각인 상태의 혈액 표본,오염·혈통 분석,hazard,blood;rune
+rune_hide_piece,룬 각인 외피 조각,외피·무기 자원,룬 각인 상태의 외부 보호층 일부,제작·연구 표본,hazard,hide;rune
+rune_bone_piece,룬 각인 골편,골격 자원,룬 각인 상태의 작은 뼈 조각,종 식별·사령 반응 분석,hazard,bone;rune
+rune_tooth_piece,룬 각인 이빨 조각,외피·무기 자원,룬 각인 상태의 부러진 이빨 또는 치아 일부,식성·공격 흔적 대조,hazard,tooth;rune
+rune_claw_piece,룬 각인 발톱 조각,외피·무기 자원,룬 각인 상태의 부러진 발톱 일부,공격 흔적 대조,hazard,claw;rune
+rune_scale_piece,룬 각인 비늘 조각,외피·무기 자원,룬 각인 상태의 떨어진 비늘 일부,방어구·분류 표본,hazard,scale;rune
+rune_chitin_piece,룬 각인 갑각 조각,외피·무기 자원,룬 각인 상태의 외골격 파편,방어구·구조 연구,hazard,chitin;rune
+rune_organ_piece,룬 각인 장기 조직,장기 시료,룬 각인 상태의 내부 장기의 일부,생태·오염 분석,hazard,organ;rune
+rune_nerve_tissue,룬 각인 신경 조직,장기 시료,룬 각인 상태의 감각 또는 반응 기관 조직,정신·감각 반응 분석,hazard,nerve;rune
+rune_eye_lens,룬 각인 수정체,장기 시료,룬 각인 상태의 눈 내부의 투명 조직,시선·암시야 분석,hazard,eye;rune
+rune_saliva,룬 각인 타액 시료,생체 시료,룬 각인 상태의 물기 공격과 함께 남은 침,독성·질병 분석,hazard,saliva;rune
+rune_venom,룬 각인 독액,생체 시료,룬 각인 상태의 독성 액체 표본,해독제·독성 연구,hazard,poison;rune
+rune_spore,룬 각인 포자 시료,생체 시료,룬 각인 상태의 미세 포자 표본,감염·확산 연구,hazard,spore;rune
+rune_mucus,룬 각인 점액 시료,생체 시료,룬 각인 상태의 끈적한 분비물,기생·산성·오염 분석,hazard,slime;rune
+rune_shell,룬 각인 껍질 조각,외피·무기 자원,룬 각인 상태의 껍질이나 껍데기 일부,방어 구조 연구,hazard,shell;rune
+necrotic_blood,사령 반응 혈액,생체 시료,사령 반응 상태의 혈액 표본,오염·혈통 분석,hazard,blood;necrotic
+necrotic_hide_piece,사령 반응 외피 조각,외피·무기 자원,사령 반응 상태의 외부 보호층 일부,제작·연구 표본,hazard,hide;necrotic
+necrotic_bone_piece,사령 반응 골편,골격 자원,사령 반응 상태의 작은 뼈 조각,종 식별·사령 반응 분석,hazard,bone;necrotic
+necrotic_tooth_piece,사령 반응 이빨 조각,외피·무기 자원,사령 반응 상태의 부러진 이빨 또는 치아 일부,식성·공격 흔적 대조,hazard,tooth;necrotic
+necrotic_claw_piece,사령 반응 발톱 조각,외피·무기 자원,사령 반응 상태의 부러진 발톱 일부,공격 흔적 대조,hazard,claw;necrotic
+necrotic_scale_piece,사령 반응 비늘 조각,외피·무기 자원,사령 반응 상태의 떨어진 비늘 일부,방어구·분류 표본,hazard,scale;necrotic
+necrotic_chitin_piece,사령 반응 갑각 조각,외피·무기 자원,사령 반응 상태의 외골격 파편,방어구·구조 연구,hazard,chitin;necrotic
+necrotic_organ_piece,사령 반응 장기 조직,장기 시료,사령 반응 상태의 내부 장기의 일부,생태·오염 분석,hazard,organ;necrotic
+necrotic_nerve_tissue,사령 반응 신경 조직,장기 시료,사령 반응 상태의 감각 또는 반응 기관 조직,정신·감각 반응 분석,hazard,nerve;necrotic
+necrotic_eye_lens,사령 반응 수정체,장기 시료,사령 반응 상태의 눈 내부의 투명 조직,시선·암시야 분석,hazard,eye;necrotic
+necrotic_saliva,사령 반응 타액 시료,생체 시료,사령 반응 상태의 물기 공격과 함께 남은 침,독성·질병 분석,hazard,saliva;necrotic
+necrotic_venom,사령 반응 독액,생체 시료,사령 반응 상태의 독성 액체 표본,해독제·독성 연구,hazard,poison;necrotic
+necrotic_spore,사령 반응 포자 시료,생체 시료,사령 반응 상태의 미세 포자 표본,감염·확산 연구,hazard,spore;necrotic
+necrotic_mucus,사령 반응 점액 시료,생체 시료,사령 반응 상태의 끈적한 분비물,기생·산성·오염 분석,hazard,slime;necrotic
+necrotic_shell,사령 반응 껍질 조각,외피·무기 자원,사령 반응 상태의 껍질이나 껍데기 일부,방어 구조 연구,hazard,shell;necrotic
+fog_tainted_blood,안개 오염 혈액,생체 시료,안개 오염 상태의 혈액 표본,오염·혈통 분석,hazard,blood;fog_tainted
+fog_tainted_hide_piece,안개 오염 외피 조각,외피·무기 자원,안개 오염 상태의 외부 보호층 일부,제작·연구 표본,hazard,hide;fog_tainted
+fog_tainted_bone_piece,안개 오염 골편,골격 자원,안개 오염 상태의 작은 뼈 조각,종 식별·사령 반응 분석,hazard,bone;fog_tainted
+fog_tainted_tooth_piece,안개 오염 이빨 조각,외피·무기 자원,안개 오염 상태의 부러진 이빨 또는 치아 일부,식성·공격 흔적 대조,hazard,tooth;fog_tainted
+fog_tainted_claw_piece,안개 오염 발톱 조각,외피·무기 자원,안개 오염 상태의 부러진 발톱 일부,공격 흔적 대조,hazard,claw;fog_tainted
+fog_tainted_scale_piece,안개 오염 비늘 조각,외피·무기 자원,안개 오염 상태의 떨어진 비늘 일부,방어구·분류 표본,hazard,scale;fog_tainted
+fog_tainted_chitin_piece,안개 오염 갑각 조각,외피·무기 자원,안개 오염 상태의 외골격 파편,방어구·구조 연구,hazard,chitin;fog_tainted
+fog_tainted_organ_piece,안개 오염 장기 조직,장기 시료,안개 오염 상태의 내부 장기의 일부,생태·오염 분석,hazard,organ;fog_tainted
+fog_tainted_nerve_tissue,안개 오염 신경 조직,장기 시료,안개 오염 상태의 감각 또는 반응 기관 조직,정신·감각 반응 분석,hazard,nerve;fog_tainted
+fog_tainted_eye_lens,안개 오염 수정체,장기 시료,안개 오염 상태의 눈 내부의 투명 조직,시선·암시야 분석,hazard,eye;fog_tainted
+fog_tainted_saliva,안개 오염 타액 시료,생체 시료,안개 오염 상태의 물기 공격과 함께 남은 침,독성·질병 분석,hazard,saliva;fog_tainted
+fog_tainted_venom,안개 오염 독액,생체 시료,안개 오염 상태의 독성 액체 표본,해독제·독성 연구,hazard,poison;fog_tainted
+fog_tainted_spore,안개 오염 포자 시료,생체 시료,안개 오염 상태의 미세 포자 표본,감염·확산 연구,hazard,spore;fog_tainted
+fog_tainted_mucus,안개 오염 점액 시료,생체 시료,안개 오염 상태의 끈적한 분비물,기생·산성·오염 분석,hazard,slime;fog_tainted
+fog_tainted_shell,안개 오염 껍질 조각,외피·무기 자원,안개 오염 상태의 껍질이나 껍데기 일부,방어 구조 연구,hazard,shell;fog_tainted
+refined_candidate_blood,정제 후보 혈액,생체 시료,정제 후보 상태의 혈액 표본,오염·혈통 분석,caution,blood;refined_candidate
+refined_candidate_hide_piece,정제 후보 외피 조각,외피·무기 자원,정제 후보 상태의 외부 보호층 일부,제작·연구 표본,normal,hide;refined_candidate
+refined_candidate_bone_piece,정제 후보 골편,골격 자원,정제 후보 상태의 작은 뼈 조각,종 식별·사령 반응 분석,normal,bone;refined_candidate
+refined_candidate_tooth_piece,정제 후보 이빨 조각,외피·무기 자원,정제 후보 상태의 부러진 이빨 또는 치아 일부,식성·공격 흔적 대조,normal,tooth;refined_candidate
+refined_candidate_claw_piece,정제 후보 발톱 조각,외피·무기 자원,정제 후보 상태의 부러진 발톱 일부,공격 흔적 대조,normal,claw;refined_candidate
+refined_candidate_scale_piece,정제 후보 비늘 조각,외피·무기 자원,정제 후보 상태의 떨어진 비늘 일부,방어구·분류 표본,normal,scale;refined_candidate
+refined_candidate_chitin_piece,정제 후보 갑각 조각,외피·무기 자원,정제 후보 상태의 외골격 파편,방어구·구조 연구,normal,chitin;refined_candidate
+refined_candidate_organ_piece,정제 후보 장기 조직,장기 시료,정제 후보 상태의 내부 장기의 일부,생태·오염 분석,caution,organ;refined_candidate
+refined_candidate_nerve_tissue,정제 후보 신경 조직,장기 시료,정제 후보 상태의 감각 또는 반응 기관 조직,정신·감각 반응 분석,hazard,nerve;refined_candidate
+refined_candidate_eye_lens,정제 후보 수정체,장기 시료,정제 후보 상태의 눈 내부의 투명 조직,시선·암시야 분석,normal,eye;refined_candidate
+refined_candidate_saliva,정제 후보 타액 시료,생체 시료,정제 후보 상태의 물기 공격과 함께 남은 침,독성·질병 분석,caution,saliva;refined_candidate
+refined_candidate_venom,정제 후보 독액,생체 시료,정제 후보 상태의 독성 액체 표본,해독제·독성 연구,hazard,poison;refined_candidate
+refined_candidate_spore,정제 후보 포자 시료,생체 시료,정제 후보 상태의 미세 포자 표본,감염·확산 연구,hazard,spore;refined_candidate
+refined_candidate_mucus,정제 후보 점액 시료,생체 시료,정제 후보 상태의 끈적한 분비물,기생·산성·오염 분석,caution,slime;refined_candidate
+refined_candidate_shell,정제 후보 껍질 조각,외피·무기 자원,정제 후보 상태의 껍질이나 껍데기 일부,방어 구조 연구,normal,shell;refined_candidate
+mutated_blood,변이된 혈액,생체 시료,변이된 상태의 혈액 표본,오염·혈통 분석,hazard,blood;mutated
+mutated_hide_piece,변이된 외피 조각,외피·무기 자원,변이된 상태의 외부 보호층 일부,제작·연구 표본,hazard,hide;mutated
+mutated_bone_piece,변이된 골편,골격 자원,변이된 상태의 작은 뼈 조각,종 식별·사령 반응 분석,hazard,bone;mutated
+mutated_tooth_piece,변이된 이빨 조각,외피·무기 자원,변이된 상태의 부러진 이빨 또는 치아 일부,식성·공격 흔적 대조,hazard,tooth;mutated
+mutated_claw_piece,변이된 발톱 조각,외피·무기 자원,변이된 상태의 부러진 발톱 일부,공격 흔적 대조,hazard,claw;mutated
+mutated_scale_piece,변이된 비늘 조각,외피·무기 자원,변이된 상태의 떨어진 비늘 일부,방어구·분류 표본,hazard,scale;mutated
+mutated_chitin_piece,변이된 갑각 조각,외피·무기 자원,변이된 상태의 외골격 파편,방어구·구조 연구,hazard,chitin;mutated
+mutated_organ_piece,변이된 장기 조직,장기 시료,변이된 상태의 내부 장기의 일부,생태·오염 분석,hazard,organ;mutated
+mutated_nerve_tissue,변이된 신경 조직,장기 시료,변이된 상태의 감각 또는 반응 기관 조직,정신·감각 반응 분석,hazard,nerve;mutated
+mutated_eye_lens,변이된 수정체,장기 시료,변이된 상태의 눈 내부의 투명 조직,시선·암시야 분석,hazard,eye;mutated
+mutated_saliva,변이된 타액 시료,생체 시료,변이된 상태의 물기 공격과 함께 남은 침,독성·질병 분석,hazard,saliva;mutated
+mutated_venom,변이된 독액,생체 시료,변이된 상태의 독성 액체 표본,해독제·독성 연구,hazard,poison;mutated
+mutated_spore,변이된 포자 시료,생체 시료,변이된 상태의 미세 포자 표본,감염·확산 연구,hazard,spore;mutated
+mutated_mucus,변이된 점액 시료,생체 시료,변이된 상태의 끈적한 분비물,기생·산성·오염 분석,hazard,slime;mutated
+mutated_shell,변이된 껍질 조각,외피·무기 자원,변이된 상태의 껍질이나 껍데기 일부,방어 구조 연구,hazard,shell;mutated
+psychic_tissue,정신 공명 조직,마법성 시료,정신 반응이 남은 조직,정신 영향 분석,hazard,aberration;psychic
+aberrant_tentacle,변이 촉수,생체 시료,비정상 촉수 조직,변이 구조 분석,hazard,aberration;tentacle
+quality_pelt,양질의 모피,외피·무기 자원,야수의 온전한 모피,제작 재료,normal,beast;fur
+predator_fang,포식수 송곳니,외피·무기 자원,포식 야수의 큰 송곳니,무기 재료,normal,beast;fang
+radiant_essence,광휘 정수,마법성 시료,정화성 빛이 응축된 정수,정화 연구,caution,celestial;radiant
+sanctified_bone,성화된 골편,마법성 시료,신성 반응을 지닌 뼈 조각,천상체 분석,caution,celestial;bone
+arcane_circuit,마법 회로편,마법성 시료,구조체 내부 회로 조각,명령 구조 분석,normal,construct;circuit
+animated_armor_plate,활성 갑주판,장비·부산물,움직임 반응이 남은 갑주판,구조체 연구,caution,construct;armor
+dragon_blood,용혈,생체 시료,드래곤 혈액,혈통·브레스 연구,hazard,dragon;blood
+dragon_horn,용뿔,외피·무기 자원,드래곤의 뿔,고급 제작 재료,normal,dragon;horn
+elemental_core,원소 핵,마법성 시료,원소력이 응축된 중심 물질,원소 연구·봉인 필요,hazard,elemental;core
+elemental_residue,원소 잔재,마법성 시료,소멸 뒤 남은 원소성 물질,원소 반응 분석,caution,elemental
+fey_charm_fragment,요정 매듭 조각,마법성 시료,요정계 마법이 남은 장식 조각,환상·계약 연구,caution,fey;charm
+dream_pollen,꿈가루,마법성 시료,꿈과 환상 반응이 있는 분말,환상 연구,hazard,fey;dream
+soul_ash,영혼재,마법성 시료,영혼 소모 반응 뒤 남은 재,악마체 연구,hazard,fiend;soul
+infernal_chain_link,지옥 사슬고리,장비·부산물,하위 차원 반응이 남은 사슬 조각,계약·속박 분석,hazard,fiend;chain
+giant_bone,거인 뼈,골격 자원,거대 인간형의 뼈,제작·해부 자료,normal,giant;bone
+giant_tooth,거인 이빨,골격 자원,거인의 큰 이빨,종 식별,normal,giant;tooth
+tribal_token,부족 표식물,장비·부산물,인간형 집단의 표식물,소속 판정,normal,humanoid;token
+ritual_tool,의식 도구,장비·부산물,주술·신앙 행위에 쓰인 도구,의식 분석,caution,humanoid;ritual
+chimeric_organ,키메라 장기,장기 시료,서로 다른 생물 특징이 섞인 장기,괴수 기원 분석,hazard,monstrosity;hybrid
+monster_plate,괴수 장갑판,외피·무기 자원,두꺼운 외피 장갑판,방어구 재료,normal,monstrosity;plate
+ooze_core_sample,점액 핵 시료,생체 시료,점액체 중심부로 추정되는 고농도 시료,점액체 분석,hazard,ooze;core
+acidic_slime,산성 점액,생체 시료,부식성이 강한 점액,봉인 용기 필요,hazard,ooze;acid
+living_seed,살아있는 씨앗,생체 시료,오염 또는 마법 반응이 남은 씨앗,번식 연구,hazard,plant;seed
+animated_root,움직이는 뿌리,생체 시료,사후에도 반응하는 뿌리 조직,식물체 연구,hazard,plant;root
+grave_dust,무덤 먼지,오염성 시료,사령 반응이 있는 먼지,사령술·침식 분석,hazard,undead;dust
+wraith_ectoplasm,영체 잔여물,마법성 시료,영체가 사라진 뒤 남은 희박한 물질,영체 연구,hazard,undead;spectral

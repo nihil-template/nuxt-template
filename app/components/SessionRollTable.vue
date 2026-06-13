@@ -54,17 +54,21 @@ interface Theme {
   테마: string;
   '몬스터 예시': string;
   '환경 설명': string;
+  앙그라: string;
 }
 
 interface Terrain {
   주사위: string;
   지형명: string;
   '지형 설명': string;
+  isAngra: string;
 }
 
 interface RollResult {
   id: number;
+  routeId: string;
   adventurer: string;
+  noticeGroup: string;
   requestType: string;
   contract: string;
   keyword: string;
@@ -82,12 +86,16 @@ interface RollResult {
   themeDesc: string;
   terrain: string;
   terrainDesc: string;
+  isAngraTheme: boolean;
+  isAngraTerrain: boolean;
+  isAngraNotice: boolean;
   timestamp: Date;
 }
 
 const rollHistory = ref<RollResult[]>([]);
 const currentResult = ref<RollResult | null>(null);
-const includePioneer = ref(false);
+const includeClassified = ref(false);
+const includeAngra = ref(false);
 const isRolling = ref(false);
 const isLoading = ref(true);
 const loadError = ref<string | null>(null);
@@ -138,6 +146,12 @@ function parseCSV<T>(text: string): T[] {
   });
 }
 
+// 앙그라권 의뢰 여부 판별 (notice_group 기준)
+// '앙그라권' 이 notice_group 에 포함되면 모두 앙그라로 판별
+function isAngraNoticeGroup(noticeGroup: string): boolean {
+  return noticeGroup.includes('앙그라권');
+}
+
 // CSV 파일 로드
 async function loadCSV() {
   try {
@@ -171,13 +185,59 @@ async function loadCSV() {
   }
 }
 
-// 필터링된 모험가 (개척자 포함 여부)
+// 필터링된 모험가 (기밀 포함 여부 + 사용 가능한 의뢰 존재 여부)
 const filteredAdventurers = computed(() => {
-  if (includePioneer.value) {
-    return adventurers.value;
+  let result = adventurers.value;
+  
+  // 기밀 제외
+  if (!includeClassified.value) {
+    result = result.filter(a => a.route_id !== 'classified');
   }
-  return adventurers.value.filter(a => a.route_id !== 'pioneer');
+  
+  // 현재 필터 상태에서 사용 가능한 의뢰가 있는 모험가만 포함
+  result = result.filter(a => {
+    const types = requestTypes.value.filter(r => r.route_id === a.route_id);
+    if (types.length === 0) return false;
+    
+    // 앙그라 제외 모드면 앙그라권 의뢰 제외 후 확인
+    if (!includeAngra.value) {
+      const nonAngraTypes = types.filter(r => !isAngraNoticeGroup(r.notice_group));
+      return nonAngraTypes.length > 0;
+    }
+    
+    return true;
+  });
+  
+  return result;
 });
+
+// 필터링된 테마 (앙그라 포함 여부)
+const filteredThemes = computed(() => {
+  if (includeAngra.value) {
+    return themes.value;
+  }
+  return themes.value.filter(t => t['앙그라']?.toLowerCase() !== 'true');
+});
+
+// 필터링된 지형 (앙그라 포함 여부)
+const filteredTerrains = computed(() => {
+  if (includeAngra.value) {
+    return terrains.value;
+  }
+  return terrains.value.filter(t => t['isAngra']?.toLowerCase() !== 'true');
+});
+
+// 모험가별 의뢰 유형 가져오기 (앙그라 필터 적용됨)
+function getRequestTypesForRoute(routeId: string): RequestType[] {
+  let types = requestTypes.value.filter(r => r.route_id === routeId);
+  
+  // 앙그라 제외 모드면 앙그라권 의뢰 제외
+  if (!includeAngra.value) {
+    types = types.filter(r => !isAngraNoticeGroup(r.notice_group));
+  }
+  
+  return types;
+}
 
 // 최대 10 개만 표시
 const displayHistory = computed(() => {
@@ -210,33 +270,43 @@ async function handleRoll() {
   await new Promise(resolve => setTimeout(resolve, 500));
   
   try {
+    // 1. 모험가 선택
     const selectedAdventurer = randomSelect(filteredAdventurers.value);
+    const routeId = selectedAdventurer.route_id;
     
-    const filteredRequests = requestTypes.value.filter(
-      r => r.route_id === selectedAdventurer.route_id
-    );
-    const selectedRequest = filteredRequests.length > 0 
-      ? randomSelect(filteredRequests) 
-      : randomSelect(requestTypes.value);
+    // 2. 해당 모험가의 의뢰 유형만 필터링 (앙그라 필터 적용됨)
+    const availableRequestTypes = getRequestTypesForRoute(routeId);
+    if (availableRequestTypes.length === 0) {
+      throw new Error(`${selectedAdventurer.route_name}에 해당하는 의뢰가 없습니다.`);
+    }
+    const selectedRequest = randomSelect(availableRequestTypes);
     
-    const filteredContracts = contracts.value.filter(
+    // 3. 해당 의뢰 유형의 공고만 필터링
+    const availableContracts = contracts.value.filter(
       c => c.notice_no === selectedRequest.notice_no
     );
-    const selectedContract = filteredContracts.length > 0 
-      ? randomSelect(filteredContracts) 
+    const selectedContract = availableContracts.length > 0 
+      ? randomSelect(availableContracts) 
       : randomSelect(contracts.value);
     
-    const themeDice = rollDice(60);
-    const selectedTheme = themes.value.find(t => parseInt(t['주사위']) === themeDice) 
-      || randomSelect(themes.value);
+    // 4. 테마 선택 (필터링된 목록에서)
+    const availableThemes = filteredThemes.value;
+    const themeDice = rollDice(availableThemes.length);
+    const selectedTheme = availableThemes[themeDice - 1] || randomSelect(availableThemes);
     
-    const terrainDice = rollDice(100);
-    const selectedTerrain = terrains.value.find(t => parseInt(t['주사위']) === terrainDice) 
-      || randomSelect(terrains.value);
+    // 5. 지형 선택 (필터링된 목록에서)
+    const availableTerrains = filteredTerrains.value;
+    const terrainDice = rollDice(availableTerrains.length);
+    const selectedTerrain = availableTerrains[terrainDice - 1] || randomSelect(availableTerrains);
+    
+    // 6. 앙그라권 의뢰 여부 판별
+    const isAngraNotice = isAngraNoticeGroup(selectedRequest.notice_group);
     
     const result: RollResult = {
       id: Date.now(),
+      routeId,
       adventurer: selectedAdventurer.route_name,
+      noticeGroup: selectedRequest.notice_group,
       requestType: selectedRequest.notice_name,
       contract: selectedContract.public_title,
       keyword: selectedContract.concept_keyword,
@@ -254,6 +324,9 @@ async function handleRoll() {
       themeDesc: selectedTheme['환경 설명'],
       terrain: selectedTerrain['지형명'],
       terrainDesc: selectedTerrain['지형 설명'],
+      isAngraTheme: selectedTheme['앙그라']?.toLowerCase() === 'true',
+      isAngraTerrain: selectedTerrain['isAngra']?.toLowerCase() === 'true',
+      isAngraNotice: isAngraNotice,
       timestamp: new Date(),
     };
     
@@ -288,6 +361,22 @@ function copyToClipboard() {
   }
 }
 
+// 모험가별 색상
+function getRouteColor(routeId: string): string {
+  const colors: Record<string, string> = {
+    pioneer: 'bg-red-100 text-red-800 border-red-300',
+    solver: 'bg-blue-100 text-blue-800 border-blue-300',
+    hunter: 'bg-green-100 text-green-800 border-green-300',
+    classified: 'bg-purple-100 text-purple-800 border-purple-300',
+  };
+  return colors[routeId] || 'bg-gray-100 text-gray-800 border-gray-300';
+}
+
+// 전체 앙그라 여부 (의뢰 + 테마 + 지형)
+function isAngraResult(item: RollResult): boolean {
+  return item.isAngraNotice || item.isAngraTheme || item.isAngraTerrain;
+}
+
 onMounted(() => {
   loadCSV();
 });
@@ -295,7 +384,8 @@ onMounted(() => {
 
 <template>
   <div class="p-6 max-w-7xl mx-auto">
-    <h1 class="text-2xl font-bold text-black-900 mb-6">세션 롤 테이블</h1>
+    <h1 class="text-2xl font-bold text-black-900 mb-2">세션 롤 테이블</h1>
+    <p class="text-sm text-black-500 mb-6">공고를 무작위로 생성하여 세션 아이디어를 얻으세요</p>
     
     <!-- 로딩 상태 -->
     <div v-if="isLoading" class="text-center py-12 text-black-500">
@@ -328,7 +418,7 @@ onMounted(() => {
     <template v-else>
       <div class="flex gap-6">
         <!-- 왼쪽: 생성 이력 -->
-        <div class="w-72 flex-shrink-0">
+        <div class="w-80 flex-shrink-0">
           <div class="flex items-center justify-between mb-4">
             <h2 class="text-lg font-semibold text-black-900">생성 이력</h2>
             <span class="text-xs text-black-500">{{ rollHistory.length }} / 10</span>
@@ -345,13 +435,20 @@ onMounted(() => {
               ]"
             >
               <div class="flex flex-wrap items-center gap-1 mb-1">
-                <span class="px-1.5 py-0.5 bg-black-100 text-black-700 text-xs rounded">
+                <span :class="[
+                  'px-1.5 py-0.5 text-xs rounded border',
+                  getRouteColor(item.routeId)
+                ]">
                   {{ item.adventurer }}
                 </span>
                 <span class="px-1.5 py-0.5 bg-purple-100 text-purple-700 text-xs rounded">
                   {{ item.rank }}
                 </span>
+                <span v-if="isAngraResult(item)" class="px-1.5 py-0.5 bg-red-100 text-red-700 text-xs rounded">
+                  앙그라
+                </span>
               </div>
+              <div class="text-xs text-black-500 mb-1">{{ item.noticeGroup }} · {{ item.requestType }}</div>
               <div class="text-sm font-medium text-black-900 truncate">{{ item.contract }}</div>
               <div class="text-xs text-black-500 mt-1">
                 {{ item.timestamp.toLocaleTimeString() }}
@@ -379,15 +476,25 @@ onMounted(() => {
         <div class="flex-1 space-y-4">
           <!-- 옵션 + 버튼 + 복사 -->
           <div class="flex items-center gap-4">
-            <div class="p-4 bg-black-50 rounded-lg">
+            <div class="p-4 bg-black-50 rounded-lg flex flex-col gap-3">
               <label class="flex items-center gap-3 cursor-pointer">
                 <input
-                  v-model="includePioneer"
+                  v-model="includeClassified"
                   type="checkbox"
-                  class="w-5 h-5 rounded border-black-300 text-blue-600 focus:ring-blue-500"
+                  class="w-5 h-5 rounded border-black-300 text-purple-600 focus:ring-purple-500"
                 />
                 <span class="text-sm font-medium text-black-700">
-                  개척자 공고 포함
+                  기밀 공고 포함
+                </span>
+              </label>
+              <label class="flex items-center gap-3 cursor-pointer">
+                <input
+                  v-model="includeAngra"
+                  type="checkbox"
+                  class="w-5 h-5 rounded border-black-300 text-red-600 focus:ring-red-500"
+                />
+                <span class="text-sm font-medium text-black-700">
+                  앙그라권 의뢰/테마/지형 포함
                 </span>
               </label>
             </div>
@@ -426,7 +533,13 @@ onMounted(() => {
           <div v-if="currentResult" class="p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200">
             <div class="space-y-4">
               <div class="flex flex-wrap gap-2">
-                <span class="px-3 py-1 bg-blue-600 text-white text-sm font-semibold rounded-full">
+                <span :class="[
+                  'px-3 py-1 text-white text-sm font-semibold rounded-full border',
+                  currentResult.routeId === 'pioneer' ? 'bg-red-600 border-red-700' :
+                  currentResult.routeId === 'solver' ? 'bg-blue-600 border-blue-700' :
+                  currentResult.routeId === 'hunter' ? 'bg-green-600 border-green-700' :
+                  'bg-purple-600 border-purple-700'
+                ]">
                   {{ currentResult.adventurer }}
                 </span>
                 <span class="px-3 py-1 bg-indigo-500 text-white text-sm font-semibold rounded-full">
@@ -434,6 +547,9 @@ onMounted(() => {
                 </span>
                 <span class="px-3 py-1 bg-purple-500 text-white text-sm font-semibold rounded-full">
                   {{ currentResult.rank }}
+                </span>
+                <span v-if="isAngraResult(currentResult)" class="px-3 py-1 bg-red-600 text-white text-sm font-semibold rounded-full animate-pulse">
+                  앙그라
                 </span>
               </div>
               
@@ -452,7 +568,10 @@ onMounted(() => {
               
               <div class="grid grid-cols-2 gap-4 pt-3 border-t border-blue-200">
                 <div>
-                  <div class="text-xs text-black-500 mb-1">테마</div>
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="text-xs text-black-500">테마</span>
+                    <span v-if="currentResult.isAngraTheme" class="px-1.5 py-0.5 bg-red-100 text-red-700 text-xs rounded">앙그라</span>
+                  </div>
                   <div class="text-md font-semibold text-black-700">{{ currentResult.theme }}</div>
                   <div class="text-xs text-black-600 mt-1">
                     <span class="font-semibold">몬스터:</span> {{ currentResult.themeMonster }}
@@ -462,7 +581,10 @@ onMounted(() => {
                   </div>
                 </div>
                 <div>
-                  <div class="text-xs text-black-500 mb-1">지형</div>
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="text-xs text-black-500">지형</span>
+                    <span v-if="currentResult.isAngraTerrain" class="px-1.5 py-0.5 bg-red-100 text-red-700 text-xs rounded">앙그라</span>
+                  </div>
                   <div class="text-md font-semibold text-black-700">{{ currentResult.terrain }}</div>
                   <div class="text-xs text-black-600 mt-1">
                     {{ currentResult.terrainDesc }}

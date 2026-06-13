@@ -1,0 +1,7 @@
+﻿roll_min,roll_max,leader_grade_ko,is_leader,leader_grade_en,definition
+1,60,개체,false,일반 개체,독립 개체 또는 하위 개체
+61,75,무리 우두머리,true,Pack Leader,소규모 무리나 둥지를 이끄는 개체
+76,88,알파 개체,true,Alpha,동종 또는 유사 생태권을 지배하는 강한 개체
+89,95,군주 개체,true,Lord,지역 생태·던전 구역·집단을 지배하는 개체
+96,98,가디언급 위협,true,Guardian-Class Threat,가디언과 유사한 중심성을 보이나 결속 판정 전인 개체
+99,100,레이드급 수호자,true,Raid-Class Guardian,던전 가디언 또는 토템 가디언급 중심 개체

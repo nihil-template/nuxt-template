@@ -1,0 +1,26 @@
+﻿link_id,risk_signal_id,trace_id,weight,required,notes
+rsl_light_avoidance_fog_residue,light_avoidance,fog_residue,75,true,빛 회피 위험 징후 보정 흔적
+rsl_light_avoidance_shadow_residue,light_avoidance,shadow_residue,70,false,빛 회피 위험 징후 보정 흔적
+rsl_light_resistance_radiant_bleach,light_resistance,radiant_bleach,75,true,빛 저항 위험 징후 보정 흔적
+rsl_light_resistance_fog_residue,light_resistance,fog_residue,70,false,빛 저항 위험 징후 보정 흔적
+rsl_light_resistance_fog_residue,light_resistance,fog_residue,75,true,안개 위험 징후 보정 흔적
+rsl_light_resistance_black_ichor,light_resistance,black_ichor,70,false,안개 위험 징후 보정 흔적
+rsl_pain_dulling_dried_blood,pain_dulling,dried_blood,75,true,통각 둔화 위험 징후 보정 흔적
+rsl_pain_dulling_black_ichor,pain_dulling,black_ichor,70,false,통각 둔화 위험 징후 보정 흔적
+rsl_rapid_regeneration_fresh_skin_flake,rapid_regeneration,fresh_skin_flake,75,true,재생 위험 징후 보정 흔적
+rsl_mist_emission_fog_residue,mist_emission,fog_residue,75,true,안개 위험 징후 보정 흔적
+rsl_mist_emission_black_ichor,mist_emission,black_ichor,70,false,안개 위험 징후 보정 흔적
+rsl_space_anchor_core_resonance_mark,space_anchor,core_resonance_mark,75,true,공간 고착 위험 징후 보정 흔적
+rsl_space_anchor_rune_marks,space_anchor,rune_marks,70,false,공간 고착 위험 징후 보정 흔적
+rsl_boundary_instability_fog_residue,boundary_instability,fog_residue,30,false,범용 위험 징후 흔적
+rsl_rune_manifestation_rune_marks,rune_manifestation,rune_marks,75,true,룬 위험 징후 보정 흔적
+rsl_rune_manifestation_rune_broken_bone,rune_manifestation,rune_broken_bone,70,false,룬 위험 징후 보정 흔적
+rsl_fear_spread_psychic_scratches,fear_spread,psychic_scratches,75,true,공포 위험 징후 보정 흔적
+rsl_blackstone_resonance_blackstone_shards,blackstone_resonance,blackstone_shards,75,true,흑마석 위험 징후 보정 흔적
+rsl_blackstone_resonance_crystal_soil_discoloration,blackstone_resonance,crystal_soil_discoloration,70,false,흑마석 위험 징후 보정 흔적
+rsl_corpse_activity_fog_residue,corpse_activity,fog_residue,30,false,범용 위험 징후 흔적
+rsl_memory_gap_fog_residue,memory_gap,fog_residue,30,false,범용 위험 징후 흔적
+rsl_voice_mimicry_fog_residue,voice_mimicry,fog_residue,30,false,범용 위험 징후 흔적
+rsl_pack_coordination_fog_residue,pack_coordination,fog_residue,30,false,범용 위험 징후 흔적
+rsl_guardian_binding_core_resonance_mark,guardian_binding,core_resonance_mark,75,true,핵 위험 징후 보정 흔적
+rsl_guardian_binding_rune_marks,guardian_binding,rune_marks,70,false,핵 위험 징후 보정 흔적

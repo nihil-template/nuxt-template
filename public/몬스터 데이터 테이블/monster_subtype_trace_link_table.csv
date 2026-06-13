@@ -1,0 +1,2238 @@
+﻿link_id,major_type_en,subtype_id,trace_id,weight,required,notes
+stl_aberration_001_warped_footprints,Aberration,aberration_001,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_001_psychic_nosebleed,Aberration,aberration_001,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_001_black_ichor,Aberration,aberration_001,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_001_floating_dust_ring,Aberration,aberration_001,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_001_slime_trail,Aberration,aberration_001,slime_trail,90,true,촉수 분류
+stl_aberration_001_drag_marks,Aberration,aberration_001,drag_marks,76,false,촉수 분류
+stl_aberration_001_footprints_deep,Aberration,aberration_001,footprints_deep,25,false,범용 보정 후보
+stl_aberration_001_dried_blood,Aberration,aberration_001,dried_blood,25,false,범용 보정 후보
+stl_aberration_001_territory_scratches,Aberration,aberration_001,territory_scratches,25,false,범용 보정 후보
+stl_aberration_002_warped_footprints,Aberration,aberration_002,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_002_psychic_nosebleed,Aberration,aberration_002,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_002_black_ichor,Aberration,aberration_002,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_002_floating_dust_ring,Aberration,aberration_002,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_002_psychic_scratches,Aberration,aberration_002,psychic_scratches,76,false,정신/환각 분류
+stl_aberration_002_footprints_deep,Aberration,aberration_002,footprints_deep,25,false,범용 보정 후보
+stl_aberration_002_dried_blood,Aberration,aberration_002,dried_blood,25,false,범용 보정 후보
+stl_aberration_002_territory_scratches,Aberration,aberration_002,territory_scratches,25,false,범용 보정 후보
+stl_aberration_003_warped_footprints,Aberration,aberration_003,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_003_psychic_nosebleed,Aberration,aberration_003,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_003_black_ichor,Aberration,aberration_003,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_003_floating_dust_ring,Aberration,aberration_003,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_003_psychic_scratches,Aberration,aberration_003,psychic_scratches,90,true,시선/광선 분류
+stl_aberration_003_footprints_deep,Aberration,aberration_003,footprints_deep,25,false,범용 보정 후보
+stl_aberration_003_dried_blood,Aberration,aberration_003,dried_blood,25,false,범용 보정 후보
+stl_aberration_003_territory_scratches,Aberration,aberration_003,territory_scratches,25,false,범용 보정 후보
+stl_aberration_004_warped_footprints,Aberration,aberration_004,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_004_psychic_nosebleed,Aberration,aberration_004,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_004_black_ichor,Aberration,aberration_004,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_004_floating_dust_ring,Aberration,aberration_004,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_004_slime_trail,Aberration,aberration_004,slime_trail,90,true,기생/공생 분류
+stl_aberration_004_footprints_deep,Aberration,aberration_004,footprints_deep,25,false,범용 보정 후보
+stl_aberration_004_dried_blood,Aberration,aberration_004,dried_blood,25,false,범용 보정 후보
+stl_aberration_004_territory_scratches,Aberration,aberration_004,territory_scratches,25,false,범용 보정 후보
+stl_aberration_005_warped_footprints,Aberration,aberration_005,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_005_psychic_nosebleed,Aberration,aberration_005,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_005_black_ichor,Aberration,aberration_005,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_005_floating_dust_ring,Aberration,aberration_005,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_005_slime_trail,Aberration,aberration_005,slime_trail,90,true,기생/공생 분류
+stl_aberration_005_footprints_deep,Aberration,aberration_005,footprints_deep,25,false,범용 보정 후보
+stl_aberration_005_dried_blood,Aberration,aberration_005,dried_blood,25,false,범용 보정 후보
+stl_aberration_005_territory_scratches,Aberration,aberration_005,territory_scratches,25,false,범용 보정 후보
+stl_aberration_006_warped_footprints,Aberration,aberration_006,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_006_psychic_nosebleed,Aberration,aberration_006,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_006_black_ichor,Aberration,aberration_006,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_006_floating_dust_ring,Aberration,aberration_006,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_006_footprints_deep,Aberration,aberration_006,footprints_deep,25,false,범용 보정 후보
+stl_aberration_006_dried_blood,Aberration,aberration_006,dried_blood,25,false,범용 보정 후보
+stl_aberration_006_territory_scratches,Aberration,aberration_006,territory_scratches,25,false,범용 보정 후보
+stl_aberration_007_warped_footprints,Aberration,aberration_007,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_007_psychic_nosebleed,Aberration,aberration_007,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_007_black_ichor,Aberration,aberration_007,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_007_floating_dust_ring,Aberration,aberration_007,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_007_footprints_deep,Aberration,aberration_007,footprints_deep,25,false,범용 보정 후보
+stl_aberration_007_dried_blood,Aberration,aberration_007,dried_blood,25,false,범용 보정 후보
+stl_aberration_007_territory_scratches,Aberration,aberration_007,territory_scratches,25,false,범용 보정 후보
+stl_aberration_008_warped_footprints,Aberration,aberration_008,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_008_psychic_nosebleed,Aberration,aberration_008,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_008_black_ichor,Aberration,aberration_008,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_008_floating_dust_ring,Aberration,aberration_008,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_008_wet_mucus_patch,Aberration,aberration_008,wet_mucus_patch,90,true,수중 분류
+stl_aberration_008_slime_trail,Aberration,aberration_008,slime_trail,83,false,수중 분류
+stl_aberration_008_drag_marks,Aberration,aberration_008,drag_marks,76,false,수중 분류
+stl_aberration_008_burrow_mound,Aberration,aberration_008,burrow_mound,90,true,굴파기/지하 분류
+stl_aberration_008_footprints_deep,Aberration,aberration_008,footprints_deep,25,false,범용 보정 후보
+stl_aberration_008_dried_blood,Aberration,aberration_008,dried_blood,25,false,범용 보정 후보
+stl_aberration_008_territory_scratches,Aberration,aberration_008,territory_scratches,25,false,범용 보정 후보
+stl_aberration_009_warped_footprints,Aberration,aberration_009,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_009_psychic_nosebleed,Aberration,aberration_009,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_009_black_ichor,Aberration,aberration_009,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_009_floating_dust_ring,Aberration,aberration_009,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_009_footprints_deep,Aberration,aberration_009,footprints_deep,25,false,범용 보정 후보
+stl_aberration_009_dried_blood,Aberration,aberration_009,dried_blood,25,false,범용 보정 후보
+stl_aberration_009_territory_scratches,Aberration,aberration_009,territory_scratches,25,false,범용 보정 후보
+stl_aberration_010_warped_footprints,Aberration,aberration_010,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_010_psychic_nosebleed,Aberration,aberration_010,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_010_black_ichor,Aberration,aberration_010,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_010_floating_dust_ring,Aberration,aberration_010,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_010_footprints_deep,Aberration,aberration_010,footprints_deep,25,false,범용 보정 후보
+stl_aberration_010_dried_blood,Aberration,aberration_010,dried_blood,25,false,범용 보정 후보
+stl_aberration_010_territory_scratches,Aberration,aberration_010,territory_scratches,25,false,범용 보정 후보
+stl_aberration_011_warped_footprints,Aberration,aberration_011,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_011_psychic_nosebleed,Aberration,aberration_011,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_011_black_ichor,Aberration,aberration_011,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_011_floating_dust_ring,Aberration,aberration_011,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_011_psychic_scratches,Aberration,aberration_011,psychic_scratches,90,true,시선/광선 분류
+stl_aberration_011_footprints_deep,Aberration,aberration_011,footprints_deep,25,false,범용 보정 후보
+stl_aberration_011_dried_blood,Aberration,aberration_011,dried_blood,25,false,범용 보정 후보
+stl_aberration_011_territory_scratches,Aberration,aberration_011,territory_scratches,25,false,범용 보정 후보
+stl_aberration_012_warped_footprints,Aberration,aberration_012,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_012_psychic_nosebleed,Aberration,aberration_012,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_012_black_ichor,Aberration,aberration_012,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_012_floating_dust_ring,Aberration,aberration_012,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_012_psychic_scratches,Aberration,aberration_012,psychic_scratches,90,true,시선/광선 분류
+stl_aberration_012_footprints_deep,Aberration,aberration_012,footprints_deep,25,false,범용 보정 후보
+stl_aberration_012_dried_blood,Aberration,aberration_012,dried_blood,25,false,범용 보정 후보
+stl_aberration_012_territory_scratches,Aberration,aberration_012,territory_scratches,25,false,범용 보정 후보
+stl_aberration_013_warped_footprints,Aberration,aberration_013,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_013_psychic_nosebleed,Aberration,aberration_013,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_013_black_ichor,Aberration,aberration_013,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_013_floating_dust_ring,Aberration,aberration_013,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_013_footprints_deep,Aberration,aberration_013,footprints_deep,25,false,범용 보정 후보
+stl_aberration_013_dried_blood,Aberration,aberration_013,dried_blood,25,false,범용 보정 후보
+stl_aberration_013_territory_scratches,Aberration,aberration_013,territory_scratches,25,false,범용 보정 후보
+stl_aberration_014_warped_footprints,Aberration,aberration_014,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_014_psychic_nosebleed,Aberration,aberration_014,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_014_black_ichor,Aberration,aberration_014,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_014_floating_dust_ring,Aberration,aberration_014,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_014_psychic_scratches,Aberration,aberration_014,psychic_scratches,76,false,정신/환각 분류
+stl_aberration_014_impossible_flower_ring,Aberration,aberration_014,impossible_flower_ring,90,true,요정계 분류
+stl_aberration_014_lost_path_marks,Aberration,aberration_014,lost_path_marks,83,false,요정계 분류
+stl_aberration_014_pollen_residue,Aberration,aberration_014,pollen_residue,76,false,요정계 분류
+stl_aberration_014_footprints_deep,Aberration,aberration_014,footprints_deep,25,false,범용 보정 후보
+stl_aberration_014_dried_blood,Aberration,aberration_014,dried_blood,25,false,범용 보정 후보
+stl_aberration_014_territory_scratches,Aberration,aberration_014,territory_scratches,25,false,범용 보정 후보
+stl_aberration_015_warped_footprints,Aberration,aberration_015,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_015_psychic_nosebleed,Aberration,aberration_015,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_015_black_ichor,Aberration,aberration_015,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_015_floating_dust_ring,Aberration,aberration_015,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_015_footprints_deep,Aberration,aberration_015,footprints_deep,25,false,범용 보정 후보
+stl_aberration_015_dried_blood,Aberration,aberration_015,dried_blood,25,false,범용 보정 후보
+stl_aberration_015_territory_scratches,Aberration,aberration_015,territory_scratches,25,false,범용 보정 후보
+stl_aberration_016_warped_footprints,Aberration,aberration_016,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_016_psychic_nosebleed,Aberration,aberration_016,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_016_black_ichor,Aberration,aberration_016,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_016_floating_dust_ring,Aberration,aberration_016,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_016_psychic_scratches,Aberration,aberration_016,psychic_scratches,76,false,정신/환각 분류
+stl_aberration_016_footprints_deep,Aberration,aberration_016,footprints_deep,25,false,범용 보정 후보
+stl_aberration_016_dried_blood,Aberration,aberration_016,dried_blood,25,false,범용 보정 후보
+stl_aberration_016_territory_scratches,Aberration,aberration_016,territory_scratches,25,false,범용 보정 후보
+stl_aberration_017_warped_footprints,Aberration,aberration_017,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_017_psychic_nosebleed,Aberration,aberration_017,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_017_black_ichor,Aberration,aberration_017,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_017_floating_dust_ring,Aberration,aberration_017,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_017_slime_trail,Aberration,aberration_017,slime_trail,90,true,기생/공생 분류
+stl_aberration_017_footprints_deep,Aberration,aberration_017,footprints_deep,25,false,범용 보정 후보
+stl_aberration_017_dried_blood,Aberration,aberration_017,dried_blood,25,false,범용 보정 후보
+stl_aberration_017_territory_scratches,Aberration,aberration_017,territory_scratches,25,false,범용 보정 후보
+stl_aberration_018_warped_footprints,Aberration,aberration_018,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_018_psychic_nosebleed,Aberration,aberration_018,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_018_black_ichor,Aberration,aberration_018,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_018_floating_dust_ring,Aberration,aberration_018,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_018_footprints_deep,Aberration,aberration_018,footprints_deep,25,false,범용 보정 후보
+stl_aberration_018_dried_blood,Aberration,aberration_018,dried_blood,25,false,범용 보정 후보
+stl_aberration_018_territory_scratches,Aberration,aberration_018,territory_scratches,25,false,범용 보정 후보
+stl_aberration_019_warped_footprints,Aberration,aberration_019,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_019_psychic_nosebleed,Aberration,aberration_019,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_019_black_ichor,Aberration,aberration_019,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_019_floating_dust_ring,Aberration,aberration_019,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_019_slime_trail,Aberration,aberration_019,slime_trail,90,true,점액/산성 분류
+stl_aberration_019_acid_scars,Aberration,aberration_019,acid_scars,83,false,점액/산성 분류
+stl_aberration_019_dissolved_gear,Aberration,aberration_019,dissolved_gear,76,false,점액/산성 분류
+stl_aberration_019_slime_puddle,Aberration,aberration_019,slime_puddle,69,false,점액/산성 분류
+stl_aberration_019_wet_mucus_patch,Aberration,aberration_019,wet_mucus_patch,90,true,수중 분류
+stl_aberration_019_drag_marks,Aberration,aberration_019,drag_marks,76,false,수중 분류
+stl_aberration_019_footprints_deep,Aberration,aberration_019,footprints_deep,25,false,범용 보정 후보
+stl_aberration_019_dried_blood,Aberration,aberration_019,dried_blood,25,false,범용 보정 후보
+stl_aberration_019_territory_scratches,Aberration,aberration_019,territory_scratches,25,false,범용 보정 후보
+stl_aberration_020_warped_footprints,Aberration,aberration_020,warped_footprints,65,true,Aberration 대분류 기본 흔적
+stl_aberration_020_psychic_nosebleed,Aberration,aberration_020,psychic_nosebleed,60,false,Aberration 대분류 기본 흔적
+stl_aberration_020_black_ichor,Aberration,aberration_020,black_ichor,55,false,Aberration 대분류 기본 흔적
+stl_aberration_020_floating_dust_ring,Aberration,aberration_020,floating_dust_ring,45,false,Aberration 대분류 기본 흔적
+stl_aberration_020_footprints_deep,Aberration,aberration_020,footprints_deep,25,false,범용 보정 후보
+stl_aberration_020_dried_blood,Aberration,aberration_020,dried_blood,25,false,범용 보정 후보
+stl_aberration_020_territory_scratches,Aberration,aberration_020,territory_scratches,25,false,범용 보정 후보
+stl_beast_001_animal_tracks,Beast,beast_001,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_001_fur_on_bark,Beast,beast_001,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_001_gnawed_bones,Beast,beast_001,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_001_dried_blood,Beast,beast_001,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_001_territory_scratches,Beast,beast_001,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_001_poison_stain,Beast,beast_001,poison_stain,90,true,독성/질병 분류
+stl_beast_001_black_ichor,Beast,beast_001,black_ichor,76,false,독성/질병 분류
+stl_beast_001_footprints_deep,Beast,beast_001,footprints_deep,25,false,범용 보정 후보
+stl_beast_002_animal_tracks,Beast,beast_002,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_002_fur_on_bark,Beast,beast_002,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_002_gnawed_bones,Beast,beast_002,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_002_dried_blood,Beast,beast_002,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_002_territory_scratches,Beast,beast_002,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_002_footprints_deep,Beast,beast_002,footprints_deep,25,false,범용 보정 후보
+stl_beast_003_animal_tracks,Beast,beast_003,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_003_fur_on_bark,Beast,beast_003,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_003_gnawed_bones,Beast,beast_003,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_003_dried_blood,Beast,beast_003,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_003_territory_scratches,Beast,beast_003,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_003_footprints_deep,Beast,beast_003,footprints_deep,25,false,범용 보정 후보
+stl_beast_004_animal_tracks,Beast,beast_004,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_004_fur_on_bark,Beast,beast_004,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_004_gnawed_bones,Beast,beast_004,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_004_dried_blood,Beast,beast_004,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_004_territory_scratches,Beast,beast_004,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_004_footprints_deep,Beast,beast_004,footprints_deep,25,false,범용 보정 후보
+stl_beast_005_animal_tracks,Beast,beast_005,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_005_fur_on_bark,Beast,beast_005,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_005_gnawed_bones,Beast,beast_005,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_005_dried_blood,Beast,beast_005,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_005_territory_scratches,Beast,beast_005,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_005_high_nest,Beast,beast_005,high_nest,90,true,비행 분류
+stl_beast_005_broken_branches,Beast,beast_005,broken_branches,76,false,비행 분류
+stl_beast_005_footprints_deep,Beast,beast_005,footprints_deep,25,false,범용 보정 후보
+stl_beast_006_animal_tracks,Beast,beast_006,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_006_fur_on_bark,Beast,beast_006,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_006_gnawed_bones,Beast,beast_006,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_006_dried_blood,Beast,beast_006,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_006_territory_scratches,Beast,beast_006,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_006_wet_mucus_patch,Beast,beast_006,wet_mucus_patch,90,true,수중 분류
+stl_beast_006_slime_trail,Beast,beast_006,slime_trail,83,false,수중 분류
+stl_beast_006_drag_marks,Beast,beast_006,drag_marks,76,false,수중 분류
+stl_beast_006_footprints_deep,Beast,beast_006,footprints_deep,25,false,범용 보정 후보
+stl_beast_007_animal_tracks,Beast,beast_007,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_007_fur_on_bark,Beast,beast_007,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_007_gnawed_bones,Beast,beast_007,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_007_dried_blood,Beast,beast_007,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_007_territory_scratches,Beast,beast_007,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_007_poison_stain,Beast,beast_007,poison_stain,90,true,독성/질병 분류
+stl_beast_007_black_ichor,Beast,beast_007,black_ichor,76,false,독성/질병 분류
+stl_beast_007_wet_mucus_patch,Beast,beast_007,wet_mucus_patch,90,true,수중 분류
+stl_beast_007_slime_trail,Beast,beast_007,slime_trail,83,false,수중 분류
+stl_beast_007_drag_marks,Beast,beast_007,drag_marks,76,false,수중 분류
+stl_beast_007_footprints_deep,Beast,beast_007,footprints_deep,25,false,범용 보정 후보
+stl_beast_008_animal_tracks,Beast,beast_008,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_008_fur_on_bark,Beast,beast_008,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_008_gnawed_bones,Beast,beast_008,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_008_dried_blood,Beast,beast_008,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_008_territory_scratches,Beast,beast_008,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_008_wet_mucus_patch,Beast,beast_008,wet_mucus_patch,90,true,수중 분류
+stl_beast_008_slime_trail,Beast,beast_008,slime_trail,83,false,수중 분류
+stl_beast_008_drag_marks,Beast,beast_008,drag_marks,76,false,수중 분류
+stl_beast_008_footprints_deep,Beast,beast_008,footprints_deep,25,false,범용 보정 후보
+stl_beast_009_animal_tracks,Beast,beast_009,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_009_fur_on_bark,Beast,beast_009,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_009_gnawed_bones,Beast,beast_009,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_009_dried_blood,Beast,beast_009,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_009_territory_scratches,Beast,beast_009,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_009_claw_marks_wall,Beast,beast_009,claw_marks_wall,90,true,절지/곤충 분류
+stl_beast_009_claw_marks_tree,Beast,beast_009,claw_marks_tree,83,false,절지/곤충 분류
+stl_beast_009_slime_trail,Beast,beast_009,slime_trail,76,false,절지/곤충 분류
+stl_beast_009_high_nest,Beast,beast_009,high_nest,69,false,절지/곤충 분류
+stl_beast_009_poison_stain,Beast,beast_009,poison_stain,90,true,독성/질병 분류
+stl_beast_009_black_ichor,Beast,beast_009,black_ichor,76,false,독성/질병 분류
+stl_beast_009_footprints_deep,Beast,beast_009,footprints_deep,25,false,범용 보정 후보
+stl_beast_010_animal_tracks,Beast,beast_010,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_010_fur_on_bark,Beast,beast_010,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_010_gnawed_bones,Beast,beast_010,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_010_dried_blood,Beast,beast_010,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_010_territory_scratches,Beast,beast_010,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_010_claw_marks_wall,Beast,beast_010,claw_marks_wall,90,true,절지/곤충 분류
+stl_beast_010_claw_marks_tree,Beast,beast_010,claw_marks_tree,83,false,절지/곤충 분류
+stl_beast_010_slime_trail,Beast,beast_010,slime_trail,76,false,절지/곤충 분류
+stl_beast_010_high_nest,Beast,beast_010,high_nest,69,false,절지/곤충 분류
+stl_beast_010_poison_stain,Beast,beast_010,poison_stain,90,true,독성/질병 분류
+stl_beast_010_black_ichor,Beast,beast_010,black_ichor,76,false,독성/질병 분류
+stl_beast_010_footprints_deep,Beast,beast_010,footprints_deep,25,false,범용 보정 후보
+stl_beast_011_animal_tracks,Beast,beast_011,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_011_fur_on_bark,Beast,beast_011,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_011_gnawed_bones,Beast,beast_011,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_011_dried_blood,Beast,beast_011,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_011_territory_scratches,Beast,beast_011,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_011_footprints_deep,Beast,beast_011,footprints_deep,25,false,범용 보정 후보
+stl_beast_012_animal_tracks,Beast,beast_012,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_012_fur_on_bark,Beast,beast_012,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_012_gnawed_bones,Beast,beast_012,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_012_dried_blood,Beast,beast_012,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_012_territory_scratches,Beast,beast_012,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_012_poison_stain,Beast,beast_012,poison_stain,90,true,독성/질병 분류
+stl_beast_012_black_ichor,Beast,beast_012,black_ichor,76,false,독성/질병 분류
+stl_beast_012_wet_mucus_patch,Beast,beast_012,wet_mucus_patch,90,true,수중 분류
+stl_beast_012_slime_trail,Beast,beast_012,slime_trail,83,false,수중 분류
+stl_beast_012_drag_marks,Beast,beast_012,drag_marks,76,false,수중 분류
+stl_beast_012_footprints_deep,Beast,beast_012,footprints_deep,25,false,범용 보정 후보
+stl_beast_013_animal_tracks,Beast,beast_013,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_013_fur_on_bark,Beast,beast_013,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_013_gnawed_bones,Beast,beast_013,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_013_dried_blood,Beast,beast_013,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_013_territory_scratches,Beast,beast_013,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_013_poison_stain,Beast,beast_013,poison_stain,90,true,독성/질병 분류
+stl_beast_013_black_ichor,Beast,beast_013,black_ichor,76,false,독성/질병 분류
+stl_beast_013_slime_trail,Beast,beast_013,slime_trail,90,true,기생/공생 분류
+stl_beast_013_wet_mucus_patch,Beast,beast_013,wet_mucus_patch,90,true,수중 분류
+stl_beast_013_drag_marks,Beast,beast_013,drag_marks,76,false,수중 분류
+stl_beast_013_footprints_deep,Beast,beast_013,footprints_deep,25,false,범용 보정 후보
+stl_beast_014_animal_tracks,Beast,beast_014,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_014_fur_on_bark,Beast,beast_014,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_014_gnawed_bones,Beast,beast_014,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_014_dried_blood,Beast,beast_014,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_014_territory_scratches,Beast,beast_014,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_014_large_claw_gouge,Beast,beast_014,large_claw_gouge,90,true,용종 분류
+stl_beast_014_breath_scorch_line,Beast,beast_014,breath_scorch_line,83,false,용종 분류
+stl_beast_014_scorch_marks,Beast,beast_014,scorch_marks,76,false,용종 분류
+stl_beast_014_frost_rime,Beast,beast_014,frost_rime,69,false,용종 분류
+stl_beast_014_footprints_deep,Beast,beast_014,footprints_deep,25,false,범용 보정 후보
+stl_beast_015_animal_tracks,Beast,beast_015,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_015_fur_on_bark,Beast,beast_015,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_015_gnawed_bones,Beast,beast_015,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_015_dried_blood,Beast,beast_015,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_015_territory_scratches,Beast,beast_015,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_015_burrow_mound,Beast,beast_015,burrow_mound,90,true,굴파기/지하 분류
+stl_beast_015_drag_marks,Beast,beast_015,drag_marks,83,false,굴파기/지하 분류
+stl_beast_015_footprints_deep,Beast,beast_015,footprints_deep,25,false,범용 보정 후보
+stl_beast_016_animal_tracks,Beast,beast_016,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_016_fur_on_bark,Beast,beast_016,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_016_gnawed_bones,Beast,beast_016,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_016_dried_blood,Beast,beast_016,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_016_territory_scratches,Beast,beast_016,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_016_root_cracks,Beast,beast_016,root_cracks,90,true,식물/균류 분류
+stl_beast_016_spore_cloud_residue,Beast,beast_016,spore_cloud_residue,83,false,식물/균류 분류
+stl_beast_016_fungal_threads,Beast,beast_016,fungal_threads,76,false,식물/균류 분류
+stl_beast_016_pollen_residue,Beast,beast_016,pollen_residue,69,false,식물/균류 분류
+stl_beast_016_footprints_deep,Beast,beast_016,footprints_deep,25,false,범용 보정 후보
+stl_beast_017_animal_tracks,Beast,beast_017,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_017_fur_on_bark,Beast,beast_017,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_017_gnawed_bones,Beast,beast_017,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_017_dried_blood,Beast,beast_017,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_017_territory_scratches,Beast,beast_017,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_017_footprints_deep,Beast,beast_017,footprints_deep,25,false,범용 보정 후보
+stl_beast_018_animal_tracks,Beast,beast_018,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_018_fur_on_bark,Beast,beast_018,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_018_gnawed_bones,Beast,beast_018,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_018_dried_blood,Beast,beast_018,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_018_territory_scratches,Beast,beast_018,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_018_footprints_deep,Beast,beast_018,footprints_deep,25,false,범용 보정 후보
+stl_beast_019_animal_tracks,Beast,beast_019,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_019_fur_on_bark,Beast,beast_019,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_019_gnawed_bones,Beast,beast_019,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_019_dried_blood,Beast,beast_019,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_019_territory_scratches,Beast,beast_019,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_019_footprints_deep,Beast,beast_019,footprints_deep,25,false,범용 보정 후보
+stl_beast_020_animal_tracks,Beast,beast_020,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_020_fur_on_bark,Beast,beast_020,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_020_gnawed_bones,Beast,beast_020,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_020_dried_blood,Beast,beast_020,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_020_territory_scratches,Beast,beast_020,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_020_wet_mucus_patch,Beast,beast_020,wet_mucus_patch,90,true,수중 분류
+stl_beast_020_slime_trail,Beast,beast_020,slime_trail,83,false,수중 분류
+stl_beast_020_drag_marks,Beast,beast_020,drag_marks,76,false,수중 분류
+stl_beast_020_footprints_deep,Beast,beast_020,footprints_deep,25,false,범용 보정 후보
+stl_beast_021_animal_tracks,Beast,beast_021,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_021_fur_on_bark,Beast,beast_021,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_021_gnawed_bones,Beast,beast_021,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_021_dried_blood,Beast,beast_021,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_021_territory_scratches,Beast,beast_021,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_021_footprints_deep,Beast,beast_021,footprints_deep,25,false,범용 보정 후보
+stl_beast_022_animal_tracks,Beast,beast_022,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_022_fur_on_bark,Beast,beast_022,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_022_gnawed_bones,Beast,beast_022,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_022_dried_blood,Beast,beast_022,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_022_territory_scratches,Beast,beast_022,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_022_footprints_deep,Beast,beast_022,footprints_deep,25,false,범용 보정 후보
+stl_beast_023_animal_tracks,Beast,beast_023,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_023_fur_on_bark,Beast,beast_023,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_023_gnawed_bones,Beast,beast_023,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_023_dried_blood,Beast,beast_023,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_023_territory_scratches,Beast,beast_023,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_023_claw_marks_wall,Beast,beast_023,claw_marks_wall,90,true,절지/곤충 분류
+stl_beast_023_claw_marks_tree,Beast,beast_023,claw_marks_tree,83,false,절지/곤충 분류
+stl_beast_023_slime_trail,Beast,beast_023,slime_trail,76,false,절지/곤충 분류
+stl_beast_023_high_nest,Beast,beast_023,high_nest,69,false,절지/곤충 분류
+stl_beast_023_mechanical_scrapes,Beast,beast_023,mechanical_scrapes,90,true,구조체/장갑 분류
+stl_beast_023_gear_oil_stain,Beast,beast_023,gear_oil_stain,83,false,구조체/장갑 분류
+stl_beast_023_regular_step_marks,Beast,beast_023,regular_step_marks,76,false,구조체/장갑 분류
+stl_beast_023_arcane_circuit_imprint,Beast,beast_023,arcane_circuit_imprint,69,false,구조체/장갑 분류
+stl_beast_023_footprints_deep,Beast,beast_023,footprints_deep,25,false,범용 보정 후보
+stl_beast_024_animal_tracks,Beast,beast_024,animal_tracks,65,true,Beast 대분류 기본 흔적
+stl_beast_024_fur_on_bark,Beast,beast_024,fur_on_bark,60,false,Beast 대분류 기본 흔적
+stl_beast_024_gnawed_bones,Beast,beast_024,gnawed_bones,55,false,Beast 대분류 기본 흔적
+stl_beast_024_dried_blood,Beast,beast_024,dried_blood,50,false,Beast 대분류 기본 흔적
+stl_beast_024_territory_scratches,Beast,beast_024,territory_scratches,45,false,Beast 대분류 기본 흔적
+stl_beast_024_footprints_deep,Beast,beast_024,footprints_deep,25,false,범용 보정 후보
+stl_celestial_001_silver_light_residue,Celestial,celestial_001,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_001_purified_ground,Celestial,celestial_001,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_001_radiant_bleach,Celestial,celestial_001,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_001_holy_ash,Celestial,celestial_001,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_001_footprints_deep,Celestial,celestial_001,footprints_deep,25,false,범용 보정 후보
+stl_celestial_001_dried_blood,Celestial,celestial_001,dried_blood,25,false,범용 보정 후보
+stl_celestial_001_territory_scratches,Celestial,celestial_001,territory_scratches,25,false,범용 보정 후보
+stl_celestial_002_silver_light_residue,Celestial,celestial_002,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_002_purified_ground,Celestial,celestial_002,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_002_radiant_bleach,Celestial,celestial_002,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_002_holy_ash,Celestial,celestial_002,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_002_footprints_deep,Celestial,celestial_002,footprints_deep,25,false,범용 보정 후보
+stl_celestial_002_dried_blood,Celestial,celestial_002,dried_blood,25,false,범용 보정 후보
+stl_celestial_002_territory_scratches,Celestial,celestial_002,territory_scratches,25,false,범용 보정 후보
+stl_celestial_003_silver_light_residue,Celestial,celestial_003,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_003_purified_ground,Celestial,celestial_003,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_003_radiant_bleach,Celestial,celestial_003,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_003_holy_ash,Celestial,celestial_003,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_003_impossible_flower_ring,Celestial,celestial_003,impossible_flower_ring,90,true,요정계 분류
+stl_celestial_003_lost_path_marks,Celestial,celestial_003,lost_path_marks,83,false,요정계 분류
+stl_celestial_003_pollen_residue,Celestial,celestial_003,pollen_residue,76,false,요정계 분류
+stl_celestial_003_sulfur_smell,Celestial,celestial_003,sulfur_smell,90,true,악마체 분류
+stl_celestial_003_burnt_contract_scraps,Celestial,celestial_003,burnt_contract_scraps,83,false,악마체 분류
+stl_celestial_003_black_ichor,Celestial,celestial_003,black_ichor,76,false,악마체 분류
+stl_celestial_003_scorch_marks,Celestial,celestial_003,scorch_marks,69,false,악마체 분류
+stl_celestial_003_wet_mucus_patch,Celestial,celestial_003,wet_mucus_patch,90,true,수중 분류
+stl_celestial_003_slime_trail,Celestial,celestial_003,slime_trail,83,false,수중 분류
+stl_celestial_003_drag_marks,Celestial,celestial_003,drag_marks,76,false,수중 분류
+stl_celestial_003_footprints_deep,Celestial,celestial_003,footprints_deep,25,false,범용 보정 후보
+stl_celestial_003_dried_blood,Celestial,celestial_003,dried_blood,25,false,범용 보정 후보
+stl_celestial_003_territory_scratches,Celestial,celestial_003,territory_scratches,25,false,범용 보정 후보
+stl_celestial_004_silver_light_residue,Celestial,celestial_004,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_004_purified_ground,Celestial,celestial_004,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_004_radiant_bleach,Celestial,celestial_004,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_004_holy_ash,Celestial,celestial_004,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_004_footprints_deep,Celestial,celestial_004,footprints_deep,25,false,범용 보정 후보
+stl_celestial_004_dried_blood,Celestial,celestial_004,dried_blood,25,false,범용 보정 후보
+stl_celestial_004_territory_scratches,Celestial,celestial_004,territory_scratches,25,false,범용 보정 후보
+stl_celestial_005_silver_light_residue,Celestial,celestial_005,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_005_purified_ground,Celestial,celestial_005,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_005_radiant_bleach,Celestial,celestial_005,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_005_holy_ash,Celestial,celestial_005,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_005_footprints_deep,Celestial,celestial_005,footprints_deep,25,false,범용 보정 후보
+stl_celestial_005_dried_blood,Celestial,celestial_005,dried_blood,25,false,범용 보정 후보
+stl_celestial_005_territory_scratches,Celestial,celestial_005,territory_scratches,25,false,범용 보정 후보
+stl_celestial_006_silver_light_residue,Celestial,celestial_006,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_006_purified_ground,Celestial,celestial_006,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_006_radiant_bleach,Celestial,celestial_006,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_006_holy_ash,Celestial,celestial_006,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_006_footprints_deep,Celestial,celestial_006,footprints_deep,25,false,범용 보정 후보
+stl_celestial_006_dried_blood,Celestial,celestial_006,dried_blood,25,false,범용 보정 후보
+stl_celestial_006_territory_scratches,Celestial,celestial_006,territory_scratches,25,false,범용 보정 후보
+stl_celestial_007_silver_light_residue,Celestial,celestial_007,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_007_purified_ground,Celestial,celestial_007,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_007_radiant_bleach,Celestial,celestial_007,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_007_holy_ash,Celestial,celestial_007,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_007_footprints_deep,Celestial,celestial_007,footprints_deep,25,false,범용 보정 후보
+stl_celestial_007_dried_blood,Celestial,celestial_007,dried_blood,25,false,범용 보정 후보
+stl_celestial_007_territory_scratches,Celestial,celestial_007,territory_scratches,25,false,범용 보정 후보
+stl_celestial_008_silver_light_residue,Celestial,celestial_008,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_008_purified_ground,Celestial,celestial_008,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_008_radiant_bleach,Celestial,celestial_008,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_008_holy_ash,Celestial,celestial_008,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_008_impossible_flower_ring,Celestial,celestial_008,impossible_flower_ring,90,true,요정계 분류
+stl_celestial_008_lost_path_marks,Celestial,celestial_008,lost_path_marks,83,false,요정계 분류
+stl_celestial_008_pollen_residue,Celestial,celestial_008,pollen_residue,76,false,요정계 분류
+stl_celestial_008_sulfur_smell,Celestial,celestial_008,sulfur_smell,90,true,악마체 분류
+stl_celestial_008_burnt_contract_scraps,Celestial,celestial_008,burnt_contract_scraps,83,false,악마체 분류
+stl_celestial_008_black_ichor,Celestial,celestial_008,black_ichor,76,false,악마체 분류
+stl_celestial_008_scorch_marks,Celestial,celestial_008,scorch_marks,69,false,악마체 분류
+stl_celestial_008_footprints_deep,Celestial,celestial_008,footprints_deep,25,false,범용 보정 후보
+stl_celestial_008_dried_blood,Celestial,celestial_008,dried_blood,25,false,범용 보정 후보
+stl_celestial_008_territory_scratches,Celestial,celestial_008,territory_scratches,25,false,범용 보정 후보
+stl_celestial_009_silver_light_residue,Celestial,celestial_009,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_009_purified_ground,Celestial,celestial_009,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_009_radiant_bleach,Celestial,celestial_009,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_009_holy_ash,Celestial,celestial_009,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_009_footprints_deep,Celestial,celestial_009,footprints_deep,25,false,범용 보정 후보
+stl_celestial_009_dried_blood,Celestial,celestial_009,dried_blood,25,false,범용 보정 후보
+stl_celestial_009_territory_scratches,Celestial,celestial_009,territory_scratches,25,false,범용 보정 후보
+stl_celestial_010_silver_light_residue,Celestial,celestial_010,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_010_purified_ground,Celestial,celestial_010,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_010_radiant_bleach,Celestial,celestial_010,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_010_holy_ash,Celestial,celestial_010,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_010_psychic_nosebleed,Celestial,celestial_010,psychic_nosebleed,90,true,정신/환각 분류
+stl_celestial_010_psychic_scratches,Celestial,celestial_010,psychic_scratches,76,false,정신/환각 분류
+stl_celestial_010_impossible_flower_ring,Celestial,celestial_010,impossible_flower_ring,90,true,요정계 분류
+stl_celestial_010_lost_path_marks,Celestial,celestial_010,lost_path_marks,83,false,요정계 분류
+stl_celestial_010_pollen_residue,Celestial,celestial_010,pollen_residue,76,false,요정계 분류
+stl_celestial_010_footprints_deep,Celestial,celestial_010,footprints_deep,25,false,범용 보정 후보
+stl_celestial_010_dried_blood,Celestial,celestial_010,dried_blood,25,false,범용 보정 후보
+stl_celestial_010_territory_scratches,Celestial,celestial_010,territory_scratches,25,false,범용 보정 후보
+stl_celestial_011_silver_light_residue,Celestial,celestial_011,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_011_purified_ground,Celestial,celestial_011,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_011_radiant_bleach,Celestial,celestial_011,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_011_holy_ash,Celestial,celestial_011,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_011_footprints_deep,Celestial,celestial_011,footprints_deep,25,false,범용 보정 후보
+stl_celestial_011_dried_blood,Celestial,celestial_011,dried_blood,25,false,범용 보정 후보
+stl_celestial_011_territory_scratches,Celestial,celestial_011,territory_scratches,25,false,범용 보정 후보
+stl_celestial_012_silver_light_residue,Celestial,celestial_012,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_012_purified_ground,Celestial,celestial_012,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_012_radiant_bleach,Celestial,celestial_012,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_012_holy_ash,Celestial,celestial_012,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_012_footprints_deep,Celestial,celestial_012,footprints_deep,25,false,범용 보정 후보
+stl_celestial_012_dried_blood,Celestial,celestial_012,dried_blood,25,false,범용 보정 후보
+stl_celestial_012_territory_scratches,Celestial,celestial_012,territory_scratches,25,false,범용 보정 후보
+stl_celestial_013_silver_light_residue,Celestial,celestial_013,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_013_purified_ground,Celestial,celestial_013,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_013_radiant_bleach,Celestial,celestial_013,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_013_holy_ash,Celestial,celestial_013,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_013_footprints_deep,Celestial,celestial_013,footprints_deep,25,false,범용 보정 후보
+stl_celestial_013_dried_blood,Celestial,celestial_013,dried_blood,25,false,범용 보정 후보
+stl_celestial_013_territory_scratches,Celestial,celestial_013,territory_scratches,25,false,범용 보정 후보
+stl_celestial_014_silver_light_residue,Celestial,celestial_014,silver_light_residue,65,true,Celestial 대분류 기본 흔적
+stl_celestial_014_purified_ground,Celestial,celestial_014,purified_ground,60,false,Celestial 대분류 기본 흔적
+stl_celestial_014_radiant_bleach,Celestial,celestial_014,radiant_bleach,55,false,Celestial 대분류 기본 흔적
+stl_celestial_014_holy_ash,Celestial,celestial_014,holy_ash,50,false,Celestial 대분류 기본 흔적
+stl_celestial_014_footprints_deep,Celestial,celestial_014,footprints_deep,25,false,범용 보정 후보
+stl_celestial_014_dried_blood,Celestial,celestial_014,dried_blood,25,false,범용 보정 후보
+stl_celestial_014_territory_scratches,Celestial,celestial_014,territory_scratches,25,false,범용 보정 후보
+stl_construct_001_regular_step_marks,Construct,construct_001,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_001_mechanical_scrapes,Construct,construct_001,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_001_gear_oil_stain,Construct,construct_001,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_001_arcane_circuit_imprint,Construct,construct_001,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_002_regular_step_marks,Construct,construct_002,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_002_mechanical_scrapes,Construct,construct_002,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_002_gear_oil_stain,Construct,construct_002,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_002_arcane_circuit_imprint,Construct,construct_002,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_003_regular_step_marks,Construct,construct_003,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_003_mechanical_scrapes,Construct,construct_003,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_003_gear_oil_stain,Construct,construct_003,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_003_arcane_circuit_imprint,Construct,construct_003,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_004_regular_step_marks,Construct,construct_004,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_004_mechanical_scrapes,Construct,construct_004,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_004_gear_oil_stain,Construct,construct_004,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_004_arcane_circuit_imprint,Construct,construct_004,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_004_large_claw_gouge,Construct,construct_004,large_claw_gouge,90,true,용종 분류
+stl_construct_004_breath_scorch_line,Construct,construct_004,breath_scorch_line,83,false,용종 분류
+stl_construct_004_scorch_marks,Construct,construct_004,scorch_marks,76,false,용종 분류
+stl_construct_004_frost_rime,Construct,construct_004,frost_rime,69,false,용종 분류
+stl_construct_005_regular_step_marks,Construct,construct_005,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_005_mechanical_scrapes,Construct,construct_005,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_005_gear_oil_stain,Construct,construct_005,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_005_arcane_circuit_imprint,Construct,construct_005,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_006_regular_step_marks,Construct,construct_006,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_006_mechanical_scrapes,Construct,construct_006,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_006_gear_oil_stain,Construct,construct_006,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_006_arcane_circuit_imprint,Construct,construct_006,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_007_regular_step_marks,Construct,construct_007,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_007_mechanical_scrapes,Construct,construct_007,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_007_gear_oil_stain,Construct,construct_007,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_007_arcane_circuit_imprint,Construct,construct_007,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_008_regular_step_marks,Construct,construct_008,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_008_mechanical_scrapes,Construct,construct_008,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_008_gear_oil_stain,Construct,construct_008,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_008_arcane_circuit_imprint,Construct,construct_008,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_009_regular_step_marks,Construct,construct_009,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_009_mechanical_scrapes,Construct,construct_009,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_009_gear_oil_stain,Construct,construct_009,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_009_arcane_circuit_imprint,Construct,construct_009,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_010_regular_step_marks,Construct,construct_010,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_010_mechanical_scrapes,Construct,construct_010,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_010_gear_oil_stain,Construct,construct_010,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_010_arcane_circuit_imprint,Construct,construct_010,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_010_wet_mucus_patch,Construct,construct_010,wet_mucus_patch,90,true,수중 분류
+stl_construct_010_slime_trail,Construct,construct_010,slime_trail,83,false,수중 분류
+stl_construct_010_drag_marks,Construct,construct_010,drag_marks,76,false,수중 분류
+stl_construct_011_regular_step_marks,Construct,construct_011,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_011_mechanical_scrapes,Construct,construct_011,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_011_gear_oil_stain,Construct,construct_011,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_011_arcane_circuit_imprint,Construct,construct_011,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_012_regular_step_marks,Construct,construct_012,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_012_mechanical_scrapes,Construct,construct_012,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_012_gear_oil_stain,Construct,construct_012,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_012_arcane_circuit_imprint,Construct,construct_012,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_012_wet_mucus_patch,Construct,construct_012,wet_mucus_patch,90,true,수중 분류
+stl_construct_012_slime_trail,Construct,construct_012,slime_trail,83,false,수중 분류
+stl_construct_012_drag_marks,Construct,construct_012,drag_marks,76,false,수중 분류
+stl_construct_013_regular_step_marks,Construct,construct_013,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_013_mechanical_scrapes,Construct,construct_013,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_013_gear_oil_stain,Construct,construct_013,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_013_arcane_circuit_imprint,Construct,construct_013,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_014_regular_step_marks,Construct,construct_014,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_014_mechanical_scrapes,Construct,construct_014,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_014_gear_oil_stain,Construct,construct_014,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_014_arcane_circuit_imprint,Construct,construct_014,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_014_scorch_marks,Construct,construct_014,scorch_marks,90,true,화염 분류
+stl_construct_014_elemental_distortion,Construct,construct_014,elemental_distortion,76,false,화염 분류
+stl_construct_015_regular_step_marks,Construct,construct_015,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_015_mechanical_scrapes,Construct,construct_015,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_015_gear_oil_stain,Construct,construct_015,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_015_arcane_circuit_imprint,Construct,construct_015,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_016_regular_step_marks,Construct,construct_016,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_016_mechanical_scrapes,Construct,construct_016,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_016_gear_oil_stain,Construct,construct_016,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_016_arcane_circuit_imprint,Construct,construct_016,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_017_regular_step_marks,Construct,construct_017,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_017_mechanical_scrapes,Construct,construct_017,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_017_gear_oil_stain,Construct,construct_017,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_017_arcane_circuit_imprint,Construct,construct_017,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_construct_017_large_claw_gouge,Construct,construct_017,large_claw_gouge,90,true,용종 분류
+stl_construct_017_breath_scorch_line,Construct,construct_017,breath_scorch_line,83,false,용종 분류
+stl_construct_017_scorch_marks,Construct,construct_017,scorch_marks,76,false,용종 분류
+stl_construct_017_frost_rime,Construct,construct_017,frost_rime,69,false,용종 분류
+stl_construct_018_regular_step_marks,Construct,construct_018,regular_step_marks,65,true,Construct 대분류 기본 흔적
+stl_construct_018_mechanical_scrapes,Construct,construct_018,mechanical_scrapes,60,false,Construct 대분류 기본 흔적
+stl_construct_018_gear_oil_stain,Construct,construct_018,gear_oil_stain,55,false,Construct 대분류 기본 흔적
+stl_construct_018_arcane_circuit_imprint,Construct,construct_018,arcane_circuit_imprint,50,false,Construct 대분류 기본 흔적
+stl_dragon_001_large_claw_gouge,Dragon,dragon_001,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_001_breath_scorch_line,Dragon,dragon_001,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_001_scorch_marks,Dragon,dragon_001,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_001_huge_footprint,Dragon,dragon_001,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_001_frost_rime,Dragon,dragon_001,frost_rime,69,false,용종 분류
+stl_dragon_001_footprints_deep,Dragon,dragon_001,footprints_deep,25,false,범용 보정 후보
+stl_dragon_001_dried_blood,Dragon,dragon_001,dried_blood,25,false,범용 보정 후보
+stl_dragon_001_territory_scratches,Dragon,dragon_001,territory_scratches,25,false,범용 보정 후보
+stl_dragon_002_large_claw_gouge,Dragon,dragon_002,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_002_breath_scorch_line,Dragon,dragon_002,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_002_scorch_marks,Dragon,dragon_002,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_002_huge_footprint,Dragon,dragon_002,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_002_frost_rime,Dragon,dragon_002,frost_rime,69,false,용종 분류
+stl_dragon_002_footprints_deep,Dragon,dragon_002,footprints_deep,25,false,범용 보정 후보
+stl_dragon_002_dried_blood,Dragon,dragon_002,dried_blood,25,false,범용 보정 후보
+stl_dragon_002_territory_scratches,Dragon,dragon_002,territory_scratches,25,false,범용 보정 후보
+stl_dragon_003_large_claw_gouge,Dragon,dragon_003,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_003_breath_scorch_line,Dragon,dragon_003,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_003_scorch_marks,Dragon,dragon_003,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_003_huge_footprint,Dragon,dragon_003,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_003_frost_rime,Dragon,dragon_003,frost_rime,69,false,용종 분류
+stl_dragon_003_psychic_nosebleed,Dragon,dragon_003,psychic_nosebleed,90,true,정신/환각 분류
+stl_dragon_003_psychic_scratches,Dragon,dragon_003,psychic_scratches,76,false,정신/환각 분류
+stl_dragon_003_footprints_deep,Dragon,dragon_003,footprints_deep,25,false,범용 보정 후보
+stl_dragon_003_dried_blood,Dragon,dragon_003,dried_blood,25,false,범용 보정 후보
+stl_dragon_003_territory_scratches,Dragon,dragon_003,territory_scratches,25,false,범용 보정 후보
+stl_dragon_004_large_claw_gouge,Dragon,dragon_004,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_004_breath_scorch_line,Dragon,dragon_004,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_004_scorch_marks,Dragon,dragon_004,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_004_huge_footprint,Dragon,dragon_004,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_004_frost_rime,Dragon,dragon_004,frost_rime,69,false,용종 분류
+stl_dragon_004_footprints_deep,Dragon,dragon_004,footprints_deep,25,false,범용 보정 후보
+stl_dragon_004_dried_blood,Dragon,dragon_004,dried_blood,25,false,범용 보정 후보
+stl_dragon_004_territory_scratches,Dragon,dragon_004,territory_scratches,25,false,범용 보정 후보
+stl_dragon_005_large_claw_gouge,Dragon,dragon_005,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_005_breath_scorch_line,Dragon,dragon_005,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_005_scorch_marks,Dragon,dragon_005,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_005_huge_footprint,Dragon,dragon_005,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_005_frost_rime,Dragon,dragon_005,frost_rime,69,false,용종 분류
+stl_dragon_005_high_nest,Dragon,dragon_005,high_nest,90,true,비행 분류
+stl_dragon_005_broken_branches,Dragon,dragon_005,broken_branches,76,false,비행 분류
+stl_dragon_005_footprints_deep,Dragon,dragon_005,footprints_deep,25,false,범용 보정 후보
+stl_dragon_005_dried_blood,Dragon,dragon_005,dried_blood,25,false,범용 보정 후보
+stl_dragon_005_territory_scratches,Dragon,dragon_005,territory_scratches,25,false,범용 보정 후보
+stl_dragon_006_large_claw_gouge,Dragon,dragon_006,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_006_breath_scorch_line,Dragon,dragon_006,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_006_scorch_marks,Dragon,dragon_006,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_006_huge_footprint,Dragon,dragon_006,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_006_frost_rime,Dragon,dragon_006,frost_rime,69,false,용종 분류
+stl_dragon_006_footprints_deep,Dragon,dragon_006,footprints_deep,25,false,범용 보정 후보
+stl_dragon_006_dried_blood,Dragon,dragon_006,dried_blood,25,false,범용 보정 후보
+stl_dragon_006_territory_scratches,Dragon,dragon_006,territory_scratches,25,false,범용 보정 후보
+stl_dragon_007_large_claw_gouge,Dragon,dragon_007,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_007_breath_scorch_line,Dragon,dragon_007,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_007_scorch_marks,Dragon,dragon_007,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_007_huge_footprint,Dragon,dragon_007,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_007_frost_rime,Dragon,dragon_007,frost_rime,69,false,용종 분류
+stl_dragon_007_footprints_deep,Dragon,dragon_007,footprints_deep,25,false,범용 보정 후보
+stl_dragon_007_dried_blood,Dragon,dragon_007,dried_blood,25,false,범용 보정 후보
+stl_dragon_007_territory_scratches,Dragon,dragon_007,territory_scratches,25,false,범용 보정 후보
+stl_dragon_008_large_claw_gouge,Dragon,dragon_008,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_008_breath_scorch_line,Dragon,dragon_008,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_008_scorch_marks,Dragon,dragon_008,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_008_huge_footprint,Dragon,dragon_008,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_008_frost_rime,Dragon,dragon_008,frost_rime,69,false,용종 분류
+stl_dragon_008_wet_mucus_patch,Dragon,dragon_008,wet_mucus_patch,90,true,수중 분류
+stl_dragon_008_slime_trail,Dragon,dragon_008,slime_trail,83,false,수중 분류
+stl_dragon_008_drag_marks,Dragon,dragon_008,drag_marks,76,false,수중 분류
+stl_dragon_008_footprints_deep,Dragon,dragon_008,footprints_deep,25,false,범용 보정 후보
+stl_dragon_008_dried_blood,Dragon,dragon_008,dried_blood,25,false,범용 보정 후보
+stl_dragon_008_territory_scratches,Dragon,dragon_008,territory_scratches,25,false,범용 보정 후보
+stl_dragon_009_large_claw_gouge,Dragon,dragon_009,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_009_breath_scorch_line,Dragon,dragon_009,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_009_scorch_marks,Dragon,dragon_009,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_009_huge_footprint,Dragon,dragon_009,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_009_frost_rime,Dragon,dragon_009,frost_rime,69,false,용종 분류
+stl_dragon_009_footprints_deep,Dragon,dragon_009,footprints_deep,25,false,범용 보정 후보
+stl_dragon_009_dried_blood,Dragon,dragon_009,dried_blood,25,false,범용 보정 후보
+stl_dragon_009_territory_scratches,Dragon,dragon_009,territory_scratches,25,false,범용 보정 후보
+stl_dragon_010_large_claw_gouge,Dragon,dragon_010,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_010_breath_scorch_line,Dragon,dragon_010,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_010_scorch_marks,Dragon,dragon_010,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_010_huge_footprint,Dragon,dragon_010,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_010_frost_rime,Dragon,dragon_010,frost_rime,69,false,용종 분류
+stl_dragon_010_footprints_deep,Dragon,dragon_010,footprints_deep,25,false,범용 보정 후보
+stl_dragon_010_dried_blood,Dragon,dragon_010,dried_blood,25,false,범용 보정 후보
+stl_dragon_010_territory_scratches,Dragon,dragon_010,territory_scratches,25,false,범용 보정 후보
+stl_dragon_011_large_claw_gouge,Dragon,dragon_011,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_011_breath_scorch_line,Dragon,dragon_011,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_011_scorch_marks,Dragon,dragon_011,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_011_huge_footprint,Dragon,dragon_011,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_011_frost_rime,Dragon,dragon_011,frost_rime,69,false,용종 분류
+stl_dragon_011_wet_mucus_patch,Dragon,dragon_011,wet_mucus_patch,90,true,수중 분류
+stl_dragon_011_slime_trail,Dragon,dragon_011,slime_trail,83,false,수중 분류
+stl_dragon_011_drag_marks,Dragon,dragon_011,drag_marks,76,false,수중 분류
+stl_dragon_011_footprints_deep,Dragon,dragon_011,footprints_deep,25,false,범용 보정 후보
+stl_dragon_011_dried_blood,Dragon,dragon_011,dried_blood,25,false,범용 보정 후보
+stl_dragon_011_territory_scratches,Dragon,dragon_011,territory_scratches,25,false,범용 보정 후보
+stl_dragon_012_large_claw_gouge,Dragon,dragon_012,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_012_breath_scorch_line,Dragon,dragon_012,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_012_scorch_marks,Dragon,dragon_012,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_012_huge_footprint,Dragon,dragon_012,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_012_frost_rime,Dragon,dragon_012,frost_rime,69,false,용종 분류
+stl_dragon_012_footprints_deep,Dragon,dragon_012,footprints_deep,25,false,범용 보정 후보
+stl_dragon_012_dried_blood,Dragon,dragon_012,dried_blood,25,false,범용 보정 후보
+stl_dragon_012_territory_scratches,Dragon,dragon_012,territory_scratches,25,false,범용 보정 후보
+stl_dragon_013_large_claw_gouge,Dragon,dragon_013,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_013_breath_scorch_line,Dragon,dragon_013,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_013_scorch_marks,Dragon,dragon_013,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_013_huge_footprint,Dragon,dragon_013,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_013_frost_rime,Dragon,dragon_013,frost_rime,69,false,용종 분류
+stl_dragon_013_elemental_distortion,Dragon,dragon_013,elemental_distortion,76,false,화염 분류
+stl_dragon_013_static_burns,Dragon,dragon_013,static_burns,90,true,번개/폭풍 분류
+stl_dragon_013_thunder_cracks,Dragon,dragon_013,thunder_cracks,83,false,번개/폭풍 분류
+stl_dragon_013_footprints_deep,Dragon,dragon_013,footprints_deep,25,false,범용 보정 후보
+stl_dragon_013_dried_blood,Dragon,dragon_013,dried_blood,25,false,범용 보정 후보
+stl_dragon_013_territory_scratches,Dragon,dragon_013,territory_scratches,25,false,범용 보정 후보
+stl_dragon_014_large_claw_gouge,Dragon,dragon_014,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_014_breath_scorch_line,Dragon,dragon_014,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_014_scorch_marks,Dragon,dragon_014,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_014_huge_footprint,Dragon,dragon_014,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_014_torn_carcass,Dragon,dragon_014,torn_carcass,90,true,시체형/부패형 분류
+stl_dragon_014_necrotic_wither,Dragon,dragon_014,necrotic_wither,83,false,시체형/부패형 분류
+stl_dragon_014_grave_soil,Dragon,dragon_014,grave_soil,76,false,시체형/부패형 분류
+stl_dragon_014_dried_blood,Dragon,dragon_014,dried_blood,69,false,시체형/부패형 분류
+stl_dragon_014_black_ichor,Dragon,dragon_014,black_ichor,62,false,시체형/부패형 분류
+stl_dragon_014_frost_rime,Dragon,dragon_014,frost_rime,69,false,용종 분류
+stl_dragon_014_slime_trail,Dragon,dragon_014,slime_trail,90,true,점액/산성 분류
+stl_dragon_014_acid_scars,Dragon,dragon_014,acid_scars,83,false,점액/산성 분류
+stl_dragon_014_dissolved_gear,Dragon,dragon_014,dissolved_gear,76,false,점액/산성 분류
+stl_dragon_014_slime_puddle,Dragon,dragon_014,slime_puddle,69,false,점액/산성 분류
+stl_dragon_014_poison_stain,Dragon,dragon_014,poison_stain,90,true,독성/질병 분류
+stl_dragon_014_footprints_deep,Dragon,dragon_014,footprints_deep,25,false,범용 보정 후보
+stl_dragon_014_territory_scratches,Dragon,dragon_014,territory_scratches,25,false,범용 보정 후보
+stl_dragon_015_large_claw_gouge,Dragon,dragon_015,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_015_breath_scorch_line,Dragon,dragon_015,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_015_scorch_marks,Dragon,dragon_015,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_015_huge_footprint,Dragon,dragon_015,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_015_frost_rime,Dragon,dragon_015,frost_rime,69,false,용종 분류
+stl_dragon_015_psychic_nosebleed,Dragon,dragon_015,psychic_nosebleed,90,true,정신/환각 분류
+stl_dragon_015_psychic_scratches,Dragon,dragon_015,psychic_scratches,76,false,정신/환각 분류
+stl_dragon_015_footprints_deep,Dragon,dragon_015,footprints_deep,25,false,범용 보정 후보
+stl_dragon_015_dried_blood,Dragon,dragon_015,dried_blood,25,false,범용 보정 후보
+stl_dragon_015_territory_scratches,Dragon,dragon_015,territory_scratches,25,false,범용 보정 후보
+stl_dragon_016_large_claw_gouge,Dragon,dragon_016,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_016_breath_scorch_line,Dragon,dragon_016,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_016_scorch_marks,Dragon,dragon_016,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_016_huge_footprint,Dragon,dragon_016,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_016_frost_rime,Dragon,dragon_016,frost_rime,69,false,용종 분류
+stl_dragon_016_wet_mucus_patch,Dragon,dragon_016,wet_mucus_patch,90,true,수중 분류
+stl_dragon_016_slime_trail,Dragon,dragon_016,slime_trail,83,false,수중 분류
+stl_dragon_016_drag_marks,Dragon,dragon_016,drag_marks,76,false,수중 분류
+stl_dragon_016_footprints_deep,Dragon,dragon_016,footprints_deep,25,false,범용 보정 후보
+stl_dragon_016_dried_blood,Dragon,dragon_016,dried_blood,25,false,범용 보정 후보
+stl_dragon_016_territory_scratches,Dragon,dragon_016,territory_scratches,25,false,범용 보정 후보
+stl_dragon_017_large_claw_gouge,Dragon,dragon_017,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_017_breath_scorch_line,Dragon,dragon_017,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_017_scorch_marks,Dragon,dragon_017,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_017_huge_footprint,Dragon,dragon_017,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_017_frost_rime,Dragon,dragon_017,frost_rime,69,false,용종 분류
+stl_dragon_017_footprints_deep,Dragon,dragon_017,footprints_deep,25,false,범용 보정 후보
+stl_dragon_017_dried_blood,Dragon,dragon_017,dried_blood,25,false,범용 보정 후보
+stl_dragon_017_territory_scratches,Dragon,dragon_017,territory_scratches,25,false,범용 보정 후보
+stl_dragon_018_large_claw_gouge,Dragon,dragon_018,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_018_breath_scorch_line,Dragon,dragon_018,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_018_scorch_marks,Dragon,dragon_018,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_018_huge_footprint,Dragon,dragon_018,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_018_frost_rime,Dragon,dragon_018,frost_rime,69,false,용종 분류
+stl_dragon_018_sulfur_smell,Dragon,dragon_018,sulfur_smell,90,true,악마체 분류
+stl_dragon_018_burnt_contract_scraps,Dragon,dragon_018,burnt_contract_scraps,83,false,악마체 분류
+stl_dragon_018_black_ichor,Dragon,dragon_018,black_ichor,76,false,악마체 분류
+stl_dragon_018_footprints_deep,Dragon,dragon_018,footprints_deep,25,false,범용 보정 후보
+stl_dragon_018_dried_blood,Dragon,dragon_018,dried_blood,25,false,범용 보정 후보
+stl_dragon_018_territory_scratches,Dragon,dragon_018,territory_scratches,25,false,범용 보정 후보
+stl_dragon_019_large_claw_gouge,Dragon,dragon_019,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_019_breath_scorch_line,Dragon,dragon_019,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_019_scorch_marks,Dragon,dragon_019,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_019_huge_footprint,Dragon,dragon_019,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_019_frost_rime,Dragon,dragon_019,frost_rime,69,false,용종 분류
+stl_dragon_019_footprints_deep,Dragon,dragon_019,footprints_deep,25,false,범용 보정 후보
+stl_dragon_019_dried_blood,Dragon,dragon_019,dried_blood,25,false,범용 보정 후보
+stl_dragon_019_territory_scratches,Dragon,dragon_019,territory_scratches,25,false,범용 보정 후보
+stl_dragon_020_large_claw_gouge,Dragon,dragon_020,large_claw_gouge,65,true,Dragon 대분류 기본 흔적
+stl_dragon_020_breath_scorch_line,Dragon,dragon_020,breath_scorch_line,60,false,Dragon 대분류 기본 흔적
+stl_dragon_020_scorch_marks,Dragon,dragon_020,scorch_marks,55,false,Dragon 대분류 기본 흔적
+stl_dragon_020_huge_footprint,Dragon,dragon_020,huge_footprint,50,false,Dragon 대분류 기본 흔적
+stl_dragon_020_frost_rime,Dragon,dragon_020,frost_rime,69,false,용종 분류
+stl_dragon_020_wet_mucus_patch,Dragon,dragon_020,wet_mucus_patch,90,true,수중 분류
+stl_dragon_020_slime_trail,Dragon,dragon_020,slime_trail,83,false,수중 분류
+stl_dragon_020_drag_marks,Dragon,dragon_020,drag_marks,76,false,수중 분류
+stl_dragon_020_footprints_deep,Dragon,dragon_020,footprints_deep,25,false,범용 보정 후보
+stl_dragon_020_dried_blood,Dragon,dragon_020,dried_blood,25,false,범용 보정 후보
+stl_dragon_020_territory_scratches,Dragon,dragon_020,territory_scratches,25,false,범용 보정 후보
+stl_elemental_001_elemental_distortion,Elemental,elemental_001,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_001_floating_motes,Elemental,elemental_001,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_001_scorch_marks,Elemental,elemental_001,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_001_frost_rime,Elemental,elemental_001,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_002_elemental_distortion,Elemental,elemental_002,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_002_floating_motes,Elemental,elemental_002,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_002_scorch_marks,Elemental,elemental_002,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_002_frost_rime,Elemental,elemental_002,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_003_elemental_distortion,Elemental,elemental_003,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_003_floating_motes,Elemental,elemental_003,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_003_scorch_marks,Elemental,elemental_003,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_003_frost_rime,Elemental,elemental_003,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_003_wet_mucus_patch,Elemental,elemental_003,wet_mucus_patch,90,true,수중 분류
+stl_elemental_003_slime_trail,Elemental,elemental_003,slime_trail,83,false,수중 분류
+stl_elemental_003_drag_marks,Elemental,elemental_003,drag_marks,76,false,수중 분류
+stl_elemental_004_elemental_distortion,Elemental,elemental_004,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_004_floating_motes,Elemental,elemental_004,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_004_scorch_marks,Elemental,elemental_004,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_004_frost_rime,Elemental,elemental_004,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_005_elemental_distortion,Elemental,elemental_005,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_005_floating_motes,Elemental,elemental_005,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_005_scorch_marks,Elemental,elemental_005,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_005_frost_rime,Elemental,elemental_005,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_006_elemental_distortion,Elemental,elemental_006,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_006_floating_motes,Elemental,elemental_006,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_006_scorch_marks,Elemental,elemental_006,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_006_frost_rime,Elemental,elemental_006,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_006_static_burns,Elemental,elemental_006,static_burns,90,true,번개/폭풍 분류
+stl_elemental_006_thunder_cracks,Elemental,elemental_006,thunder_cracks,83,false,번개/폭풍 분류
+stl_elemental_007_elemental_distortion,Elemental,elemental_007,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_007_floating_motes,Elemental,elemental_007,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_007_scorch_marks,Elemental,elemental_007,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_007_frost_rime,Elemental,elemental_007,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_007_large_claw_gouge,Elemental,elemental_007,large_claw_gouge,90,true,용종 분류
+stl_elemental_007_breath_scorch_line,Elemental,elemental_007,breath_scorch_line,83,false,용종 분류
+stl_elemental_007_slime_trail,Elemental,elemental_007,slime_trail,90,true,점액/산성 분류
+stl_elemental_007_acid_scars,Elemental,elemental_007,acid_scars,83,false,점액/산성 분류
+stl_elemental_007_dissolved_gear,Elemental,elemental_007,dissolved_gear,76,false,점액/산성 분류
+stl_elemental_007_slime_puddle,Elemental,elemental_007,slime_puddle,69,false,점액/산성 분류
+stl_elemental_008_elemental_distortion,Elemental,elemental_008,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_008_floating_motes,Elemental,elemental_008,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_008_scorch_marks,Elemental,elemental_008,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_008_frost_rime,Elemental,elemental_008,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_008_torn_carcass,Elemental,elemental_008,torn_carcass,90,true,시체형/부패형 분류
+stl_elemental_008_necrotic_wither,Elemental,elemental_008,necrotic_wither,83,false,시체형/부패형 분류
+stl_elemental_008_grave_soil,Elemental,elemental_008,grave_soil,76,false,시체형/부패형 분류
+stl_elemental_008_dried_blood,Elemental,elemental_008,dried_blood,69,false,시체형/부패형 분류
+stl_elemental_008_black_ichor,Elemental,elemental_008,black_ichor,62,false,시체형/부패형 분류
+stl_elemental_008_poison_stain,Elemental,elemental_008,poison_stain,90,true,독성/질병 분류
+stl_elemental_009_elemental_distortion,Elemental,elemental_009,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_009_floating_motes,Elemental,elemental_009,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_009_scorch_marks,Elemental,elemental_009,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_009_frost_rime,Elemental,elemental_009,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_009_mixed_track_pattern,Elemental,elemental_009,mixed_track_pattern,90,true,혼합/키메라 분류
+stl_elemental_009_mangled_carcass,Elemental,elemental_009,mangled_carcass,83,false,혼합/키메라 분류
+stl_elemental_009_warped_footprints,Elemental,elemental_009,warped_footprints,76,false,혼합/키메라 분류
+stl_elemental_010_elemental_distortion,Elemental,elemental_010,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_010_floating_motes,Elemental,elemental_010,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_010_scorch_marks,Elemental,elemental_010,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_010_frost_rime,Elemental,elemental_010,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_010_wet_mucus_patch,Elemental,elemental_010,wet_mucus_patch,90,true,수중 분류
+stl_elemental_010_slime_trail,Elemental,elemental_010,slime_trail,83,false,수중 분류
+stl_elemental_010_drag_marks,Elemental,elemental_010,drag_marks,76,false,수중 분류
+stl_elemental_010_mixed_track_pattern,Elemental,elemental_010,mixed_track_pattern,90,true,혼합/키메라 분류
+stl_elemental_010_mangled_carcass,Elemental,elemental_010,mangled_carcass,83,false,혼합/키메라 분류
+stl_elemental_010_warped_footprints,Elemental,elemental_010,warped_footprints,76,false,혼합/키메라 분류
+stl_elemental_011_elemental_distortion,Elemental,elemental_011,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_011_floating_motes,Elemental,elemental_011,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_011_scorch_marks,Elemental,elemental_011,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_011_frost_rime,Elemental,elemental_011,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_011_static_burns,Elemental,elemental_011,static_burns,90,true,번개/폭풍 분류
+stl_elemental_011_thunder_cracks,Elemental,elemental_011,thunder_cracks,83,false,번개/폭풍 분류
+stl_elemental_011_mixed_track_pattern,Elemental,elemental_011,mixed_track_pattern,90,true,혼합/키메라 분류
+stl_elemental_011_mangled_carcass,Elemental,elemental_011,mangled_carcass,83,false,혼합/키메라 분류
+stl_elemental_011_warped_footprints,Elemental,elemental_011,warped_footprints,76,false,혼합/키메라 분류
+stl_elemental_012_elemental_distortion,Elemental,elemental_012,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_012_floating_motes,Elemental,elemental_012,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_012_scorch_marks,Elemental,elemental_012,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_012_frost_rime,Elemental,elemental_012,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_012_mixed_track_pattern,Elemental,elemental_012,mixed_track_pattern,90,true,혼합/키메라 분류
+stl_elemental_012_mangled_carcass,Elemental,elemental_012,mangled_carcass,83,false,혼합/키메라 분류
+stl_elemental_012_warped_footprints,Elemental,elemental_012,warped_footprints,76,false,혼합/키메라 분류
+stl_elemental_013_elemental_distortion,Elemental,elemental_013,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_013_floating_motes,Elemental,elemental_013,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_013_scorch_marks,Elemental,elemental_013,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_013_frost_rime,Elemental,elemental_013,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_013_mixed_track_pattern,Elemental,elemental_013,mixed_track_pattern,90,true,혼합/키메라 분류
+stl_elemental_013_mangled_carcass,Elemental,elemental_013,mangled_carcass,83,false,혼합/키메라 분류
+stl_elemental_013_warped_footprints,Elemental,elemental_013,warped_footprints,76,false,혼합/키메라 분류
+stl_elemental_014_elemental_distortion,Elemental,elemental_014,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_014_floating_motes,Elemental,elemental_014,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_014_scorch_marks,Elemental,elemental_014,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_014_frost_rime,Elemental,elemental_014,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_015_elemental_distortion,Elemental,elemental_015,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_015_floating_motes,Elemental,elemental_015,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_015_scorch_marks,Elemental,elemental_015,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_015_frost_rime,Elemental,elemental_015,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_016_elemental_distortion,Elemental,elemental_016,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_016_floating_motes,Elemental,elemental_016,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_016_scorch_marks,Elemental,elemental_016,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_016_frost_rime,Elemental,elemental_016,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_016_mixed_track_pattern,Elemental,elemental_016,mixed_track_pattern,90,true,혼합/키메라 분류
+stl_elemental_016_mangled_carcass,Elemental,elemental_016,mangled_carcass,83,false,혼합/키메라 분류
+stl_elemental_016_warped_footprints,Elemental,elemental_016,warped_footprints,76,false,혼합/키메라 분류
+stl_elemental_017_elemental_distortion,Elemental,elemental_017,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_017_floating_motes,Elemental,elemental_017,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_017_scorch_marks,Elemental,elemental_017,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_017_frost_rime,Elemental,elemental_017,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_018_elemental_distortion,Elemental,elemental_018,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_018_floating_motes,Elemental,elemental_018,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_018_scorch_marks,Elemental,elemental_018,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_018_frost_rime,Elemental,elemental_018,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_018_static_burns,Elemental,elemental_018,static_burns,90,true,번개/폭풍 분류
+stl_elemental_018_thunder_cracks,Elemental,elemental_018,thunder_cracks,83,false,번개/폭풍 분류
+stl_elemental_019_elemental_distortion,Elemental,elemental_019,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_019_floating_motes,Elemental,elemental_019,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_019_scorch_marks,Elemental,elemental_019,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_019_frost_rime,Elemental,elemental_019,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_elemental_019_slime_trail,Elemental,elemental_019,slime_trail,90,true,기생/공생 분류
+stl_elemental_019_black_ichor,Elemental,elemental_019,black_ichor,83,false,기생/공생 분류
+stl_elemental_019_wet_mucus_patch,Elemental,elemental_019,wet_mucus_patch,90,true,수중 분류
+stl_elemental_019_drag_marks,Elemental,elemental_019,drag_marks,76,false,수중 분류
+stl_elemental_020_elemental_distortion,Elemental,elemental_020,elemental_distortion,65,true,Elemental 대분류 기본 흔적
+stl_elemental_020_floating_motes,Elemental,elemental_020,floating_motes,60,false,Elemental 대분류 기본 흔적
+stl_elemental_020_scorch_marks,Elemental,elemental_020,scorch_marks,55,false,Elemental 대분류 기본 흔적
+stl_elemental_020_frost_rime,Elemental,elemental_020,frost_rime,50,false,Elemental 대분류 기본 흔적
+stl_fey_001_impossible_flower_ring,Fey,fey_001,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_001_lost_path_marks,Fey,fey_001,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_001_pollen_residue,Fey,fey_001,pollen_residue,76,false,요정계 분류
+stl_fey_001_footprints_deep,Fey,fey_001,footprints_deep,25,false,범용 보정 후보
+stl_fey_001_dried_blood,Fey,fey_001,dried_blood,25,false,범용 보정 후보
+stl_fey_001_territory_scratches,Fey,fey_001,territory_scratches,25,false,범용 보정 후보
+stl_fey_002_impossible_flower_ring,Fey,fey_002,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_002_lost_path_marks,Fey,fey_002,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_002_pollen_residue,Fey,fey_002,pollen_residue,76,false,요정계 분류
+stl_fey_002_footprints_deep,Fey,fey_002,footprints_deep,25,false,범용 보정 후보
+stl_fey_002_dried_blood,Fey,fey_002,dried_blood,25,false,범용 보정 후보
+stl_fey_002_territory_scratches,Fey,fey_002,territory_scratches,25,false,범용 보정 후보
+stl_fey_003_impossible_flower_ring,Fey,fey_003,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_003_lost_path_marks,Fey,fey_003,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_003_pollen_residue,Fey,fey_003,pollen_residue,76,false,요정계 분류
+stl_fey_003_footprints_deep,Fey,fey_003,footprints_deep,25,false,범용 보정 후보
+stl_fey_003_dried_blood,Fey,fey_003,dried_blood,25,false,범용 보정 후보
+stl_fey_003_territory_scratches,Fey,fey_003,territory_scratches,25,false,범용 보정 후보
+stl_fey_004_impossible_flower_ring,Fey,fey_004,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_004_lost_path_marks,Fey,fey_004,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_004_pollen_residue,Fey,fey_004,pollen_residue,76,false,요정계 분류
+stl_fey_004_footprints_deep,Fey,fey_004,footprints_deep,25,false,범용 보정 후보
+stl_fey_004_dried_blood,Fey,fey_004,dried_blood,25,false,범용 보정 후보
+stl_fey_004_territory_scratches,Fey,fey_004,territory_scratches,25,false,범용 보정 후보
+stl_fey_005_impossible_flower_ring,Fey,fey_005,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_005_lost_path_marks,Fey,fey_005,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_005_scorch_marks,Fey,fey_005,scorch_marks,90,true,화염 분류
+stl_fey_005_elemental_distortion,Fey,fey_005,elemental_distortion,76,false,화염 분류
+stl_fey_005_pollen_residue,Fey,fey_005,pollen_residue,76,false,요정계 분류
+stl_fey_005_footprints_deep,Fey,fey_005,footprints_deep,25,false,범용 보정 후보
+stl_fey_005_dried_blood,Fey,fey_005,dried_blood,25,false,범용 보정 후보
+stl_fey_005_territory_scratches,Fey,fey_005,territory_scratches,25,false,범용 보정 후보
+stl_fey_006_impossible_flower_ring,Fey,fey_006,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_006_lost_path_marks,Fey,fey_006,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_006_psychic_nosebleed,Fey,fey_006,psychic_nosebleed,90,true,정신/환각 분류
+stl_fey_006_psychic_scratches,Fey,fey_006,psychic_scratches,76,false,정신/환각 분류
+stl_fey_006_pollen_residue,Fey,fey_006,pollen_residue,76,false,요정계 분류
+stl_fey_006_footprints_deep,Fey,fey_006,footprints_deep,25,false,범용 보정 후보
+stl_fey_006_dried_blood,Fey,fey_006,dried_blood,25,false,범용 보정 후보
+stl_fey_006_territory_scratches,Fey,fey_006,territory_scratches,25,false,범용 보정 후보
+stl_fey_007_impossible_flower_ring,Fey,fey_007,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_007_lost_path_marks,Fey,fey_007,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_007_pollen_residue,Fey,fey_007,pollen_residue,76,false,요정계 분류
+stl_fey_007_footprints_deep,Fey,fey_007,footprints_deep,25,false,범용 보정 후보
+stl_fey_007_dried_blood,Fey,fey_007,dried_blood,25,false,범용 보정 후보
+stl_fey_007_territory_scratches,Fey,fey_007,territory_scratches,25,false,범용 보정 후보
+stl_fey_008_impossible_flower_ring,Fey,fey_008,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_008_lost_path_marks,Fey,fey_008,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_008_pollen_residue,Fey,fey_008,pollen_residue,76,false,요정계 분류
+stl_fey_008_footprints_deep,Fey,fey_008,footprints_deep,25,false,범용 보정 후보
+stl_fey_008_dried_blood,Fey,fey_008,dried_blood,25,false,범용 보정 후보
+stl_fey_008_territory_scratches,Fey,fey_008,territory_scratches,25,false,범용 보정 후보
+stl_fey_009_impossible_flower_ring,Fey,fey_009,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_009_lost_path_marks,Fey,fey_009,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_009_pollen_residue,Fey,fey_009,pollen_residue,76,false,요정계 분류
+stl_fey_009_footprints_deep,Fey,fey_009,footprints_deep,25,false,범용 보정 후보
+stl_fey_009_dried_blood,Fey,fey_009,dried_blood,25,false,범용 보정 후보
+stl_fey_009_territory_scratches,Fey,fey_009,territory_scratches,25,false,범용 보정 후보
+stl_fey_010_impossible_flower_ring,Fey,fey_010,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_010_lost_path_marks,Fey,fey_010,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_010_pollen_residue,Fey,fey_010,pollen_residue,76,false,요정계 분류
+stl_fey_010_sulfur_smell,Fey,fey_010,sulfur_smell,90,true,악마체 분류
+stl_fey_010_burnt_contract_scraps,Fey,fey_010,burnt_contract_scraps,83,false,악마체 분류
+stl_fey_010_black_ichor,Fey,fey_010,black_ichor,76,false,악마체 분류
+stl_fey_010_scorch_marks,Fey,fey_010,scorch_marks,69,false,악마체 분류
+stl_fey_010_footprints_deep,Fey,fey_010,footprints_deep,25,false,범용 보정 후보
+stl_fey_010_dried_blood,Fey,fey_010,dried_blood,25,false,범용 보정 후보
+stl_fey_010_territory_scratches,Fey,fey_010,territory_scratches,25,false,범용 보정 후보
+stl_fey_011_impossible_flower_ring,Fey,fey_011,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_011_lost_path_marks,Fey,fey_011,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_011_pollen_residue,Fey,fey_011,pollen_residue,76,false,요정계 분류
+stl_fey_011_footprints_deep,Fey,fey_011,footprints_deep,25,false,범용 보정 후보
+stl_fey_011_dried_blood,Fey,fey_011,dried_blood,25,false,범용 보정 후보
+stl_fey_011_territory_scratches,Fey,fey_011,territory_scratches,25,false,범용 보정 후보
+stl_fey_012_impossible_flower_ring,Fey,fey_012,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_012_lost_path_marks,Fey,fey_012,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_012_pollen_residue,Fey,fey_012,pollen_residue,76,false,요정계 분류
+stl_fey_012_footprints_deep,Fey,fey_012,footprints_deep,25,false,범용 보정 후보
+stl_fey_012_dried_blood,Fey,fey_012,dried_blood,25,false,범용 보정 후보
+stl_fey_012_territory_scratches,Fey,fey_012,territory_scratches,25,false,범용 보정 후보
+stl_fey_013_impossible_flower_ring,Fey,fey_013,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_013_lost_path_marks,Fey,fey_013,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_013_psychic_nosebleed,Fey,fey_013,psychic_nosebleed,90,true,정신/환각 분류
+stl_fey_013_psychic_scratches,Fey,fey_013,psychic_scratches,76,false,정신/환각 분류
+stl_fey_013_pollen_residue,Fey,fey_013,pollen_residue,76,false,요정계 분류
+stl_fey_013_footprints_deep,Fey,fey_013,footprints_deep,25,false,범용 보정 후보
+stl_fey_013_dried_blood,Fey,fey_013,dried_blood,25,false,범용 보정 후보
+stl_fey_013_territory_scratches,Fey,fey_013,territory_scratches,25,false,범용 보정 후보
+stl_fey_014_impossible_flower_ring,Fey,fey_014,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_014_lost_path_marks,Fey,fey_014,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_014_pollen_residue,Fey,fey_014,pollen_residue,76,false,요정계 분류
+stl_fey_014_footprints_deep,Fey,fey_014,footprints_deep,25,false,범용 보정 후보
+stl_fey_014_dried_blood,Fey,fey_014,dried_blood,25,false,범용 보정 후보
+stl_fey_014_territory_scratches,Fey,fey_014,territory_scratches,25,false,범용 보정 후보
+stl_fey_015_impossible_flower_ring,Fey,fey_015,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_015_lost_path_marks,Fey,fey_015,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_015_root_cracks,Fey,fey_015,root_cracks,90,true,식물/균류 분류
+stl_fey_015_spore_cloud_residue,Fey,fey_015,spore_cloud_residue,83,false,식물/균류 분류
+stl_fey_015_fungal_threads,Fey,fey_015,fungal_threads,76,false,식물/균류 분류
+stl_fey_015_pollen_residue,Fey,fey_015,pollen_residue,69,false,식물/균류 분류
+stl_fey_015_slime_trail,Fey,fey_015,slime_trail,90,true,기생/공생 분류
+stl_fey_015_black_ichor,Fey,fey_015,black_ichor,83,false,기생/공생 분류
+stl_fey_015_wet_mucus_patch,Fey,fey_015,wet_mucus_patch,90,true,수중 분류
+stl_fey_015_drag_marks,Fey,fey_015,drag_marks,76,false,수중 분류
+stl_fey_015_footprints_deep,Fey,fey_015,footprints_deep,25,false,범용 보정 후보
+stl_fey_015_dried_blood,Fey,fey_015,dried_blood,25,false,범용 보정 후보
+stl_fey_015_territory_scratches,Fey,fey_015,territory_scratches,25,false,범용 보정 후보
+stl_fey_016_impossible_flower_ring,Fey,fey_016,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_016_lost_path_marks,Fey,fey_016,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_016_pollen_residue,Fey,fey_016,pollen_residue,76,false,요정계 분류
+stl_fey_016_wet_mucus_patch,Fey,fey_016,wet_mucus_patch,90,true,수중 분류
+stl_fey_016_slime_trail,Fey,fey_016,slime_trail,83,false,수중 분류
+stl_fey_016_drag_marks,Fey,fey_016,drag_marks,76,false,수중 분류
+stl_fey_016_footprints_deep,Fey,fey_016,footprints_deep,25,false,범용 보정 후보
+stl_fey_016_dried_blood,Fey,fey_016,dried_blood,25,false,범용 보정 후보
+stl_fey_016_territory_scratches,Fey,fey_016,territory_scratches,25,false,범용 보정 후보
+stl_fey_017_impossible_flower_ring,Fey,fey_017,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_017_lost_path_marks,Fey,fey_017,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_017_pollen_residue,Fey,fey_017,pollen_residue,76,false,요정계 분류
+stl_fey_017_footprints_deep,Fey,fey_017,footprints_deep,25,false,범용 보정 후보
+stl_fey_017_dried_blood,Fey,fey_017,dried_blood,25,false,범용 보정 후보
+stl_fey_017_territory_scratches,Fey,fey_017,territory_scratches,25,false,범용 보정 후보
+stl_fey_018_impossible_flower_ring,Fey,fey_018,impossible_flower_ring,65,true,Fey 대분류 기본 흔적
+stl_fey_018_lost_path_marks,Fey,fey_018,lost_path_marks,60,false,Fey 대분류 기본 흔적
+stl_fey_018_pollen_residue,Fey,fey_018,pollen_residue,76,false,요정계 분류
+stl_fey_018_footprints_deep,Fey,fey_018,footprints_deep,25,false,범용 보정 후보
+stl_fey_018_dried_blood,Fey,fey_018,dried_blood,25,false,범용 보정 후보
+stl_fey_018_territory_scratches,Fey,fey_018,territory_scratches,25,false,범용 보정 후보
+stl_fiend_001_sulfur_smell,Fiend,fiend_001,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_001_black_ichor,Fiend,fiend_001,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_001_scorch_marks,Fiend,fiend_001,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_001_burnt_contract_scraps,Fiend,fiend_001,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_001_footprints_deep,Fiend,fiend_001,footprints_deep,25,false,범용 보정 후보
+stl_fiend_001_dried_blood,Fiend,fiend_001,dried_blood,25,false,범용 보정 후보
+stl_fiend_001_territory_scratches,Fiend,fiend_001,territory_scratches,25,false,범용 보정 후보
+stl_fiend_002_sulfur_smell,Fiend,fiend_002,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_002_black_ichor,Fiend,fiend_002,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_002_scorch_marks,Fiend,fiend_002,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_002_burnt_contract_scraps,Fiend,fiend_002,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_002_impossible_flower_ring,Fiend,fiend_002,impossible_flower_ring,90,true,요정계 분류
+stl_fiend_002_lost_path_marks,Fiend,fiend_002,lost_path_marks,83,false,요정계 분류
+stl_fiend_002_pollen_residue,Fiend,fiend_002,pollen_residue,76,false,요정계 분류
+stl_fiend_002_footprints_deep,Fiend,fiend_002,footprints_deep,25,false,범용 보정 후보
+stl_fiend_002_dried_blood,Fiend,fiend_002,dried_blood,25,false,범용 보정 후보
+stl_fiend_002_territory_scratches,Fiend,fiend_002,territory_scratches,25,false,범용 보정 후보
+stl_fiend_003_sulfur_smell,Fiend,fiend_003,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_003_black_ichor,Fiend,fiend_003,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_003_scorch_marks,Fiend,fiend_003,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_003_burnt_contract_scraps,Fiend,fiend_003,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_003_footprints_deep,Fiend,fiend_003,footprints_deep,25,false,범용 보정 후보
+stl_fiend_003_dried_blood,Fiend,fiend_003,dried_blood,25,false,범용 보정 후보
+stl_fiend_003_territory_scratches,Fiend,fiend_003,territory_scratches,25,false,범용 보정 후보
+stl_fiend_004_sulfur_smell,Fiend,fiend_004,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_004_black_ichor,Fiend,fiend_004,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_004_scorch_marks,Fiend,fiend_004,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_004_burnt_contract_scraps,Fiend,fiend_004,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_004_impossible_flower_ring,Fiend,fiend_004,impossible_flower_ring,90,true,요정계 분류
+stl_fiend_004_lost_path_marks,Fiend,fiend_004,lost_path_marks,83,false,요정계 분류
+stl_fiend_004_pollen_residue,Fiend,fiend_004,pollen_residue,76,false,요정계 분류
+stl_fiend_004_footprints_deep,Fiend,fiend_004,footprints_deep,25,false,범용 보정 후보
+stl_fiend_004_dried_blood,Fiend,fiend_004,dried_blood,25,false,범용 보정 후보
+stl_fiend_004_territory_scratches,Fiend,fiend_004,territory_scratches,25,false,범용 보정 후보
+stl_fiend_005_sulfur_smell,Fiend,fiend_005,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_005_black_ichor,Fiend,fiend_005,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_005_scorch_marks,Fiend,fiend_005,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_005_burnt_contract_scraps,Fiend,fiend_005,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_005_psychic_nosebleed,Fiend,fiend_005,psychic_nosebleed,90,true,정신/환각 분류
+stl_fiend_005_psychic_scratches,Fiend,fiend_005,psychic_scratches,76,false,정신/환각 분류
+stl_fiend_005_footprints_deep,Fiend,fiend_005,footprints_deep,25,false,범용 보정 후보
+stl_fiend_005_dried_blood,Fiend,fiend_005,dried_blood,25,false,범용 보정 후보
+stl_fiend_005_territory_scratches,Fiend,fiend_005,territory_scratches,25,false,범용 보정 후보
+stl_fiend_006_sulfur_smell,Fiend,fiend_006,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_006_black_ichor,Fiend,fiend_006,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_006_scorch_marks,Fiend,fiend_006,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_006_burnt_contract_scraps,Fiend,fiend_006,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_006_wet_mucus_patch,Fiend,fiend_006,wet_mucus_patch,90,true,수중 분류
+stl_fiend_006_slime_trail,Fiend,fiend_006,slime_trail,83,false,수중 분류
+stl_fiend_006_drag_marks,Fiend,fiend_006,drag_marks,76,false,수중 분류
+stl_fiend_006_footprints_deep,Fiend,fiend_006,footprints_deep,25,false,범용 보정 후보
+stl_fiend_006_dried_blood,Fiend,fiend_006,dried_blood,25,false,범용 보정 후보
+stl_fiend_006_territory_scratches,Fiend,fiend_006,territory_scratches,25,false,범용 보정 후보
+stl_fiend_007_sulfur_smell,Fiend,fiend_007,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_007_black_ichor,Fiend,fiend_007,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_007_scorch_marks,Fiend,fiend_007,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_007_burnt_contract_scraps,Fiend,fiend_007,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_007_psychic_nosebleed,Fiend,fiend_007,psychic_nosebleed,90,true,정신/환각 분류
+stl_fiend_007_psychic_scratches,Fiend,fiend_007,psychic_scratches,76,false,정신/환각 분류
+stl_fiend_007_footprints_deep,Fiend,fiend_007,footprints_deep,25,false,범용 보정 후보
+stl_fiend_007_dried_blood,Fiend,fiend_007,dried_blood,25,false,범용 보정 후보
+stl_fiend_007_territory_scratches,Fiend,fiend_007,territory_scratches,25,false,범용 보정 후보
+stl_fiend_008_sulfur_smell,Fiend,fiend_008,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_008_black_ichor,Fiend,fiend_008,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_008_scorch_marks,Fiend,fiend_008,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_008_burnt_contract_scraps,Fiend,fiend_008,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_008_footprints_deep,Fiend,fiend_008,footprints_deep,25,false,범용 보정 후보
+stl_fiend_008_dried_blood,Fiend,fiend_008,dried_blood,25,false,범용 보정 후보
+stl_fiend_008_territory_scratches,Fiend,fiend_008,territory_scratches,25,false,범용 보정 후보
+stl_fiend_009_sulfur_smell,Fiend,fiend_009,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_009_black_ichor,Fiend,fiend_009,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_009_scorch_marks,Fiend,fiend_009,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_009_burnt_contract_scraps,Fiend,fiend_009,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_009_footprints_deep,Fiend,fiend_009,footprints_deep,25,false,범용 보정 후보
+stl_fiend_009_dried_blood,Fiend,fiend_009,dried_blood,25,false,범용 보정 후보
+stl_fiend_009_territory_scratches,Fiend,fiend_009,territory_scratches,25,false,범용 보정 후보
+stl_fiend_010_sulfur_smell,Fiend,fiend_010,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_010_black_ichor,Fiend,fiend_010,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_010_scorch_marks,Fiend,fiend_010,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_010_burnt_contract_scraps,Fiend,fiend_010,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_010_footprints_deep,Fiend,fiend_010,footprints_deep,25,false,범용 보정 후보
+stl_fiend_010_dried_blood,Fiend,fiend_010,dried_blood,25,false,범용 보정 후보
+stl_fiend_010_territory_scratches,Fiend,fiend_010,territory_scratches,25,false,범용 보정 후보
+stl_fiend_011_sulfur_smell,Fiend,fiend_011,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_011_black_ichor,Fiend,fiend_011,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_011_scorch_marks,Fiend,fiend_011,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_011_burnt_contract_scraps,Fiend,fiend_011,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_011_footprints_deep,Fiend,fiend_011,footprints_deep,25,false,범용 보정 후보
+stl_fiend_011_dried_blood,Fiend,fiend_011,dried_blood,25,false,범용 보정 후보
+stl_fiend_011_territory_scratches,Fiend,fiend_011,territory_scratches,25,false,범용 보정 후보
+stl_fiend_012_sulfur_smell,Fiend,fiend_012,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_012_black_ichor,Fiend,fiend_012,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_012_scorch_marks,Fiend,fiend_012,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_012_burnt_contract_scraps,Fiend,fiend_012,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_012_footprints_deep,Fiend,fiend_012,footprints_deep,25,false,범용 보정 후보
+stl_fiend_012_dried_blood,Fiend,fiend_012,dried_blood,25,false,범용 보정 후보
+stl_fiend_012_territory_scratches,Fiend,fiend_012,territory_scratches,25,false,범용 보정 후보
+stl_fiend_013_sulfur_smell,Fiend,fiend_013,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_013_black_ichor,Fiend,fiend_013,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_013_scorch_marks,Fiend,fiend_013,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_013_burnt_contract_scraps,Fiend,fiend_013,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_013_footprints_deep,Fiend,fiend_013,footprints_deep,25,false,범용 보정 후보
+stl_fiend_013_dried_blood,Fiend,fiend_013,dried_blood,25,false,범용 보정 후보
+stl_fiend_013_territory_scratches,Fiend,fiend_013,territory_scratches,25,false,범용 보정 후보
+stl_fiend_014_sulfur_smell,Fiend,fiend_014,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_014_black_ichor,Fiend,fiend_014,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_014_scorch_marks,Fiend,fiend_014,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_014_burnt_contract_scraps,Fiend,fiend_014,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_014_elemental_distortion,Fiend,fiend_014,elemental_distortion,76,false,화염 분류
+stl_fiend_014_footprints_deep,Fiend,fiend_014,footprints_deep,25,false,범용 보정 후보
+stl_fiend_014_dried_blood,Fiend,fiend_014,dried_blood,25,false,범용 보정 후보
+stl_fiend_014_territory_scratches,Fiend,fiend_014,territory_scratches,25,false,범용 보정 후보
+stl_fiend_015_sulfur_smell,Fiend,fiend_015,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_015_black_ichor,Fiend,fiend_015,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_015_scorch_marks,Fiend,fiend_015,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_015_burnt_contract_scraps,Fiend,fiend_015,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_015_torn_carcass,Fiend,fiend_015,torn_carcass,90,true,시체형/부패형 분류
+stl_fiend_015_necrotic_wither,Fiend,fiend_015,necrotic_wither,83,false,시체형/부패형 분류
+stl_fiend_015_grave_soil,Fiend,fiend_015,grave_soil,76,false,시체형/부패형 분류
+stl_fiend_015_dried_blood,Fiend,fiend_015,dried_blood,69,false,시체형/부패형 분류
+stl_fiend_015_poison_stain,Fiend,fiend_015,poison_stain,90,true,독성/질병 분류
+stl_fiend_015_footprints_deep,Fiend,fiend_015,footprints_deep,25,false,범용 보정 후보
+stl_fiend_015_territory_scratches,Fiend,fiend_015,territory_scratches,25,false,범용 보정 후보
+stl_fiend_016_sulfur_smell,Fiend,fiend_016,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_016_black_ichor,Fiend,fiend_016,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_016_scorch_marks,Fiend,fiend_016,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_016_burnt_contract_scraps,Fiend,fiend_016,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_016_cold_spot,Fiend,fiend_016,cold_spot,90,true,영체/결박형 분류
+stl_fiend_016_shadow_residue,Fiend,fiend_016,shadow_residue,83,false,영체/결박형 분류
+stl_fiend_016_fog_residue,Fiend,fiend_016,fog_residue,76,false,영체/결박형 분류
+stl_fiend_016_necrotic_wither,Fiend,fiend_016,necrotic_wither,69,false,영체/결박형 분류
+stl_fiend_016_footprints_deep,Fiend,fiend_016,footprints_deep,25,false,범용 보정 후보
+stl_fiend_016_dried_blood,Fiend,fiend_016,dried_blood,25,false,범용 보정 후보
+stl_fiend_016_territory_scratches,Fiend,fiend_016,territory_scratches,25,false,범용 보정 후보
+stl_fiend_017_sulfur_smell,Fiend,fiend_017,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_017_black_ichor,Fiend,fiend_017,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_017_scorch_marks,Fiend,fiend_017,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_017_burnt_contract_scraps,Fiend,fiend_017,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_017_impossible_flower_ring,Fiend,fiend_017,impossible_flower_ring,90,true,요정계 분류
+stl_fiend_017_lost_path_marks,Fiend,fiend_017,lost_path_marks,83,false,요정계 분류
+stl_fiend_017_pollen_residue,Fiend,fiend_017,pollen_residue,76,false,요정계 분류
+stl_fiend_017_footprints_deep,Fiend,fiend_017,footprints_deep,25,false,범용 보정 후보
+stl_fiend_017_dried_blood,Fiend,fiend_017,dried_blood,25,false,범용 보정 후보
+stl_fiend_017_territory_scratches,Fiend,fiend_017,territory_scratches,25,false,범용 보정 후보
+stl_fiend_018_sulfur_smell,Fiend,fiend_018,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_018_black_ichor,Fiend,fiend_018,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_018_scorch_marks,Fiend,fiend_018,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_018_burnt_contract_scraps,Fiend,fiend_018,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_018_footprints_deep,Fiend,fiend_018,footprints_deep,25,false,범용 보정 후보
+stl_fiend_018_dried_blood,Fiend,fiend_018,dried_blood,25,false,범용 보정 후보
+stl_fiend_018_territory_scratches,Fiend,fiend_018,territory_scratches,25,false,범용 보정 후보
+stl_fiend_019_sulfur_smell,Fiend,fiend_019,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_019_black_ichor,Fiend,fiend_019,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_019_scorch_marks,Fiend,fiend_019,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_019_burnt_contract_scraps,Fiend,fiend_019,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_019_wet_mucus_patch,Fiend,fiend_019,wet_mucus_patch,90,true,수중 분류
+stl_fiend_019_slime_trail,Fiend,fiend_019,slime_trail,83,false,수중 분류
+stl_fiend_019_drag_marks,Fiend,fiend_019,drag_marks,76,false,수중 분류
+stl_fiend_019_footprints_deep,Fiend,fiend_019,footprints_deep,25,false,범용 보정 후보
+stl_fiend_019_dried_blood,Fiend,fiend_019,dried_blood,25,false,범용 보정 후보
+stl_fiend_019_territory_scratches,Fiend,fiend_019,territory_scratches,25,false,범용 보정 후보
+stl_fiend_020_sulfur_smell,Fiend,fiend_020,sulfur_smell,65,true,Fiend 대분류 기본 흔적
+stl_fiend_020_black_ichor,Fiend,fiend_020,black_ichor,60,false,Fiend 대분류 기본 흔적
+stl_fiend_020_scorch_marks,Fiend,fiend_020,scorch_marks,55,false,Fiend 대분류 기본 흔적
+stl_fiend_020_burnt_contract_scraps,Fiend,fiend_020,burnt_contract_scraps,50,false,Fiend 대분류 기본 흔적
+stl_fiend_020_footprints_deep,Fiend,fiend_020,footprints_deep,25,false,범용 보정 후보
+stl_fiend_020_dried_blood,Fiend,fiend_020,dried_blood,25,false,범용 보정 후보
+stl_fiend_020_territory_scratches,Fiend,fiend_020,territory_scratches,25,false,범용 보정 후보
+stl_giant_001_huge_footprint,Giant,giant_001,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_001_thrown_boulder_impact,Giant,giant_001,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_001_impact_crater,Giant,giant_001,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_001_broken_branches,Giant,giant_001,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_001_wet_mucus_patch,Giant,giant_001,wet_mucus_patch,90,true,수중 분류
+stl_giant_001_slime_trail,Giant,giant_001,slime_trail,83,false,수중 분류
+stl_giant_001_drag_marks,Giant,giant_001,drag_marks,76,false,수중 분류
+stl_giant_001_footprints_deep,Giant,giant_001,footprints_deep,25,false,범용 보정 후보
+stl_giant_001_dried_blood,Giant,giant_001,dried_blood,25,false,범용 보정 후보
+stl_giant_001_territory_scratches,Giant,giant_001,territory_scratches,25,false,범용 보정 후보
+stl_giant_002_huge_footprint,Giant,giant_002,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_002_thrown_boulder_impact,Giant,giant_002,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_002_impact_crater,Giant,giant_002,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_002_broken_branches,Giant,giant_002,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_002_footprints_deep,Giant,giant_002,footprints_deep,25,false,범용 보정 후보
+stl_giant_002_dried_blood,Giant,giant_002,dried_blood,25,false,범용 보정 후보
+stl_giant_002_territory_scratches,Giant,giant_002,territory_scratches,25,false,범용 보정 후보
+stl_giant_003_huge_footprint,Giant,giant_003,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_003_thrown_boulder_impact,Giant,giant_003,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_003_impact_crater,Giant,giant_003,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_003_broken_branches,Giant,giant_003,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_003_frost_rime,Giant,giant_003,frost_rime,90,true,냉기 분류
+stl_giant_003_elemental_distortion,Giant,giant_003,elemental_distortion,76,false,냉기 분류
+stl_giant_003_footprints_deep,Giant,giant_003,footprints_deep,25,false,범용 보정 후보
+stl_giant_003_dried_blood,Giant,giant_003,dried_blood,25,false,범용 보정 후보
+stl_giant_003_territory_scratches,Giant,giant_003,territory_scratches,25,false,범용 보정 후보
+stl_giant_004_huge_footprint,Giant,giant_004,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_004_thrown_boulder_impact,Giant,giant_004,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_004_impact_crater,Giant,giant_004,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_004_broken_branches,Giant,giant_004,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_004_scorch_marks,Giant,giant_004,scorch_marks,90,true,화염 분류
+stl_giant_004_elemental_distortion,Giant,giant_004,elemental_distortion,76,false,화염 분류
+stl_giant_004_footprints_deep,Giant,giant_004,footprints_deep,25,false,범용 보정 후보
+stl_giant_004_dried_blood,Giant,giant_004,dried_blood,25,false,범용 보정 후보
+stl_giant_004_territory_scratches,Giant,giant_004,territory_scratches,25,false,범용 보정 후보
+stl_giant_005_huge_footprint,Giant,giant_005,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_005_thrown_boulder_impact,Giant,giant_005,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_005_impact_crater,Giant,giant_005,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_005_broken_branches,Giant,giant_005,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_005_static_burns,Giant,giant_005,static_burns,90,true,번개/폭풍 분류
+stl_giant_005_thunder_cracks,Giant,giant_005,thunder_cracks,83,false,번개/폭풍 분류
+stl_giant_005_elemental_distortion,Giant,giant_005,elemental_distortion,76,false,번개/폭풍 분류
+stl_giant_005_footprints_deep,Giant,giant_005,footprints_deep,25,false,범용 보정 후보
+stl_giant_005_dried_blood,Giant,giant_005,dried_blood,25,false,범용 보정 후보
+stl_giant_005_territory_scratches,Giant,giant_005,territory_scratches,25,false,범용 보정 후보
+stl_giant_006_huge_footprint,Giant,giant_006,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_006_thrown_boulder_impact,Giant,giant_006,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_006_impact_crater,Giant,giant_006,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_006_broken_branches,Giant,giant_006,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_006_footprints_deep,Giant,giant_006,footprints_deep,25,false,범용 보정 후보
+stl_giant_006_dried_blood,Giant,giant_006,dried_blood,25,false,범용 보정 후보
+stl_giant_006_territory_scratches,Giant,giant_006,territory_scratches,25,false,범용 보정 후보
+stl_giant_007_huge_footprint,Giant,giant_007,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_007_thrown_boulder_impact,Giant,giant_007,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_007_impact_crater,Giant,giant_007,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_007_broken_branches,Giant,giant_007,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_007_footprints_deep,Giant,giant_007,footprints_deep,25,false,범용 보정 후보
+stl_giant_007_dried_blood,Giant,giant_007,dried_blood,25,false,범용 보정 후보
+stl_giant_007_territory_scratches,Giant,giant_007,territory_scratches,25,false,범용 보정 후보
+stl_giant_008_huge_footprint,Giant,giant_008,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_008_thrown_boulder_impact,Giant,giant_008,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_008_impact_crater,Giant,giant_008,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_008_broken_branches,Giant,giant_008,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_008_wet_mucus_patch,Giant,giant_008,wet_mucus_patch,90,true,수중 분류
+stl_giant_008_slime_trail,Giant,giant_008,slime_trail,83,false,수중 분류
+stl_giant_008_drag_marks,Giant,giant_008,drag_marks,76,false,수중 분류
+stl_giant_008_footprints_deep,Giant,giant_008,footprints_deep,25,false,범용 보정 후보
+stl_giant_008_dried_blood,Giant,giant_008,dried_blood,25,false,범용 보정 후보
+stl_giant_008_territory_scratches,Giant,giant_008,territory_scratches,25,false,범용 보정 후보
+stl_giant_009_huge_footprint,Giant,giant_009,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_009_thrown_boulder_impact,Giant,giant_009,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_009_impact_crater,Giant,giant_009,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_009_broken_branches,Giant,giant_009,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_009_footprints_deep,Giant,giant_009,footprints_deep,25,false,범용 보정 후보
+stl_giant_009_dried_blood,Giant,giant_009,dried_blood,25,false,범용 보정 후보
+stl_giant_009_territory_scratches,Giant,giant_009,territory_scratches,25,false,범용 보정 후보
+stl_giant_010_huge_footprint,Giant,giant_010,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_010_thrown_boulder_impact,Giant,giant_010,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_010_impact_crater,Giant,giant_010,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_010_broken_branches,Giant,giant_010,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_010_wet_mucus_patch,Giant,giant_010,wet_mucus_patch,90,true,수중 분류
+stl_giant_010_slime_trail,Giant,giant_010,slime_trail,83,false,수중 분류
+stl_giant_010_drag_marks,Giant,giant_010,drag_marks,76,false,수중 분류
+stl_giant_010_footprints_deep,Giant,giant_010,footprints_deep,25,false,범용 보정 후보
+stl_giant_010_dried_blood,Giant,giant_010,dried_blood,25,false,범용 보정 후보
+stl_giant_010_territory_scratches,Giant,giant_010,territory_scratches,25,false,범용 보정 후보
+stl_giant_011_huge_footprint,Giant,giant_011,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_011_thrown_boulder_impact,Giant,giant_011,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_011_impact_crater,Giant,giant_011,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_011_broken_branches,Giant,giant_011,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_011_footprints_deep,Giant,giant_011,footprints_deep,25,false,범용 보정 후보
+stl_giant_011_dried_blood,Giant,giant_011,dried_blood,25,false,범용 보정 후보
+stl_giant_011_territory_scratches,Giant,giant_011,territory_scratches,25,false,범용 보정 후보
+stl_giant_012_huge_footprint,Giant,giant_012,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_012_thrown_boulder_impact,Giant,giant_012,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_012_impact_crater,Giant,giant_012,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_012_broken_branches,Giant,giant_012,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_012_root_cracks,Giant,giant_012,root_cracks,90,true,식물/균류 분류
+stl_giant_012_spore_cloud_residue,Giant,giant_012,spore_cloud_residue,83,false,식물/균류 분류
+stl_giant_012_fungal_threads,Giant,giant_012,fungal_threads,76,false,식물/균류 분류
+stl_giant_012_pollen_residue,Giant,giant_012,pollen_residue,69,false,식물/균류 분류
+stl_giant_012_footprints_deep,Giant,giant_012,footprints_deep,25,false,범용 보정 후보
+stl_giant_012_dried_blood,Giant,giant_012,dried_blood,25,false,범용 보정 후보
+stl_giant_012_territory_scratches,Giant,giant_012,territory_scratches,25,false,범용 보정 후보
+stl_giant_013_huge_footprint,Giant,giant_013,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_013_thrown_boulder_impact,Giant,giant_013,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_013_impact_crater,Giant,giant_013,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_013_broken_branches,Giant,giant_013,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_013_footprints_deep,Giant,giant_013,footprints_deep,25,false,범용 보정 후보
+stl_giant_013_dried_blood,Giant,giant_013,dried_blood,25,false,범용 보정 후보
+stl_giant_013_territory_scratches,Giant,giant_013,territory_scratches,25,false,범용 보정 후보
+stl_giant_014_huge_footprint,Giant,giant_014,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_014_thrown_boulder_impact,Giant,giant_014,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_014_impact_crater,Giant,giant_014,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_014_broken_branches,Giant,giant_014,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_014_footprints_deep,Giant,giant_014,footprints_deep,25,false,범용 보정 후보
+stl_giant_014_dried_blood,Giant,giant_014,dried_blood,25,false,범용 보정 후보
+stl_giant_014_territory_scratches,Giant,giant_014,territory_scratches,25,false,범용 보정 후보
+stl_giant_015_huge_footprint,Giant,giant_015,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_015_thrown_boulder_impact,Giant,giant_015,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_015_impact_crater,Giant,giant_015,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_015_broken_branches,Giant,giant_015,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_015_footprints_deep,Giant,giant_015,footprints_deep,25,false,범용 보정 후보
+stl_giant_015_dried_blood,Giant,giant_015,dried_blood,25,false,범용 보정 후보
+stl_giant_015_territory_scratches,Giant,giant_015,territory_scratches,25,false,범용 보정 후보
+stl_giant_016_huge_footprint,Giant,giant_016,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_016_thrown_boulder_impact,Giant,giant_016,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_016_impact_crater,Giant,giant_016,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_016_broken_branches,Giant,giant_016,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_016_sulfur_smell,Giant,giant_016,sulfur_smell,90,true,악마체 분류
+stl_giant_016_burnt_contract_scraps,Giant,giant_016,burnt_contract_scraps,83,false,악마체 분류
+stl_giant_016_black_ichor,Giant,giant_016,black_ichor,76,false,악마체 분류
+stl_giant_016_scorch_marks,Giant,giant_016,scorch_marks,69,false,악마체 분류
+stl_giant_016_footprints_deep,Giant,giant_016,footprints_deep,25,false,범용 보정 후보
+stl_giant_016_dried_blood,Giant,giant_016,dried_blood,25,false,범용 보정 후보
+stl_giant_016_territory_scratches,Giant,giant_016,territory_scratches,25,false,범용 보정 후보
+stl_giant_017_huge_footprint,Giant,giant_017,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_017_thrown_boulder_impact,Giant,giant_017,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_017_impact_crater,Giant,giant_017,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_017_broken_branches,Giant,giant_017,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_017_footprints_deep,Giant,giant_017,footprints_deep,25,false,범용 보정 후보
+stl_giant_017_dried_blood,Giant,giant_017,dried_blood,25,false,범용 보정 후보
+stl_giant_017_territory_scratches,Giant,giant_017,territory_scratches,25,false,범용 보정 후보
+stl_giant_018_huge_footprint,Giant,giant_018,huge_footprint,65,true,Giant 대분류 기본 흔적
+stl_giant_018_thrown_boulder_impact,Giant,giant_018,thrown_boulder_impact,60,false,Giant 대분류 기본 흔적
+stl_giant_018_impact_crater,Giant,giant_018,impact_crater,55,false,Giant 대분류 기본 흔적
+stl_giant_018_broken_branches,Giant,giant_018,broken_branches,50,false,Giant 대분류 기본 흔적
+stl_giant_018_footprints_deep,Giant,giant_018,footprints_deep,25,false,범용 보정 후보
+stl_giant_018_dried_blood,Giant,giant_018,dried_blood,25,false,범용 보정 후보
+stl_giant_018_territory_scratches,Giant,giant_018,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_001_campfire_remains,Humanoid,humanoid_001,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_001_tool_marks,Humanoid,humanoid_001,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_001_footprints_deep,Humanoid,humanoid_001,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_001_dried_blood,Humanoid,humanoid_001,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_001_territory_scratches,Humanoid,humanoid_001,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_002_campfire_remains,Humanoid,humanoid_002,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_002_tool_marks,Humanoid,humanoid_002,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_002_footprints_deep,Humanoid,humanoid_002,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_002_dried_blood,Humanoid,humanoid_002,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_002_territory_scratches,Humanoid,humanoid_002,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_003_campfire_remains,Humanoid,humanoid_003,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_003_tool_marks,Humanoid,humanoid_003,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_003_footprints_deep,Humanoid,humanoid_003,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_003_dried_blood,Humanoid,humanoid_003,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_003_territory_scratches,Humanoid,humanoid_003,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_004_campfire_remains,Humanoid,humanoid_004,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_004_tool_marks,Humanoid,humanoid_004,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_004_footprints_deep,Humanoid,humanoid_004,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_004_dried_blood,Humanoid,humanoid_004,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_004_poison_stain,Humanoid,humanoid_004,poison_stain,90,true,독성/질병 분류
+stl_humanoid_004_black_ichor,Humanoid,humanoid_004,black_ichor,76,false,독성/질병 분류
+stl_humanoid_004_territory_scratches,Humanoid,humanoid_004,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_005_campfire_remains,Humanoid,humanoid_005,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_005_tool_marks,Humanoid,humanoid_005,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_005_footprints_deep,Humanoid,humanoid_005,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_005_dried_blood,Humanoid,humanoid_005,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_005_sulfur_smell,Humanoid,humanoid_005,sulfur_smell,90,true,악마체 분류
+stl_humanoid_005_burnt_contract_scraps,Humanoid,humanoid_005,burnt_contract_scraps,83,false,악마체 분류
+stl_humanoid_005_black_ichor,Humanoid,humanoid_005,black_ichor,76,false,악마체 분류
+stl_humanoid_005_scorch_marks,Humanoid,humanoid_005,scorch_marks,69,false,악마체 분류
+stl_humanoid_005_territory_scratches,Humanoid,humanoid_005,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_006_campfire_remains,Humanoid,humanoid_006,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_006_tool_marks,Humanoid,humanoid_006,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_006_footprints_deep,Humanoid,humanoid_006,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_006_dried_blood,Humanoid,humanoid_006,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_006_territory_scratches,Humanoid,humanoid_006,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_007_campfire_remains,Humanoid,humanoid_007,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_007_tool_marks,Humanoid,humanoid_007,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_007_footprints_deep,Humanoid,humanoid_007,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_007_dried_blood,Humanoid,humanoid_007,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_007_territory_scratches,Humanoid,humanoid_007,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_008_campfire_remains,Humanoid,humanoid_008,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_008_tool_marks,Humanoid,humanoid_008,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_008_footprints_deep,Humanoid,humanoid_008,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_008_dried_blood,Humanoid,humanoid_008,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_008_psychic_nosebleed,Humanoid,humanoid_008,psychic_nosebleed,90,true,정신/환각 분류
+stl_humanoid_008_psychic_scratches,Humanoid,humanoid_008,psychic_scratches,76,false,정신/환각 분류
+stl_humanoid_008_territory_scratches,Humanoid,humanoid_008,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_009_campfire_remains,Humanoid,humanoid_009,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_009_tool_marks,Humanoid,humanoid_009,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_009_footprints_deep,Humanoid,humanoid_009,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_009_dried_blood,Humanoid,humanoid_009,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_009_territory_scratches,Humanoid,humanoid_009,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_010_campfire_remains,Humanoid,humanoid_010,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_010_tool_marks,Humanoid,humanoid_010,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_010_footprints_deep,Humanoid,humanoid_010,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_010_dried_blood,Humanoid,humanoid_010,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_010_scorch_marks,Humanoid,humanoid_010,scorch_marks,90,true,화염 분류
+stl_humanoid_010_elemental_distortion,Humanoid,humanoid_010,elemental_distortion,76,false,화염 분류
+stl_humanoid_010_wet_mucus_patch,Humanoid,humanoid_010,wet_mucus_patch,90,true,수중 분류
+stl_humanoid_010_slime_trail,Humanoid,humanoid_010,slime_trail,83,false,수중 분류
+stl_humanoid_010_drag_marks,Humanoid,humanoid_010,drag_marks,76,false,수중 분류
+stl_humanoid_010_territory_scratches,Humanoid,humanoid_010,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_011_campfire_remains,Humanoid,humanoid_011,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_011_tool_marks,Humanoid,humanoid_011,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_011_footprints_deep,Humanoid,humanoid_011,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_011_dried_blood,Humanoid,humanoid_011,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_011_territory_scratches,Humanoid,humanoid_011,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_012_campfire_remains,Humanoid,humanoid_012,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_012_tool_marks,Humanoid,humanoid_012,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_012_footprints_deep,Humanoid,humanoid_012,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_012_dried_blood,Humanoid,humanoid_012,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_012_territory_scratches,Humanoid,humanoid_012,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_013_campfire_remains,Humanoid,humanoid_013,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_013_tool_marks,Humanoid,humanoid_013,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_013_footprints_deep,Humanoid,humanoid_013,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_013_dried_blood,Humanoid,humanoid_013,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_013_large_claw_gouge,Humanoid,humanoid_013,large_claw_gouge,90,true,용종 분류
+stl_humanoid_013_breath_scorch_line,Humanoid,humanoid_013,breath_scorch_line,83,false,용종 분류
+stl_humanoid_013_scorch_marks,Humanoid,humanoid_013,scorch_marks,76,false,용종 분류
+stl_humanoid_013_frost_rime,Humanoid,humanoid_013,frost_rime,69,false,용종 분류
+stl_humanoid_013_territory_scratches,Humanoid,humanoid_013,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_014_campfire_remains,Humanoid,humanoid_014,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_014_tool_marks,Humanoid,humanoid_014,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_014_footprints_deep,Humanoid,humanoid_014,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_014_dried_blood,Humanoid,humanoid_014,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_014_territory_scratches,Humanoid,humanoid_014,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_015_campfire_remains,Humanoid,humanoid_015,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_015_tool_marks,Humanoid,humanoid_015,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_015_footprints_deep,Humanoid,humanoid_015,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_015_dried_blood,Humanoid,humanoid_015,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_015_burrow_mound,Humanoid,humanoid_015,burrow_mound,90,true,굴파기/지하 분류
+stl_humanoid_015_drag_marks,Humanoid,humanoid_015,drag_marks,83,false,굴파기/지하 분류
+stl_humanoid_015_territory_scratches,Humanoid,humanoid_015,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_016_campfire_remains,Humanoid,humanoid_016,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_016_tool_marks,Humanoid,humanoid_016,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_016_footprints_deep,Humanoid,humanoid_016,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_016_dried_blood,Humanoid,humanoid_016,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_016_wet_mucus_patch,Humanoid,humanoid_016,wet_mucus_patch,90,true,수중 분류
+stl_humanoid_016_slime_trail,Humanoid,humanoid_016,slime_trail,83,false,수중 분류
+stl_humanoid_016_drag_marks,Humanoid,humanoid_016,drag_marks,76,false,수중 분류
+stl_humanoid_016_territory_scratches,Humanoid,humanoid_016,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_017_campfire_remains,Humanoid,humanoid_017,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_017_tool_marks,Humanoid,humanoid_017,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_017_footprints_deep,Humanoid,humanoid_017,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_017_dried_blood,Humanoid,humanoid_017,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_017_territory_scratches,Humanoid,humanoid_017,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_018_campfire_remains,Humanoid,humanoid_018,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_018_tool_marks,Humanoid,humanoid_018,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_018_footprints_deep,Humanoid,humanoid_018,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_018_dried_blood,Humanoid,humanoid_018,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_018_territory_scratches,Humanoid,humanoid_018,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_019_campfire_remains,Humanoid,humanoid_019,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_019_tool_marks,Humanoid,humanoid_019,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_019_footprints_deep,Humanoid,humanoid_019,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_019_dried_blood,Humanoid,humanoid_019,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_019_territory_scratches,Humanoid,humanoid_019,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_020_campfire_remains,Humanoid,humanoid_020,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_020_tool_marks,Humanoid,humanoid_020,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_020_footprints_deep,Humanoid,humanoid_020,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_020_dried_blood,Humanoid,humanoid_020,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_020_territory_scratches,Humanoid,humanoid_020,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_021_campfire_remains,Humanoid,humanoid_021,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_021_tool_marks,Humanoid,humanoid_021,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_021_footprints_deep,Humanoid,humanoid_021,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_021_dried_blood,Humanoid,humanoid_021,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_021_wet_mucus_patch,Humanoid,humanoid_021,wet_mucus_patch,90,true,수중 분류
+stl_humanoid_021_slime_trail,Humanoid,humanoid_021,slime_trail,83,false,수중 분류
+stl_humanoid_021_drag_marks,Humanoid,humanoid_021,drag_marks,76,false,수중 분류
+stl_humanoid_021_territory_scratches,Humanoid,humanoid_021,territory_scratches,25,false,범용 보정 후보
+stl_humanoid_022_campfire_remains,Humanoid,humanoid_022,campfire_remains,65,true,Humanoid 대분류 기본 흔적
+stl_humanoid_022_tool_marks,Humanoid,humanoid_022,tool_marks,60,false,Humanoid 대분류 기본 흔적
+stl_humanoid_022_footprints_deep,Humanoid,humanoid_022,footprints_deep,55,false,Humanoid 대분류 기본 흔적
+stl_humanoid_022_dried_blood,Humanoid,humanoid_022,dried_blood,50,false,Humanoid 대분류 기본 흔적
+stl_humanoid_022_territory_scratches,Humanoid,humanoid_022,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_001_mixed_track_pattern,Monstrosity,monstrosity_001,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_001_mangled_carcass,Monstrosity,monstrosity_001,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_001_claw_marks_wall,Monstrosity,monstrosity_001,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_001_torn_carcass,Monstrosity,monstrosity_001,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_001_wet_mucus_patch,Monstrosity,monstrosity_001,wet_mucus_patch,90,true,수중 분류
+stl_monstrosity_001_slime_trail,Monstrosity,monstrosity_001,slime_trail,83,false,수중 분류
+stl_monstrosity_001_drag_marks,Monstrosity,monstrosity_001,drag_marks,76,false,수중 분류
+stl_monstrosity_001_warped_footprints,Monstrosity,monstrosity_001,warped_footprints,76,false,혼합/키메라 분류
+stl_monstrosity_001_footprints_deep,Monstrosity,monstrosity_001,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_001_dried_blood,Monstrosity,monstrosity_001,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_001_territory_scratches,Monstrosity,monstrosity_001,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_002_mixed_track_pattern,Monstrosity,monstrosity_002,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_002_mangled_carcass,Monstrosity,monstrosity_002,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_002_claw_marks_wall,Monstrosity,monstrosity_002,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_002_torn_carcass,Monstrosity,monstrosity_002,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_002_poison_stain,Monstrosity,monstrosity_002,poison_stain,90,true,독성/질병 분류
+stl_monstrosity_002_black_ichor,Monstrosity,monstrosity_002,black_ichor,76,false,독성/질병 분류
+stl_monstrosity_002_warped_footprints,Monstrosity,monstrosity_002,warped_footprints,76,false,혼합/키메라 분류
+stl_monstrosity_002_footprints_deep,Monstrosity,monstrosity_002,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_002_dried_blood,Monstrosity,monstrosity_002,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_002_territory_scratches,Monstrosity,monstrosity_002,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_003_mixed_track_pattern,Monstrosity,monstrosity_003,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_003_mangled_carcass,Monstrosity,monstrosity_003,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_003_claw_marks_wall,Monstrosity,monstrosity_003,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_003_torn_carcass,Monstrosity,monstrosity_003,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_003_psychic_scratches,Monstrosity,monstrosity_003,psychic_scratches,90,true,시선/광선 분류
+stl_monstrosity_003_floating_dust_ring,Monstrosity,monstrosity_003,floating_dust_ring,83,false,시선/광선 분류
+stl_monstrosity_003_footprints_deep,Monstrosity,monstrosity_003,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_003_dried_blood,Monstrosity,monstrosity_003,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_003_territory_scratches,Monstrosity,monstrosity_003,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_004_mixed_track_pattern,Monstrosity,monstrosity_004,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_004_mangled_carcass,Monstrosity,monstrosity_004,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_004_claw_marks_wall,Monstrosity,monstrosity_004,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_004_torn_carcass,Monstrosity,monstrosity_004,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_004_footprints_deep,Monstrosity,monstrosity_004,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_004_dried_blood,Monstrosity,monstrosity_004,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_004_territory_scratches,Monstrosity,monstrosity_004,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_005_mixed_track_pattern,Monstrosity,monstrosity_005,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_005_mangled_carcass,Monstrosity,monstrosity_005,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_005_claw_marks_wall,Monstrosity,monstrosity_005,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_005_torn_carcass,Monstrosity,monstrosity_005,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_005_footprints_deep,Monstrosity,monstrosity_005,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_005_dried_blood,Monstrosity,monstrosity_005,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_005_territory_scratches,Monstrosity,monstrosity_005,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_006_mixed_track_pattern,Monstrosity,monstrosity_006,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_006_mangled_carcass,Monstrosity,monstrosity_006,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_006_claw_marks_wall,Monstrosity,monstrosity_006,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_006_torn_carcass,Monstrosity,monstrosity_006,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_006_skull_pile,Monstrosity,monstrosity_006,skull_pile,83,false,골격형 분류
+stl_monstrosity_006_bone_pile,Monstrosity,monstrosity_006,bone_pile,76,false,골격형 분류
+stl_monstrosity_006_grave_soil,Monstrosity,monstrosity_006,grave_soil,69,false,골격형 분류
+stl_monstrosity_006_old_broken_bone,Monstrosity,monstrosity_006,old_broken_bone,62,false,골격형 분류
+stl_monstrosity_006_claw_marks_tree,Monstrosity,monstrosity_006,claw_marks_tree,83,false,절지/곤충 분류
+stl_monstrosity_006_slime_trail,Monstrosity,monstrosity_006,slime_trail,76,false,절지/곤충 분류
+stl_monstrosity_006_high_nest,Monstrosity,monstrosity_006,high_nest,69,false,절지/곤충 분류
+stl_monstrosity_006_mechanical_scrapes,Monstrosity,monstrosity_006,mechanical_scrapes,90,true,구조체/장갑 분류
+stl_monstrosity_006_gear_oil_stain,Monstrosity,monstrosity_006,gear_oil_stain,83,false,구조체/장갑 분류
+stl_monstrosity_006_regular_step_marks,Monstrosity,monstrosity_006,regular_step_marks,76,false,구조체/장갑 분류
+stl_monstrosity_006_arcane_circuit_imprint,Monstrosity,monstrosity_006,arcane_circuit_imprint,69,false,구조체/장갑 분류
+stl_monstrosity_006_footprints_deep,Monstrosity,monstrosity_006,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_006_dried_blood,Monstrosity,monstrosity_006,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_006_territory_scratches,Monstrosity,monstrosity_006,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_007_mixed_track_pattern,Monstrosity,monstrosity_007,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_007_mangled_carcass,Monstrosity,monstrosity_007,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_007_claw_marks_wall,Monstrosity,monstrosity_007,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_007_torn_carcass,Monstrosity,monstrosity_007,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_007_poison_stain,Monstrosity,monstrosity_007,poison_stain,90,true,독성/질병 분류
+stl_monstrosity_007_black_ichor,Monstrosity,monstrosity_007,black_ichor,76,false,독성/질병 분류
+stl_monstrosity_007_footprints_deep,Monstrosity,monstrosity_007,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_007_dried_blood,Monstrosity,monstrosity_007,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_007_territory_scratches,Monstrosity,monstrosity_007,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_008_mixed_track_pattern,Monstrosity,monstrosity_008,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_008_mangled_carcass,Monstrosity,monstrosity_008,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_008_claw_marks_wall,Monstrosity,monstrosity_008,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_008_torn_carcass,Monstrosity,monstrosity_008,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_008_wet_mucus_patch,Monstrosity,monstrosity_008,wet_mucus_patch,90,true,수중 분류
+stl_monstrosity_008_slime_trail,Monstrosity,monstrosity_008,slime_trail,83,false,수중 분류
+stl_monstrosity_008_drag_marks,Monstrosity,monstrosity_008,drag_marks,76,false,수중 분류
+stl_monstrosity_008_footprints_deep,Monstrosity,monstrosity_008,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_008_dried_blood,Monstrosity,monstrosity_008,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_008_territory_scratches,Monstrosity,monstrosity_008,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_009_mixed_track_pattern,Monstrosity,monstrosity_009,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_009_mangled_carcass,Monstrosity,monstrosity_009,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_009_claw_marks_wall,Monstrosity,monstrosity_009,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_009_torn_carcass,Monstrosity,monstrosity_009,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_009_high_nest,Monstrosity,monstrosity_009,high_nest,90,true,비행 분류
+stl_monstrosity_009_broken_branches,Monstrosity,monstrosity_009,broken_branches,76,false,비행 분류
+stl_monstrosity_009_footprints_deep,Monstrosity,monstrosity_009,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_009_dried_blood,Monstrosity,monstrosity_009,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_009_territory_scratches,Monstrosity,monstrosity_009,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_010_mixed_track_pattern,Monstrosity,monstrosity_010,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_010_mangled_carcass,Monstrosity,monstrosity_010,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_010_claw_marks_wall,Monstrosity,monstrosity_010,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_010_torn_carcass,Monstrosity,monstrosity_010,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_010_wet_mucus_patch,Monstrosity,monstrosity_010,wet_mucus_patch,90,true,수중 분류
+stl_monstrosity_010_slime_trail,Monstrosity,monstrosity_010,slime_trail,83,false,수중 분류
+stl_monstrosity_010_drag_marks,Monstrosity,monstrosity_010,drag_marks,76,false,수중 분류
+stl_monstrosity_010_footprints_deep,Monstrosity,monstrosity_010,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_010_dried_blood,Monstrosity,monstrosity_010,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_010_territory_scratches,Monstrosity,monstrosity_010,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_011_mixed_track_pattern,Monstrosity,monstrosity_011,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_011_mangled_carcass,Monstrosity,monstrosity_011,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_011_claw_marks_wall,Monstrosity,monstrosity_011,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_011_torn_carcass,Monstrosity,monstrosity_011,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_011_burrow_mound,Monstrosity,monstrosity_011,burrow_mound,90,true,굴파기/지하 분류
+stl_monstrosity_011_drag_marks,Monstrosity,monstrosity_011,drag_marks,83,false,굴파기/지하 분류
+stl_monstrosity_011_footprints_deep,Monstrosity,monstrosity_011,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_011_dried_blood,Monstrosity,monstrosity_011,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_011_territory_scratches,Monstrosity,monstrosity_011,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_012_mixed_track_pattern,Monstrosity,monstrosity_012,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_012_mangled_carcass,Monstrosity,monstrosity_012,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_012_claw_marks_wall,Monstrosity,monstrosity_012,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_012_torn_carcass,Monstrosity,monstrosity_012,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_012_high_nest,Monstrosity,monstrosity_012,high_nest,90,true,비행 분류
+stl_monstrosity_012_broken_branches,Monstrosity,monstrosity_012,broken_branches,76,false,비행 분류
+stl_monstrosity_012_footprints_deep,Monstrosity,monstrosity_012,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_012_dried_blood,Monstrosity,monstrosity_012,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_012_territory_scratches,Monstrosity,monstrosity_012,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_013_mixed_track_pattern,Monstrosity,monstrosity_013,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_013_mangled_carcass,Monstrosity,monstrosity_013,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_013_claw_marks_wall,Monstrosity,monstrosity_013,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_013_torn_carcass,Monstrosity,monstrosity_013,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_013_claw_marks_tree,Monstrosity,monstrosity_013,claw_marks_tree,83,false,절지/곤충 분류
+stl_monstrosity_013_slime_trail,Monstrosity,monstrosity_013,slime_trail,76,false,절지/곤충 분류
+stl_monstrosity_013_high_nest,Monstrosity,monstrosity_013,high_nest,69,false,절지/곤충 분류
+stl_monstrosity_013_footprints_deep,Monstrosity,monstrosity_013,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_013_dried_blood,Monstrosity,monstrosity_013,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_013_territory_scratches,Monstrosity,monstrosity_013,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_014_mixed_track_pattern,Monstrosity,monstrosity_014,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_014_mangled_carcass,Monstrosity,monstrosity_014,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_014_claw_marks_wall,Monstrosity,monstrosity_014,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_014_torn_carcass,Monstrosity,monstrosity_014,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_014_wet_mucus_patch,Monstrosity,monstrosity_014,wet_mucus_patch,90,true,수중 분류
+stl_monstrosity_014_slime_trail,Monstrosity,monstrosity_014,slime_trail,83,false,수중 분류
+stl_monstrosity_014_drag_marks,Monstrosity,monstrosity_014,drag_marks,76,false,수중 분류
+stl_monstrosity_014_footprints_deep,Monstrosity,monstrosity_014,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_014_dried_blood,Monstrosity,monstrosity_014,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_014_territory_scratches,Monstrosity,monstrosity_014,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_015_mixed_track_pattern,Monstrosity,monstrosity_015,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_015_mangled_carcass,Monstrosity,monstrosity_015,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_015_claw_marks_wall,Monstrosity,monstrosity_015,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_015_torn_carcass,Monstrosity,monstrosity_015,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_015_footprints_deep,Monstrosity,monstrosity_015,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_015_dried_blood,Monstrosity,monstrosity_015,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_015_territory_scratches,Monstrosity,monstrosity_015,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_016_mixed_track_pattern,Monstrosity,monstrosity_016,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_016_mangled_carcass,Monstrosity,monstrosity_016,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_016_claw_marks_wall,Monstrosity,monstrosity_016,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_016_torn_carcass,Monstrosity,monstrosity_016,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_016_footprints_deep,Monstrosity,monstrosity_016,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_016_dried_blood,Monstrosity,monstrosity_016,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_016_territory_scratches,Monstrosity,monstrosity_016,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_017_mixed_track_pattern,Monstrosity,monstrosity_017,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_017_mangled_carcass,Monstrosity,monstrosity_017,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_017_claw_marks_wall,Monstrosity,monstrosity_017,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_017_torn_carcass,Monstrosity,monstrosity_017,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_017_warped_footprints,Monstrosity,monstrosity_017,warped_footprints,76,false,혼합/키메라 분류
+stl_monstrosity_017_footprints_deep,Monstrosity,monstrosity_017,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_017_dried_blood,Monstrosity,monstrosity_017,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_017_territory_scratches,Monstrosity,monstrosity_017,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_018_mixed_track_pattern,Monstrosity,monstrosity_018,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_018_mangled_carcass,Monstrosity,monstrosity_018,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_018_claw_marks_wall,Monstrosity,monstrosity_018,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_018_torn_carcass,Monstrosity,monstrosity_018,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_018_footprints_deep,Monstrosity,monstrosity_018,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_018_dried_blood,Monstrosity,monstrosity_018,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_018_territory_scratches,Monstrosity,monstrosity_018,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_019_mixed_track_pattern,Monstrosity,monstrosity_019,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_019_mangled_carcass,Monstrosity,monstrosity_019,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_019_claw_marks_wall,Monstrosity,monstrosity_019,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_019_torn_carcass,Monstrosity,monstrosity_019,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_019_footprints_deep,Monstrosity,monstrosity_019,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_019_dried_blood,Monstrosity,monstrosity_019,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_019_territory_scratches,Monstrosity,monstrosity_019,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_020_mixed_track_pattern,Monstrosity,monstrosity_020,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_020_mangled_carcass,Monstrosity,monstrosity_020,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_020_claw_marks_wall,Monstrosity,monstrosity_020,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_020_torn_carcass,Monstrosity,monstrosity_020,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_020_psychic_nosebleed,Monstrosity,monstrosity_020,psychic_nosebleed,90,true,정신/환각 분류
+stl_monstrosity_020_psychic_scratches,Monstrosity,monstrosity_020,psychic_scratches,76,false,정신/환각 분류
+stl_monstrosity_020_footprints_deep,Monstrosity,monstrosity_020,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_020_dried_blood,Monstrosity,monstrosity_020,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_020_territory_scratches,Monstrosity,monstrosity_020,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_021_mixed_track_pattern,Monstrosity,monstrosity_021,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_021_mangled_carcass,Monstrosity,monstrosity_021,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_021_claw_marks_wall,Monstrosity,monstrosity_021,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_021_torn_carcass,Monstrosity,monstrosity_021,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_021_slime_trail,Monstrosity,monstrosity_021,slime_trail,90,true,기생/공생 분류
+stl_monstrosity_021_black_ichor,Monstrosity,monstrosity_021,black_ichor,83,false,기생/공생 분류
+stl_monstrosity_021_wet_mucus_patch,Monstrosity,monstrosity_021,wet_mucus_patch,90,true,수중 분류
+stl_monstrosity_021_drag_marks,Monstrosity,monstrosity_021,drag_marks,76,false,수중 분류
+stl_monstrosity_021_footprints_deep,Monstrosity,monstrosity_021,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_021_dried_blood,Monstrosity,monstrosity_021,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_021_territory_scratches,Monstrosity,monstrosity_021,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_022_mixed_track_pattern,Monstrosity,monstrosity_022,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_022_mangled_carcass,Monstrosity,monstrosity_022,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_022_claw_marks_wall,Monstrosity,monstrosity_022,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_022_torn_carcass,Monstrosity,monstrosity_022,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_022_footprints_deep,Monstrosity,monstrosity_022,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_022_dried_blood,Monstrosity,monstrosity_022,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_022_territory_scratches,Monstrosity,monstrosity_022,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_023_mixed_track_pattern,Monstrosity,monstrosity_023,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_023_mangled_carcass,Monstrosity,monstrosity_023,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_023_claw_marks_wall,Monstrosity,monstrosity_023,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_023_torn_carcass,Monstrosity,monstrosity_023,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_023_footprints_deep,Monstrosity,monstrosity_023,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_023_dried_blood,Monstrosity,monstrosity_023,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_023_territory_scratches,Monstrosity,monstrosity_023,territory_scratches,25,false,범용 보정 후보
+stl_monstrosity_024_mixed_track_pattern,Monstrosity,monstrosity_024,mixed_track_pattern,65,true,Monstrosity 대분류 기본 흔적
+stl_monstrosity_024_mangled_carcass,Monstrosity,monstrosity_024,mangled_carcass,60,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_024_claw_marks_wall,Monstrosity,monstrosity_024,claw_marks_wall,55,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_024_torn_carcass,Monstrosity,monstrosity_024,torn_carcass,50,false,Monstrosity 대분류 기본 흔적
+stl_monstrosity_024_footprints_deep,Monstrosity,monstrosity_024,footprints_deep,25,false,범용 보정 후보
+stl_monstrosity_024_dried_blood,Monstrosity,monstrosity_024,dried_blood,25,false,범용 보정 후보
+stl_monstrosity_024_territory_scratches,Monstrosity,monstrosity_024,territory_scratches,25,false,범용 보정 후보
+stl_ooze_001_slime_trail,Ooze,ooze_001,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_001_dissolved_gear,Ooze,ooze_001,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_001_slime_puddle,Ooze,ooze_001,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_001_acid_scars,Ooze,ooze_001,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_001_wet_mucus_patch,Ooze,ooze_001,wet_mucus_patch,90,true,수중 분류
+stl_ooze_001_drag_marks,Ooze,ooze_001,drag_marks,76,false,수중 분류
+stl_ooze_001_footprints_deep,Ooze,ooze_001,footprints_deep,25,false,범용 보정 후보
+stl_ooze_001_dried_blood,Ooze,ooze_001,dried_blood,25,false,범용 보정 후보
+stl_ooze_001_territory_scratches,Ooze,ooze_001,territory_scratches,25,false,범용 보정 후보
+stl_ooze_002_slime_trail,Ooze,ooze_002,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_002_dissolved_gear,Ooze,ooze_002,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_002_slime_puddle,Ooze,ooze_002,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_002_acid_scars,Ooze,ooze_002,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_002_footprints_deep,Ooze,ooze_002,footprints_deep,25,false,범용 보정 후보
+stl_ooze_002_dried_blood,Ooze,ooze_002,dried_blood,25,false,범용 보정 후보
+stl_ooze_002_territory_scratches,Ooze,ooze_002,territory_scratches,25,false,범용 보정 후보
+stl_ooze_003_slime_trail,Ooze,ooze_003,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_003_dissolved_gear,Ooze,ooze_003,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_003_slime_puddle,Ooze,ooze_003,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_003_acid_scars,Ooze,ooze_003,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_003_footprints_deep,Ooze,ooze_003,footprints_deep,25,false,범용 보정 후보
+stl_ooze_003_dried_blood,Ooze,ooze_003,dried_blood,25,false,범용 보정 후보
+stl_ooze_003_territory_scratches,Ooze,ooze_003,territory_scratches,25,false,범용 보정 후보
+stl_ooze_004_slime_trail,Ooze,ooze_004,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_004_dissolved_gear,Ooze,ooze_004,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_004_slime_puddle,Ooze,ooze_004,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_004_acid_scars,Ooze,ooze_004,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_004_wet_mucus_patch,Ooze,ooze_004,wet_mucus_patch,90,true,수중 분류
+stl_ooze_004_drag_marks,Ooze,ooze_004,drag_marks,76,false,수중 분류
+stl_ooze_004_footprints_deep,Ooze,ooze_004,footprints_deep,25,false,범용 보정 후보
+stl_ooze_004_dried_blood,Ooze,ooze_004,dried_blood,25,false,범용 보정 후보
+stl_ooze_004_territory_scratches,Ooze,ooze_004,territory_scratches,25,false,범용 보정 후보
+stl_ooze_005_slime_trail,Ooze,ooze_005,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_005_dissolved_gear,Ooze,ooze_005,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_005_slime_puddle,Ooze,ooze_005,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_005_acid_scars,Ooze,ooze_005,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_005_footprints_deep,Ooze,ooze_005,footprints_deep,25,false,범용 보정 후보
+stl_ooze_005_dried_blood,Ooze,ooze_005,dried_blood,25,false,범용 보정 후보
+stl_ooze_005_territory_scratches,Ooze,ooze_005,territory_scratches,25,false,범용 보정 후보
+stl_ooze_006_slime_trail,Ooze,ooze_006,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_006_dissolved_gear,Ooze,ooze_006,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_006_slime_puddle,Ooze,ooze_006,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_006_acid_scars,Ooze,ooze_006,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_006_poison_stain,Ooze,ooze_006,poison_stain,90,true,독성/질병 분류
+stl_ooze_006_black_ichor,Ooze,ooze_006,black_ichor,76,false,독성/질병 분류
+stl_ooze_006_footprints_deep,Ooze,ooze_006,footprints_deep,25,false,범용 보정 후보
+stl_ooze_006_dried_blood,Ooze,ooze_006,dried_blood,25,false,범용 보정 후보
+stl_ooze_006_territory_scratches,Ooze,ooze_006,territory_scratches,25,false,범용 보정 후보
+stl_ooze_007_slime_trail,Ooze,ooze_007,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_007_dissolved_gear,Ooze,ooze_007,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_007_slime_puddle,Ooze,ooze_007,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_007_acid_scars,Ooze,ooze_007,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_007_footprints_deep,Ooze,ooze_007,footprints_deep,25,false,범용 보정 후보
+stl_ooze_007_dried_blood,Ooze,ooze_007,dried_blood,25,false,범용 보정 후보
+stl_ooze_007_territory_scratches,Ooze,ooze_007,territory_scratches,25,false,범용 보정 후보
+stl_ooze_008_slime_trail,Ooze,ooze_008,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_008_dissolved_gear,Ooze,ooze_008,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_008_slime_puddle,Ooze,ooze_008,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_008_acid_scars,Ooze,ooze_008,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_008_footprints_deep,Ooze,ooze_008,footprints_deep,25,false,범용 보정 후보
+stl_ooze_008_dried_blood,Ooze,ooze_008,dried_blood,25,false,범용 보정 후보
+stl_ooze_008_territory_scratches,Ooze,ooze_008,territory_scratches,25,false,범용 보정 후보
+stl_ooze_009_slime_trail,Ooze,ooze_009,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_009_dissolved_gear,Ooze,ooze_009,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_009_slime_puddle,Ooze,ooze_009,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_009_acid_scars,Ooze,ooze_009,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_009_footprints_deep,Ooze,ooze_009,footprints_deep,25,false,범용 보정 후보
+stl_ooze_009_dried_blood,Ooze,ooze_009,dried_blood,25,false,범용 보정 후보
+stl_ooze_009_territory_scratches,Ooze,ooze_009,territory_scratches,25,false,범용 보정 후보
+stl_ooze_010_slime_trail,Ooze,ooze_010,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_010_dissolved_gear,Ooze,ooze_010,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_010_slime_puddle,Ooze,ooze_010,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_010_acid_scars,Ooze,ooze_010,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_010_footprints_deep,Ooze,ooze_010,footprints_deep,25,false,범용 보정 후보
+stl_ooze_010_dried_blood,Ooze,ooze_010,dried_blood,25,false,범용 보정 후보
+stl_ooze_010_territory_scratches,Ooze,ooze_010,territory_scratches,25,false,범용 보정 후보
+stl_ooze_011_slime_trail,Ooze,ooze_011,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_011_dissolved_gear,Ooze,ooze_011,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_011_slime_puddle,Ooze,ooze_011,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_011_acid_scars,Ooze,ooze_011,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_011_torn_carcass,Ooze,ooze_011,torn_carcass,90,true,시체형/부패형 분류
+stl_ooze_011_necrotic_wither,Ooze,ooze_011,necrotic_wither,83,false,시체형/부패형 분류
+stl_ooze_011_grave_soil,Ooze,ooze_011,grave_soil,76,false,시체형/부패형 분류
+stl_ooze_011_dried_blood,Ooze,ooze_011,dried_blood,69,false,시체형/부패형 분류
+stl_ooze_011_black_ichor,Ooze,ooze_011,black_ichor,62,false,시체형/부패형 분류
+stl_ooze_011_wet_mucus_patch,Ooze,ooze_011,wet_mucus_patch,90,true,수중 분류
+stl_ooze_011_drag_marks,Ooze,ooze_011,drag_marks,76,false,수중 분류
+stl_ooze_011_footprints_deep,Ooze,ooze_011,footprints_deep,25,false,범용 보정 후보
+stl_ooze_011_territory_scratches,Ooze,ooze_011,territory_scratches,25,false,범용 보정 후보
+stl_ooze_012_slime_trail,Ooze,ooze_012,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_012_dissolved_gear,Ooze,ooze_012,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_012_slime_puddle,Ooze,ooze_012,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_012_acid_scars,Ooze,ooze_012,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_012_footprints_deep,Ooze,ooze_012,footprints_deep,25,false,범용 보정 후보
+stl_ooze_012_dried_blood,Ooze,ooze_012,dried_blood,25,false,범용 보정 후보
+stl_ooze_012_territory_scratches,Ooze,ooze_012,territory_scratches,25,false,범용 보정 후보
+stl_ooze_013_slime_trail,Ooze,ooze_013,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_013_dissolved_gear,Ooze,ooze_013,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_013_slime_puddle,Ooze,ooze_013,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_013_acid_scars,Ooze,ooze_013,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_013_footprints_deep,Ooze,ooze_013,footprints_deep,25,false,범용 보정 후보
+stl_ooze_013_dried_blood,Ooze,ooze_013,dried_blood,25,false,범용 보정 후보
+stl_ooze_013_territory_scratches,Ooze,ooze_013,territory_scratches,25,false,범용 보정 후보
+stl_ooze_014_slime_trail,Ooze,ooze_014,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_014_dissolved_gear,Ooze,ooze_014,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_014_slime_puddle,Ooze,ooze_014,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_014_acid_scars,Ooze,ooze_014,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_014_torn_carcass,Ooze,ooze_014,torn_carcass,90,true,시체형/부패형 분류
+stl_ooze_014_necrotic_wither,Ooze,ooze_014,necrotic_wither,83,false,시체형/부패형 분류
+stl_ooze_014_grave_soil,Ooze,ooze_014,grave_soil,76,false,시체형/부패형 분류
+stl_ooze_014_dried_blood,Ooze,ooze_014,dried_blood,69,false,시체형/부패형 분류
+stl_ooze_014_black_ichor,Ooze,ooze_014,black_ichor,62,false,시체형/부패형 분류
+stl_ooze_014_psychic_nosebleed,Ooze,ooze_014,psychic_nosebleed,90,true,정신/환각 분류
+stl_ooze_014_psychic_scratches,Ooze,ooze_014,psychic_scratches,76,false,정신/환각 분류
+stl_ooze_014_footprints_deep,Ooze,ooze_014,footprints_deep,25,false,범용 보정 후보
+stl_ooze_014_territory_scratches,Ooze,ooze_014,territory_scratches,25,false,범용 보정 후보
+stl_ooze_015_slime_trail,Ooze,ooze_015,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_015_dissolved_gear,Ooze,ooze_015,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_015_slime_puddle,Ooze,ooze_015,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_015_acid_scars,Ooze,ooze_015,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_015_footprints_deep,Ooze,ooze_015,footprints_deep,25,false,범용 보정 후보
+stl_ooze_015_dried_blood,Ooze,ooze_015,dried_blood,25,false,범용 보정 후보
+stl_ooze_015_territory_scratches,Ooze,ooze_015,territory_scratches,25,false,범용 보정 후보
+stl_ooze_016_slime_trail,Ooze,ooze_016,slime_trail,65,true,Ooze 대분류 기본 흔적
+stl_ooze_016_dissolved_gear,Ooze,ooze_016,dissolved_gear,60,false,Ooze 대분류 기본 흔적
+stl_ooze_016_slime_puddle,Ooze,ooze_016,slime_puddle,55,false,Ooze 대분류 기본 흔적
+stl_ooze_016_acid_scars,Ooze,ooze_016,acid_scars,50,false,Ooze 대분류 기본 흔적
+stl_ooze_016_wet_mucus_patch,Ooze,ooze_016,wet_mucus_patch,90,true,수중 분류
+stl_ooze_016_drag_marks,Ooze,ooze_016,drag_marks,76,false,수중 분류
+stl_ooze_016_footprints_deep,Ooze,ooze_016,footprints_deep,25,false,범용 보정 후보
+stl_ooze_016_dried_blood,Ooze,ooze_016,dried_blood,25,false,범용 보정 후보
+stl_ooze_016_territory_scratches,Ooze,ooze_016,territory_scratches,25,false,범용 보정 후보
+stl_plant_001_root_cracks,Plant,plant_001,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_001_pollen_residue,Plant,plant_001,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_001_spore_cloud_residue,Plant,plant_001,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_001_fungal_threads,Plant,plant_001,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_001_wet_mucus_patch,Plant,plant_001,wet_mucus_patch,90,true,수중 분류
+stl_plant_001_slime_trail,Plant,plant_001,slime_trail,83,false,수중 분류
+stl_plant_001_drag_marks,Plant,plant_001,drag_marks,76,false,수중 분류
+stl_plant_001_footprints_deep,Plant,plant_001,footprints_deep,25,false,범용 보정 후보
+stl_plant_001_dried_blood,Plant,plant_001,dried_blood,25,false,범용 보정 후보
+stl_plant_001_territory_scratches,Plant,plant_001,territory_scratches,25,false,범용 보정 후보
+stl_plant_002_root_cracks,Plant,plant_002,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_002_pollen_residue,Plant,plant_002,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_002_spore_cloud_residue,Plant,plant_002,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_002_fungal_threads,Plant,plant_002,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_002_wet_mucus_patch,Plant,plant_002,wet_mucus_patch,90,true,수중 분류
+stl_plant_002_slime_trail,Plant,plant_002,slime_trail,83,false,수중 분류
+stl_plant_002_drag_marks,Plant,plant_002,drag_marks,76,false,수중 분류
+stl_plant_002_footprints_deep,Plant,plant_002,footprints_deep,25,false,범용 보정 후보
+stl_plant_002_dried_blood,Plant,plant_002,dried_blood,25,false,범용 보정 후보
+stl_plant_002_territory_scratches,Plant,plant_002,territory_scratches,25,false,범용 보정 후보
+stl_plant_003_root_cracks,Plant,plant_003,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_003_pollen_residue,Plant,plant_003,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_003_spore_cloud_residue,Plant,plant_003,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_003_fungal_threads,Plant,plant_003,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_003_poison_stain,Plant,plant_003,poison_stain,90,true,독성/질병 분류
+stl_plant_003_black_ichor,Plant,plant_003,black_ichor,76,false,독성/질병 분류
+stl_plant_003_wet_mucus_patch,Plant,plant_003,wet_mucus_patch,90,true,수중 분류
+stl_plant_003_slime_trail,Plant,plant_003,slime_trail,83,false,수중 분류
+stl_plant_003_drag_marks,Plant,plant_003,drag_marks,76,false,수중 분류
+stl_plant_003_footprints_deep,Plant,plant_003,footprints_deep,25,false,범용 보정 후보
+stl_plant_003_dried_blood,Plant,plant_003,dried_blood,25,false,범용 보정 후보
+stl_plant_003_territory_scratches,Plant,plant_003,territory_scratches,25,false,범용 보정 후보
+stl_plant_004_root_cracks,Plant,plant_004,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_004_pollen_residue,Plant,plant_004,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_004_spore_cloud_residue,Plant,plant_004,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_004_fungal_threads,Plant,plant_004,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_004_wet_mucus_patch,Plant,plant_004,wet_mucus_patch,90,true,수중 분류
+stl_plant_004_slime_trail,Plant,plant_004,slime_trail,83,false,수중 분류
+stl_plant_004_drag_marks,Plant,plant_004,drag_marks,76,false,수중 분류
+stl_plant_004_footprints_deep,Plant,plant_004,footprints_deep,25,false,범용 보정 후보
+stl_plant_004_dried_blood,Plant,plant_004,dried_blood,25,false,범용 보정 후보
+stl_plant_004_territory_scratches,Plant,plant_004,territory_scratches,25,false,범용 보정 후보
+stl_plant_005_root_cracks,Plant,plant_005,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_005_pollen_residue,Plant,plant_005,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_005_spore_cloud_residue,Plant,plant_005,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_005_fungal_threads,Plant,plant_005,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_005_impossible_flower_ring,Plant,plant_005,impossible_flower_ring,90,true,요정계 분류
+stl_plant_005_lost_path_marks,Plant,plant_005,lost_path_marks,83,false,요정계 분류
+stl_plant_005_wet_mucus_patch,Plant,plant_005,wet_mucus_patch,90,true,수중 분류
+stl_plant_005_slime_trail,Plant,plant_005,slime_trail,83,false,수중 분류
+stl_plant_005_drag_marks,Plant,plant_005,drag_marks,76,false,수중 분류
+stl_plant_005_footprints_deep,Plant,plant_005,footprints_deep,25,false,범용 보정 후보
+stl_plant_005_dried_blood,Plant,plant_005,dried_blood,25,false,범용 보정 후보
+stl_plant_005_territory_scratches,Plant,plant_005,territory_scratches,25,false,범용 보정 후보
+stl_plant_006_root_cracks,Plant,plant_006,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_006_pollen_residue,Plant,plant_006,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_006_spore_cloud_residue,Plant,plant_006,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_006_fungal_threads,Plant,plant_006,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_006_wet_mucus_patch,Plant,plant_006,wet_mucus_patch,90,true,수중 분류
+stl_plant_006_slime_trail,Plant,plant_006,slime_trail,83,false,수중 분류
+stl_plant_006_drag_marks,Plant,plant_006,drag_marks,76,false,수중 분류
+stl_plant_006_footprints_deep,Plant,plant_006,footprints_deep,25,false,범용 보정 후보
+stl_plant_006_dried_blood,Plant,plant_006,dried_blood,25,false,범용 보정 후보
+stl_plant_006_territory_scratches,Plant,plant_006,territory_scratches,25,false,범용 보정 후보
+stl_plant_007_root_cracks,Plant,plant_007,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_007_pollen_residue,Plant,plant_007,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_007_spore_cloud_residue,Plant,plant_007,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_007_fungal_threads,Plant,plant_007,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_007_poison_stain,Plant,plant_007,poison_stain,90,true,독성/질병 분류
+stl_plant_007_black_ichor,Plant,plant_007,black_ichor,76,false,독성/질병 분류
+stl_plant_007_wet_mucus_patch,Plant,plant_007,wet_mucus_patch,90,true,수중 분류
+stl_plant_007_slime_trail,Plant,plant_007,slime_trail,83,false,수중 분류
+stl_plant_007_drag_marks,Plant,plant_007,drag_marks,76,false,수중 분류
+stl_plant_007_footprints_deep,Plant,plant_007,footprints_deep,25,false,범용 보정 후보
+stl_plant_007_dried_blood,Plant,plant_007,dried_blood,25,false,범용 보정 후보
+stl_plant_007_territory_scratches,Plant,plant_007,territory_scratches,25,false,범용 보정 후보
+stl_plant_008_root_cracks,Plant,plant_008,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_008_pollen_residue,Plant,plant_008,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_008_spore_cloud_residue,Plant,plant_008,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_008_fungal_threads,Plant,plant_008,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_008_psychic_nosebleed,Plant,plant_008,psychic_nosebleed,90,true,정신/환각 분류
+stl_plant_008_psychic_scratches,Plant,plant_008,psychic_scratches,76,false,정신/환각 분류
+stl_plant_008_wet_mucus_patch,Plant,plant_008,wet_mucus_patch,90,true,수중 분류
+stl_plant_008_slime_trail,Plant,plant_008,slime_trail,83,false,수중 분류
+stl_plant_008_drag_marks,Plant,plant_008,drag_marks,76,false,수중 분류
+stl_plant_008_footprints_deep,Plant,plant_008,footprints_deep,25,false,범용 보정 후보
+stl_plant_008_dried_blood,Plant,plant_008,dried_blood,25,false,범용 보정 후보
+stl_plant_008_territory_scratches,Plant,plant_008,territory_scratches,25,false,범용 보정 후보
+stl_plant_009_root_cracks,Plant,plant_009,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_009_pollen_residue,Plant,plant_009,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_009_spore_cloud_residue,Plant,plant_009,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_009_fungal_threads,Plant,plant_009,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_009_slime_trail,Plant,plant_009,slime_trail,90,true,기생/공생 분류
+stl_plant_009_black_ichor,Plant,plant_009,black_ichor,83,false,기생/공생 분류
+stl_plant_009_wet_mucus_patch,Plant,plant_009,wet_mucus_patch,90,true,수중 분류
+stl_plant_009_drag_marks,Plant,plant_009,drag_marks,76,false,수중 분류
+stl_plant_009_footprints_deep,Plant,plant_009,footprints_deep,25,false,범용 보정 후보
+stl_plant_009_dried_blood,Plant,plant_009,dried_blood,25,false,범용 보정 후보
+stl_plant_009_territory_scratches,Plant,plant_009,territory_scratches,25,false,범용 보정 후보
+stl_plant_010_root_cracks,Plant,plant_010,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_010_pollen_residue,Plant,plant_010,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_010_spore_cloud_residue,Plant,plant_010,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_010_fungal_threads,Plant,plant_010,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_010_wet_mucus_patch,Plant,plant_010,wet_mucus_patch,90,true,수중 분류
+stl_plant_010_slime_trail,Plant,plant_010,slime_trail,83,false,수중 분류
+stl_plant_010_drag_marks,Plant,plant_010,drag_marks,76,false,수중 분류
+stl_plant_010_footprints_deep,Plant,plant_010,footprints_deep,25,false,범용 보정 후보
+stl_plant_010_dried_blood,Plant,plant_010,dried_blood,25,false,범용 보정 후보
+stl_plant_010_territory_scratches,Plant,plant_010,territory_scratches,25,false,범용 보정 후보
+stl_plant_011_root_cracks,Plant,plant_011,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_011_pollen_residue,Plant,plant_011,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_011_spore_cloud_residue,Plant,plant_011,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_011_fungal_threads,Plant,plant_011,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_011_wet_mucus_patch,Plant,plant_011,wet_mucus_patch,90,true,수중 분류
+stl_plant_011_slime_trail,Plant,plant_011,slime_trail,83,false,수중 분류
+stl_plant_011_drag_marks,Plant,plant_011,drag_marks,76,false,수중 분류
+stl_plant_011_footprints_deep,Plant,plant_011,footprints_deep,25,false,범용 보정 후보
+stl_plant_011_dried_blood,Plant,plant_011,dried_blood,25,false,범용 보정 후보
+stl_plant_011_territory_scratches,Plant,plant_011,territory_scratches,25,false,범용 보정 후보
+stl_plant_012_root_cracks,Plant,plant_012,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_012_pollen_residue,Plant,plant_012,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_012_spore_cloud_residue,Plant,plant_012,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_012_fungal_threads,Plant,plant_012,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_012_wet_mucus_patch,Plant,plant_012,wet_mucus_patch,90,true,수중 분류
+stl_plant_012_slime_trail,Plant,plant_012,slime_trail,83,false,수중 분류
+stl_plant_012_drag_marks,Plant,plant_012,drag_marks,76,false,수중 분류
+stl_plant_012_footprints_deep,Plant,plant_012,footprints_deep,25,false,범용 보정 후보
+stl_plant_012_dried_blood,Plant,plant_012,dried_blood,25,false,범용 보정 후보
+stl_plant_012_territory_scratches,Plant,plant_012,territory_scratches,25,false,범용 보정 후보
+stl_plant_013_root_cracks,Plant,plant_013,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_013_pollen_residue,Plant,plant_013,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_013_spore_cloud_residue,Plant,plant_013,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_013_fungal_threads,Plant,plant_013,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_013_cold_spot,Plant,plant_013,cold_spot,90,true,영체/결박형 분류
+stl_plant_013_shadow_residue,Plant,plant_013,shadow_residue,83,false,영체/결박형 분류
+stl_plant_013_fog_residue,Plant,plant_013,fog_residue,76,false,영체/결박형 분류
+stl_plant_013_necrotic_wither,Plant,plant_013,necrotic_wither,69,false,영체/결박형 분류
+stl_plant_013_impossible_flower_ring,Plant,plant_013,impossible_flower_ring,90,true,요정계 분류
+stl_plant_013_lost_path_marks,Plant,plant_013,lost_path_marks,83,false,요정계 분류
+stl_plant_013_wet_mucus_patch,Plant,plant_013,wet_mucus_patch,90,true,수중 분류
+stl_plant_013_slime_trail,Plant,plant_013,slime_trail,83,false,수중 분류
+stl_plant_013_drag_marks,Plant,plant_013,drag_marks,76,false,수중 분류
+stl_plant_013_footprints_deep,Plant,plant_013,footprints_deep,25,false,범용 보정 후보
+stl_plant_013_dried_blood,Plant,plant_013,dried_blood,25,false,범용 보정 후보
+stl_plant_013_territory_scratches,Plant,plant_013,territory_scratches,25,false,범용 보정 후보
+stl_plant_014_root_cracks,Plant,plant_014,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_014_pollen_residue,Plant,plant_014,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_014_spore_cloud_residue,Plant,plant_014,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_014_fungal_threads,Plant,plant_014,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_014_torn_carcass,Plant,plant_014,torn_carcass,90,true,시체형/부패형 분류
+stl_plant_014_necrotic_wither,Plant,plant_014,necrotic_wither,83,false,시체형/부패형 분류
+stl_plant_014_grave_soil,Plant,plant_014,grave_soil,76,false,시체형/부패형 분류
+stl_plant_014_dried_blood,Plant,plant_014,dried_blood,69,false,시체형/부패형 분류
+stl_plant_014_black_ichor,Plant,plant_014,black_ichor,62,false,시체형/부패형 분류
+stl_plant_014_wet_mucus_patch,Plant,plant_014,wet_mucus_patch,90,true,수중 분류
+stl_plant_014_slime_trail,Plant,plant_014,slime_trail,83,false,수중 분류
+stl_plant_014_drag_marks,Plant,plant_014,drag_marks,76,false,수중 분류
+stl_plant_014_footprints_deep,Plant,plant_014,footprints_deep,25,false,범용 보정 후보
+stl_plant_014_territory_scratches,Plant,plant_014,territory_scratches,25,false,범용 보정 후보
+stl_plant_015_root_cracks,Plant,plant_015,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_015_pollen_residue,Plant,plant_015,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_015_spore_cloud_residue,Plant,plant_015,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_015_fungal_threads,Plant,plant_015,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_015_wet_mucus_patch,Plant,plant_015,wet_mucus_patch,90,true,수중 분류
+stl_plant_015_slime_trail,Plant,plant_015,slime_trail,83,false,수중 분류
+stl_plant_015_drag_marks,Plant,plant_015,drag_marks,76,false,수중 분류
+stl_plant_015_footprints_deep,Plant,plant_015,footprints_deep,25,false,범용 보정 후보
+stl_plant_015_dried_blood,Plant,plant_015,dried_blood,25,false,범용 보정 후보
+stl_plant_015_territory_scratches,Plant,plant_015,territory_scratches,25,false,범용 보정 후보
+stl_plant_016_root_cracks,Plant,plant_016,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_016_pollen_residue,Plant,plant_016,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_016_spore_cloud_residue,Plant,plant_016,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_016_fungal_threads,Plant,plant_016,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_016_wet_mucus_patch,Plant,plant_016,wet_mucus_patch,90,true,수중 분류
+stl_plant_016_slime_trail,Plant,plant_016,slime_trail,83,false,수중 분류
+stl_plant_016_drag_marks,Plant,plant_016,drag_marks,76,false,수중 분류
+stl_plant_016_footprints_deep,Plant,plant_016,footprints_deep,25,false,범용 보정 후보
+stl_plant_016_dried_blood,Plant,plant_016,dried_blood,25,false,범용 보정 후보
+stl_plant_016_territory_scratches,Plant,plant_016,territory_scratches,25,false,범용 보정 후보
+stl_plant_017_root_cracks,Plant,plant_017,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_017_pollen_residue,Plant,plant_017,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_017_spore_cloud_residue,Plant,plant_017,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_017_fungal_threads,Plant,plant_017,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_017_wet_mucus_patch,Plant,plant_017,wet_mucus_patch,90,true,수중 분류
+stl_plant_017_slime_trail,Plant,plant_017,slime_trail,83,false,수중 분류
+stl_plant_017_drag_marks,Plant,plant_017,drag_marks,76,false,수중 분류
+stl_plant_017_footprints_deep,Plant,plant_017,footprints_deep,25,false,범용 보정 후보
+stl_plant_017_dried_blood,Plant,plant_017,dried_blood,25,false,범용 보정 후보
+stl_plant_017_territory_scratches,Plant,plant_017,territory_scratches,25,false,범용 보정 후보
+stl_plant_018_root_cracks,Plant,plant_018,root_cracks,65,true,Plant 대분류 기본 흔적
+stl_plant_018_pollen_residue,Plant,plant_018,pollen_residue,60,false,Plant 대분류 기본 흔적
+stl_plant_018_spore_cloud_residue,Plant,plant_018,spore_cloud_residue,55,false,Plant 대분류 기본 흔적
+stl_plant_018_fungal_threads,Plant,plant_018,fungal_threads,50,false,Plant 대분류 기본 흔적
+stl_plant_018_wet_mucus_patch,Plant,plant_018,wet_mucus_patch,90,true,수중 분류
+stl_plant_018_slime_trail,Plant,plant_018,slime_trail,83,false,수중 분류
+stl_plant_018_drag_marks,Plant,plant_018,drag_marks,76,false,수중 분류
+stl_plant_018_burrow_mound,Plant,plant_018,burrow_mound,90,true,굴파기/지하 분류
+stl_plant_018_footprints_deep,Plant,plant_018,footprints_deep,25,false,범용 보정 후보
+stl_plant_018_dried_blood,Plant,plant_018,dried_blood,25,false,범용 보정 후보
+stl_plant_018_territory_scratches,Plant,plant_018,territory_scratches,25,false,범용 보정 후보
+stl_undead_001_grave_soil,Undead,undead_001,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_001_cold_spot,Undead,undead_001,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_001_necrotic_wither,Undead,undead_001,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_001_bone_pile,Undead,undead_001,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_001_skull_pile,Undead,undead_001,skull_pile,83,false,골격형 분류
+stl_undead_001_old_broken_bone,Undead,undead_001,old_broken_bone,62,false,골격형 분류
+stl_undead_001_footprints_deep,Undead,undead_001,footprints_deep,25,false,범용 보정 후보
+stl_undead_001_dried_blood,Undead,undead_001,dried_blood,25,false,범용 보정 후보
+stl_undead_001_territory_scratches,Undead,undead_001,territory_scratches,25,false,범용 보정 후보
+stl_undead_002_grave_soil,Undead,undead_002,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_002_cold_spot,Undead,undead_002,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_002_necrotic_wither,Undead,undead_002,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_002_bone_pile,Undead,undead_002,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_002_torn_carcass,Undead,undead_002,torn_carcass,90,true,시체형/부패형 분류
+stl_undead_002_dried_blood,Undead,undead_002,dried_blood,69,false,시체형/부패형 분류
+stl_undead_002_black_ichor,Undead,undead_002,black_ichor,62,false,시체형/부패형 분류
+stl_undead_002_wet_mucus_patch,Undead,undead_002,wet_mucus_patch,90,true,수중 분류
+stl_undead_002_slime_trail,Undead,undead_002,slime_trail,83,false,수중 분류
+stl_undead_002_drag_marks,Undead,undead_002,drag_marks,76,false,수중 분류
+stl_undead_002_footprints_deep,Undead,undead_002,footprints_deep,25,false,범용 보정 후보
+stl_undead_002_territory_scratches,Undead,undead_002,territory_scratches,25,false,범용 보정 후보
+stl_undead_003_grave_soil,Undead,undead_003,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_003_cold_spot,Undead,undead_003,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_003_necrotic_wither,Undead,undead_003,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_003_bone_pile,Undead,undead_003,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_003_torn_carcass,Undead,undead_003,torn_carcass,90,true,시체형/부패형 분류
+stl_undead_003_dried_blood,Undead,undead_003,dried_blood,69,false,시체형/부패형 분류
+stl_undead_003_black_ichor,Undead,undead_003,black_ichor,62,false,시체형/부패형 분류
+stl_undead_003_poison_stain,Undead,undead_003,poison_stain,90,true,독성/질병 분류
+stl_undead_003_footprints_deep,Undead,undead_003,footprints_deep,25,false,범용 보정 후보
+stl_undead_003_territory_scratches,Undead,undead_003,territory_scratches,25,false,범용 보정 후보
+stl_undead_004_grave_soil,Undead,undead_004,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_004_cold_spot,Undead,undead_004,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_004_necrotic_wither,Undead,undead_004,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_004_bone_pile,Undead,undead_004,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_004_shadow_residue,Undead,undead_004,shadow_residue,83,false,영체/결박형 분류
+stl_undead_004_fog_residue,Undead,undead_004,fog_residue,76,false,영체/결박형 분류
+stl_undead_004_footprints_deep,Undead,undead_004,footprints_deep,25,false,범용 보정 후보
+stl_undead_004_dried_blood,Undead,undead_004,dried_blood,25,false,범용 보정 후보
+stl_undead_004_territory_scratches,Undead,undead_004,territory_scratches,25,false,범용 보정 후보
+stl_undead_005_grave_soil,Undead,undead_005,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_005_cold_spot,Undead,undead_005,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_005_necrotic_wither,Undead,undead_005,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_005_bone_pile,Undead,undead_005,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_005_shadow_residue,Undead,undead_005,shadow_residue,83,false,영체/결박형 분류
+stl_undead_005_fog_residue,Undead,undead_005,fog_residue,76,false,영체/결박형 분류
+stl_undead_005_dried_blood,Undead,undead_005,dried_blood,90,true,흡혈·생명력 흡수 분류
+stl_undead_005_black_ichor,Undead,undead_005,black_ichor,83,false,흡혈·생명력 흡수 분류
+stl_undead_005_drag_marks,Undead,undead_005,drag_marks,76,false,흡혈·생명력 흡수 분류
+stl_undead_005_slime_trail,Undead,undead_005,slime_trail,90,true,점액/산성 분류
+stl_undead_005_acid_scars,Undead,undead_005,acid_scars,83,false,점액/산성 분류
+stl_undead_005_dissolved_gear,Undead,undead_005,dissolved_gear,76,false,점액/산성 분류
+stl_undead_005_slime_puddle,Undead,undead_005,slime_puddle,69,false,점액/산성 분류
+stl_undead_005_footprints_deep,Undead,undead_005,footprints_deep,25,false,범용 보정 후보
+stl_undead_005_territory_scratches,Undead,undead_005,territory_scratches,25,false,범용 보정 후보
+stl_undead_006_grave_soil,Undead,undead_006,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_006_cold_spot,Undead,undead_006,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_006_necrotic_wither,Undead,undead_006,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_006_bone_pile,Undead,undead_006,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_006_shadow_residue,Undead,undead_006,shadow_residue,83,false,영체/결박형 분류
+stl_undead_006_fog_residue,Undead,undead_006,fog_residue,76,false,영체/결박형 분류
+stl_undead_006_psychic_nosebleed,Undead,undead_006,psychic_nosebleed,90,true,정신/환각 분류
+stl_undead_006_psychic_scratches,Undead,undead_006,psychic_scratches,76,false,정신/환각 분류
+stl_undead_006_footprints_deep,Undead,undead_006,footprints_deep,25,false,범용 보정 후보
+stl_undead_006_dried_blood,Undead,undead_006,dried_blood,25,false,범용 보정 후보
+stl_undead_006_territory_scratches,Undead,undead_006,territory_scratches,25,false,범용 보정 후보
+stl_undead_007_grave_soil,Undead,undead_007,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_007_cold_spot,Undead,undead_007,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_007_necrotic_wither,Undead,undead_007,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_007_bone_pile,Undead,undead_007,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_007_mechanical_scrapes,Undead,undead_007,mechanical_scrapes,90,true,구조체/장갑 분류
+stl_undead_007_gear_oil_stain,Undead,undead_007,gear_oil_stain,83,false,구조체/장갑 분류
+stl_undead_007_regular_step_marks,Undead,undead_007,regular_step_marks,76,false,구조체/장갑 분류
+stl_undead_007_arcane_circuit_imprint,Undead,undead_007,arcane_circuit_imprint,69,false,구조체/장갑 분류
+stl_undead_007_sulfur_smell,Undead,undead_007,sulfur_smell,90,true,악마체 분류
+stl_undead_007_burnt_contract_scraps,Undead,undead_007,burnt_contract_scraps,83,false,악마체 분류
+stl_undead_007_black_ichor,Undead,undead_007,black_ichor,76,false,악마체 분류
+stl_undead_007_scorch_marks,Undead,undead_007,scorch_marks,69,false,악마체 분류
+stl_undead_007_footprints_deep,Undead,undead_007,footprints_deep,25,false,범용 보정 후보
+stl_undead_007_dried_blood,Undead,undead_007,dried_blood,25,false,범용 보정 후보
+stl_undead_007_territory_scratches,Undead,undead_007,territory_scratches,25,false,범용 보정 후보
+stl_undead_008_grave_soil,Undead,undead_008,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_008_cold_spot,Undead,undead_008,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_008_necrotic_wither,Undead,undead_008,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_008_bone_pile,Undead,undead_008,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_008_footprints_deep,Undead,undead_008,footprints_deep,25,false,범용 보정 후보
+stl_undead_008_dried_blood,Undead,undead_008,dried_blood,25,false,범용 보정 후보
+stl_undead_008_territory_scratches,Undead,undead_008,territory_scratches,25,false,범용 보정 후보
+stl_undead_009_grave_soil,Undead,undead_009,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_009_cold_spot,Undead,undead_009,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_009_necrotic_wither,Undead,undead_009,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_009_bone_pile,Undead,undead_009,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_009_dried_blood,Undead,undead_009,dried_blood,90,true,흡혈·생명력 흡수 분류
+stl_undead_009_black_ichor,Undead,undead_009,black_ichor,83,false,흡혈·생명력 흡수 분류
+stl_undead_009_drag_marks,Undead,undead_009,drag_marks,76,false,흡혈·생명력 흡수 분류
+stl_undead_009_slime_trail,Undead,undead_009,slime_trail,90,true,점액/산성 분류
+stl_undead_009_acid_scars,Undead,undead_009,acid_scars,83,false,점액/산성 분류
+stl_undead_009_dissolved_gear,Undead,undead_009,dissolved_gear,76,false,점액/산성 분류
+stl_undead_009_slime_puddle,Undead,undead_009,slime_puddle,69,false,점액/산성 분류
+stl_undead_009_footprints_deep,Undead,undead_009,footprints_deep,25,false,범용 보정 후보
+stl_undead_009_territory_scratches,Undead,undead_009,territory_scratches,25,false,범용 보정 후보
+stl_undead_010_grave_soil,Undead,undead_010,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_010_cold_spot,Undead,undead_010,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_010_necrotic_wither,Undead,undead_010,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_010_bone_pile,Undead,undead_010,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_010_scorch_marks,Undead,undead_010,scorch_marks,90,true,화염 분류
+stl_undead_010_elemental_distortion,Undead,undead_010,elemental_distortion,76,false,화염 분류
+stl_undead_010_sulfur_smell,Undead,undead_010,sulfur_smell,90,true,악마체 분류
+stl_undead_010_burnt_contract_scraps,Undead,undead_010,burnt_contract_scraps,83,false,악마체 분류
+stl_undead_010_black_ichor,Undead,undead_010,black_ichor,76,false,악마체 분류
+stl_undead_010_footprints_deep,Undead,undead_010,footprints_deep,25,false,범용 보정 후보
+stl_undead_010_dried_blood,Undead,undead_010,dried_blood,25,false,범용 보정 후보
+stl_undead_010_territory_scratches,Undead,undead_010,territory_scratches,25,false,범용 보정 후보
+stl_undead_011_grave_soil,Undead,undead_011,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_011_cold_spot,Undead,undead_011,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_011_necrotic_wither,Undead,undead_011,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_011_bone_pile,Undead,undead_011,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_011_footprints_deep,Undead,undead_011,footprints_deep,25,false,범용 보정 후보
+stl_undead_011_dried_blood,Undead,undead_011,dried_blood,25,false,범용 보정 후보
+stl_undead_011_territory_scratches,Undead,undead_011,territory_scratches,25,false,범용 보정 후보
+stl_undead_012_grave_soil,Undead,undead_012,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_012_cold_spot,Undead,undead_012,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_012_necrotic_wither,Undead,undead_012,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_012_bone_pile,Undead,undead_012,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_012_footprints_deep,Undead,undead_012,footprints_deep,25,false,범용 보정 후보
+stl_undead_012_dried_blood,Undead,undead_012,dried_blood,25,false,범용 보정 후보
+stl_undead_012_territory_scratches,Undead,undead_012,territory_scratches,25,false,범용 보정 후보
+stl_undead_013_grave_soil,Undead,undead_013,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_013_cold_spot,Undead,undead_013,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_013_necrotic_wither,Undead,undead_013,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_013_bone_pile,Undead,undead_013,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_013_shadow_residue,Undead,undead_013,shadow_residue,83,false,영체/결박형 분류
+stl_undead_013_fog_residue,Undead,undead_013,fog_residue,76,false,영체/결박형 분류
+stl_undead_013_footprints_deep,Undead,undead_013,footprints_deep,25,false,범용 보정 후보
+stl_undead_013_dried_blood,Undead,undead_013,dried_blood,25,false,범용 보정 후보
+stl_undead_013_territory_scratches,Undead,undead_013,territory_scratches,25,false,범용 보정 후보
+stl_undead_014_grave_soil,Undead,undead_014,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_014_cold_spot,Undead,undead_014,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_014_necrotic_wither,Undead,undead_014,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_014_bone_pile,Undead,undead_014,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_014_footprints_deep,Undead,undead_014,footprints_deep,25,false,범용 보정 후보
+stl_undead_014_dried_blood,Undead,undead_014,dried_blood,25,false,범용 보정 후보
+stl_undead_014_territory_scratches,Undead,undead_014,territory_scratches,25,false,범용 보정 후보
+stl_undead_015_grave_soil,Undead,undead_015,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_015_cold_spot,Undead,undead_015,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_015_necrotic_wither,Undead,undead_015,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_015_bone_pile,Undead,undead_015,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_015_footprints_deep,Undead,undead_015,footprints_deep,25,false,범용 보정 후보
+stl_undead_015_dried_blood,Undead,undead_015,dried_blood,25,false,범용 보정 후보
+stl_undead_015_territory_scratches,Undead,undead_015,territory_scratches,25,false,범용 보정 후보
+stl_undead_016_grave_soil,Undead,undead_016,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_016_cold_spot,Undead,undead_016,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_016_necrotic_wither,Undead,undead_016,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_016_bone_pile,Undead,undead_016,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_016_shadow_residue,Undead,undead_016,shadow_residue,83,false,영체/결박형 분류
+stl_undead_016_fog_residue,Undead,undead_016,fog_residue,76,false,영체/결박형 분류
+stl_undead_016_footprints_deep,Undead,undead_016,footprints_deep,25,false,범용 보정 후보
+stl_undead_016_dried_blood,Undead,undead_016,dried_blood,25,false,범용 보정 후보
+stl_undead_016_territory_scratches,Undead,undead_016,territory_scratches,25,false,범용 보정 후보
+stl_undead_017_grave_soil,Undead,undead_017,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_017_cold_spot,Undead,undead_017,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_017_necrotic_wither,Undead,undead_017,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_017_bone_pile,Undead,undead_017,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_017_footprints_deep,Undead,undead_017,footprints_deep,25,false,범용 보정 후보
+stl_undead_017_dried_blood,Undead,undead_017,dried_blood,25,false,범용 보정 후보
+stl_undead_017_territory_scratches,Undead,undead_017,territory_scratches,25,false,범용 보정 후보
+stl_undead_018_grave_soil,Undead,undead_018,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_018_cold_spot,Undead,undead_018,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_018_necrotic_wither,Undead,undead_018,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_018_bone_pile,Undead,undead_018,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_018_dried_blood,Undead,undead_018,dried_blood,90,true,흡혈·생명력 흡수 분류
+stl_undead_018_black_ichor,Undead,undead_018,black_ichor,83,false,흡혈·생명력 흡수 분류
+stl_undead_018_drag_marks,Undead,undead_018,drag_marks,76,false,흡혈·생명력 흡수 분류
+stl_undead_018_slime_trail,Undead,undead_018,slime_trail,90,true,점액/산성 분류
+stl_undead_018_acid_scars,Undead,undead_018,acid_scars,83,false,점액/산성 분류
+stl_undead_018_dissolved_gear,Undead,undead_018,dissolved_gear,76,false,점액/산성 분류
+stl_undead_018_slime_puddle,Undead,undead_018,slime_puddle,69,false,점액/산성 분류
+stl_undead_018_psychic_scratches,Undead,undead_018,psychic_scratches,90,true,시선/광선 분류
+stl_undead_018_floating_dust_ring,Undead,undead_018,floating_dust_ring,83,false,시선/광선 분류
+stl_undead_018_footprints_deep,Undead,undead_018,footprints_deep,25,false,범용 보정 후보
+stl_undead_018_territory_scratches,Undead,undead_018,territory_scratches,25,false,범용 보정 후보
+stl_undead_019_grave_soil,Undead,undead_019,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_019_cold_spot,Undead,undead_019,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_019_necrotic_wither,Undead,undead_019,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_019_bone_pile,Undead,undead_019,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_019_torn_carcass,Undead,undead_019,torn_carcass,90,true,시체형/부패형 분류
+stl_undead_019_dried_blood,Undead,undead_019,dried_blood,69,false,시체형/부패형 분류
+stl_undead_019_black_ichor,Undead,undead_019,black_ichor,62,false,시체형/부패형 분류
+stl_undead_019_poison_stain,Undead,undead_019,poison_stain,90,true,독성/질병 분류
+stl_undead_019_footprints_deep,Undead,undead_019,footprints_deep,25,false,범용 보정 후보
+stl_undead_019_territory_scratches,Undead,undead_019,territory_scratches,25,false,범용 보정 후보
+stl_undead_020_grave_soil,Undead,undead_020,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_020_cold_spot,Undead,undead_020,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_020_necrotic_wither,Undead,undead_020,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_020_bone_pile,Undead,undead_020,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_020_footprints_deep,Undead,undead_020,footprints_deep,25,false,범용 보정 후보
+stl_undead_020_dried_blood,Undead,undead_020,dried_blood,25,false,범용 보정 후보
+stl_undead_020_territory_scratches,Undead,undead_020,territory_scratches,25,false,범용 보정 후보
+stl_undead_021_grave_soil,Undead,undead_021,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_021_cold_spot,Undead,undead_021,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_021_necrotic_wither,Undead,undead_021,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_021_bone_pile,Undead,undead_021,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_021_footprints_deep,Undead,undead_021,footprints_deep,25,false,범용 보정 후보
+stl_undead_021_dried_blood,Undead,undead_021,dried_blood,25,false,범용 보정 후보
+stl_undead_021_territory_scratches,Undead,undead_021,territory_scratches,25,false,범용 보정 후보
+stl_undead_022_grave_soil,Undead,undead_022,grave_soil,65,true,Undead 대분류 기본 흔적
+stl_undead_022_cold_spot,Undead,undead_022,cold_spot,60,false,Undead 대분류 기본 흔적
+stl_undead_022_necrotic_wither,Undead,undead_022,necrotic_wither,55,false,Undead 대분류 기본 흔적
+stl_undead_022_bone_pile,Undead,undead_022,bone_pile,50,false,Undead 대분류 기본 흔적
+stl_undead_022_large_claw_gouge,Undead,undead_022,large_claw_gouge,90,true,용종 분류
+stl_undead_022_breath_scorch_line,Undead,undead_022,breath_scorch_line,83,false,용종 분류
+stl_undead_022_scorch_marks,Undead,undead_022,scorch_marks,76,false,용종 분류
+stl_undead_022_frost_rime,Undead,undead_022,frost_rime,69,false,용종 분류
+stl_undead_022_footprints_deep,Undead,undead_022,footprints_deep,25,false,범용 보정 후보
+stl_undead_022_dried_blood,Undead,undead_022,dried_blood,25,false,범용 보정 후보
+stl_undead_022_territory_scratches,Undead,undead_022,territory_scratches,25,false,범용 보정 후보
