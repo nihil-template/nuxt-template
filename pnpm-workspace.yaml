@@ -2,4 +2,6 @@ allowBuilds:
   '@parcel/watcher': true
   esbuild: true
   unrs-resolver: true
-  vue-demi: set this to true or false
+  vue-demi: true
+minimumReleaseAgeExclude:
+  - eslint@10.8.0
