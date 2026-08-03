@@ -36,6 +36,16 @@
 - Pinia 상태가 필요한 경우에만 `app/stores/`를 추가하며, 페이지 지역 상태나 composable 공유 상태로 해결할 수 있는 경우에는 store를 만들지 않는다.
 - `data/`는 앱에서 사용하는 정적 데이터와 데이터 정의를 둔다. 파일명은 반드시 `*.data.ts`로 통일한다.
 - `config/`는 동작 설정과 환경별 구성값을 둔다. 비밀값은 클라이언트 코드나 `public` runtime config에 넣지 않는다.
+- `app/types/common.types.ts`, `app/composables/useSetMeta.ts`, `app/config/site.config.ts`는 사이트 기본 설정 파일이다. 새 프로젝트 또는 사이트의 목적과 환경에 맞게 반드시 검토·수정하여 사용한다.
+- 모든 페이지는 `useSetMeta`를 반드시 호출해 페이지별 제목과 URL을 설정한다. 홈 페이지는 `app/pages/index.vue`의 다음 형태를 기준으로 한다.
+
+```ts
+useSetMeta({
+  title: '페이지 제목',
+  url: '/',
+});
+```
+
 - 디자인 작업 전에는 `app/assets/styles/`의 커스텀 Tailwind 토큰과 스타일 규칙을 먼저 확인하고, 임의 값보다 정의된 토큰을 우선 사용한다.
 - 코드 들여쓰기는 스페이스 2칸을 사용한다. 빈 줄에는 공백 문자를 남기지 않으며, 연속된 빈 줄은 하나만 허용한다.
 
@@ -68,7 +78,7 @@ const cssVariants = cva(
     cssVariants({}),
     props.class,
   ])"
->
+/>
 ```
 
 - 컴포넌트가 외부 클래스를 받을 때에는 `class` prop을 정의하고 `cn()`으로 병합한다.

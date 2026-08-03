@@ -1,13 +1,11 @@
-<script setup lang="ts">
-import { cva } from 'class-variance-authority';
-import { cn } from '~/utils/cn.ts';
-
+<script lang="ts" setup>
 const props = defineProps<{
   class?: string;
 }>();
 
 const cssVariants = cva(
   [
+    '',
   ],
   {
     variants: {},
@@ -19,14 +17,12 @@ const cssVariants = cva(
 </script>
 
 <template>
-  <footer
+  <div
     :class="cn([
       cssVariants({}),
       props.class,
     ])"
-  >
-    footer
-  </footer>
+  />
 </template>
 
 <style scoped>

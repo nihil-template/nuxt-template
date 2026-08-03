@@ -9,10 +9,52 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@pinia/nuxt',
+    '@nuxt/image',
+    '@nuxt/icon',
+    '@element-plus/nuxt',
   ],
   css: [
     '~/assets/styles/tailwind.css',
   ],
+  imports: {
+    dirs: [
+      '~/composables/**',
+      '~/utils/**',
+      '~/data/**',
+      '~/config/**',
+      '~/types/**',
+    ],
+    presets: [
+      {
+        from: 'class-variance-authority',
+        imports: [
+          'cva',
+          'cx',
+        ],
+      },
+      {
+        from: 'luxon',
+        imports: [
+          'DateTime',
+          'Duration',
+          'FixedOffsetZone',
+          'IANAZone',
+          'Info',
+          'Interval',
+          'InvalidZone',
+          'Settings',
+          'SystemZone',
+          'VERSION',
+          'Zone',
+        ],
+      },
+    ],
+  },
+  components: {
+    dirs: [
+      '~/components',
+    ],
+  },
   vite: {
     plugins: [
       tailwindcss(),
