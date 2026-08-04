@@ -1,7 +1,66 @@
 import withNuxt from './.nuxt/eslint.config.mjs';
 
+const importSpecifierNewlineRule = {
+  meta: {
+    type: 'layout',
+    fixable: 'whitespace',
+    schema: [
+    ],
+    messages: {
+      expectedNewline: '여러 줄 named import의 각 항목은 별도 줄에 작성해야 합니다.',
+    },
+  },
+  create(context) {
+    const sourceCode = context.sourceCode;
+
+    return {
+      ImportDeclaration(node) {
+        const specifiers = node.specifiers.filter(
+          specifier => specifier.type === 'ImportSpecifier',
+        );
+
+        if (specifiers.length < 2 || node.loc.start.line === node.loc.end.line) {
+          return;
+        }
+
+        for (let index = 1; index < specifiers.length; index += 1) {
+          const previousSpecifier = specifiers[index - 1];
+          const currentSpecifier = specifiers[index];
+
+          if (previousSpecifier.loc.end.line !== currentSpecifier.loc.start.line) {
+            continue;
+          }
+
+          context.report({
+            node: currentSpecifier,
+            messageId: 'expectedNewline',
+            fix(fixer) {
+              const comma = sourceCode.getTokenAfter(previousSpecifier);
+
+              return fixer.replaceTextRange(
+                [
+                  comma.range[1],
+                  currentSpecifier.range[0],
+                ],
+                '\n',
+              );
+            },
+          });
+        }
+      },
+    };
+  },
+};
+
 export default withNuxt(
   {
+    plugins: {
+      local: {
+        rules: {
+          'import-specifier-newline': importSpecifierNewlineRule,
+        },
+      },
+    },
     rules: {
       'quotes': [
         'error',
@@ -32,7 +91,13 @@ export default withNuxt(
       ],
       'comma-dangle': [
         'error',
-        'always-multiline',
+        {
+          arrays: 'always',
+          objects: 'always',
+          imports: 'always-multiline',
+          exports: 'always-multiline',
+          functions: 'always-multiline',
+        },
       ],
       'array-bracket-spacing': [
         'error',
@@ -61,10 +126,14 @@ export default withNuxt(
             multiline: true,
             consistent: true,
           },
-          ImportDeclaration: 'never',
+          ImportDeclaration: {
+            multiline: true,
+            consistent: true,
+          },
           ExportDeclaration: 'never',
         },
       ],
+      'local/import-specifier-newline': 'error',
       'object-property-newline': [
         'error',
         {
@@ -83,12 +152,31 @@ export default withNuxt(
         'error',
         'double',
       ],
+      'vue/require-default-prop': 'off',
+      'vue/max-attributes-per-line': [
+        'error',
+        {
+          singleline: {
+            max: 999,
+          },
+          multiline: {
+            max: 1,
+          },
+        },
+      ],
       'vue/html-closing-bracket-spacing': [
         'error',
         {
           startTag: 'never',
           endTag: 'never',
           selfClosingTag: 'always',
+        },
+      ],
+      'vue/html-closing-bracket-newline': [
+        'error',
+        {
+          singleline: 'never',
+          multiline: 'always',
         },
       ],
       'vue/script-indent': [

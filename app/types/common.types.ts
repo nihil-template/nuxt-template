@@ -1,3 +1,5 @@
+import type { UiIconName } from '~/types/icon.generated.ts';
+
 export type OpenGraphType
   = | 'article'
   | 'book'
@@ -33,9 +35,15 @@ export interface SiteMetadata {
 }
 
 export interface SiteLink {
-  icon: string;
+  icon?: UiIconName;
   link: string;
   label: string;
+}
+
+export interface NavigationItem {
+  icon?: UiIconName;
+  label: string;
+  to: string;
 }
 
 export interface SiteConfig {
@@ -69,4 +77,5 @@ export interface SiteConfig {
     route: string;
   };
   links: SiteLink[];
+  navigation: NavigationItem[];
 }

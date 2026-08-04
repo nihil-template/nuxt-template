@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { cva } from 'class-variance-authority';
-import type { NavigationItem } from '~/config/navigation.config';
-import { navigationItems } from '~/config/navigation.config';
+import { siteConfig } from '~/config/site.config';
+import type { NavigationItem } from '~/types/common.types';
 import { cn } from '~/utils/cn';
 
 const props = defineProps<{
@@ -39,7 +39,7 @@ const onNavigate = (item: NavigationItem): void => {
   >
     <ElMenu>
       <ElMenuItem
-        v-for="item in navigationItems"
+        v-for="item in siteConfig.navigation"
         :key="item.to"
         :index="item.to"
       >
@@ -48,7 +48,10 @@ const onNavigate = (item: NavigationItem): void => {
           class="flex items-center gap-2"
           @click="onNavigate(item)"
         >
-          <Icon :name="item.icon" />
+          <Icon
+            v-if="item.icon"
+            :name="item.icon"
+          />
           <span>{{ item.label }}</span>
         </NuxtLink>
       </ElMenuItem>

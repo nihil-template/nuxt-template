@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@pinia/nuxt',
     '@nuxt/image',
-    '@nuxt/icon',
     '@element-plus/nuxt',
   ],
   css: [
@@ -52,7 +51,10 @@ export default defineNuxtConfig({
   },
   components: {
     dirs: [
-      '~/components',
+      {
+        path: '~/components',
+        pathPrefix: false,
+      },
     ],
   },
   vite: {

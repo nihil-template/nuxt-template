@@ -6,7 +6,7 @@ export const siteConfig: SiteConfig = {
     description: '사이트 설명',
     keywords: '사이트, 키워드',
     url: process.env.NODE_ENV === 'production'
-      ? ''
+      ? 'http://localhost:3000'
       : 'http://localhost:3000',
     type: 'website' as const,
     version: '1.0.0',
@@ -37,6 +37,12 @@ export const siteConfig: SiteConfig = {
       icon: 'mdi:github',
       link: 'https://github.com/nihilncunia',
       label: 'GitHub',
+    },
+  ],
+  navigation: [
+    {
+      label: '홈',
+      to: '/',
     },
   ],
 } as const;
