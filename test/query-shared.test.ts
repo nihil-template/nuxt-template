@@ -148,6 +148,48 @@ describe('createQueryResult', () => {
     expect(query.status.value).toBe('idle');
   });
 
+  it('keeps pending true after reset until an active execution settles', async () => {
+    const deferred = createDeferred<number>();
+    const query = createQueryResult(async () => await deferred.promise);
+    const execution = query.execute();
+
+    query.reset();
+
+    expect(query.pending.value).toBe(true);
+    expect(query.status.value).toBe('idle');
+    deferred.resolve(1);
+    await execution;
+    expect(query.pending.value).toBe(false);
+  });
+
+  it('keeps the last settled successful result after an earlier request fails', async () => {
+    const first = createDeferred<undefined>();
+    const second = createDeferred<number>();
+    const query = createQueryResult(async ({ id }: { id: number }) => {
+      if (id === 1) {
+        await first.promise;
+        throw new Error('First request failed');
+      }
+
+      return await second.promise;
+    });
+
+    const firstExecution = query.execute({ id: 1 });
+    const secondExecution = query.execute({ id: 2 });
+
+    first.resolve(undefined);
+    await expect(firstExecution).rejects.toMatchObject({
+      message: 'First request failed',
+    });
+    expect(query.error.value).not.toBeNull();
+    second.resolve(2);
+    await secondExecution;
+
+    expect(query.data.value).toBe(2);
+    expect(query.error.value).toBeNull();
+    expect(query.status.value).toBe('success');
+  });
+
   it('normalizes failed executions before storing the error', async () => {
     const cause = {
       data: { code: 'INVALID_INPUT' },

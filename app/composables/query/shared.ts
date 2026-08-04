@@ -1,4 +1,5 @@
 import { computed, ref, shallowRef } from 'vue';
+import type { Ref } from 'vue';
 
 import type { ApiError, MutationResult, MutationState, NormalizedRequest, QueryBaseInput, QueryBody, QueryFetchOptions, QueryHeaders, QueryMethod, QueryParams, QueryRequestInput, QueryResult, QueryStatus } from './types';
 
@@ -83,14 +84,16 @@ export function mergeQueryInput<TInput extends QueryBaseInput>(
   return merged;
 }
 
-export function createQueryState<TData>(): QueryState<TData> {
+export function createQueryState<TData>(
+  activeRequests: Ref<number> = ref(0),
+): QueryState<TData> {
   const status = ref<QueryStatus>('idle');
 
   return {
     data: shallowRef<TData>(),
     error: shallowRef<ApiError | null>(null),
     status,
-    pending: computed(() => status.value === 'pending'),
+    pending: computed(() => activeRequests.value > 0),
   };
 }
 
@@ -117,13 +120,13 @@ export function normalizeApiError(error: unknown): ApiError {
 export function createQueryResult<TData, TInput = never>(
   execute: (overrides: Partial<TInput>) => Promise<TData> | TData,
 ): QueryResult<TData, TInput> {
-  const state = createQueryState<TData>();
-  let activeRequests = 0;
+  const activeRequests = ref(0);
+  const state = createQueryState<TData>(activeRequests);
 
   return {
     ...state,
     async execute(overrides) {
-      activeRequests += 1;
+      activeRequests.value += 1;
       state.status.value = 'pending';
       state.error.value = null;
 
@@ -131,6 +134,7 @@ export function createQueryResult<TData, TInput = never>(
         const result = await execute(overrides as Partial<TInput>);
 
         state.data.value = result;
+        state.error.value = null;
         return result;
       } catch (error) {
         const normalizedError = normalizeApiError(error);
@@ -138,8 +142,8 @@ export function createQueryResult<TData, TInput = never>(
         state.error.value = normalizedError;
         throw normalizedError;
       } finally {
-        activeRequests -= 1;
-        state.status.value = activeRequests === 0
+        activeRequests.value -= 1;
+        state.status.value = activeRequests.value === 0
           ? state.error.value === null ? 'success' : 'error'
           : 'pending';
       }
