@@ -48,6 +48,23 @@ describe('query composables', () => {
     }));
   });
 
+  it('does not let fetch options override GET execution controls', () => {
+    const options = {
+      immediate: true,
+      watch: true,
+    };
+
+    useGet({
+      options,
+      url: '/api/items',
+    });
+
+    expect(mockUseFetch).toHaveBeenCalledWith(expect.any(Function), expect.objectContaining({
+      immediate: false,
+      watch: false,
+    }));
+  });
+
   it('merges GET overrides before refreshing the reactive request', async () => {
     const data = ref<{ id: string } | undefined>();
     const refresh = vi.fn(async () => {

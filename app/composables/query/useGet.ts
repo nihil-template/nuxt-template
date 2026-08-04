@@ -9,11 +9,11 @@ export function useGet<
 >(input: GetQueryInput<TParams>): QueryResult<TResponse, GetQueryInput<TParams>> {
   const requestInput = shallowRef(input);
   const result = useFetch<TResponse, ApiError>(() => requestInput.value.url, {
+    ...input.options,
     headers: () => requestInput.value.headers,
     immediate: input.immediate ?? false,
     query: () => requestInput.value.params,
     watch: false,
-    ...input.options,
   });
   const error = shallowRef<ApiError | null>(result.error.value ?? null);
 
