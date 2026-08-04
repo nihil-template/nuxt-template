@@ -26,3 +26,10 @@
 - `pnpm exec vitest run test/app-sidebar.test.ts`: 1개 테스트가 통과했습니다.
 - `pnpm exec nuxi typecheck`: 통과했습니다.
 - 변경 파일 대상 ESLint와 `git diff --check`: 통과했습니다.
+
+## 리뷰 보완 1차
+
+- 테스트의 `global.components`에 실제 `ElMenu`, `ElMenuItem`을 등록하고 `Icon`을 명시 stub으로 추가했습니다.
+- `navigationItems` 전체를 순회해 각 메뉴의 label과 href를 검증하고, 설정 클릭 후 `navigate` payload가 설정 항목과 일치하는지 검증했습니다.
+- `element-plus`를 런타임 의존성으로 명시해 Vitest에서도 실제 Element Plus 컴포넌트를 해석하도록 했습니다.
+- `pnpm exec vitest run test/app-sidebar.test.ts`: 1개 테스트가 통과했습니다.
