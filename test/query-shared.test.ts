@@ -1,16 +1,27 @@
 import { describe, expect, it } from 'vitest';
 
-import { buildFetchRequestOptions,
-  createMutationState,
-  normalizeRequestInput } from '../app/composables/query/shared';
+import { buildFetchRequestOptions, createMutationState, createQueryResult, mergeQueryInput, normalizeApiError, normalizeRequestInput } from '../app/composables/query/shared';
+
+function createDeferred<TData>() {
+  let resolve: (value: TData) => void;
+
+  const promise = new Promise<TData>((promiseResolve) => {
+    resolve = promiseResolve;
+  });
+
+  return {
+    promise,
+    resolve: (value: TData) => resolve(value),
+  };
+}
 
 describe('normalizeRequestInput', () => {
   it('keeps params and body together with merged headers', () => {
     const normalized = normalizeRequestInput('POST', {
       params: {
- page: 2,
-keyword: 'nuxt', 
-},
+        page: 2,
+        keyword: 'nuxt',
+      },
       body: { title: 'entry' },
       headers: { Authorization: 'Bearer token' },
       options: { credentials: 'include' },
@@ -18,9 +29,9 @@ keyword: 'nuxt',
 
     expect(normalized.method).toBe('POST');
     expect(normalized.query).toEqual({
- page: 2,
-keyword: 'nuxt', 
-});
+      page: 2,
+      keyword: 'nuxt',
+    });
     expect(normalized.body).toEqual({ title: 'entry' });
     expect(normalized.headers).toEqual({ Authorization: 'Bearer token' });
     expect(normalized.fetchOptions).toMatchObject({ credentials: 'include' });
@@ -61,5 +72,99 @@ describe('createMutationState', () => {
     expect(state.pending.value).toBe(false);
     expect(state.data.value).toBeUndefined();
     expect(state.error.value).toBeNull();
+  });
+});
+
+describe('mergeQueryInput', () => {
+  it('keeps an explicitly supplied null body when merging mutation overrides', () => {
+    const merged = mergeQueryInput(
+      {
+        url: '/api/items',
+        body: {
+          ids: [
+            'item-1',
+          ],
+        },
+      },
+      {
+        body: null,
+      },
+    );
+
+    expect(merged.body).toBeNull();
+  });
+
+  it('merges default and override record headers', () => {
+    const merged = mergeQueryInput(
+      {
+        url: '/api/items',
+        headers: {
+          Authorization: 'Bearer token',
+        },
+      },
+      {
+        headers: {
+          'X-Request-ID': 'request-1',
+        },
+      },
+    );
+
+    expect(merged.headers).toEqual({
+      Authorization: 'Bearer token',
+      'X-Request-ID': 'request-1',
+    });
+  });
+});
+
+describe('createQueryResult', () => {
+  it('keeps pending true until concurrent executions have all settled', async () => {
+    const first = createDeferred<number>();
+    const second = createDeferred<number>();
+    const query = createQueryResult(async ({ id }: { id: number }) => {
+      return id === 1 ? await first.promise : await second.promise;
+    });
+
+    const firstExecution = query.execute({ id: 1 });
+    const secondExecution = query.execute({ id: 2 });
+
+    expect(query.pending.value).toBe(true);
+    first.resolve(1);
+    await firstExecution;
+    expect(query.pending.value).toBe(true);
+    second.resolve(2);
+    await secondExecution;
+    expect(query.pending.value).toBe(false);
+    expect(query.status.value).toBe('success');
+  });
+
+  it('resets query data, errors, and status', async () => {
+    const query = createQueryResult(async () => 1);
+
+    await query.execute();
+    query.reset();
+
+    expect(query.data.value).toBeUndefined();
+    expect(query.error.value).toBeNull();
+    expect(query.status.value).toBe('idle');
+  });
+
+  it('normalizes failed executions before storing the error', async () => {
+    const cause = {
+      data: { code: 'INVALID_INPUT' },
+      message: 'Invalid input',
+      statusCode: 400,
+    };
+    const query = createQueryResult(async () => {
+      throw cause;
+    });
+
+    await expect(query.execute()).rejects.toEqual(normalizeApiError(cause));
+    expect(query.error.value).toEqual({
+      cause,
+      data: { code: 'INVALID_INPUT' },
+      message: 'Invalid input',
+      statusCode: 400,
+    });
+    expect(query.status.value).toBe('error');
   });
 });
