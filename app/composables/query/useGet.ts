@@ -1,25 +1,41 @@
-import type { UseFetchOptions } from 'nuxt/app';
+import { computed, shallowRef, watch } from 'vue';
 
-import { normalizeRequestInput } from './shared';
-import type { QueryBody, QueryParams, QueryRequestInput } from './types';
+import { mergeQueryInput } from './shared';
+import type { ApiError, GetQueryInput, QueryParams, QueryResult } from './types';
 
 export function useGet<
   TResponse,
-  TBody extends QueryBody = QueryBody,
   TParams extends QueryParams = QueryParams,
->(
-  url: string,
-  request: QueryRequestInput<TBody, TParams> = {},
-  options: Omit<UseFetchOptions<TResponse>, 'body' | 'headers' | 'method' | 'query'> = {},
-) {
-  const normalized = normalizeRequestInput('GET', request);
+>(input: GetQueryInput<TParams>): QueryResult<TResponse, GetQueryInput<TParams>> {
+  const requestInput = shallowRef(input);
+  const result = useFetch<TResponse, ApiError>(() => requestInput.value.url, {
+    headers: () => requestInput.value.headers,
+    immediate: input.immediate ?? false,
+    query: () => requestInput.value.params,
+    watch: false,
+    ...input.options,
+  });
+  const error = shallowRef<ApiError | null>(result.error.value ?? null);
 
-  return useFetch<TResponse>(url, {
-    method: 'GET',
-    query: normalized.query,
-    body: normalized.body as QueryBody,
-    headers: normalized.headers,
-    ...normalized.fetchOptions,
-    ...options,
-  } as never);
+  watch(result.error, (value) => {
+    error.value = value ?? null;
+  }, {
+    flush: 'sync',
+  });
+
+  return {
+    data: result.data,
+    error,
+    status: result.status,
+    pending: computed(() => result.pending.value),
+    async execute(overrides = {}) {
+      requestInput.value = mergeQueryInput(requestInput.value, overrides);
+      await result.refresh();
+      return result.data.value;
+    },
+    reset() {
+      result.clear();
+      error.value = null;
+    },
+  };
 }
