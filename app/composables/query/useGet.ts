@@ -3,10 +3,12 @@ import { computed, shallowRef, watch } from 'vue';
 import { mergeQueryInput } from './shared';
 import type { ApiError, GetQueryInput, QueryParams, QueryResult } from './types';
 
+type UseFetchData<TResponse> = ReturnType<typeof useFetch<TResponse, ApiError>>['data']['value'];
+
 export function useGet<
   TResponse,
   TParams extends QueryParams = QueryParams,
->(input: GetQueryInput<TParams>): QueryResult<TResponse, GetQueryInput<TParams>> {
+>(input: GetQueryInput<TParams>): QueryResult<UseFetchData<TResponse>, GetQueryInput<TParams>> {
   const requestInput = shallowRef(input);
   const result = useFetch<TResponse, ApiError>(() => requestInput.value.url, {
     ...input.options,

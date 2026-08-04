@@ -1,7 +1,8 @@
 import { ref } from 'vue';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, expectTypeOf, it, vi } from 'vitest';
 
 import { useDelete, useGet, usePost } from '../app/composables/query';
+import type { QueryFetchOptions } from '../app/composables/query';
 
 const mockFetch = vi.fn();
 const mockUseFetch = vi.fn();
@@ -63,6 +64,20 @@ describe('query composables', () => {
       immediate: false,
       watch: false,
     }));
+  });
+
+  it('keeps Nuxt fetch data and retry options type-safe', () => {
+    const options: QueryFetchOptions = {
+      retryDelay(context) {
+        return context.options.responseType === 'text' ? 100 : 0;
+      },
+    };
+    const query = useGet<{ id: string }>({
+      options,
+      url: '/api/items',
+    });
+
+    expectTypeOf(query.data).toEqualTypeOf<ReturnType<typeof ref<{ id: string } | undefined>>>();
   });
 
   it('merges GET overrides before refreshing the reactive request', async () => {

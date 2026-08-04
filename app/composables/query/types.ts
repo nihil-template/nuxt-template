@@ -1,4 +1,4 @@
-import type { FetchOptions } from 'ofetch';
+import type { FetchOptions, ResponseType } from 'ofetch';
 import type { ComputedRef, Ref } from 'vue';
 
 export type QueryParams = Record<string, unknown>;
@@ -10,7 +10,7 @@ export type QueryMethod = 'DELETE' | 'GET' | 'PATCH' | 'POST' | 'PUT';
 export type QueryStatus = 'idle' | 'pending' | 'success' | 'error';
 
 export type QueryFetchOptions = Omit<
-  FetchOptions<'json'>,
+  FetchOptions<ResponseType>,
   'body' | 'headers' | 'method' | 'query'
 >;
 
