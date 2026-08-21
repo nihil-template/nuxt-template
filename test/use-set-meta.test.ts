@@ -33,7 +33,7 @@ describe('useSetMeta', () => {
     });
     expect(head.meta.find((item) => item.property === 'og:image:alt')).toEqual({
       property: 'og:image:alt',
-      content: '로고',
+      content: '사이트 이미지',
     });
   });
 });

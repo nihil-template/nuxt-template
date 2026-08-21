@@ -1,10 +1,3 @@
-export interface User {
-  id: string;
-  name: string;
-  email: string;
-  active: boolean;
-}
-
 export interface UsersParams {
   page?: number;
   pageSize?: number;

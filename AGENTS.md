@@ -35,6 +35,7 @@
 - `app/` 내부에는 `assets/`, `components/`, `composables/`, `config/`, `data/`, `layouts/`, `pages/`, `types/`, `utils/`를 사용한다.
 - Pinia 상태가 필요한 경우에만 `app/stores/`를 추가하며, 페이지 지역 상태나 composable 공유 상태로 해결할 수 있는 경우에는 store를 만들지 않는다.
 - `data/`는 앱에서 사용하는 정적 데이터와 데이터 정의를 둔다. 파일명은 반드시 `*.data.ts`로 통일한다.
+- 명명된 TypeScript 타입과 인터페이스는 반드시 `app/types/`에 둔다. 구현 파일 내부에 선언하지 않는다.
 - `config/`는 동작 설정과 환경별 구성값을 둔다. 비밀값은 클라이언트 코드나 `public` runtime config에 넣지 않는다.
 - `app/types/common.types.ts`, `app/composables/useSetMeta.ts`, `app/config/site.config.ts`는 사이트 기본 설정 파일이다. 새 프로젝트 또는 사이트의 목적과 환경에 맞게 반드시 검토·수정하여 사용한다.
 - 모든 페이지는 `useSetMeta`를 반드시 호출해 페이지별 제목과 URL을 설정한다. 홈 페이지는 `app/pages/index.vue`의 다음 형태를 기준으로 한다.

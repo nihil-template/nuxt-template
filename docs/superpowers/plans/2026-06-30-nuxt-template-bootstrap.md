@@ -2,11 +2,11 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build a reusable Nuxt template with minimal page structure, frontend query composables, and PostgreSQL Drizzle starter setup.
+**Goal:** Build a reusable Nuxt template with minimal page structure, frontend query composables, and PostgreSQL Prisma starter setup.
 
-**Architecture:** Generate a standard Nuxt project with Tailwind and ESLint enabled, then remove demo surface area until only a single `pages/index.vue` remains. Add a small query helper layer under `composables/query` that separates `useFetch`-based GET from `$fetch`-based mutations while keeping shared request shape for `params` and `body`. Prepare Drizzle with PostgreSQL-oriented config and server-side database entrypoints without forcing a concrete schema beyond a starter example.
+**Architecture:** Generate a standard Nuxt project with Tailwind and ESLint enabled, then remove demo surface area until only a single `pages/index.vue` remains. Add a small query helper layer under `composables/query` that separates `useFetch`-based GET from `$fetch`-based mutations while keeping shared request shape for `params` and `body`. Prepare Prisma with PostgreSQL-oriented config and server-side database entrypoints without forcing a concrete schema beyond a starter example.
 
-**Tech Stack:** Nuxt 4, Vue 3, TypeScript, Tailwind CSS, ESLint, Drizzle ORM, drizzle-kit, postgres
+**Tech Stack:** Nuxt 4, Vue 3, TypeScript, Tailwind CSS, ESLint, Prisma, PostgreSQL
 
 ---
 
@@ -90,30 +90,30 @@ Expose callable mutation functions and request state that template users can reu
 
 Allow imports from `~/composables/query`.
 
-### Task 4: Add PostgreSQL Drizzle starter structure
+### Task 4: Add PostgreSQL Prisma starter structure
 
 **Files:**
-- Create: `drizzle.config.ts`
+- Create: `prisma.config.ts`
 - Create: `server/db/client.ts`
-- Create: `server/db/schema/index.ts`
+- Create: `prisma/schema.prisma`
 - Create: `.env.example`
 - Modify: `package.json`
 
-- [ ] **Step 1: Install Drizzle and PostgreSQL dependencies**
+- [ ] **Step 1: Install Prisma PostgreSQL dependencies**
 
-Run: `pnpm add drizzle-orm postgres`
-Run: `pnpm add -D drizzle-kit`
+Run: `pnpm add @prisma/client @prisma/adapter-pg`
+Run: `pnpm add -D prisma dotenv`
 Expected: runtime and dev dependencies are available.
 
-- [ ] **Step 2: Create a PostgreSQL-oriented Drizzle config**
+- [ ] **Step 2: Create a PostgreSQL-oriented Prisma config**
 
 Point migrations to a local folder and read `DATABASE_URL` from environment.
 
-- [ ] **Step 3: Add a server-side database client**
+- [ ] **Step 3: Add a server-side Prisma client**
 
-Create a lazy `postgres` client and wrap it with Drizzle for Nitro server usage.
+Create a lazy Prisma client with PrismaPg adapter for Nitro server usage.
 
-- [ ] **Step 4: Add starter schema and environment example**
+- [ ] **Step 4: Add Prisma schema and environment example**
 
 Provide a small placeholder schema export and `.env.example` with `DATABASE_URL`.
 

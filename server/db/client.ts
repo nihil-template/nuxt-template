@@ -1,39 +1,38 @@
 import process from 'node:process';
 
-import { drizzle } from 'drizzle-orm/postgres-js';
-import postgres from 'postgres';
+import {
+  PrismaPg,
+} from '@prisma/adapter-pg';
+
+import {
+  PrismaClient,
+} from '../generated/prisma/client';
 
 const globalForDatabase = globalThis as typeof globalThis & {
-  postgresClient?: ReturnType<typeof postgres>;
-  drizzleDatabase?: ReturnType<typeof drizzle>;
+  prismaClient?: PrismaClient;
 };
 
-function createDatabase() {
-  const databaseUrl = process.env.DATABASE_URL;
+// DB는 데이터베이스 접근 진입점으로만 사용한다.
+// eslint-disable-next-line @typescript-eslint/no-extraneous-class
+export class DB {
+  public static getClient(): PrismaClient {
+    const databaseUrl = process.env.DATABASE_URL;
 
-  if (!databaseUrl) {
-    throw new Error('DATABASE_URL is not set.');
-  }
+    if (!databaseUrl) {
+      throw new Error('DATABASE_URL is not set.');
+    }
 
-  const postgresClient =
-    globalForDatabase.postgresClient ??
-    postgres(databaseUrl, {
-      prepare: false,
+    const adapter = new PrismaPg({
+      connectionString: databaseUrl,
+    });
+    const prismaClient = globalForDatabase.prismaClient ?? new PrismaClient({
+      adapter,
     });
 
-  const db = globalForDatabase.drizzleDatabase ?? drizzle(postgresClient);
+    if (process.env.NODE_ENV !== 'production') {
+      globalForDatabase.prismaClient = prismaClient;
+    }
 
-  if (process.env.NODE_ENV !== 'production') {
-    globalForDatabase.postgresClient = postgresClient;
-    globalForDatabase.drizzleDatabase = db;
+    return prismaClient;
   }
-
-  return {
-    db,
-    postgresClient,
-  };
-}
-
-export function getDatabase() {
-  return createDatabase();
 }

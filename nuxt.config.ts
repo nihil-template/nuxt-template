@@ -18,8 +18,8 @@ export default defineNuxtConfig({
   imports: {
     dirs: [
       '~/composables/*.ts',
-      '~/composables/query/**',
-      '~/utils/**',
+      '~/composables/query/**/!(index).ts',
+      '~/utils/**/!(index).ts',
       '~/data/**',
       '~/config/**',
     ],
@@ -49,74 +49,6 @@ export default defineNuxtConfig({
       },
     ],
   },
-  nitro: {
-    imports: {
-      presets: [
-        {
-          from: 'drizzle-orm',
-          imports: [
-            'and',
-            'asc',
-            'between',
-            'count',
-            'desc',
-            'eq',
-            'exists',
-            'gt',
-            'gte',
-            'ilike',
-            'inArray',
-            'isNotNull',
-            'isNull',
-            'like',
-            'lt',
-            'lte',
-            'max',
-            'min',
-            'ne',
-            'not',
-            'notBetween',
-            'notExists',
-            'notIlike',
-            'notInArray',
-            'notLike',
-            'or',
-            'sql',
-            'sum',
-          ],
-        },
-        {
-          from: 'drizzle-orm/pg-core',
-          imports: [
-            'bigint',
-            'bigserial',
-            'boolean',
-            'date',
-            'doublePrecision',
-            'index',
-            'integer',
-            'json',
-            'jsonb',
-            'numeric',
-            'pgEnum',
-            'pgSchema',
-            'pgTable',
-            'primaryKey',
-            'real',
-            'serial',
-            'smallint',
-            'smallserial',
-            'text',
-            'time',
-            'timestamp',
-            'unique',
-            'uuid',
-            'varchar',
-          ],
-        },
-      ],
-    },
-  },
   components: {
     dirs: [
       {
@@ -124,6 +56,14 @@ export default defineNuxtConfig({
         pathPrefix: false,
       },
     ],
+  },
+  nitro: {
+    imports: {
+      dirs: [
+        'server/db',
+        'server/utils',
+      ],
+    },
   },
   vite: {
     plugins: [

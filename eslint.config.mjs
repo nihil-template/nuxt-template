@@ -62,6 +62,7 @@ export default withNuxt(
       },
     },
     rules: {
+      '@typescript-eslint/no-extraneous-class': 'off',
       'quotes': [
         'error',
         'single',

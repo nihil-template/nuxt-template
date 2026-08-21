@@ -1,197 +1,203 @@
-import { ref } from 'vue';
-import { afterEach, beforeEach, describe, expect, expectTypeOf, it, vi } from 'vitest';
+import { VueQueryPlugin, QueryClient } from '@tanstack/vue-query';
+import { mount } from '@vue/test-utils';
+import { defineComponent } from 'vue';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 
-import { useDelete, useGet, usePost } from '../app/composables/query';
-import type { QueryFetchOptions } from '../app/composables/query';
+import { useGetQuery } from '../app/composables/query/useGetQuery';
+import { useDeleteMutation } from '../app/composables/query/useDeleteMutation';
+import { usePostMutation } from '../app/composables/query/usePostMutation';
 
 const mockFetch = vi.fn();
-const mockUseFetch = vi.fn();
+const itemQueryKeys = {
+  create: [
+    'items',
+    'create',
+  ] as const,
+  detail: (
+    itemId: string,
+  ) => [
+    'items',
+    'detail',
+    itemId,
+  ] as const,
+  remove: [
+    'items',
+    'remove',
+  ] as const,
+};
 
 vi.stubGlobal('$fetch', mockFetch);
-vi.stubGlobal('useFetch', mockUseFetch);
 
-describe('query composables', () => {
-  beforeEach(() => {
-    mockFetch.mockReset();
-    mockUseFetch.mockReset();
-    mockUseFetch.mockReturnValue({
-      clear: vi.fn(),
-      data: ref(undefined),
-      error: ref(null),
-      pending: ref(false),
-      refresh: vi.fn(),
-      status: ref('idle'),
-    });
-  });
-
+describe('useGetQuery', () => {
   afterEach(() => {
-    vi.clearAllMocks();
+    mockFetch.mockReset();
   });
 
-  it('keeps GET manual unless immediate is explicitly true', () => {
-    useGet({
-      url: '/api/items',
-    });
-
-    expect(mockUseFetch).toHaveBeenCalledWith(expect.any(Function), expect.objectContaining({
-      immediate: false,
-      watch: false,
-    }));
-
-    useGet({
-      immediate: true,
-      url: '/api/items',
-    });
-
-    expect(mockUseFetch).toHaveBeenLastCalledWith(expect.any(Function), expect.objectContaining({
-      immediate: true,
-      watch: false,
-    }));
-  });
-
-  it('does not let fetch options override GET execution controls', () => {
-    const options = {
-      immediate: true,
-      watch: true,
-    };
-
-    useGet({
-      options,
-      url: '/api/items',
-    });
-
-    expect(mockUseFetch).toHaveBeenCalledWith(expect.any(Function), expect.objectContaining({
-      immediate: false,
-      watch: false,
-    }));
-  });
-
-  it('keeps Nuxt fetch data and retry options type-safe', () => {
-    const options: QueryFetchOptions = {
-      retryDelay(context) {
-        return context.options.responseType === 'text' ? 100 : 0;
-      },
-    };
-    const query = useGet<{ id: string }>({
-      options,
-      url: '/api/items',
-    });
-
-    expectTypeOf(query.data).toEqualTypeOf<ReturnType<typeof ref<{ id: string } | undefined>>>();
-  });
-
-  it('merges GET overrides before refreshing the reactive request', async () => {
-    const data = ref<{ id: string } | undefined>();
-    const refresh = vi.fn(async () => {
-      data.value = {
-        id: 'item-1',
-      };
-    });
-    mockUseFetch.mockReturnValue({
-      clear: vi.fn(),
-      data,
-      error: ref(null),
-      pending: ref(false),
-      refresh,
-      status: ref('idle'),
-    });
-    const query = useGet({
-      headers: {
-        Authorization: 'Bearer token',
-      },
-      params: {
-        projectId: 'project-1',
-      },
-      url: '/api/items',
-    });
-    const [
-      request,
-      options,
-    ] = mockUseFetch.mock.calls[0] as [
-      () => string,
-      {
-        headers: () => HeadersInit | undefined;
-        query: () => Record<string, unknown> | undefined;
-      },
-    ];
-
-    await expect(query.execute({
-      headers: {
-        'X-Request-ID': 'request-1',
-      },
-      params: {
-        page: 2,
-      },
-    })).resolves.toEqual({
+  it('does not fetch automatically and fetches when refetch is called', async () => {
+    mockFetch.mockResolvedValue({
       id: 'item-1',
     });
-
-    expect(refresh).toHaveBeenCalledOnce();
-    expect(request()).toBe('/api/items');
-    expect(options.headers()).toEqual({
-      Authorization: 'Bearer token',
-      'X-Request-ID': 'request-1',
+    const queryClient = new QueryClient({
+      defaultOptions: {
+        queries: {
+          retry: false,
+        },
+      },
     });
-    expect(options.query()).toEqual({
-      page: 2,
+    let query: ReturnType<typeof useGetQuery<{ id: string }>> | undefined;
+
+    mount(defineComponent({
+      setup() {
+        query = useGetQuery<{ id: string }>({
+          key: itemQueryKeys.detail('item-1'),
+          queryOptions: {
+            enabled: false,
+          },
+          url: '/api/items/item-1',
+        });
+
+        return () => null;
+      },
+    }), {
+      global: {
+        plugins: [
+          [
+            VueQueryPlugin,
+            {
+              queryClient,
+            },
+          ],
+        ],
+      },
+    });
+
+    expect(mockFetch).not.toHaveBeenCalled();
+
+    await query?.refetch();
+
+    expect(mockFetch).toHaveBeenCalledWith('/api/items/item-1', {
+      body: undefined,
+      headers: undefined,
+      method: 'GET',
+      query: undefined,
     });
   });
 
-  it('sends params and body through POST execute', async () => {
-    mockFetch.mockResolvedValue({ id: 'item-1' });
-    const query = usePost({
-      url: '/api/items',
+  it('passes mutation variables to an internal POST fetcher', async () => {
+    const onSuccess = vi.fn();
+    const queryClient = new QueryClient();
+    let mutation: ReturnType<
+      typeof usePostMutation<
+        { id: string },
+        { title: string }
+      >
+    > | undefined;
+
+    mockFetch.mockResolvedValue({
+      id: 'document-1',
     });
 
-    await query.execute({
-      body: {
-        title: '새 항목',
+    mount(defineComponent({
+      setup() {
+        mutation = usePostMutation<
+          { id: string },
+          { title: string }
+        >({
+          key: itemQueryKeys.create,
+          mutationOptions: {
+            onSuccess,
+          },
+          params: {
+            projectId: 'project-1',
+          },
+          url: '/api/documents',
+        });
+
+        return () => null;
       },
-      params: {
-        projectId: 'project-1',
+    }), {
+      global: {
+        plugins: [
+          [
+            VueQueryPlugin,
+            {
+              queryClient,
+            },
+          ],
+        ],
       },
     });
 
-    expect(mockFetch).toHaveBeenCalledWith('/api/items', expect.objectContaining({
+    await mutation?.mutateAsync({
+      title: '새 문서',
+    });
+
+    expect(mockFetch).toHaveBeenCalledWith('/api/documents', {
       body: {
-        title: '새 항목',
+        title: '새 문서',
       },
+      headers: undefined,
       method: 'POST',
       query: {
         projectId: 'project-1',
       },
-    }));
+    });
+    expect(onSuccess).toHaveBeenCalledOnce();
   });
 
-  it('sends params and a batch body through DELETE execute', async () => {
+  it('allows DELETE requests to carry a batch body', async () => {
+    const queryClient = new QueryClient();
+    let mutation: ReturnType<
+      typeof useDeleteMutation<
+        undefined,
+        { ids: string[] }
+      >
+    > | undefined;
+
     mockFetch.mockResolvedValue(undefined);
-    const query = useDelete({
-      url: '/api/items',
-    });
 
-    await query.execute({
-      body: {
-        ids: [
-          'item-1',
-          'item-2',
+    mount(defineComponent({
+      setup() {
+        mutation = useDeleteMutation<
+          undefined,
+          { ids: string[] }
+        >({
+          key: itemQueryKeys.remove,
+          url: '/api/documents',
+        });
+
+        return () => null;
+      },
+    }), {
+      global: {
+        plugins: [
+          [
+            VueQueryPlugin,
+            {
+              queryClient,
+            },
+          ],
         ],
       },
-      params: {
-        projectId: 'project-1',
-      },
     });
 
-    expect(mockFetch).toHaveBeenCalledWith('/api/items', expect.objectContaining({
+    await mutation?.mutateAsync({
+      ids: [
+        'document-1',
+        'document-2',
+      ],
+    });
+
+    expect(mockFetch).toHaveBeenCalledWith('/api/documents', {
       body: {
         ids: [
-          'item-1',
-          'item-2',
+          'document-1',
+          'document-2',
         ],
       },
+      headers: undefined,
       method: 'DELETE',
-      query: {
-        projectId: 'project-1',
-      },
-    }));
+      query: undefined,
+    });
   });
 });
