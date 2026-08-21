@@ -11,7 +11,7 @@ export const useSetMeta = (meta: SiteMetadata) => {
     meta.imageLink ?? siteConfig.images.cover.normal,
     siteConfig.site.url,
   ).toString();
-  const siteImageAlt = meta.imageAlt ?? siteConfig.images.alt;
+  const siteImageAlt = meta.imageAlt ?? siteConfig.images.cover.alt;
   const siteType = meta.type ?? siteConfig.site.type;
 
   // Nuxt.js useHead로 메타데이터 설정

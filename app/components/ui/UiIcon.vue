@@ -11,8 +11,11 @@ import { cva } from 'class-variance-authority';
 
 import {
   iconSets,
-  type IconPrefix,
 } from '~/data/icons.data';
+
+import type {
+  IconPrefix,
+} from '~/types/icon.types';
 
 import type {
   UiIconName,
@@ -103,9 +106,7 @@ function isIconPrefix(
 }
 
 const cssVariants = cva([
-  'inline-block',
-  'shrink-0',
-  'size-6',
+  'inline-block shrink-0 size-6',
 ]);
 </script>
 

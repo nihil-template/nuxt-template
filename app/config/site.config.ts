@@ -1,4 +1,6 @@
 import type { SiteConfig } from '~/types/common.types.ts';
+import { linkConfig } from '~/config/link.config.ts';
+import { navConfig } from '~/config/nav.config.ts';
 
 export const siteConfig: SiteConfig = {
   site: {
@@ -17,12 +19,16 @@ export const siteConfig: SiteConfig = {
     url: 'https://github.com/nihilncunia',
   },
   images: {
-    logo: '/images/nihilncunia-logo.svg',
+    logo: {
+      normal: '/images/nihilncunia-logo.svg',
+      dark: '/images/nihilncunia-logo-w.svg',
+      alt: '로고',
+    },
     cover: {
       normal: '/images/nihil-web-logo.png',
       dark: '/images/nihil-web-logo-w.png',
+      alt: '사이트 이미지',
     },
-    alt: '로고',
   },
   google: {
     verification: '',
@@ -32,17 +38,6 @@ export const siteConfig: SiteConfig = {
   api: {
     route: '/api',
   },
-  links: [
-    {
-      icon: 'mdi:github',
-      link: 'https://github.com/nihilncunia',
-      label: 'GitHub',
-    },
-  ],
-  navigation: [
-    {
-      label: '홈',
-      to: '/',
-    },
-  ],
+  links: linkConfig,
+  navigation: navConfig,
 } as const;

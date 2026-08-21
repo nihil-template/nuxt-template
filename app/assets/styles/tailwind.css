@@ -6,8 +6,6 @@
 @import "./theme/breakpoints.css";
 @import "./theme/animation.css";
 
-@import "./variants/child.css";
-
 @import "./utilities/layout.css";
 @import "./utilities/sizing.css";
 @import "./utilities/radius.css";

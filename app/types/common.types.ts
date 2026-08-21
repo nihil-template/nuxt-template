@@ -61,12 +61,16 @@ export interface SiteConfig {
     url: string;
   };
   images: {
-    logo: string,
+    logo: {
+      normal: string,
+      dark: string,
+      alt: string,
+    },
     cover: {
       normal: string,
       dark: string,
+      alt: string,
     },
-    alt: string,
   },
   google: {
     verification: string;
