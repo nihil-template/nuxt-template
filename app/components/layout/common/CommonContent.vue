@@ -1,15 +1,19 @@
 <script lang="ts" setup>
 import { cva } from 'class-variance-authority';
+import type { NavigationItem } from '~/types/common.types';
 import { cn } from '~/utils/cn.ts';
 
 const props = defineProps<{
   class?: string;
-  sidebar?: boolean;
+}>();
+
+const emit = defineEmits<{
+  navigate: [item: NavigationItem];
 }>();
 
 const cssVariants = cva(
   [
-    'flex-1 flex flex-row gap-1 overflow-y-auto',
+    'flex-1 min-h-0',
   ],
   {
     variants: {},
@@ -21,17 +25,26 @@ const cssVariants = cva(
 </script>
 
 <template>
-  <div
+  <ElContainer
     :class="cn([
       cssVariants({}),
       props.class,
     ])"
   >
-    <aside v-if="props.sidebar" class="fixed">aside</aside>
-    <main class="">
-      <slot />
-    </main>
-  </div>
+    <ElAside
+      class="hidden min-h-0 overflow-y-auto p-2! md:block"
+      width="272px"
+    >
+      <UiPanel class="h-full">
+        <CommonSidebar @navigate="emit('navigate', $event)" />
+      </UiPanel>
+    </ElAside>
+    <ElMain class="min-w-0 min-h-0 overflow-y-auto p-2!">
+      <UiPanel class="min-h-full">
+        <slot />
+      </UiPanel>
+    </ElMain>
+  </ElContainer>
 </template>
 
 <style scoped>

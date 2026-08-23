@@ -1,3 +1,5 @@
+import type { SiteLink } from '~/types/common.types.ts';
+
 export const linkConfig: SiteLink[] = [
   {
     icon: 'mdi:github',

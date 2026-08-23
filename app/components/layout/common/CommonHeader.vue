@@ -2,8 +2,18 @@
 import { cva } from 'class-variance-authority';
 import { cn } from '~/utils/cn.ts';
 
-const props = defineProps<{
-  class?: string;
+const props = withDefaults(
+  defineProps<{
+    class?: string;
+    showSidebarToggle?: boolean;
+  }>(),
+  {
+    showSidebarToggle: false,
+  },
+);
+
+const emit = defineEmits<{
+  'open-sidebar': [];
 }>();
 
 const cssVariants = cva(
@@ -26,6 +36,13 @@ const cssVariants = cva(
       props.class,
     ])"
   >
+    <ElButton
+      v-if="props.showSidebarToggle"
+      aria-label="메뉴 열기"
+      @click="emit('open-sidebar')"
+    >
+      <UiIcon icon-name="lucide:menu" />
+    </ElButton>
     <h1>
       <UiImage
         :src="siteConfig.images.logo.dark"
