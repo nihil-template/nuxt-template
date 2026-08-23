@@ -9,10 +9,10 @@ export default defineEventHandler(async (event) => {
   // const id = getRouterParam(event, 'id');
 
   // 4. 전체 헤더: 요청에 포함된 모든 헤더를 객체로 가져옵니다.
-  // const headers = Object.fromEntries(event.req.headers.entries());
+  // const headers = getRequestHeaders(event);
 
   // 5. 특정 헤더: 특정 헤더 값 하나만 가져옵니다. (대소문자 구분 없음)
-  // const discordId = event.req.headers.get('X-Discord-ID');
+  // const discordId = getRequestHeader(event, 'X-Discord-ID');
 
   // 6. 쿠키: 모든 쿠키를 파싱하여 객체로 반환합니다.
   // const cookies = parseCookies(event);
@@ -24,6 +24,8 @@ export default defineEventHandler(async (event) => {
   // 서비스 로직
   // ========== ========== ========== ==========
 
+  const users = await DB.users().findMany();
+
   // ========== ========== ========== ==========
   // 응답
   // ========== ========== ========== ==========
@@ -32,7 +34,9 @@ export default defineEventHandler(async (event) => {
   // return BaseResponse.data();
 
   // 다건이면
-  // return BaseResponse.page();
+  const listData = pageData(users);
+  console.log(listData);
+  return BaseResponse.list(listData, 'OK', '요청이 정상적으로 처리되었습니다.');
 
   // 실패면
   // return BaseResponse.error();

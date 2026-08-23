@@ -4,11 +4,12 @@ import { cn } from '~/utils/cn.ts';
 
 const props = defineProps<{
   class?: string;
+  sidebar?: boolean;
 }>();
 
 const cssVariants = cva(
   [
-    '',
+    'flex-1 flex flex-row gap-1 overflow-y-auto',
   ],
   {
     variants: {},
@@ -25,7 +26,12 @@ const cssVariants = cva(
       cssVariants({}),
       props.class,
     ])"
-  />
+  >
+    <aside v-if="props.sidebar" class="fixed">aside</aside>
+    <main class="">
+      <slot />
+    </main>
+  </div>
 </template>
 
 <style scoped>

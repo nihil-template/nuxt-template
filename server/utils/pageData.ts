@@ -6,16 +6,19 @@ const DEFAULT_PAGE_SIZE = 10;
 
 export function pageData<TData>(
   data: TData[],
-  page = 1,
-  pageSize = DEFAULT_PAGE_SIZE,
+  page?: number,
+  pageSize?: number,
 ): TListData<TData> {
+  const totalElements = data.length;
+  const isUnpagedRequest = page === undefined && pageSize === undefined;
   const requestedPage = Number.isInteger(page) && page > 0
     ? page
     : 1;
-  const requestedPageSize = Number.isInteger(pageSize) && pageSize > 0
-    ? pageSize
-    : DEFAULT_PAGE_SIZE;
-  const totalElements = data.length;
+  const requestedPageSize = isUnpagedRequest
+    ? Math.max(totalElements, 1)
+    : Number.isInteger(pageSize) && pageSize > 0
+      ? pageSize
+      : DEFAULT_PAGE_SIZE;
   const totalPages = Math.ceil(totalElements / requestedPageSize);
   const currentPage = totalPages === 0
     ? 1

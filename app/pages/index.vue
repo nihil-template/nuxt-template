@@ -3,8 +3,8 @@ import { useSetMeta } from '~/composables/useSetMeta.ts';
 import Home from '~/components/index/Home.vue';
 
 useSetMeta({
-  title: '',
-  url: '',
+  title: '홈',
+  url: '/',
 });
 </script>
 

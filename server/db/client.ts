@@ -13,9 +13,8 @@ const globalForDatabase = globalThis as typeof globalThis & {
 };
 
 // DB는 데이터베이스 접근 진입점으로만 사용한다.
-// eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export class DB {
-  public static getClient(): PrismaClient {
+  private static getClient(): PrismaClient {
     const databaseUrl = process.env.DATABASE_URL;
 
     if (!databaseUrl) {
@@ -34,5 +33,9 @@ export class DB {
     }
 
     return prismaClient;
+  }
+
+  public static users() {
+    return this.getClient().user;
   }
 }

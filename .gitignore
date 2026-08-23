@@ -26,3 +26,5 @@ logs
 !.env.example
 !.env.development.example
 !.env.production.example
+
+certs

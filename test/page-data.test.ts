@@ -18,6 +18,34 @@ import {
 } from '../server/utils/pageData';
 
 describe('pageData', () => {
+  it('page와 pageSize가 없으면 전체 목록을 반환한다', () => {
+    const result = pageData([
+      'first',
+      'second',
+      'third',
+    ]);
+
+    expect(result).toEqual({
+      list: [
+        'first',
+        'second',
+        'third',
+      ],
+      page: 1,
+      pageSize: 3,
+      totalElements: 3,
+      numberOfElements: 3,
+      startIndex: 1,
+      endIndex: 3,
+      hasPrev: false,
+      hasNext: false,
+      isFirst: true,
+      isLast: true,
+      empty: false,
+      totalPages: 1,
+    });
+  });
+
   it('요청한 페이지 크기만큼 목록 메타데이터를 계산한다', () => {
     const result = pageData(
       Array.from({ length: 30, }, (_, index) => index + 1),
