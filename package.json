@@ -4,7 +4,6 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev --dotenv .env.dev",
-    "dev:db": "cross-env NODE_EXTRA_CA_CERTS=certs/postgres-server.crt nuxt dev --dotenv .env.dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "prisma generate --config prisma.config.ts && nuxt prepare",
