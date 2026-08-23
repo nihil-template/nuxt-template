@@ -106,6 +106,21 @@ const cssVariants = cva(
 
 - 상태는 페이지 지역 상태, composable 공유 상태, Pinia store 순서로 확장한다.
 - Pinia store는 도메인별로 나누고, UI 컴포넌트가 store 구현 세부 사항에 직접 의존하지 않게 한다.
+- Pinia store 파일명은 반드시 `*.store.ts`로 통일한다.
+- Pinia store를 사용할 때에는 store 인스턴스를 먼저 선언한다. 반응형 상태·getter는 `storeToRefs()`로 구조 분해하고, action은 store 인스턴스에서 직접 구조 분해한다. 상태 변경은 특별한 사유가 없는 한 직접 대입하지 않고 action을 통해 수행한다.
+
+```ts
+const appStore = useAppStore();
+
+const {
+  isSidebarOpen,
+} = storeToRefs(appStore);
+
+const {
+  onSetSidebarOpen,
+} = appStore;
+```
+
 - 서버 API는 `server/api/`에 두며, 입력 검증과 오류 응답 형식을 일관되게 유지한다.
 - `any`를 사용하지 않는다. API, 폼, 데이터 경계에는 명시적 타입과 검증을 둔다.
 
