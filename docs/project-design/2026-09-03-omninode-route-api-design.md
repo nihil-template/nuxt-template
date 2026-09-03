@@ -116,21 +116,24 @@ interface ApiResponse<TData, TDetails = unknown> {
 5. 공통 목록 조건은 `page`, `pageSize`, `keyword`, `sort`다. 사용·삭제 상태는 물리 컬럼 대신 `usageStatus=enabled|disabled|all`, `deletionStatus=notDeleted|deleted|all`을 사용한다.
 6. 생성·수정·삭제·상태 전환 성공은 변경된 리소스를 반환한다. JSON API에서는 본문 없는 204를 기본으로 사용하지 않는다.
 7. 탈퇴 데이터 ZIP 내려받기만 JSON 공통 응답의 예외다.
+8. 모든 API 성공·실패 응답은 HTTP 200으로 반환한다. 처리 결과는 HTTP 상태가 아니라 `error`, `code`, `message`, `details`로 구분한다.
 
 ### 오류와 충돌
 
-| HTTP 상태 | 적용 상황 | 대표 세부 코드·처리 |
+| 오류 분류 | 적용 상황 | 대표 세부 코드·처리 |
 | --- | --- | --- |
-| 401 | 로그인하지 않았거나 인증이 유효하지 않음 | 로그인 페이지 이동에 사용할 인증 실패 코드 |
-| 403 | 관리 범위 안의 대상이지만 해당 행동 허가가 없음 | 상태 변경 없이 권한 없음 처리 |
-| 404 | 관리 범위 밖, 삭제된 상위 범위, 존재하지 않거나 공개할 수 없는 대상 | 대상 존재 여부를 추가로 노출하지 않음 |
-| 409 | 활성 중복, 삭제 동명 항목, 상태·리비전 충돌 | `DELETED_DUPLICATE_EXISTS`, `REVISION_CONFLICT`와 가능한 후속 행동 제공 |
-| 410 | 초대·재설정·탈퇴 링크가 완료·만료·무효 상태 | 상태별 세부 코드를 제공하고 변경 금지 |
-| 422 | 입력 형식, 필수값, 참조 범위 검증 실패 | 필드별 오류를 `details.fieldErrors`로 제공 |
+| 인증 실패 | 로그인하지 않았거나 인증이 유효하지 않음 | 로그인 페이지 이동에 사용할 인증 실패 코드 |
+| 권한 실패 | 관리 범위 안의 대상이지만 해당 행동 허가가 없음 | 상태 변경 없이 권한 없음 처리 |
+| 대상 없음 | 관리 범위 밖, 삭제된 상위 범위, 존재하지 않거나 공개할 수 없는 대상 | 대상 존재 여부를 추가로 노출하지 않음 |
+| 충돌 | 활성 중복, 삭제 동명 항목, 상태·리비전 충돌 | `DELETED_DUPLICATE_EXISTS`, `REVISION_CONFLICT`와 가능한 후속 행동 제공 |
+| 링크 상태 실패 | 초대·재설정·탈퇴 링크가 완료·만료·무효 상태 | 상태별 세부 코드를 제공하고 변경 금지 |
+| 입력 검증 실패 | 입력 형식, 필수값, 참조 범위 검증 실패 | 필드별 오류를 `details.fieldErrors`로 제공 |
 
-문서와 템플릿 저장 요청은 `baseRevisionId`를 포함한다. 현재 리비전이 달라졌으면 덮어쓰지 않고 409 `REVISION_CONFLICT`를 반환한다.
+문서와 템플릿 저장 요청은 `baseRevisionId`를 포함한다. 현재 리비전이 달라졌으면 덮어쓰지 않고 `REVISION_CONFLICT`를 반환한다.
 
-같은 이름의 삭제 항목이 있으면 최초 생성 요청은 409 `DELETED_DUPLICATE_EXISTS`와 삭제 항목 ID, `restore`·`createNew` 후속 행동을 반환한다. 새 생성을 선택하면 `conflictResolution: 'createNew'`를 포함해 다시 요청한다. 복구를 선택하면 해당 리소스의 `restorations` 엔드포인트를 사용한다.
+같은 이름의 삭제 항목이 있으면 최초 생성 요청은 `DELETED_DUPLICATE_EXISTS`와 삭제 항목 ID, `restore`·`createNew` 후속 행동을 반환한다. 새 생성을 선택하면 `conflictResolution: 'createNew'`를 포함해 다시 요청한다. 복구를 선택하면 해당 리소스의 `restorations` 엔드포인트를 사용한다.
+
+클라이언트는 조회·변경·인증 요청을 자동 재시도하지 않는다. API 실패 응답이나 응답을 받지 못한 전송 실패 뒤의 재요청은 사용자의 명시적인 행동으로만 시작한다.
 
 ### 인증·접근 처리
 

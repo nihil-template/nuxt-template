@@ -20,10 +20,11 @@ export default defineNuxtPlugin((nuxtApp) => {
     defaultOptions: {
       queries: {
         staleTime: 5_000,
-        retry: 1,
+        retry: false,
+        retryOnMount: false,
       },
       mutations: {
-        retry: 0,
+        retry: false,
       },
     },
   });

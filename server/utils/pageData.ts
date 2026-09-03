@@ -1,8 +1,9 @@
 import type {
   TListData,
-} from '~/types/response.types';
+} from '~/types/api.types';
 
 const DEFAULT_PAGE_SIZE = 10;
+const MAX_PAGE_SIZE = 100;
 
 export function pageData<TData>(
   data: TData[],
@@ -10,15 +11,12 @@ export function pageData<TData>(
   pageSize?: number,
 ): TListData<TData> {
   const totalElements = data.length;
-  const isUnpagedRequest = page === undefined && pageSize === undefined;
   const requestedPage = Number.isInteger(page) && page > 0
     ? page
     : 1;
-  const requestedPageSize = isUnpagedRequest
-    ? Math.max(totalElements, 1)
-    : Number.isInteger(pageSize) && pageSize > 0
-      ? pageSize
-      : DEFAULT_PAGE_SIZE;
+  const requestedPageSize = Number.isInteger(pageSize) && Number(pageSize) > 0
+    ? Math.min(Number(pageSize), MAX_PAGE_SIZE)
+    : DEFAULT_PAGE_SIZE;
   const totalPages = Math.ceil(totalElements / requestedPageSize);
   const currentPage = totalPages === 0
     ? 1

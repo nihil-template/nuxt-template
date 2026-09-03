@@ -11,6 +11,7 @@ import type {
 } from 'vue';
 
 import type {
+  ApiError,
   ApiFetchOptions,
   ApiParams,
 } from '~/types/api.types';
@@ -18,8 +19,8 @@ import type {
 export type QueryOptionOverrides<
   TData,
 > = Omit<
-  UseQueryOptions<TData, Error, TData, QueryKey>,
-  'queryFn' | 'queryKey'
+  UseQueryOptions<TData | null, ApiError, TData | null, QueryKey>,
+  'queryFn' | 'queryKey' | 'retry' | 'retryOnMount'
 >;
 
 export interface GetQueryInput<TData> {
@@ -36,8 +37,8 @@ export type MutationOptionOverrides<
   TData,
   TVariables = void,
 > = Omit<
-  UseMutationOptions<TData, Error, TVariables, unknown>,
-  'mutationFn' | 'mutationKey'
+  UseMutationOptions<TData | null, ApiError, TVariables, unknown>,
+  'mutationFn' | 'mutationKey' | 'retry'
 >;
 
 export interface MutationInput<

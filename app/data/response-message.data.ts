@@ -1,18 +1,18 @@
 export const responseMessageData = {
-  // 2xx Success
+  // 업무 처리 성공
   OK: '요청이 정상적으로 처리되었습니다.',
   CREATED: '리소스가 정상적으로 생성되었습니다.',
   ACCEPTED: '요청이 정상적으로 접수되었습니다.',
   NO_CONTENT: '요청이 정상적으로 처리되었습니다.',
 
-  // 3xx Redirection
+  // 업무 처리 결과 안내
   MOVED_PERMANENTLY: '요청한 리소스가 영구적으로 이동되었습니다.',
   FOUND: '요청한 리소스가 임시로 이동되었습니다.',
   NOT_MODIFIED: '리소스가 수정되지 않았습니다.',
   TEMPORARY_REDIRECT: '요청이 임시로 다른 위치로 전달됩니다.',
   PERMANENT_REDIRECT: '요청이 영구적으로 다른 위치로 전달됩니다.',
 
-  // 4xx Client Error
+  // 업무 처리 실패: 요청, 권한, 상태, 입력
   BAD_REQUEST: '잘못된 요청입니다.',
   UNAUTHORIZED: '인증이 필요하거나 인증 정보가 올바르지 않습니다.',
   FORBIDDEN: '해당 요청을 수행할 권한이 없습니다.',
@@ -27,7 +27,7 @@ export const responseMessageData = {
   UNPROCESSABLE_CONTENT: '요청 형식은 올바르지만 처리할 수 없습니다.',
   TOO_MANY_REQUESTS: '요청 횟수가 너무 많습니다.',
 
-  // 5xx Server Error
+  // 업무 처리 실패: 시스템
   INTERNAL_SERVER_ERROR: '서버 내부 오류가 발생했습니다.',
   NOT_IMPLEMENTED: '아직 지원하지 않는 기능입니다.',
   BAD_GATEWAY: '게이트웨이 처리 중 오류가 발생했습니다.',

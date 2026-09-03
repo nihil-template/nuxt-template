@@ -18,7 +18,7 @@ describe('UiPanel', () => {
       'bg-white',
       'border',
       'border-black-200',
-      'rounded-2',
+      'rounded-1',
       'p-2',
       'custom-panel',
     ]));

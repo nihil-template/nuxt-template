@@ -1,19 +1,6 @@
 import {
-  computed,
-  toValue,
-} from 'vue';
-
-import {
-  useMutation,
-} from '@tanstack/vue-query';
-
-import type {
-  MutationKey,
-} from '@tanstack/vue-query';
-
-import {
-  api,
-} from '~/utils/api';
+  createMutation,
+} from './createMutation';
 
 import type {
   MutationInput,
@@ -25,24 +12,8 @@ export function usePostMutation<
 >(
   input: MutationInput<TData, TVariables>,
 ) {
-  const mutationKey = computed<MutationKey>(() => toValue(input.key));
-
-  return useMutation<TData, Error, TVariables, unknown>(
-    {
-      ...input.mutationOptions,
-      mutationKey,
-      mutationFn: async (variables: TVariables) => {
-        return await api.post<TData, TVariables>(
-          toValue(input.url),
-          {
-            params: toValue(input.params),
-            body: variables,
-            headers: toValue(input.headers),
-            options: toValue(input.fetchOptions),
-          },
-        );
-      },
-    },
-    input.queryClient,
+  return createMutation<TData, TVariables>(
+    'POST',
+    input,
   );
 }

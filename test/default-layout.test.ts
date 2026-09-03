@@ -87,8 +87,12 @@ const router = createRouter({
 });
 
 let onChangeMediaQuery: ((event: MediaQueryListEvent) => void) | undefined;
+let onRegisteredMediaQuery: ((event: MediaQueryListEvent) => void) | undefined;
+let onRemoveMediaQuery = vi.fn();
 
 function onSetMobileViewport(matches: boolean) {
+  onRemoveMediaQuery = vi.fn();
+
   vi.mocked(window.matchMedia).mockReturnValue({
     addEventListener: (
       eventName: string,
@@ -96,12 +100,13 @@ function onSetMobileViewport(matches: boolean) {
     ) => {
       if (eventName === 'change') {
         onChangeMediaQuery = listener;
+        onRegisteredMediaQuery = listener;
       }
     },
     matches,
     media: '(max-width: 767px)',
     onchange: null,
-    removeEventListener: vi.fn(),
+    removeEventListener: onRemoveMediaQuery,
   } as unknown as MediaQueryList);
 }
 
@@ -115,6 +120,8 @@ async function onChangeViewport(matches: boolean) {
 describe('default layout', () => {
   beforeEach(async () => {
     onChangeMediaQuery = undefined;
+    onRegisteredMediaQuery = undefined;
+    onRemoveMediaQuery = vi.fn();
     Object.defineProperty(window, 'matchMedia', {
       configurable: true,
       value: vi.fn(),
@@ -218,6 +225,45 @@ describe('default layout', () => {
     expect(wrapper.find('[aria-label="메뉴 열기"]').exists()).toBe(false);
     expect(wrapper.findComponent(ElementDrawerStub).exists()).toBe(false);
     expect(wrapper.find('[data-testid="drawer-overlay"]').exists()).toBe(false);
+  });
+
+  it('뷰포트 리스너는 layout 해제 시 정리한다', () => {
+    onSetMobileViewport(true);
+    const pinia = createPinia();
+    setActivePinia(pinia);
+
+    const wrapper = mount(DefaultLayout, {
+      global: {
+        components: {
+          CommonContent,
+          CommonHeader,
+          CommonSidebar,
+        },
+        config: {
+          globalProperties: {
+            siteConfig,
+          },
+        },
+        plugins: [
+          pinia,
+          router,
+        ],
+        stubs: {
+          ...elementStubs,
+          CommonFooter: true,
+        },
+      },
+      slots: {
+        default: '<p>본문</p>',
+      },
+    });
+
+    wrapper.unmount();
+
+    expect(onRemoveMediaQuery).toHaveBeenCalledWith(
+      'change',
+      onRegisteredMediaQuery,
+    );
   });
 
   it('CommonContent는 aside와 main에 독립 스크롤 클래스를 적용한다', async () => {

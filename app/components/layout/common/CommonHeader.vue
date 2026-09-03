@@ -2,9 +2,13 @@
 import { cva } from 'class-variance-authority';
 import { cn } from '~/utils/cn.ts';
 
-const props = defineProps<{
+const props = withDefaults(defineProps<{
   class?: string;
-}>();
+  isMobile?: boolean;
+}>(), {
+  class: '',
+  isMobile: false,
+});
 
 const emit = defineEmits<{
   'open-sidebar': [];
@@ -31,6 +35,7 @@ const cssVariants = cva(
     ])"
   >
     <ElButton
+      v-if="props.isMobile"
       class="md:hidden! bg-stone-700! border-0! text-white! p-2! rounded-1! hover:bg-stone-600!"
       aria-label="메뉴 열기"
       @click="emit('open-sidebar')"

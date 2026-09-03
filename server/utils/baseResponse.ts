@@ -1,9 +1,7 @@
 import type {
-  TResponseCode,
-  TResponseMessage,
-  TBaseResponse,
+  ApiResponse,
   TListData,
-} from '~/types/response.types';
+} from '~/types/api.types';
 
 /**
  * 기본 응답 객체
@@ -16,15 +14,20 @@ export class BaseResponse {
    * @param code
    * @param message
    */
-  public static data<TData>(
+  public static data<
+    TData,
+    TDetails = unknown,
+  >(
     data: TData,
-    code: TResponseCode,
-    message: TResponseMessage,
-  ): TBaseResponse<TData> {
+    code: string,
+    message: string,
+    details: TDetails | null = null,
+  ): ApiResponse<TData, TDetails> {
     return {
-      data,
-      error: false,
       code,
+      data,
+      details,
+      error: false,
       message,
     };
   }
@@ -35,15 +38,20 @@ export class BaseResponse {
    * @param code
    * @param message
    */
-  public static list<TData>(
+  public static list<
+    TData,
+    TDetails = unknown,
+  >(
     data: TListData<TData>,
-    code: TResponseCode,
-    message: TResponseMessage,
-  ): TBaseResponse<TListData<TData>> {
+    code: string,
+    message: string,
+    details: TDetails | null = null,
+  ): ApiResponse<TListData<TData>, TDetails> {
     return {
-      data,
-      error: false,
       code,
+      data,
+      details,
+      error: false,
       message,
     };
   }
@@ -53,11 +61,16 @@ export class BaseResponse {
    * @param code
    * @param message
    */
-  public static error(code: TResponseCode, message: TResponseMessage): TBaseResponse<null> {
+  public static error<TDetails = unknown>(
+    code: string,
+    message: string,
+    details: TDetails | null = null,
+  ): ApiResponse<null, TDetails> {
     return {
-      data: null,
-      error: true,
       code,
+      data: null,
+      details,
+      error: true,
       message,
     };
   }

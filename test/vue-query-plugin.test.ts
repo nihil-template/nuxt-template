@@ -1,4 +1,6 @@
 import { ref } from 'vue';
+
+import type { QueryClient } from '@tanstack/vue-query';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
 const mockUse = vi.fn();
@@ -28,5 +30,12 @@ describe('vue-query plugin', () => {
       'vue-query',
       expect.any(Function),
     );
+
+    const options = mockUse.mock.calls[0]?.[1];
+    const queryClient = options?.queryClient as QueryClient;
+
+    expect(queryClient.getDefaultOptions().queries?.retry).toBe(false);
+    expect(queryClient.getDefaultOptions().queries?.retryOnMount).toBe(false);
+    expect(queryClient.getDefaultOptions().mutations?.retry).toBe(false);
   });
 });

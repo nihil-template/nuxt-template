@@ -22,9 +22,12 @@ DELETE  → useDeleteMutation
 ## useGetQuery
 
 ```ts
-const query = useGetQuery<User[]>({
-  key: usersKeys.list({}).queryKey,
-  url: '/api/users',
+const query = useGetQuery<ExampleItem[]>({
+  key: [
+    'example',
+    'list',
+  ],
+  url: '/approved-endpoint',
 });
 ```
 
@@ -43,42 +46,20 @@ queryClient
 ## Mutation
 
 ```ts
-const mutation = usePostMutation<User, CreateUserInput>({
-  key: usersKeys.create.queryKey,
-  url: '/api/users',
+const mutation = usePostMutation<ExampleItem, ExampleInput>({
+  key: [
+    'example',
+    'create',
+  ],
+  url: '/approved-endpoint',
 });
 
 await mutation.mutateAsync({
-  name: 'NIHIL',
-  email: 'nihil@example.com',
+  title: '예시',
 });
 ```
 
 `mutate()` 또는 `mutateAsync()`에 전달한 값이 HTTP body가 됩니다.
 Query params가 필요하면 mutation 훅 생성 시 `params`에 지정합니다.
 
-## Query Key Factory
-
-Query Key는 `app/keys/<domain>.keys.ts`에서 관리합니다.
-
-```ts
-export const usersKeys = createQueryKeys(
-  'users',
-  {
-    list: (params: UsersParams = {}) => [params],
-    detail: (userId: string) => [userId],
-  },
-);
-```
-
-## 권장 흐름
-
-```text
-app/keys/users.keys.ts
-        ↓
-useGetQuery
-        ↓
-app/composables/domain/user/useGetUsers.ts
-```
-
-컴포넌트에서는 가능한 한 기본 래퍼보다 도메인 훅을 사용합니다.
+제품 도메인별 query key와 composable은 해당 제품 API가 승인된 뒤에 추가합니다.

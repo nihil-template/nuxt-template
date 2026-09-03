@@ -18,31 +18,64 @@ import {
 } from '../server/utils/pageData';
 
 describe('pageData', () => {
-  it('page와 pageSize가 없으면 전체 목록을 반환한다', () => {
-    const result = pageData([
-      'first',
-      'second',
-      'third',
-    ]);
+  it('page와 pageSize가 없으면 기본 크기 10건만 반환한다', () => {
+    const result = pageData(
+      Array.from({ length: 12, }, (_, index) => index + 1),
+    );
 
     expect(result).toEqual({
       list: [
-        'first',
-        'second',
-        'third',
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
       ],
       page: 1,
-      pageSize: 3,
-      totalElements: 3,
-      numberOfElements: 3,
+      pageSize: 10,
+      totalElements: 12,
+      numberOfElements: 10,
       startIndex: 1,
-      endIndex: 3,
+      endIndex: 10,
       hasPrev: false,
-      hasNext: false,
+      hasNext: true,
       isFirst: true,
-      isLast: true,
+      isLast: false,
       empty: false,
-      totalPages: 1,
+      totalPages: 2,
+    });
+  });
+
+  it('pageSize가 100을 넘으면 100으로 제한한다', () => {
+    const result = pageData(
+      Array.from({ length: 101, }, (_, index) => index + 1),
+      1,
+      101,
+    );
+
+    expect(result.pageSize).toBe(100);
+    expect(result.list).toHaveLength(100);
+    expect(result.totalPages).toBe(2);
+  });
+
+  it('빈 목록도 1 기반 현재 페이지를 유지한다', () => {
+    const result = pageData(
+      [
+      ],
+      5,
+      10,
+    );
+
+    expect(result).toMatchObject({
+      page: 1,
+      totalPages: 0,
+      startIndex: 0,
+      endIndex: 0,
     });
   });
 
@@ -103,6 +136,27 @@ describe('BaseResponse.list', () => {
       error: false,
       code: responseCodeData.OK,
       message: responseMessageData.OK,
+      details: null,
+    });
+  });
+});
+
+describe('BaseResponse.error', () => {
+  it('오류 세부 정보를 다섯 필드 응답에 담는다', () => {
+    expect(BaseResponse.error(
+      'REVISION_CONFLICT',
+      '저장 충돌이 발생했습니다.',
+      {
+        currentRevisionId: 'revision-2',
+      },
+    )).toEqual({
+      data: null,
+      error: true,
+      code: 'REVISION_CONFLICT',
+      message: '저장 충돌이 발생했습니다.',
+      details: {
+        currentRevisionId: 'revision-2',
+      },
     });
   });
 });
